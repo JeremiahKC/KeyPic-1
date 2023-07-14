@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    /***********************************************************
+    * Spinner Arrays
+    **********************************************************/
+    <string-array name="amazon_type">
+        <item>OverBox</item>
+        <item>TypeA</item>
+        <item>TypeB</item>
+        <item>TypeC</item>
+        <item>TypeD</item>
+        <item>TypeE</item>
+        <item>TypeF</item>
+        <item>TypeG</item>
+        <item>TypeH</item>
+    </string-array>
+
+    <string-array name="amazon_phase">
+        <item>PreTest</item>
+        <item>Test</item>
+        <item>PostTest</item>
+    </string-array>
+
+    <string-array name="amazon_unit">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PreTest
+    **********************************************************/
+    <string-array name="OverBox_PreTest_1">
+        <item>ISO #1 Side 1/2/5 (unit1)</item>
+        <item>ISO #2 Sides 3/4/6 (unit1)</item>
+        <item>Box Cert (unit1)</item>
+        <item>Pre Test Before Dunnage in Box - Single (unit1)</item>
+        <item>Pre Test After Dunnage in Box - Single (unit1)</item>
+        <item>Pre Test Before Dunnage in Box - Multi (unit1)</item>
+        <item>Pre Test After Dunnage in Box - Multi (unit1)</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_2">
+        <item>ISO #1 Side 1/2/5 (unit2)</item>
+        <item>ISO #2 Sides 3/4/6 (unit2)</item>
+        <item>Box Cert (unit2)</item>
+        <item>Pre Test Before Dunnage in Box - Single (unit2)</item>
+        <item>Pre Test After Dunnage in Box - Single (unit2)</item>
+        <item>Pre Test Before Dunnage in Box - Multi (unit2)</item>
+        <item>Pre Test After Dunnage in Box - Multi (unit2)</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_3">
+        <item>ISO #1 Side 1/2/5 (unit3)</item>
+        <item>ISO #2 Sides 3/4/6 (unit3)</item>
+        <item>Box Cert (unit3)</item>
+        <item>Pre Test Before Dunnage in Box - Single (unit3)</item>
+        <item>Pre Test After Dunnage in Box - Single (unit3)</item>
+        <item>Pre Test Before Dunnage in Box - Multi (unit3)</item>
+        <item>Pre Test After Dunnage in Box - Multi (unit3)</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_4">
+        <item>ISO #1 Side 1/2/5 (unit4)</item>
+        <item>ISO #2 Sides 3/4/6 (unit4)</item>
+        <item>Box Cert (unit4)</item>
+        <item>Pre Test Before Dunnage in Box - Single (unit4)</item>
+        <item>Pre Test After Dunnage in Box - Single (unit4)</item>
+        <item>Pre Test Before Dunnage in Box - Multi (unit4)</item>
+        <item>Pre Test After Dunnage in Box - Multi (unit4)</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_5">
+        <item>ISO #1 Side 1/2/5 (unit5)</item>
+        <item>ISO #2 Sides 3/4/6 (unit5)</item>
+        <item>Box Cert (unit5)</item>
+        <item>Pre Test Before Dunnage in Box - Single (unit5)</item>
+        <item>Pre Test After Dunnage in Box - Single (unit5)</item>
+        <item>Pre Test Before Dunnage in Box - Multi (unit5)</item>
+        <item>Pre Test After Dunnage in Box - Multi (unit5)</item>
+    </string-array>
+
+
+    /***********************************************************
+    * Test
+    **********************************************************/
+    <string-array name="OverBox_Test_1">
+        <item>Block 2 Test Set Up (unit1)</item>
+        <item>Block 2 Post Test Item Picture (unit1)</item>
+        <item>Block 3 Face 3 Test Set Up (unit1)</item>
+        <item>Block 3 Face 3 Post Test Item (unit1)</item>
+        <item>Block 3 Face 4 Test Set Up (unit1)</item>
+        <item>Block 3 Face 4 Post Test Item (unit1)</item>
+        <item>Block 3 Face 6 Test Set UP (unit1)</item>
+        <item>Block 3 Face 6 Post Test Item (unit1)</item>
+        <item>Block 4 Test Set Up (unit1)</item>
+        <item>Block 4 Post Test Item Picture (unit1)</item>
+        <item>Block 5 Test Set Up (unit1)</item>
+        <item>Block 5 Post Test Item Picture (unit1)</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_2">
+        <item>Block 2 Test Set Up (unit2)</item>
+        <item>Block 2 Post Test Item Picture (unit2)</item>
+        <item>Block 3 Face 3 Test Set Up (unit2)</item>
+        <item>Block 3 Face 3 Post Test Item (unit2)</item>
+        <item>Block 3 Face 4 Test Set Up (unit2)</item>
+        <item>Block 3 Face 4 Post Test Item (unit2)</item>
+        <item>Block 3 Face 6 Test Set UP (unit2)</item>
+        <item>Block 3 Face 6 Post Test Item (unit2)</item>
+        <item>Block 4 Test Set Up (unit2)</item>
+        <item>Block 4 Post Test Item Picture (unit2)</item>
+        <item>Block 5 Test Set Up (unit2)</item>
+        <item>Block 5 Post Test Item Picture (unit2)</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_3">
+        <item>Block 2 Test Set Up (unit3)</item>
+        <item>Block 2 Post Test Item Picture (unit3)</item>
+        <item>Block 3 Face 3 Test Set Up (unit3)</item>
+        <item>Block 3 Face 3 Post Test Item (unit3)</item>
+        <item>Block 3 Face 4 Test Set Up (unit3)</item>
+        <item>Block 3 Face 4 Post Test Item (unit3)</item>
+        <item>Block 3 Face 6 Test Set UP (unit3)</item>
+        <item>Block 3 Face 6 Post Test Item (unit3)</item>
+        <item>Block 4 Test Set Up (unit3)</item>
+        <item>Block 4 Post Test Item Picture (unit3)</item>
+        <item>Block 5 Test Set Up (unit3)</item>
+        <item>Block 5 Post Test Item Picture (unit3)</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_4">
+        <item>Block 2 Test Set Up (unit4)</item>
+        <item>Block 2 Post Test Item Picture (unit4)</item>
+        <item>Block 3 Face 3 Test Set Up (unit4)</item>
+        <item>Block 3 Face 3 Post Test Item (unit4)</item>
+        <item>Block 3 Face 4 Test Set Up (unit4)</item>
+        <item>Block 3 Face 4 Post Test Item (unit4)</item>
+        <item>Block 3 Face 6 Test Set UP (unit4)</item>
+        <item>Block 3 Face 6 Post Test Item (unit4)</item>
+        <item>Block 4 Test Set Up (unit4)</item>
+        <item>Block 4 Post Test Item Picture (unit4)</item>
+        <item>Block 5 Test Set Up (unit4)</item>
+        <item>Block 5 Post Test Item Picture (unit4)</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_5">
+        <item>Block 2 Test Set Up (unit5)</item>
+        <item>Block 2 Post Test Item Picture (unit5)</item>
+        <item>Block 3 Face 3 Test Set Up (unit5)</item>
+        <item>Block 3 Face 3 Post Test Item (unit5)</item>
+        <item>Block 3 Face 4 Test Set Up (unit5)</item>
+        <item>Block 3 Face 4 Post Test Item (unit5)</item>
+        <item>Block 3 Face 6 Test Set UP (unit5)</item>
+        <item>Block 3 Face 6 Post Test Item (unit5)</item>
+        <item>Block 4 Test Set Up (unit5)</item>
+        <item>Block 4 Post Test Item Picture (unit5)</item>
+        <item>Block 5 Test Set Up (unit5)</item>
+        <item>Block 5 Post Test Item Picture (unit5)</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PostTest
+    **********************************************************/
+    <string-array name="OverBox_PostTest_1">
+        <item>ISO #1 Side 1/2/5 Post Test (unit1)</item>
+        <item>ISO #2 Sides 3/4/6 Post Test (unit1)</item>
+        <item>Post Test with dunnage in box (unit1)</item>
+        <item>Post Test dunnage removed from box (unit1)</item>
+        <item>Post Test with dunnage in box - 2 (unit1)</item>
+        <item>Post Test dunnage removed from box - 2 (unit1)</item>
+        <item>Exploded BOM view (unit1)</item>
+        <item>Post Test 1 (unit1)</item>
+        <item>Post Test 2 (unit1)</item>
+        <item>Post Test 3 (unit1)</item>
+        <item>Post Test 4 (unit1)</item>
+        <item>Post Test 5 (unit1)</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_2">
+        <item>ISO #1 Side 1/2/5 Post Test (unit2)</item>
+        <item>ISO #2 Sides 3/4/6 Post Test (unit2)</item>
+        <item>Post Test with dunnage in box (unit2)</item>
+        <item>Post Test dunnage removed from box (unit2)</item>
+        <item>Post Test with dunnage in box - 2 (unit2)</item>
+        <item>Post Test dunnage removed from box - 2 (unit2)</item>
+        <item>Exploded BOM view (unit2)</item>
+        <item>Post Test 1 (unit2)</item>
+        <item>Post Test 2 (unit2)</item>
+        <item>Post Test 3 (unit2)</item>
+        <item>Post Test 4 (unit2)</item>
+        <item>Post Test 5 (unit2)</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_3">
+        <item>ISO #1 Side 1/2/5 Post Test (unit3)</item>
+        <item>ISO #2 Sides 3/4/6 Post Test (unit3)</item>
+        <item>Post Test with dunnage in box (unit3)</item>
+        <item>Post Test dunnage removed from box (unit3)</item>
+        <item>Post Test with dunnage in box - 2 (unit3)</item>
+        <item>Post Test dunnage removed from box - 2 (unit3)</item>
+        <item>Exploded BOM view (unit3)</item>
+        <item>Post Test 1 (unit3)</item>
+        <item>Post Test 2 (unit3)</item>
+        <item>Post Test 3 (unit3)</item>
+        <item>Post Test 4 (unit3)</item>
+        <item>Post Test 5 (unit3)</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_4">
+        <item>ISO #1 Side 1/2/5 Post Test (unit4)</item>
+        <item>ISO #2 Sides 3/4/6 Post Test (unit4)</item>
+        <item>Post Test with dunnage in box (unit4)</item>
+        <item>Post Test dunnage removed from box (unit4)</item>
+        <item>Post Test with dunnage in box - 2 (unit4)</item>
+        <item>Post Test dunnage removed from box - 2 (unit4)</item>
+        <item>Exploded BOM view (unit4)</item>
+        <item>Post Test 1 (unit4)</item>
+        <item>Post Test 2 (unit4)</item>
+        <item>Post Test 3 (unit4)</item>
+        <item>Post Test 4 (unit4)</item>
+        <item>Post Test 5 (unit4)</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_5">
+        <item>ISO #1 Side 1/2/5 Post Test (unit5)</item>
+        <item>ISO #2 Sides 3/4/6 Post Test (unit5)</item>
+        <item>Post Test with dunnage in box (unit5)</item>
+        <item>Post Test dunnage removed from box (unit5)</item>
+        <item>Post Test with dunnage in box - 2 (unit5)</item>
+        <item>Post Test dunnage removed from box - 2 (unit5)</item>
+        <item>Exploded BOM view (unit5)</item>
+        <item>Post Test 1 (unit5)</item>
+        <item>Post Test 2 (unit5)</item>
+        <item>Post Test 3 (unit5)</item>
+        <item>Post Test 4 (unit5)</item>
+        <item>Post Test 5 (unit5)</item>
+    </string-array>
+
+
+    /***********************************************************
+    * File Names
+    **********************************************************/
+
+    /***********************************************************
+    * PreTest
+    **********************************************************/
+    <string-array name="OverBox_PreTest_1_File">
+        <item>OverBox-PreISO1-1</item>
+        <item>OverBox-PreISO2-1</item>
+        <item>OverBox-BoxCert-1</item>
+        <item>OverBox-BDunnageS-1</item>
+        <item>OverBox-ADunnageS-1</item>
+        <item>OverBox-BDunnageM-1</item>
+        <item>OverBox-ADunnageM-1</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_2_File">
+        <item>OverBox-PreISO1-2</item>
+        <item>OverBox-PreISO2-2</item>
+        <item>OverBox-BoxCert-2</item>
+        <item>OverBox-BDunnageS-2</item>
+        <item>OverBox-ADunnageS-2</item>
+        <item>OverBox-BDunnageM-2</item>
+        <item>OverBox-ADunnageM-2</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_3_File">
+        <item>OverBox-PreISO1-3</item>
+        <item>OverBox-PreISO2-3</item>
+        <item>OverBox-BoxCert-3</item>
+        <item>OverBox-BDunnageS-3</item>
+        <item>OverBox-ADunnageS-3</item>
+        <item>OverBox-BDunnageM-3</item>
+        <item>OverBox-ADunnageM-3</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_4_File">
+        <item>OverBox-PreISO1-4</item>
+        <item>OverBox-PreISO2-4</item>
+        <item>OverBox-BoxCert-4</item>
+        <item>OverBox-BDunnageS-4</item>
+        <item>OverBox-ADunnageS-4</item>
+        <item>OverBox-BDunnageM-4</item>
+        <item>OverBox-ADunnageM-4</item>
+    </string-array>
+
+    <string-array name="OverBox_PreTest_5_File">
+        <item>OverBox-PreISO1-5</item>
+        <item>OverBox-PreISO2-5</item>
+        <item>OverBox-BoxCert-5</item>
+        <item>OverBox-BDunnageS-5</item>
+        <item>OverBox-ADunnageS-5</item>
+        <item>OverBox-BDunnageM-5</item>
+        <item>OverBox-ADunnageM-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * Test
+    **********************************************************/
+    <string-array name="OverBox_Test_1_File">
+        <item>OverBox-BK2Setup-1</item>
+        <item>OverBox-BK2PostTest-1</item>
+        <item>OverBox-BK3F3Setup-1</item>
+        <item>OverBox-BK3F3PostTest-1</item>
+        <item>OverBox-BK3F4Setup-1</item>
+        <item>OverBox-BK3F4PostTest-1</item>
+        <item>OverBox-BK3F6Setup-1</item>
+        <item>OverBox-BK3F6PostTest-1</item>
+        <item>OverBox-BK4Setup-1</item>
+        <item>OverBox-BK4PostTest-1</item>
+        <item>OverBox-BK5Setup-1</item>
+        <item>OverBox-BK5PostTest-1</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_2_File">
+        <item>OverBox-BK2Setup-2</item>
+        <item>OverBox-BK2PostTest-2</item>
+        <item>OverBox-BK3F3Setup-2</item>
+        <item>OverBox-BK3F3PostTest-2</item>
+        <item>OverBox-BK3F4Setup-2</item>
+        <item>OverBox-BK3F4PostTest-2</item>
+        <item>OverBox-BK3F6Setup-2</item>
+        <item>OverBox-BK3F6PostTest-2</item>
+        <item>OverBox-BK4Setup-2</item>
+        <item>OverBox-BK4PostTest-2</item>
+        <item>OverBox-BK5Setup-2</item>
+        <item>OverBox-BK5PostTest-2</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_3_File">
+        <item>OverBox-BK2Setup-3</item>
+        <item>OverBox-BK2PostTest-3</item>
+        <item>OverBox-BK3F3Setup-3</item>
+        <item>OverBox-BK3F3PostTest-3</item>
+        <item>OverBox-BK3F4Setup-3</item>
+        <item>OverBox-BK3F4PostTest-3</item>
+        <item>OverBox-BK3F6Setup-3</item>
+        <item>OverBox-BK3F6PostTest-3</item>
+        <item>OverBox-BK4Setup-3</item>
+        <item>OverBox-BK4PostTest-3</item>
+        <item>OverBox-BK5Setup-3</item>
+        <item>OverBox-BK5PostTest-3</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_4_File">
+        <item>OverBox-BK2Setup-4</item>
+        <item>OverBox-BK2PostTest-4</item>
+        <item>OverBox-BK3F3Setup-4</item>
+        <item>OverBox-BK3F3PostTest-4</item>
+        <item>OverBox-BK3F4Setup-4</item>
+        <item>OverBox-BK3F4PostTest-4</item>
+        <item>OverBox-BK3F6Setup-4</item>
+        <item>OverBox-BK3F6PostTest-4</item>
+        <item>OverBox-BK4Setup-4</item>
+        <item>OverBox-BK4PostTest-4</item>
+        <item>OverBox-BK5Setup-4</item>
+        <item>OverBox-BK5PostTest-4</item>
+    </string-array>
+
+    <string-array name="OverBox_Test_5_File">
+        <item>OverBox-BK2Setup-5</item>
+        <item>OverBox-BK2PostTest-5</item>
+        <item>OverBox-BK3F3Setup-5</item>
+        <item>OverBox-BK3F3PostTest-5</item>
+        <item>OverBox-BK3F4Setup-5</item>
+        <item>OverBox-BK3F4PostTest-5</item>
+        <item>OverBox-BK3F6Setup-5</item>
+        <item>OverBox-BK3F6PostTest-5</item>
+        <item>OverBox-BK4Setup-5</item>
+        <item>OverBox-BK4PostTest-5</item>
+        <item>OverBox-BK5Setup-5</item>
+        <item>OverBox-BK5PostTest-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PostTest
+    **********************************************************/
+    <string-array name="OverBox_PostTest_1_File">
+        <item>OverBox-PostISO1-1</item>
+        <item>OverBox-PostISO2-1</item>
+        <item>OverBox-DunnageIn-1</item>
+        <item>OverBox-DunnageOut-1</item>
+        <item>OverBox-DunnageIn1-1</item>
+        <item>OverBox-DunnageOut1-1</item>
+        <item>OverBox-BOMView-1</item>
+        <item>OverBox-PostTest1-1</item>
+        <item>OverBox-PostTest2-1</item>
+        <item>OverBox-PostTest3-1</item>
+        <item>OverBox-PostTest4-1</item>
+        <item>OverBox-PostTest5-1</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_2_File">
+        <item>OverBox-PostISO1-2</item>
+        <item>OverBox-PostISO2-2</item>
+        <item>OverBox-DunnageIn-2</item>
+        <item>OverBox-DunnageOut-2</item>
+        <item>OverBox-DunnageIn1-2</item>
+        <item>OverBox-DunnageOut1-2</item>
+        <item>OverBox-BOMView-2</item>
+        <item>OverBox-PostTest1-2</item>
+        <item>OverBox-PostTest2-2</item>
+        <item>OverBox-PostTest3-2</item>
+        <item>OverBox-PostTest4-2</item>
+        <item>OverBox-PostTest5-2</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_3_File">
+        <item>OverBox-PostISO1-3</item>
+        <item>OverBox-PostISO2-3</item>
+        <item>OverBox-DunnageIn-3</item>
+        <item>OverBox-DunnageOut-3</item>
+        <item>OverBox-DunnageIn1-3</item>
+        <item>OverBox-DunnageOut1-3</item>
+        <item>OverBox-BOMView-3</item>
+        <item>OverBox-PostTest1-3</item>
+        <item>OverBox-PostTest2-3</item>
+        <item>OverBox-PostTest3-3</item>
+        <item>OverBox-PostTest4-3</item>
+        <item>OverBox-PostTest5-3</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_4_File">
+        <item>OverBox-PostISO1-4</item>
+        <item>OverBox-PostISO2-4</item>
+        <item>OverBox-DunnageIn-4</item>
+        <item>OverBox-DunnageOut-4</item>
+        <item>OverBox-DunnageIn1-4</item>
+        <item>OverBox-DunnageOut1-4</item>
+        <item>OverBox-BOMView-4</item>
+        <item>OverBox-PostTest1-4</item>
+        <item>OverBox-PostTest2-4</item>
+        <item>OverBox-PostTest3-4</item>
+        <item>OverBox-PostTest4-4</item>
+        <item>OverBox-PostTest5-4</item>
+    </string-array>
+
+    <string-array name="OverBox_PostTest_5_File">
+        <item>OverBox-PostISO1-5</item>
+        <item>OverBox-PostISO2-5</item>
+        <item>OverBox-DunnageIn-5</item>
+        <item>OverBox-DunnageOut-5</item>
+        <item>OverBox-DunnageIn1-5</item>
+        <item>OverBox-DunnageOut1-5</item>
+        <item>OverBox-BOMView-5</item>
+        <item>OverBox-PostTest1-5</item>
+        <item>OverBox-PostTest2-5</item>
+        <item>OverBox-PostTest3-5</item>
+        <item>OverBox-PostTest4-5</item>
+        <item>OverBox-PostTest5-5</item>
+    </string-array>
+
+</resources>

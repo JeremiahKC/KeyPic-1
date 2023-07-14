@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kcassets.keypic'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.kcassets.keypic"
+        minSdk 24
+        targetSdk 33
+        versionCode 3
+        versionName "1.0.2"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    //AppElements
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+    //GoogleAPI
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    implementation 'com.google.api-client:google-api-client:1.32.1'
+    implementation 'com.google.api-client:google-api-client-android:1.32.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.oauth-client:google-oauth-client-jetty:1.32.1'
+
+    //ServerHandling
+    implementation 'com.google.auth:google-auth-library-oauth2-http:0.26.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.42.3'
+    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'com.google.http-client:google-http-client-jackson2:1.39.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    implementation 'com.squareup.okio:okio:3.0.0'
+
+    //Drive
+    implementation 'com.google.apis:google-api-services-drive:v3-rev324-1.32.1'
+    implementation 'com.google.apis:google-api-services-drive:v3-rev325-1.32.1'
+    implementation 'com.google.apis:google-api-services-drive:v3-rev197-1.25.0'
+
+    //Camera
+    def camerax_version = "1.2.3"
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    implementation "androidx.camera:camera-video:${camerax_version}"
+
+    implementation "androidx.camera:camera-view:${camerax_version}"
+    implementation "androidx.camera:camera-extensions:${camerax_version}"
+
+}

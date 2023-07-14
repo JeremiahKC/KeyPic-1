@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/KeyLight">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign In With Your Keystone Google Account"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/icons8_google_144"
+        android:id="@+id/googleBtn"
+        android:layout_below="@+id/signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

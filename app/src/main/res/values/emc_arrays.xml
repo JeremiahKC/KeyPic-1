@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /***********************************************************
+    * Test Types
+    **********************************************************/
+    <string-array name="test_type">
+        <item>EUT</item>
+        <item>CE</item>
+        <item>RE</item>
+        <item>HARM_FLICK</item>
+        <item>ESD</item>
+        <item>RI</item>
+        <item>EFT</item>
+        <item>SURGE</item>
+        <item>CI</item>
+        <item>MAGFIELD</item>
+        <item>DIPS</item>
+    </string-array>
+
+
+    /***********************************************************
+    * EUT Photos and Files
+    **********************************************************/
+    <string-array name="EUT_1">
+        <item>EUT Photo (unit1)</item>
+    </string-array>
+    <string-array name="EUT_2">
+        <item>EUT Photo (unit2)</item>
+    </string-array>
+    <string-array name="EUT_3">
+        <item>EUT Photo (unit3)</item>
+    </string-array>
+    <string-array name="EUT_4">
+        <item>EUT Photo (unit4)</item>
+    </string-array>
+    <string-array name="EUT_5">
+        <item>EUT Photo (unit5)</item>
+    </string-array>
+
+
+    <string-array name="EUT_1_File">
+        <item>EUT-1</item>
+    </string-array>
+    <string-array name="EUT_2_File">
+        <item>EUT-2</item>
+    </string-array>
+    <string-array name="EUT_3_File">
+        <item>EUT-3</item>
+    </string-array>
+    <string-array name="EUT_4_File">
+        <item>EUT-4</item>
+    </string-array>
+    <string-array name="EUT_5_File">
+        <item>EUT-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CE Photos and Files
+    **********************************************************/
+    <string-array name="CE_1">
+        <item>LINE 1 TEST SETUP (unit1)</item>
+        <item>LINE 2 TEST SETUP (unit1)</item>
+    </string-array>
+    <string-array name="CE_2">
+        <item>LINE 1 TEST SETUP (unit2)</item>
+        <item>LINE 2 TEST SETUP (unit2)</item>
+    </string-array>
+    <string-array name="CE_3">
+        <item>LINE 1 TEST SETUP (unit3)</item>
+        <item>LINE 2 TEST SETUP (unit3)</item>
+    </string-array>
+    <string-array name="CE_4">
+        <item>LINE 1 TEST SETUP (unit4)</item>
+        <item>LINE 2 TEST SETUP (unit4)</item>
+    </string-array>
+    <string-array name="CE_5">
+        <item>LINE 1 TEST SETUP (unit5)</item>
+        <item>LINE 2 TEST SETUP (unit5)</item>
+    </string-array>
+
+
+    <string-array name="CE_1_File">
+        <item>CELine1-1</item>
+        <item>CELine2-1</item>
+    </string-array>
+    <string-array name="CE_2_File">
+        <item>CELine1-2</item>
+        <item>CELine2-2</item>
+    </string-array>
+    <string-array name="CE_3_File">
+        <item>CELine1-3</item>
+        <item>CELine2-3</item>
+    </string-array>
+    <string-array name="CE_4_File">
+        <item>CELine1-4</item>
+        <item>CELine2-4</item>
+    </string-array>
+    <string-array name="CE_5_File">
+        <item>CELine1-5</item>
+        <item>CELine2-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * RE Photos and Files
+    **********************************************************/
+    <string-array name="RE_1">
+        <item>30MHZ TO 1GHZ TEST SETUP (unit1)</item>
+        <item>1GHZ TO 6GHZ TEST SETUP (unit1)</item>
+        <item>1GHZ TO 18GHZ TEST SETUP (unit1)</item>
+        <item>18GHZ TO 24GHZ TEST SETUP (unit1)</item>
+        <item>18GHZ TO 40GHZ TEST SETUP (unit1)</item>
+    </string-array>
+    <string-array name="RE_2">
+        <item>30MHZ TO 1GHZ TEST SETUP (unit2)</item>
+        <item>1GHZ TO 6GHZ TEST SETUP (unit2)</item>
+        <item>1GHZ TO 18GHZ TEST SETUP (unit2)</item>
+        <item>18GHZ TO 24GHZ TEST SETUP (unit2)</item>
+        <item>18GHZ TO 40GHZ TEST SETUP (unit2)</item>
+    </string-array>
+    <string-array name="RE_3">
+        <item>30MHZ TO 1GHZ TEST SETUP (unit3)</item>
+        <item>1GHZ TO 6GHZ TEST SETUP (unit3)</item>
+        <item>1GHZ TO 18GHZ TEST SETUP (unit3)</item>
+        <item>18GHZ TO 24GHZ TEST SETUP (unit3)</item>
+        <item>18GHZ TO 40GHZ TEST SETUP (unit3)</item>
+    </string-array>
+    <string-array name="RE_4">
+        <item>30MHZ TO 1GHZ TEST SETUP (unit4)</item>
+        <item>1GHZ TO 6GHZ TEST SETUP (unit4)</item>
+        <item>1GHZ TO 18GHZ TEST SETUP (unit4)</item>
+        <item>18GHZ TO 24GHZ TEST SETUP (unit4)</item>
+        <item>18GHZ TO 40GHZ TEST SETUP (unit4)</item>
+    </string-array>
+    <string-array name="RE_5">
+        <item>30MHZ TO 1GHZ TEST SETUP (unit5)</item>
+        <item>1GHZ TO 6GHZ TEST SETUP (unit5)</item>
+        <item>1GHZ TO 18GHZ TEST SETUP (unit5)</item>
+        <item>18GHZ TO 24GHZ TEST SETUP (unit5)</item>
+        <item>18GHZ TO 40GHZ TEST SETUP (unit5)</item>
+    </string-array>
+
+
+    <string-array name="RE_1_File">
+        <item>RE30MHzto1GHz-1</item>
+        <item>RE1GHzto6GHz-1</item>
+        <item>RE1GHzto18GHz-1</item>
+        <item>RE18GHzto24GHz-1</item>
+        <item>RE18GHzto40GHz-1</item>
+    </string-array>
+    <string-array name="RE_2_File">
+        <item>RE30MHzto1GHz-2</item>
+        <item>RE1GHzto6GHz-2</item>
+        <item>RE1GHzto18GHz-2</item>
+        <item>RE18GHzto24GHz-2</item>
+        <item>RE18GHzto40GHz-2</item>
+    </string-array>
+    <string-array name="RE_3_File">
+        <item>RE30MHzto1GHz-3</item>
+        <item>RE1GHzto6GHz-3</item>
+        <item>RE1GHzto18GHz-3</item>
+        <item>RE18GHzto24GHz-3</item>
+        <item>RE18GHzto40GHz-3</item>
+    </string-array>
+    <string-array name="RE_4_File">
+        <item>RE30MHzto1GHz-4</item>
+        <item>RE1GHzto6GHz-4</item>
+        <item>RE1GHzto18GHz-4</item>
+        <item>RE18GHzto24GHz-4</item>
+        <item>RE18GHzto40GHz-4</item>
+    </string-array>
+    <string-array name="RE_5_File">
+        <item>RE30MHzto1GHz-5</item>
+        <item>RE1GHzto6GHz-5</item>
+        <item>RE1GHzto18GHz-5</item>
+        <item>RE18GHzto24GHz-5</item>
+        <item>RE18GHzto40GHz-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * HARM_FLICK Photos and Files
+    **********************************************************/
+    <string-array name="HARM_FLICK_1">
+        <item>HARMONICS/FLICKER TEST SETUP (SAME PHOTO) (unit1)</item>
+    </string-array>
+    <string-array name="HARM_FLICK_2">
+        <item>HARMONICS/FLICKER TEST SETUP (SAME PHOTO) (unit2)</item>
+    </string-array>
+    <string-array name="HARM_FLICK_3">
+        <item>HARMONICS/FLICKER TEST SETUP (SAME PHOTO) (unit3)</item>
+    </string-array>
+    <string-array name="HARM_FLICK_4">
+        <item>HARMONICS/FLICKER TEST SETUP (SAME PHOTO) (unit4)</item>
+    </string-array>
+    <string-array name="HARM_FLICK_5">
+        <item>HARMONICS/FLICKER TEST SETUP (SAME PHOTO) (unit5)</item>
+    </string-array>
+
+
+    <string-array name="HARM_FLICK_1_File">
+        <item>HarmonicsFlicker-1</item>
+    </string-array>
+    <string-array name="HARM_FLICK_2_File">
+        <item>HarmonicsFlicker-2</item>
+    </string-array>
+    <string-array name="HARM_FLICK_3_File">
+        <item>HarmonicsFlicker-3</item>
+    </string-array>
+    <string-array name="HARM_FLICK_4_File">
+        <item>HarmonicsFlicker-4</item>
+    </string-array>
+    <string-array name="HARM_FLICK_5_File">
+        <item>HarmonicsFlicker-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * ESD Photos and Files
+    **********************************************************/
+    <string-array name="ESD_1">
+        <item>ESD TEST SETUP (unit1)</item>
+        <item>ESD TEST LOCATION A (unit1)</item>
+        <item>ESD TEST LOCATION B (unit1)</item>
+        <item>ESD TEST LOCATION C (unit1)</item>
+        <item>ESD TEST LOCATION D (unit1)</item>
+        <item>ESD TEST LOCATION E (unit1)</item>
+        <item>ESD TEST LOCATION F (unit1)</item>
+        <item>ESD TEST LOCATION G (unit1)</item>
+        <item>ESD TEST LOCATION H (unit1)</item>
+        <item>ESD TEST LOCATION I (unit1)</item>
+        <item>ESD TEST LOCATION J (unit1)</item>
+    </string-array>
+    <string-array name="ESD_2">
+        <item>ESD TEST SETUP (unit2)</item>
+        <item>ESD TEST LOCATION A (unit2)</item>
+        <item>ESD TEST LOCATION B (unit2)</item>
+        <item>ESD TEST LOCATION C (unit2)</item>
+        <item>ESD TEST LOCATION D (unit2)</item>
+        <item>ESD TEST LOCATION E (unit2)</item>
+        <item>ESD TEST LOCATION F (unit2)</item>
+        <item>ESD TEST LOCATION G (unit2)</item>
+        <item>ESD TEST LOCATION H (unit2)</item>
+        <item>ESD TEST LOCATION I (unit2)</item>
+        <item>ESD TEST LOCATION J (unit2)</item>
+    </string-array>
+    <string-array name="ESD_3">
+        <item>ESD TEST SETUP (unit3)</item>
+        <item>ESD TEST LOCATION A (unit3)</item>
+        <item>ESD TEST LOCATION B (unit3)</item>
+        <item>ESD TEST LOCATION C (unit3)</item>
+        <item>ESD TEST LOCATION D (unit3)</item>
+        <item>ESD TEST LOCATION E (unit3)</item>
+        <item>ESD TEST LOCATION F (unit3)</item>
+        <item>ESD TEST LOCATION G (unit3)</item>
+        <item>ESD TEST LOCATION H (unit3)</item>
+        <item>ESD TEST LOCATION I (unit3)</item>
+        <item>ESD TEST LOCATION J (unit3)</item>
+    </string-array>
+    <string-array name="ESD_4">
+        <item>ESD TEST SETUP (unit4)</item>
+        <item>ESD TEST LOCATION A (unit4)</item>
+        <item>ESD TEST LOCATION B (unit4)</item>
+        <item>ESD TEST LOCATION C (unit4)</item>
+        <item>ESD TEST LOCATION D (unit4)</item>
+        <item>ESD TEST LOCATION E (unit4)</item>
+        <item>ESD TEST LOCATION F (unit4)</item>
+        <item>ESD TEST LOCATION G (unit4)</item>
+        <item>ESD TEST LOCATION H (unit4)</item>
+        <item>ESD TEST LOCATION I (unit4)</item>
+        <item>ESD TEST LOCATION J (unit4)</item>
+    </string-array>
+    <string-array name="ESD_5">
+        <item>ESD TEST SETUP (unit5)</item>
+        <item>ESD TEST LOCATION A (unit5)</item>
+        <item>ESD TEST LOCATION B (unit5)</item>
+        <item>ESD TEST LOCATION C (unit5)</item>
+        <item>ESD TEST LOCATION D (unit5)</item>
+        <item>ESD TEST LOCATION E (unit5)</item>
+        <item>ESD TEST LOCATION F (unit5)</item>
+        <item>ESD TEST LOCATION G (unit5)</item>
+        <item>ESD TEST LOCATION H (unit5)</item>
+        <item>ESD TEST LOCATION I (unit5)</item>
+        <item>ESD TEST LOCATION J (unit5)</item>
+    </string-array>
+
+
+    <string-array name="ESD_1_File">
+        <item>ESDTestSetup-1</item>
+        <item>ESDTestLocation-A-1</item>
+        <item>ESDTestLocation-B-1</item>
+        <item>ESDTestLocation-C-1</item>
+        <item>ESDTestLocation-D-1</item>
+        <item>ESDTestLocation-E-1</item>
+        <item>ESDTestLocation-F-1</item>
+        <item>ESDTestLocation-G-1</item>
+        <item>ESDTestLocation-H-1</item>
+        <item>ESDTestLocation-I-1</item>
+        <item>ESDTestLocation-J-1</item>
+    </string-array>
+    <string-array name="ESD_2_File">
+        <item>ESDTestSetup-2</item>
+        <item>ESDTestLocation-A-2</item>
+        <item>ESDTestLocation-B-2</item>
+        <item>ESDTestLocation-C-2</item>
+        <item>ESDTestLocation-D-2</item>
+        <item>ESDTestLocation-E-2</item>
+        <item>ESDTestLocation-F-2</item>
+        <item>ESDTestLocation-G-2</item>
+        <item>ESDTestLocation-H-2</item>
+        <item>ESDTestLocation-I-2</item>
+        <item>ESDTestLocation-J-2</item>
+    </string-array>
+    <string-array name="ESD_3_File">
+        <item>ESDTestSetup-3</item>
+        <item>ESDTestLocation-A-3</item>
+        <item>ESDTestLocation-B-3</item>
+        <item>ESDTestLocation-C-3</item>
+        <item>ESDTestLocation-D-3</item>
+        <item>ESDTestLocation-E-3</item>
+        <item>ESDTestLocation-F-3</item>
+        <item>ESDTestLocation-G-3</item>
+        <item>ESDTestLocation-H-3</item>
+        <item>ESDTestLocation-I-3</item>
+        <item>ESDTestLocation-J-3</item>
+    </string-array>
+    <string-array name="ESD_4_File">
+        <item>ESDTestSetup-4</item>
+        <item>ESDTestLocation-A-4</item>
+        <item>ESDTestLocation-B-4</item>
+        <item>ESDTestLocation-C-4</item>
+        <item>ESDTestLocation-D-4</item>
+        <item>ESDTestLocation-E-4</item>
+        <item>ESDTestLocation-F-4</item>
+        <item>ESDTestLocation-G-4</item>
+        <item>ESDTestLocation-H-4</item>
+        <item>ESDTestLocation-I-4</item>
+        <item>ESDTestLocation-J-4</item>
+    </string-array>
+    <string-array name="ESD_5_File">
+        <item>ESDTestSetup-5</item>
+        <item>ESDTestLocation-A-5</item>
+        <item>ESDTestLocation-B-5</item>
+        <item>ESDTestLocation-C-5</item>
+        <item>ESDTestLocation-D-5</item>
+        <item>ESDTestLocation-E-5</item>
+        <item>ESDTestLocation-F-5</item>
+        <item>ESDTestLocation-G-5</item>
+        <item>ESDTestLocation-H-5</item>
+        <item>ESDTestLocation-I-5</item>
+        <item>ESDTestLocation-J-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * RI Photos and Files
+    **********************************************************/
+    <string-array name="RI_1">
+        <item>RI BELOW 1GHZ TEST SETUP (unit1)</item>
+        <item>RI ABOVE 1GHZ TEST SETUP (unit1)</item>
+        <item>RI CABLE LAYOUT (unit1)</item>
+    </string-array>
+    <string-array name="RI_2">
+        <item>RI BELOW 1GHZ TEST SETUP (unit2)</item>
+        <item>RI ABOVE 1GHZ TEST SETUP (unit2)</item>
+        <item>RI CABLE LAYOUT (unit2)</item>
+    </string-array>
+    <string-array name="RI_3">
+        <item>RI BELOW 1GHZ TEST SETUP (unit3)</item>
+        <item>RI ABOVE 1GHZ TEST SETUP (unit3)</item>
+        <item>RI CABLE LAYOUT (unit3)</item>
+    </string-array>
+    <string-array name="RI_4">
+        <item>RI BELOW 1GHZ TEST SETUP (unit4)</item>
+        <item>RI ABOVE 1GHZ TEST SETUP (unit4)</item>
+        <item>RI CABLE LAYOUT (unit4)</item>
+    </string-array>
+    <string-array name="RI_5">
+        <item>RI BELOW 1GHZ TEST SETUP (unit5)</item>
+        <item>RI ABOVE 1GHZ TEST SETUP (unit5)</item>
+        <item>RI CABLE LAYOUT (unit5)</item>
+    </string-array>
+
+
+    <string-array name="RI_1_File">
+        <item>RIBelow1GHz-1</item>
+        <item>RIAbove1GHz-1</item>
+        <item>RICableLayout-1</item>
+    </string-array>
+    <string-array name="RI_2_File">
+        <item>RIBelow1GHz-2</item>
+        <item>RIAbove1GHz-2</item>
+        <item>RICableLayout-2</item>
+    </string-array>
+    <string-array name="RI_3_File">
+        <item>RIBelow1GHz-3</item>
+        <item>RIAbove1GHz-3</item>
+        <item>RICableLayout-3</item>
+    </string-array>
+    <string-array name="RI_4_File">
+        <item>RIBelow1GHz-4</item>
+        <item>RIAbove1GHz-4</item>
+        <item>RICableLayout-4</item>
+    </string-array>
+    <string-array name="RI_5_File">
+        <item>RIBelow1GHz-5</item>
+        <item>RIAbove1GHz-5</item>
+        <item>RICableLayout-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * EFT Photos and Files
+    **********************************************************/
+    <string-array name="EFT_1">
+        <item>EFT POWER TEST SETUP (unit1)</item>
+        <item>EFT CABLE TEST SETUP (unit1)</item>
+    </string-array>
+    <string-array name="EFT_2">
+        <item>EFT POWER TEST SETUP (unit2)</item>
+        <item>EFT CABLE TEST SETUP (unit2)</item>
+    </string-array>
+    <string-array name="EFT_3">
+        <item>EFT POWER TEST SETUP (unit3)</item>
+        <item>EFT CABLE TEST SETUP (unit3)</item>
+    </string-array>
+    <string-array name="EFT_4">
+        <item>EFT POWER TEST SETUP (unit4)</item>
+        <item>EFT CABLE TEST SETUP (unit4)</item>
+    </string-array>
+    <string-array name="EFT_5">
+        <item>EFT POWER TEST SETUP (unit5)</item>
+        <item>EFT CABLE TEST SETUP (unit5)</item>
+    </string-array>
+
+
+    <string-array name="EFT_1_File">
+        <item>EFTPowerSetup-1</item>
+        <item>EFTCableSetup-1</item>
+    </string-array>
+    <string-array name="EFT_2_File">
+        <item>EFTPowerSetup-2</item>
+        <item>EFTCableSetup-2</item>
+    </string-array>
+    <string-array name="EFT_3_File">
+        <item>EFTPowerSetup-3</item>
+        <item>EFTCableSetup-3</item>
+    </string-array>
+    <string-array name="EFT_4_File">
+        <item>EFTPowerSetup-4</item>
+        <item>EFTCableSetup-4</item>
+    </string-array>
+    <string-array name="EFT_5_File">
+        <item>EFTPowerSetup-5</item>
+        <item>EFTCableSetup-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * SURGE Photos and Files
+    **********************************************************/
+    <string-array name="SURGE_1">
+        <item>SURGE POWER TEST SETUP (unit1)</item>
+        <item>SURGE CABLE TEST SETUP (unit1)</item>
+    </string-array>
+    <string-array name="SURGE_2">
+        <item>SURGE POWER TEST SETUP (unit2)</item>
+        <item>SURGE CABLE TEST SETUP (unit2)</item>
+    </string-array>
+    <string-array name="SURGE_3">
+        <item>SURGE POWER TEST SETUP (unit3)</item>
+        <item>SURGE CABLE TEST SETUP (unit3)</item>
+    </string-array>
+    <string-array name="SURGE_4">
+        <item>SURGE POWER TEST SETUP (unit4)</item>
+        <item>SURGE CABLE TEST SETUP (unit4)</item>
+    </string-array>
+    <string-array name="SURGE_5">
+        <item>SURGE POWER TEST SETUP (unit5)</item>
+        <item>SURGE CABLE TEST SETUP (unit5)</item>
+    </string-array>
+
+
+    <string-array name="SURGE_1_File">
+        <item>SurgePowerSetup-1</item>
+        <item>SurgeCableSetup-1</item>
+    </string-array>
+    <string-array name="SURGE_2_File">
+        <item>SurgePowerSetup-2</item>
+        <item>SurgeCableSetup-2</item>
+    </string-array>
+    <string-array name="SURGE_3_File">
+        <item>SurgePowerSetup-3</item>
+        <item>SurgeCableSetup-3</item>
+    </string-array>
+    <string-array name="SURGE_4_File">
+        <item>SurgePowerSetup-4</item>
+        <item>SurgeCableSetup-4</item>
+    </string-array>
+    <string-array name="SURGE_5_File">
+        <item>SurgePowerSetup-5</item>
+        <item>SurgeCableSetup-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CI Photos and Files
+    **********************************************************/
+    <string-array name="CI_1">
+        <item>CI POWER TEST SETUP (unit1)</item>
+        <item>CI CABLE TEST SETUP A (unit1)</item>
+        <item>CI CABLE TEST SETUP B (unit1)</item>
+        <item>CI CABLE TEST SETUP C (unit1)</item>
+        <item>CI CABLE TEST SETUP D (unit1)</item>
+        <item>CI CABLE TEST SETUP E (unit1)</item>
+    </string-array>
+    <string-array name="CI_2">
+        <item>CI POWER TEST SETUP (unit2)</item>
+        <item>CI CABLE TEST SETUP A (unit2)</item>
+        <item>CI CABLE TEST SETUP B (unit2)</item>
+        <item>CI CABLE TEST SETUP C (unit2)</item>
+        <item>CI CABLE TEST SETUP D (unit2)</item>
+        <item>CI CABLE TEST SETUP E (unit2)</item>
+    </string-array>
+    <string-array name="CI_3">
+        <item>CI POWER TEST SETUP (unit3)</item>
+        <item>CI CABLE TEST SETUP A (unit3)</item>
+        <item>CI CABLE TEST SETUP B (unit3)</item>
+        <item>CI CABLE TEST SETUP C (unit3)</item>
+        <item>CI CABLE TEST SETUP D (unit3)</item>
+        <item>CI CABLE TEST SETUP E (unit3)</item>
+    </string-array>
+    <string-array name="CI_4">
+        <item>CI POWER TEST SETUP (unit4)</item>
+        <item>CI CABLE TEST SETUP A (unit4)</item>
+        <item>CI CABLE TEST SETUP B (unit4)</item>
+        <item>CI CABLE TEST SETUP C (unit4)</item>
+        <item>CI CABLE TEST SETUP D (unit4)</item>
+        <item>CI CABLE TEST SETUP E (unit4)</item>
+    </string-array>
+    <string-array name="CI_5">
+        <item>CI POWER TEST SETUP (unit5)</item>
+        <item>CI CABLE TEST SETUP A (unit5)</item>
+        <item>CI CABLE TEST SETUP B (unit5)</item>
+        <item>CI CABLE TEST SETUP C (unit5)</item>
+        <item>CI CABLE TEST SETUP D (unit5)</item>
+        <item>CI CABLE TEST SETUP E (unit5)</item>
+    </string-array>
+
+
+    <string-array name="CI_1_File">
+        <item>CIPowerSetup-1</item>
+        <item>CICableSetup-A-1</item>
+        <item>CICableSetup-B-1</item>
+        <item>CICableSetup-C-1</item>
+        <item>CICableSetup-D-1</item>
+        <item>CICableSetup-E-1</item>
+    </string-array>
+    <string-array name="CI_2_File">
+        <item>CIPowerSetup-2</item>
+        <item>CICableSetup-A-2</item>
+        <item>CICableSetup-B-2</item>
+        <item>CICableSetup-C-2</item>
+        <item>CICableSetup-D-2</item>
+        <item>CICableSetup-E-2</item>
+    </string-array>
+    <string-array name="CI_3_File">
+        <item>CIPowerSetup-3</item>
+        <item>CICableSetup-A-3</item>
+        <item>CICableSetup-B-3</item>
+        <item>CICableSetup-C-3</item>
+        <item>CICableSetup-D-3</item>
+        <item>CICableSetup-E-3</item>
+    </string-array>
+    <string-array name="CI_4_File">
+        <item>CIPowerSetup-4</item>
+        <item>CICableSetup-A-4</item>
+        <item>CICableSetup-B-4</item>
+        <item>CICableSetup-C-4</item>
+        <item>CICableSetup-D-4</item>
+        <item>CICableSetup-E-4</item>
+    </string-array>
+    <string-array name="CI_5_File">
+        <item>CIPowerSetup-5</item>
+        <item>CICableSetup-A-5</item>
+        <item>CICableSetup-B-5</item>
+        <item>CICableSetup-C-5</item>
+        <item>CICableSetup-D-5</item>
+        <item>CICableSetup-E-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * MAGFIELD Photos and Files
+    **********************************************************/
+    <string-array name="MAGFIELD_1">
+        <item>MAG FIELD X AXIS TEST SETUP (unit1)</item>
+        <item>MAG FIELD Y AXIS TEST SETUP (unit1)</item>
+        <item>MAG FIELD Z AXIS TEST SETUP (unit1)</item>
+    </string-array>
+    <string-array name="MAGFIELD_2">
+        <item>MAG FIELD X AXIS TEST SETUP (unit2)</item>
+        <item>MAG FIELD Y AXIS TEST SETUP (unit2)</item>
+        <item>MAG FIELD Z AXIS TEST SETUP (unit2)</item>
+    </string-array>
+    <string-array name="MAGFIELD_3">
+        <item>MAG FIELD X AXIS TEST SETUP (unit3)</item>
+        <item>MAG FIELD Y AXIS TEST SETUP (unit3)</item>
+        <item>MAG FIELD Z AXIS TEST SETUP (unit3)</item>
+    </string-array>
+    <string-array name="MAGFIELD_4">
+        <item>MAG FIELD X AXIS TEST SETUP (unit4)</item>
+        <item>MAG FIELD Y AXIS TEST SETUP (unit4)</item>
+        <item>MAG FIELD Z AXIS TEST SETUP (unit4)</item>
+    </string-array>
+    <string-array name="MAGFIELD_5">
+        <item>MAG FIELD X AXIS TEST SETUP (unit5)</item>
+        <item>MAG FIELD Y AXIS TEST SETUP (unit5)</item>
+        <item>MAG FIELD Z AXIS TEST SETUP (unit5)</item>
+    </string-array>
+
+
+    <string-array name="MAGFIELD_1_File">
+        <item>MagFieldX-1</item>
+        <item>MagFieldY-1</item>
+        <item>MagFieldZ-1</item>
+    </string-array>
+    <string-array name="MAGFIELD_2_File">
+        <item>MagFieldX-2</item>
+        <item>MagFieldY-2</item>
+        <item>MagFieldZ-2</item>
+    </string-array>
+    <string-array name="MAGFIELD_3_File">
+        <item>MagFieldX-3</item>
+        <item>MagFieldY-3</item>
+        <item>MagFieldZ-3</item>
+    </string-array>
+    <string-array name="MAGFIELD_4_File">
+        <item>MagFieldX-4</item>
+        <item>MagFieldY-4</item>
+        <item>MagFieldZ-4</item>
+    </string-array>
+    <string-array name="MAGFIELD_5_File">
+        <item>MagFieldX-5</item>
+        <item>MagFieldY-5</item>
+        <item>MagFieldZ-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * DIPS Photos and Files
+    **********************************************************/
+    <string-array name="DIPS_1">
+        <item>VOLTAGE DIPS TEST SETUP (unit1)</item>
+    </string-array>
+    <string-array name="DIPS_2">
+        <item>VOLTAGE DIPS TEST SETUP (unit2)</item>
+    </string-array>
+    <string-array name="DIPS_3">
+        <item>VOLTAGE DIPS TEST SETUP (unit3)</item>
+    </string-array>
+    <string-array name="DIPS_4">
+        <item>VOLTAGE DIPS TEST SETUP (unit4)</item>
+    </string-array>
+    <string-array name="DIPS_5">
+        <item>VOLTAGE DIPS TEST SETUP (unit5)</item>
+    </string-array>
+
+
+    <string-array name="DIPS_1_File">
+        <item>DipsSetup-1</item>
+    </string-array>
+    <string-array name="DIPS_2_File">
+        <item>DipsSetup-2</item>
+    </string-array>
+    <string-array name="DIPS_3_File">
+        <item>DipsSetup-3</item>
+    </string-array>
+    <string-array name="DIPS_4_File">
+        <item>DipsSetup-4</item>
+    </string-array>
+    <string-array name="DIPS_5_File">
+        <item>DipsSetup-5</item>
+    </string-array>
+
+</resources>

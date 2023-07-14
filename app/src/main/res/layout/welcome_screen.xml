@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/KeyDark"
+    tools:actionBarNavMode="standard">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Welcome!"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_centerInParent="true"
+        android:text="name"
+        android:textColor="@color/KeyLight"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"
+        android:text="email"
+        android:textColor="@color/KeyLight"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#2196F3"
+        android:text="Sign Out"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/scanType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signOutBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="Select Your Job Type"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/emcBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/scanType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/KeyOr"
+        android:text="EMC"
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/amazonBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/emcBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/KeyOr"
+        android:text="AMAZON"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

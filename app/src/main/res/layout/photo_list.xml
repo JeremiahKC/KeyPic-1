@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:id="@+id/tv_photoName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:text="Photo Name"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>

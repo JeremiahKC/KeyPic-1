@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Photo Name TextView -->
+    <TextView
+        android:id="@+id/photoNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- Captured Image ImageView -->
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>

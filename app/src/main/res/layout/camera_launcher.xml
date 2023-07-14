@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top Toolbar -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/photoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Photo"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <!-- Bottom Toolbar -->
+    <RelativeLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/capture"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerCrop"
+            android:src="@drawable/round_camera_24"
+            app:tint="#fff" />
+
+        <ImageButton
+            android:id="@+id/toggleFlash"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_flash_on_24"
+            app:tint="#fff" />
+
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="@color/KeyDark"
+            android:text="Close"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <!-- PreviewView -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomBar"
+        app:layout_constraintTop_toBottomOf="@id/topBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

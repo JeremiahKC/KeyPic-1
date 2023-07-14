@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /***********************************************************
+    * PreTest
+    **********************************************************/
+    <string-array name="TypeC_PreTest_1">
+        <item>Side 1 (unit1)</item>
+        <item>Side 2 (unit1)</item>
+        <item>Side 3 (unit1)</item>
+        <item>Side 4 (unit1)</item>
+        <item>Side 5 (unit1)</item>
+        <item>Side 6 (unit1)</item>
+        <item>Box Cert (unit1)</item>
+        <item>ISO #1 Side 1/2/5 (unit1)</item>
+        <item>ISO #2 Sides 3/4/6 (unit1)</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_2">
+        <item>Side 1 (unit2)</item>
+        <item>Side 2 (unit2)</item>
+        <item>Side 3 (unit2)</item>
+        <item>Side 4 (unit2)</item>
+        <item>Side 5 (unit2)</item>
+        <item>Side 6 (unit2)</item>
+        <item>Box Cert (unit2)</item>
+        <item>ISO #1 Side 1/2/5 (unit2)</item>
+        <item>ISO #2 Sides 3/4/6 (unit2)</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_3">
+        <item>Side 1 (unit3)</item>
+        <item>Side 2 (unit3)</item>
+        <item>Side 3 (unit3)</item>
+        <item>Side 4 (unit3)</item>
+        <item>Side 5 (unit3)</item>
+        <item>Side 6 (unit3)</item>
+        <item>Box Cert (unit3)</item>
+        <item>ISO #1 Side 1/2/5 (unit3)</item>
+        <item>ISO #2 Sides 3/4/6 (unit3)</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_4">
+        <item>Side 1 (unit4)</item>
+        <item>Side 2 (unit4)</item>
+        <item>Side 3 (unit4)</item>
+        <item>Side 4 (unit4)</item>
+        <item>Side 5 (unit4)</item>
+        <item>Side 6 (unit4)</item>
+        <item>Box Cert (unit4)</item>
+        <item>ISO #1 Side 1/2/5 (unit4)</item>
+        <item>ISO #2 Sides 3/4/6 (unit4)</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_5">
+        <item>Side 1 (unit5)</item>
+        <item>Side 2 (unit5)</item>
+        <item>Side 3 (unit5)</item>
+        <item>Side 4 (unit5)</item>
+        <item>Side 5 (unit5)</item>
+        <item>Side 6 (unit5)</item>
+        <item>Box Cert (unit5)</item>
+        <item>ISO #1 Side 1/2/5 (unit5)</item>
+        <item>ISO #2 Sides 3/4/6 (unit5)</item>
+    </string-array>
+
+
+    /***********************************************************
+    * Test
+    **********************************************************/
+    <string-array name="TypeC_Test_1">
+        <item>Block 3 Test Set Up (unit1)</item>
+        <item>Block 3 Post Test Item (unit1)</item>
+        <item>Block 5 Test Set Up (unit1)</item>
+        <item>Block 5 Post Test (unit1)</item>
+        <item>Block 6 Test Set Up (unit1)</item>
+        <item>Block 6 Post Test (unit1)</item>
+        <item>Block 8 Test Set Up (unit1)</item>
+        <item>Block 8 Post Test (unit1)</item>
+        <item>Block 9 Test Set Up (unit1)</item>
+        <item>Block 9 Post Test (unit1)</item>
+        <item>Block 10 Test Set Up (unit1)</item>
+        <item>Block 10 Post Test (unit1)</item>
+        <item>Block 12 Face 3 Test Set Up (unit1)</item>
+        <item>Block 12 Face 3 Post Test (unit1)</item>
+        <item>Block 12 Face 4 Test Set Up (unit1)</item>
+        <item>Block 12 Face 4 Post Test (unit1)</item>
+        <item>Block 12 Face 6 Test Set Up (unit1)</item>
+        <item>Block 12 Face 6 Post Test (unit1)</item>
+        <item>Block 12 Face 3 (Pick-Up) Test Set Up (unit1)</item>
+        <item>Block 12 Face 3 (Pick-up) Post Test (unit1)</item>
+        <item>Block 20 Test Set Up (unit1)</item>
+        <item>Block 20 Post Test (unit1)</item>
+        <item>Block 21 Test Set Up (unit1)</item>
+        <item>Block 21 Post Test Item (unit1)</item>
+        <item>Block 22 Test Set Up (unit1)</item>
+        <item>Block 22 Post Test (unit1)</item>
+        <item>Block 23 Test Set Up (unit1)</item>
+        <item>Block 23 Post Test Item (unit1)</item>
+        <item>Block 24 Test Set Up (unit1)</item>
+        <item>Block 24 Post Test Item (unit1)</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_2">
+        <item>Block 3 Test Set Up (unit2)</item>
+        <item>Block 3 Post Test Item (unit2)</item>
+        <item>Block 5 Test Set Up (unit2)</item>
+        <item>Block 5 Post Test (unit2)</item>
+        <item>Block 6 Test Set Up (unit2)</item>
+        <item>Block 6 Post Test (unit2)</item>
+        <item>Block 8 Test Set Up (unit2)</item>
+        <item>Block 8 Post Test (unit2)</item>
+        <item>Block 9 Test Set Up (unit2)</item>
+        <item>Block 9 Post Test (unit2)</item>
+        <item>Block 10 Test Set Up (unit2)</item>
+        <item>Block 10 Post Test (unit2)</item>
+        <item>Block 12 Face 3 Test Set Up (unit2)</item>
+        <item>Block 12 Face 3 Post Test (unit2)</item>
+        <item>Block 12 Face 4 Test Set Up (unit2)</item>
+        <item>Block 12 Face 4 Post Test (unit2)</item>
+        <item>Block 12 Face 6 Test Set Up (unit2)</item>
+        <item>Block 12 Face 6 Post Test (unit2)</item>
+        <item>Block 12 Face 3 (Pick-Up) Test Set Up (unit2)</item>
+        <item>Block 12 Face 3 (Pick-up) Post Test (unit2)</item>
+        <item>Block 20 Test Set Up (unit2)</item>
+        <item>Block 20 Post Test (unit2)</item>
+        <item>Block 21 Test Set Up (unit2)</item>
+        <item>Block 21 Post Test Item (unit2)</item>
+        <item>Block 22 Test Set Up (unit2)</item>
+        <item>Block 22 Post Test (unit2)</item>
+        <item>Block 23 Test Set Up (unit2)</item>
+        <item>Block 23 Post Test Item (unit2)</item>
+        <item>Block 24 Test Set Up (unit2)</item>
+        <item>Block 24 Post Test Item (unit2)</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_3">
+        <item>Block 3 Test Set Up (unit3)</item>
+        <item>Block 3 Post Test Item (unit3)</item>
+        <item>Block 5 Test Set Up (unit3)</item>
+        <item>Block 5 Post Test (unit3)</item>
+        <item>Block 6 Test Set Up (unit3)</item>
+        <item>Block 6 Post Test (unit3)</item>
+        <item>Block 8 Test Set Up (unit3)</item>
+        <item>Block 8 Post Test (unit3)</item>
+        <item>Block 9 Test Set Up (unit3)</item>
+        <item>Block 9 Post Test (unit3)</item>
+        <item>Block 10 Test Set Up (unit3)</item>
+        <item>Block 10 Post Test (unit3)</item>
+        <item>Block 12 Face 3 Test Set Up (unit3)</item>
+        <item>Block 12 Face 3 Post Test (unit3)</item>
+        <item>Block 12 Face 4 Test Set Up (unit3)</item>
+        <item>Block 12 Face 4 Post Test (unit3)</item>
+        <item>Block 12 Face 6 Test Set Up (unit3)</item>
+        <item>Block 12 Face 6 Post Test (unit3)</item>
+        <item>Block 12 Face 3 (Pick-Up) Test Set Up (unit3)</item>
+        <item>Block 12 Face 3 (Pick-up) Post Test (unit3)</item>
+        <item>Block 20 Test Set Up (unit3)</item>
+        <item>Block 20 Post Test (unit3)</item>
+        <item>Block 21 Test Set Up (unit3)</item>
+        <item>Block 21 Post Test Item (unit3)</item>
+        <item>Block 22 Test Set Up (unit3)</item>
+        <item>Block 22 Post Test (unit3)</item>
+        <item>Block 23 Test Set Up (unit3)</item>
+        <item>Block 23 Post Test Item (unit3)</item>
+        <item>Block 24 Test Set Up (unit3)</item>
+        <item>Block 24 Post Test Item (unit3)</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_4">
+        <item>Block 3 Test Set Up (unit4)</item>
+        <item>Block 3 Post Test Item (unit4)</item>
+        <item>Block 5 Test Set Up (unit4)</item>
+        <item>Block 5 Post Test (unit4)</item>
+        <item>Block 6 Test Set Up (unit4)</item>
+        <item>Block 6 Post Test (unit4)</item>
+        <item>Block 8 Test Set Up (unit4)</item>
+        <item>Block 8 Post Test (unit4)</item>
+        <item>Block 9 Test Set Up (unit4)</item>
+        <item>Block 9 Post Test (unit4)</item>
+        <item>Block 10 Test Set Up (unit4)</item>
+        <item>Block 10 Post Test (unit4)</item>
+        <item>Block 12 Face 3 Test Set Up (unit4)</item>
+        <item>Block 12 Face 3 Post Test (unit4)</item>
+        <item>Block 12 Face 4 Test Set Up (unit4)</item>
+        <item>Block 12 Face 4 Post Test (unit4)</item>
+        <item>Block 12 Face 6 Test Set Up (unit4)</item>
+        <item>Block 12 Face 6 Post Test (unit4)</item>
+        <item>Block 12 Face 3 (Pick-Up) Test Set Up (unit4)</item>
+        <item>Block 12 Face 3 (Pick-up) Post Test (unit4)</item>
+        <item>Block 20 Test Set Up (unit4)</item>
+        <item>Block 20 Post Test (unit4)</item>
+        <item>Block 21 Test Set Up (unit4)</item>
+        <item>Block 21 Post Test Item (unit4)</item>
+        <item>Block 22 Test Set Up (unit4)</item>
+        <item>Block 22 Post Test (unit4)</item>
+        <item>Block 23 Test Set Up (unit4)</item>
+        <item>Block 23 Post Test Item (unit4)</item>
+        <item>Block 24 Test Set Up (unit4)</item>
+        <item>Block 24 Post Test Item (unit4)</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_5">
+        <item>Block 3 Test Set Up (unit5)</item>
+        <item>Block 3 Post Test Item (unit5)</item>
+        <item>Block 5 Test Set Up (unit5)</item>
+        <item>Block 5 Post Test (unit5)</item>
+        <item>Block 6 Test Set Up (unit5)</item>
+        <item>Block 6 Post Test (unit5)</item>
+        <item>Block 8 Test Set Up (unit5)</item>
+        <item>Block 8 Post Test (unit5)</item>
+        <item>Block 9 Test Set Up (unit5)</item>
+        <item>Block 9 Post Test (unit5)</item>
+        <item>Block 10 Test Set Up (unit5)</item>
+        <item>Block 10 Post Test (unit5)</item>
+        <item>Block 12 Face 3 Test Set Up (unit5)</item>
+        <item>Block 12 Face 3 Post Test (unit5)</item>
+        <item>Block 12 Face 4 Test Set Up (unit5)</item>
+        <item>Block 12 Face 4 Post Test (unit5)</item>
+        <item>Block 12 Face 6 Test Set Up (unit5)</item>
+        <item>Block 12 Face 6 Post Test (unit5)</item>
+        <item>Block 12 Face 3 (Pick-Up) Test Set Up (unit5)</item>
+        <item>Block 12 Face 3 (Pick-up) Post Test (unit5)</item>
+        <item>Block 20 Test Set Up (unit5)</item>
+        <item>Block 20 Post Test (unit5)</item>
+        <item>Block 21 Test Set Up (unit5)</item>
+        <item>Block 21 Post Test Item (unit5)</item>
+        <item>Block 22 Test Set Up (unit5)</item>
+        <item>Block 22 Post Test (unit5)</item>
+        <item>Block 23 Test Set Up (unit5)</item>
+        <item>Block 23 Post Test Item (unit5)</item>
+        <item>Block 24 Test Set Up (unit5)</item>
+        <item>Block 24 Post Test Item (unit5)</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PostTest
+    **********************************************************/
+    <string-array name="TypeC_PostTest_1">
+        <item>ISO #1 Side 1/2/5 (unit1)</item>
+        <item>ISO #2 Sides 3/4/6 (unit1)</item>
+        <item>Exploded BOM View (unit1)</item>
+        <item>Post Test 1 (unit1)</item>
+        <item>Post Test 2 (unit1)</item>
+        <item>Post Test 3 (unit1)</item>
+        <item>Post Test 4 (unit1)</item>
+        <item>Post Test 5 (unit1)</item>
+        <item>Post Test 6 (unit1)</item>
+        <item>Post Test 7 (unit1)</item>
+        <item>Post Test 8 (unit1)</item>
+        <item>Post Test 9 (unit1)</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_2">
+        <item>ISO #1 Side 1/2/5 (unit2)</item>
+        <item>ISO #2 Sides 3/4/6 (unit2)</item>
+        <item>Exploded BOM View (unit2)</item>
+        <item>Post Test 1 (unit2)</item>
+        <item>Post Test 2 (unit2)</item>
+        <item>Post Test 3 (unit2)</item>
+        <item>Post Test 4 (unit2)</item>
+        <item>Post Test 5 (unit2)</item>
+        <item>Post Test 6 (unit2)</item>
+        <item>Post Test 7 (unit2)</item>
+        <item>Post Test 8 (unit2)</item>
+        <item>Post Test 9 (unit2)</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_3">
+        <item>ISO #1 Side 1/2/5 (unit3)</item>
+        <item>ISO #2 Sides 3/4/6 (unit3)</item>
+        <item>Exploded BOM View (unit3)</item>
+        <item>Post Test 1 (unit3)</item>
+        <item>Post Test 2 (unit3)</item>
+        <item>Post Test 3 (unit3)</item>
+        <item>Post Test 4 (unit3)</item>
+        <item>Post Test 5 (unit3)</item>
+        <item>Post Test 6 (unit3)</item>
+        <item>Post Test 7 (unit3)</item>
+        <item>Post Test 8 (unit3)</item>
+        <item>Post Test 9 (unit3)</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_4">
+        <item>ISO #1 Side 1/2/5 (unit4)</item>
+        <item>ISO #2 Sides 3/4/6 (unit4)</item>
+        <item>Exploded BOM View (unit4)</item>
+        <item>Post Test 1 (unit4)</item>
+        <item>Post Test 2 (unit4)</item>
+        <item>Post Test 3 (unit4)</item>
+        <item>Post Test 4 (unit4)</item>
+        <item>Post Test 5 (unit4)</item>
+        <item>Post Test 6 (unit4)</item>
+        <item>Post Test 7 (unit4)</item>
+        <item>Post Test 8 (unit4)</item>
+        <item>Post Test 9 (unit4)</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_5">
+        <item>ISO #1 Side 1/2/5 (unit5)</item>
+        <item>ISO #2 Sides 3/4/6 (unit5)</item>
+        <item>Exploded BOM View (unit5)</item>
+        <item>Post Test 1 (unit5)</item>
+        <item>Post Test 2 (unit5)</item>
+        <item>Post Test 3 (unit5)</item>
+        <item>Post Test 4 (unit5)</item>
+        <item>Post Test 5 (unit5)</item>
+        <item>Post Test 6 (unit5)</item>
+        <item>Post Test 7 (unit5)</item>
+        <item>Post Test 8 (unit5)</item>
+        <item>Post Test 9 (unit5)</item>
+    </string-array>
+
+
+    /***********************************************************
+    * File Names
+    **********************************************************/
+
+    /***********************************************************
+    * PreTest
+    **********************************************************/
+    <string-array name="TypeC_PreTest_1_File">
+        <item>TypeC-Side1-1</item>
+        <item>TypeC-Side2-1</item>
+        <item>TypeC-Side3-1</item>
+        <item>TypeC-Side4-1</item>
+        <item>TypeC-Side5-1</item>
+        <item>TypeC-Side6-1</item>
+        <item>TypeC-BoxCert-1</item>
+        <item>TypeC-PreISO1-1</item>
+        <item>TypeC-PreISO2-1</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_2_File">
+        <item>TypeC-Side1-2</item>
+        <item>TypeC-Side2-2</item>
+        <item>TypeC-Side3-2</item>
+        <item>TypeC-Side4-2</item>
+        <item>TypeC-Side5-2</item>
+        <item>TypeC-Side6-2</item>
+        <item>TypeC-BoxCert-2</item>
+        <item>TypeC-PreISO1-2</item>
+        <item>TypeC-PreISO2-2</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_3_File">
+        <item>TypeC-Side1-3</item>
+        <item>TypeC-Side2-3</item>
+        <item>TypeC-Side3-3</item>
+        <item>TypeC-Side4-3</item>
+        <item>TypeC-Side5-3</item>
+        <item>TypeC-Side6-3</item>
+        <item>TypeC-BoxCert-3</item>
+        <item>TypeC-PreISO1-3</item>
+        <item>TypeC-PreISO2-3</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_4_File">
+        <item>TypeC-Side1-4</item>
+        <item>TypeC-Side2-4</item>
+        <item>TypeC-Side3-4</item>
+        <item>TypeC-Side4-4</item>
+        <item>TypeC-Side5-4</item>
+        <item>TypeC-Side6-4</item>
+        <item>TypeC-BoxCert-4</item>
+        <item>TypeC-PreISO1-4</item>
+        <item>TypeC-PreISO2-4</item>
+    </string-array>
+
+    <string-array name="TypeC_PreTest_5_File">
+        <item>TypeC-Side1-5</item>
+        <item>TypeC-Side2-5</item>
+        <item>TypeC-Side3-5</item>
+        <item>TypeC-Side4-5</item>
+        <item>TypeC-Side5-5</item>
+        <item>TypeC-Side6-5</item>
+        <item>TypeC-BoxCert-5</item>
+        <item>TypeC-PreISO1-5</item>
+        <item>TypeC-PreISO2-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * Test
+    **********************************************************/
+    <string-array name="TypeC_Test_1_File">
+        <item>TypeC-BK3Setup-1</item>
+        <item>TypeC-BK3PostTest-1</item>
+        <item>TypeC-BK5Setup-1</item>
+        <item>TypeC-BK5PostTest-1</item>
+        <item>TypeC-BK6Setup-1</item>
+        <item>TypeC-BK6PostTest-1</item>
+        <item>TypeC-BK8Setup-1</item>
+        <item>TypeC-BK8PostTest-1</item>
+        <item>TypeC-BK9Setup-1</item>
+        <item>TypeC-BK9PostTest-1</item>
+        <item>TypeC-BK10Setup-1</item>
+        <item>TypeC-BK10PostTest-1</item>
+        <item>TypeC-BK12F3Setup-1</item>
+        <item>TypeC-BK12F3PostTest-1</item>
+        <item>TypeC-BK12F4Setup-1</item>
+        <item>TypeC-BK12F4PostTest-1</item>
+        <item>TypeC-BK12F6Setup-1</item>
+        <item>TypeC-BK12F6PostTest-1</item>
+        <item>TypeC-BK12F3PUSetup-1</item>
+        <item>TypeC-BK12F3PUPostTest-1</item>
+        <item>TypeC-BK20Setup-1</item>
+        <item>TypeC-BK20PostTest-1</item>
+        <item>TypeC-BK21Setup-1</item>
+        <item>TypeC-BK21PostTest-1</item>
+        <item>TypeC-BK22Setup-1</item>
+        <item>TypeC-BK22PostTest-1</item>
+        <item>TypeC-BK23Setup-1</item>
+        <item>TypeC-BK23PostTest-1</item>
+        <item>TypeC-BK24Setup-1</item>
+        <item>TypeC-BK24PostTest-1</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_2_File">
+        <item>TypeC-BK3Setup-2</item>
+        <item>TypeC-BK3PostTest-2</item>
+        <item>TypeC-BK5Setup-2</item>
+        <item>TypeC-BK5PostTest-2</item>
+        <item>TypeC-BK6Setup-2</item>
+        <item>TypeC-BK6PostTest-2</item>
+        <item>TypeC-BK8Setup-2</item>
+        <item>TypeC-BK8PostTest-2</item>
+        <item>TypeC-BK9Setup-2</item>
+        <item>TypeC-BK9PostTest-2</item>
+        <item>TypeC-BK10Setup-2</item>
+        <item>TypeC-BK10PostTest-2</item>
+        <item>TypeC-BK12F3Setup-2</item>
+        <item>TypeC-BK12F3PostTest-2</item>
+        <item>TypeC-BK12F4Setup-2</item>
+        <item>TypeC-BK12F4PostTest-2</item>
+        <item>TypeC-BK12F6Setup-2</item>
+        <item>TypeC-BK12F6PostTest-2</item>
+        <item>TypeC-BK12F3PUSetup-2</item>
+        <item>TypeC-BK12F3PUPostTest-2</item>
+        <item>TypeC-BK20Setup-2</item>
+        <item>TypeC-BK20PostTest-2</item>
+        <item>TypeC-BK21Setup-2</item>
+        <item>TypeC-BK21PostTest-2</item>
+        <item>TypeC-BK22Setup-2</item>
+        <item>TypeC-BK22PostTest-2</item>
+        <item>TypeC-BK23Setup-2</item>
+        <item>TypeC-BK23PostTest-2</item>
+        <item>TypeC-BK24Setup-2</item>
+        <item>TypeC-BK24PostTest-2</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_3_File">
+        <item>TypeC-BK3Setup-3</item>
+        <item>TypeC-BK3PostTest-3</item>
+        <item>TypeC-BK5Setup-3</item>
+        <item>TypeC-BK5PostTest-3</item>
+        <item>TypeC-BK6Setup-3</item>
+        <item>TypeC-BK6PostTest-3</item>
+        <item>TypeC-BK8Setup-3</item>
+        <item>TypeC-BK8PostTest-3</item>
+        <item>TypeC-BK9Setup-3</item>
+        <item>TypeC-BK9PostTest-3</item>
+        <item>TypeC-BK10Setup-3</item>
+        <item>TypeC-BK10PostTest-3</item>
+        <item>TypeC-BK12F3Setup-3</item>
+        <item>TypeC-BK12F3PostTest-3</item>
+        <item>TypeC-BK12F4Setup-3</item>
+        <item>TypeC-BK12F4PostTest-3</item>
+        <item>TypeC-BK12F6Setup-3</item>
+        <item>TypeC-BK12F6PostTest-3</item>
+        <item>TypeC-BK12F3PUSetup-3</item>
+        <item>TypeC-BK12F3PUPostTest-3</item>
+        <item>TypeC-BK20Setup-3</item>
+        <item>TypeC-BK20PostTest-3</item>
+        <item>TypeC-BK21Setup-3</item>
+        <item>TypeC-BK21PostTest-3</item>
+        <item>TypeC-BK22Setup-3</item>
+        <item>TypeC-BK22PostTest-3</item>
+        <item>TypeC-BK23Setup-3</item>
+        <item>TypeC-BK23PostTest-3</item>
+        <item>TypeC-BK24Setup-3</item>
+        <item>TypeC-BK24PostTest-3</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_4_File">
+        <item>TypeC-BK3Setup-4</item>
+        <item>TypeC-BK3PostTest-4</item>
+        <item>TypeC-BK5Setup-4</item>
+        <item>TypeC-BK5PostTest-4</item>
+        <item>TypeC-BK6Setup-4</item>
+        <item>TypeC-BK6PostTest-4</item>
+        <item>TypeC-BK8Setup-4</item>
+        <item>TypeC-BK8PostTest-4</item>
+        <item>TypeC-BK9Setup-4</item>
+        <item>TypeC-BK9PostTest-4</item>
+        <item>TypeC-BK10Setup-4</item>
+        <item>TypeC-BK10PostTest-4</item>
+        <item>TypeC-BK12F3Setup-4</item>
+        <item>TypeC-BK12F3PostTest-4</item>
+        <item>TypeC-BK12F4Setup-4</item>
+        <item>TypeC-BK12F4PostTest-4</item>
+        <item>TypeC-BK12F6Setup-4</item>
+        <item>TypeC-BK12F6PostTest-4</item>
+        <item>TypeC-BK12F3PUSetup-4</item>
+        <item>TypeC-BK12F3PUPostTest-4</item>
+        <item>TypeC-BK20Setup-4</item>
+        <item>TypeC-BK20PostTest-4</item>
+        <item>TypeC-BK21Setup-4</item>
+        <item>TypeC-BK21PostTest-4</item>
+        <item>TypeC-BK22Setup-4</item>
+        <item>TypeC-BK22PostTest-4</item>
+        <item>TypeC-BK23Setup-4</item>
+        <item>TypeC-BK23PostTest-4</item>
+        <item>TypeC-BK24Setup-4</item>
+        <item>TypeC-BK24PostTest-4</item>
+    </string-array>
+
+    <string-array name="TypeC_Test_5_File">
+        <item>TypeC-BK3Setup-5</item>
+        <item>TypeC-BK3PostTest-5</item>
+        <item>TypeC-BK5Setup-5</item>
+        <item>TypeC-BK5PostTest-5</item>
+        <item>TypeC-BK6Setup-5</item>
+        <item>TypeC-BK6PostTest-5</item>
+        <item>TypeC-BK8Setup-5</item>
+        <item>TypeC-BK8PostTest-5</item>
+        <item>TypeC-BK9Setup-5</item>
+        <item>TypeC-BK9PostTest-5</item>
+        <item>TypeC-BK10Setup-5</item>
+        <item>TypeC-BK10PostTest-5</item>
+        <item>TypeC-BK12F3Setup-5</item>
+        <item>TypeC-BK12F3PostTest-5</item>
+        <item>TypeC-BK12F4Setup-5</item>
+        <item>TypeC-BK12F4PostTest-5</item>
+        <item>TypeC-BK12F6Setup-5</item>
+        <item>TypeC-BK12F6PostTest-5</item>
+        <item>TypeC-BK12F3PUSetup-5</item>
+        <item>TypeC-BK12F3PUPostTest-5</item>
+        <item>TypeC-BK20Setup-5</item>
+        <item>TypeC-BK20PostTest-5</item>
+        <item>TypeC-BK21Setup-5</item>
+        <item>TypeC-BK21PostTest-5</item>
+        <item>TypeC-BK22Setup-5</item>
+        <item>TypeC-BK22PostTest-5</item>
+        <item>TypeC-BK23Setup-5</item>
+        <item>TypeC-BK23PostTest-5</item>
+        <item>TypeC-BK24Setup-5</item>
+        <item>TypeC-BK24PostTest-5</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PostTest
+    **********************************************************/
+    <string-array name="TypeC_PostTest_1_File">
+        <item>TypeC-PostISO1-1</item>
+        <item>TypeC-PostISO2-1</item>
+        <item>TypeC-BOMView-1</item>
+        <item>TypeC-PostTest1-1</item>
+        <item>TypeC-PostTest2-1</item>
+        <item>TypeC-PostTest3-1</item>
+        <item>TypeC-PostTest4-1</item>
+        <item>TypeC-PostTest5-1</item>
+        <item>TypeC-PostTest6-1</item>
+        <item>TypeC-PostTest7-1</item>
+        <item>TypeC-PostTest8-1</item>
+        <item>TypeC-PostTest9-1</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_2_File">
+        <item>TypeC-PostISO1-2</item>
+        <item>TypeC-PostISO2-2</item>
+        <item>TypeC-BOMView-2</item>
+        <item>TypeC-PostTest1-2</item>
+        <item>TypeC-PostTest2-2</item>
+        <item>TypeC-PostTest3-2</item>
+        <item>TypeC-PostTest4-2</item>
+        <item>TypeC-PostTest5-2</item>
+        <item>TypeC-PostTest6-2</item>
+        <item>TypeC-PostTest7-2</item>
+        <item>TypeC-PostTest8-2</item>
+        <item>TypeC-PostTest9-2</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_3_File">
+        <item>TypeC-PostISO1-3</item>
+        <item>TypeC-PostISO2-3</item>
+        <item>TypeC-BOMView-3</item>
+        <item>TypeC-PostTest1-3</item>
+        <item>TypeC-PostTest2-3</item>
+        <item>TypeC-PostTest3-3</item>
+        <item>TypeC-PostTest4-3</item>
+        <item>TypeC-PostTest5-3</item>
+        <item>TypeC-PostTest6-3</item>
+        <item>TypeC-PostTest7-3</item>
+        <item>TypeC-PostTest8-3</item>
+        <item>TypeC-PostTest9-3</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_4_File">
+        <item>TypeC-PostISO1-4</item>
+        <item>TypeC-PostISO2-4</item>
+        <item>TypeC-BOMView-4</item>
+        <item>TypeC-PostTest1-4</item>
+        <item>TypeC-PostTest2-4</item>
+        <item>TypeC-PostTest3-4</item>
+        <item>TypeC-PostTest4-4</item>
+        <item>TypeC-PostTest5-4</item>
+        <item>TypeC-PostTest6-4</item>
+        <item>TypeC-PostTest7-4</item>
+        <item>TypeC-PostTest8-4</item>
+        <item>TypeC-PostTest9-4</item>
+    </string-array>
+
+    <string-array name="TypeC_PostTest_5_File">
+        <item>TypeC-PostISO1-5</item>
+        <item>TypeC-PostISO2-5</item>
+        <item>TypeC-BOMView-5</item>
+        <item>TypeC-PostTest1-5</item>
+        <item>TypeC-PostTest2-5</item>
+        <item>TypeC-PostTest3-5</item>
+        <item>TypeC-PostTest4-5</item>
+        <item>TypeC-PostTest5-5</item>
+        <item>TypeC-PostTest6-5</item>
+        <item>TypeC-PostTest7-5</item>
+        <item>TypeC-PostTest8-5</item>
+        <item>TypeC-PostTest9-5</item>
+    </string-array>
+</resources>
