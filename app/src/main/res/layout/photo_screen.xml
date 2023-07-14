@@ -134,7 +134,7 @@
         android:paddingLeft="10dp"
         android:textColorHint="#A6A5A5"
         android:textStyle="italic"
-        android:textColor="@color/black" />
+        android:textColor="@color/textColor" />
 
     <ImageView
         android:layout_width="30dp"
