@@ -48,7 +48,6 @@ public class AmazonActivity extends AppCompatActivity {
      * Initializations
      **********************************************************/
     Spinner typeSpinner;
-
     Spinner phaseSpinner;
     Spinner unitSpinner;
     ListView photoList;
