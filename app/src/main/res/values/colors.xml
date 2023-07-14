@@ -9,4 +9,5 @@
     <color name="KeyDark">#666666</color>
     <color name="KeyOr">#ff6500</color>
     <color name="photoColor">#31cc36</color>
+    <color name="textColor">#FF000000</color>
 </resources>
