@@ -53,7 +53,7 @@ public class AmazonActivity extends AppCompatActivity {
     ListView photoList;
     EditText job;
     ImageView check;
-    Button photoBtn, folderBtn;
+    Button folderBtn;
     ImageView backArrow;
     private static final int CAMERA_REQUEST_CODE = 123;
     private Drive driveService;
@@ -93,7 +93,6 @@ public class AmazonActivity extends AppCompatActivity {
         phaseSpinner = findViewById(R.id.phaseSpinner);
         unitSpinner = findViewById(R.id.unitSpinner);
         photoList = findViewById(R.id.photoList);
-        photoBtn = findViewById(R.id.photoBtn);
         folderBtn = findViewById(R.id.folderBtn);
         job = findViewById(R.id.job);
         check = findViewById(R.id.check);
