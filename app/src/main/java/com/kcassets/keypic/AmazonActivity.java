@@ -134,10 +134,6 @@ public class AmazonActivity extends AppCompatActivity {
         });
         title.setText("Amazon");
 
-        photoBtn.setOnClickListener(v -> {
-            makePhotoList();
-        });
-
         // Set click listener for photo list items
         photoList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -271,6 +267,42 @@ public class AmazonActivity extends AppCompatActivity {
 
         ArrayAdapter<String> unitAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, unitArray);
         unitSpinner.setAdapter(unitAdapter);
+
+        typeSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
+
+        phaseSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
+
+        unitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
     }
 
 
@@ -527,6 +559,7 @@ public class AmazonActivity extends AppCompatActivity {
                         photoList.setAdapter(photoAdapter);
                     }
                     existingFileNames.clear();
+                    makePhotoList();
                     check.setVisibility(View.VISIBLE);
                     Toast.makeText(AmazonActivity.this, "Folder Created in 'My Drive'", Toast.LENGTH_SHORT).show();
 
