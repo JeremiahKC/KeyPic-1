@@ -26,6 +26,7 @@ public class WelcomeActivity extends AppCompatActivity {
     Button signOutBtn;
     Button emcBtn;
     Button amazonBtn;
+    Button customBtn;
 
 
     /***********************************************************
@@ -46,6 +47,7 @@ public class WelcomeActivity extends AppCompatActivity {
         signOutBtn = findViewById(R.id.signOutBtn);
         emcBtn = findViewById(R.id.emcBtn);
         amazonBtn = findViewById(R.id.amazonBtn);
+        customBtn = findViewById(R.id.customBtn);
 
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this,gso);
@@ -75,6 +77,14 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 startActivity(new Intent(WelcomeActivity.this, AmazonActivity.class));
+            }
+        });
+
+        customBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                startActivity(new Intent(WelcomeActivity.this, CustomActivity.class));
             }
         });
 

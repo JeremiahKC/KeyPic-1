@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/customLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="CustomActivity">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/assetId"
+        android:layout_marginTop="200dp"
+        android:paddingVertical="8dp"
+        android:background="@color/black"
+        android:gravity="center_vertical"
+        android:paddingLeft="14dp"
+        android:text="Photo"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/folderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="105dp"
+        android:layout_toRightOf="@+id/job"
+        android:background="@color/KeyOr"
+        android:paddingHorizontal="10dp"
+        android:text="Check Folder"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="110dp"
+        android:hint="Job Number"
+        android:paddingRight="50dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#A6A5A5"
+        android:textStyle="italic"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:hint="Photo File Name"
+        android:paddingRight="200dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#A6A5A5"
+        android:textStyle="italic"
+        android:textColor="@color/textColor" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/check_mark"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/check"/>
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/KeyDark"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:text="Photo Number" />
+
+    <Button
+        android:id="@+id/minusBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/circle_button"
+        android:text="-"
+        android:layout_marginLeft="135dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/circle_button"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="465dp"
+        android:textColor="@color/KeyDark"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:text="File" />
+
+    <TextView
+        android:id="@+id/fileDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:textSize="25sp"
+        android:text="file" />
+
+    <Button
+        android:id="@+id/photoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:background="@color/KeyOr"
+        android:paddingHorizontal="10dp"
+        android:text="Take Photo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>
