@@ -59,12 +59,9 @@ public class CustomActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     TextView title, number, fileDisplay;
     ListView photoList;
-
-    // Arrays and Strings
     String folderName;
     String fileName;
     String accessToken;
-    List<String> fileNames = new ArrayList<>();
     List<String> existingFileNames = new ArrayList<>();
     private int currentNumber = 1;
     String progressMessage;

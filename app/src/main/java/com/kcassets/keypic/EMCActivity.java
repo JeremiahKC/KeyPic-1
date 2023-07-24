@@ -60,8 +60,6 @@ public class EMCActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     TextView title, textPhase, textUnit;
     PhotoAdapter photoAdapter;
-
-    // Arrays and Strings
     String[] typeArray;
     String[] unitArray;
     private String selectedType;

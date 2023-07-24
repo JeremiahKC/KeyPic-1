@@ -9,7 +9,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -60,8 +59,6 @@ public class AmazonActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     TextView title;
     PhotoAdapter photoAdapter;
-
-    // Arrays and Strings
     String[] typeArray;
     String[] phaseArray;
     String[] unitArray;
@@ -88,7 +85,7 @@ public class AmazonActivity extends AppCompatActivity {
         /***********************************************************
          * Local Initializations
          **********************************************************/
-        // Initialize spinners and list view and buttons
+        // Initialize elements
         typeSpinner = findViewById(R.id.typeSpinner);
         phaseSpinner = findViewById(R.id.phaseSpinner);
         unitSpinner = findViewById(R.id.unitSpinner);
@@ -113,9 +110,11 @@ public class AmazonActivity extends AppCompatActivity {
         // Setup Spinners
         setupSpinners();
 
+        // Retrieve access token
         SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         accessToken = sharedPreferences.getString("access_token", null);
 
+        // Check expiration time of access token
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
 
