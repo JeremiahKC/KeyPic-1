@@ -47,7 +47,9 @@
         android:paddingLeft="10dp"
         android:textColorHint="#A6A5A5"
         android:textStyle="italic"
-        android:textColor="@color/textColor" />
+        android:textColor="@color/textColor"
+        android:imeOptions="actionDone|flagNoFullscreen"
+        android:singleLine="true" />
 
     <EditText
         android:id="@+id/pic"
@@ -60,7 +62,10 @@
         android:paddingLeft="10dp"
         android:textColorHint="#A6A5A5"
         android:textStyle="italic"
-        android:textColor="@color/textColor" />
+        android:textColor="@color/textColor"
+        android:imeOptions="actionDone|flagNoFullscreen"
+        android:singleLine="true"
+        />
 
     <ImageView
         android:layout_width="30dp"
