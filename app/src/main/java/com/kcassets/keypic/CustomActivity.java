@@ -65,6 +65,8 @@ public class CustomActivity extends AppCompatActivity {
     List<String> fileNames = new ArrayList<>();
     List<String> existingFileNames = new ArrayList<>();
     private int currentNumber = 1;
+    String progressMessage;
+    String toastMessage;
 
 
     /***********************************************************
@@ -242,7 +244,10 @@ public class CustomActivity extends AppCompatActivity {
                 // Remove focus and cursor from the EditText
                 job.clearFocus();
 
-                DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog);
+                // Perform the Google Drive API task
+                progressMessage = "Searching for folder... ";
+                toastMessage = "Folder found in 'My Drive'";
+                DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
                 driveTask.execute();
             }
         });
@@ -284,8 +289,9 @@ public class CustomActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
-            Toast.makeText(CustomActivity.this, "Photo Saved Successfully in Drive", Toast.LENGTH_SHORT).show();
-            DriveTask updateList = new DriveTask(folderName, driveService, progressDialog);
+            progressMessage = "Updating Folder... ";
+            toastMessage = "Photo Saved Successfully";
+            DriveTask updateList = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
             updateList.execute();
         }
     }
@@ -299,10 +305,14 @@ public class CustomActivity extends AppCompatActivity {
         private Drive service;
         private ProgressDialog progressDialog;
         private boolean createFolder;
+        private String progressMessage;
+        private String toastMessage;
 
-        public DriveTask(String folderInput, Drive service, ProgressDialog progressDialog) {
+        public DriveTask(String folderInput, Drive service, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
             this.folderInput = folderInput;
             this.service = service;
+            this.progressMessage = progressMessage;
+            this.toastMessage = toastMessage;
             this.progressDialog = progressDialog;
             this.createFolder = false;
         }
@@ -310,7 +320,7 @@ public class CustomActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            progressDialog.setMessage("Searching for folder... ");
+            progressDialog.setMessage(progressMessage);
             progressDialog.show();
         }
 
@@ -354,7 +364,7 @@ public class CustomActivity extends AppCompatActivity {
             if (result) {
                 if (!createFolder) {
                     check.setVisibility(View.VISIBLE);
-                    Toast.makeText(CustomActivity.this, "Folder found in 'My Drive'", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CustomActivity.this, toastMessage, Toast.LENGTH_SHORT).show();
                 }
 
                 if (createFolder) {

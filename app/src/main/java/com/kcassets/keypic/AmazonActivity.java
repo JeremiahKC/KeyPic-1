@@ -383,9 +383,8 @@ public class AmazonActivity extends AppCompatActivity {
             }
         }
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
-            Toast.makeText(AmazonActivity.this, "Photo Saved Successfully in Drive", Toast.LENGTH_SHORT).show();
             progressMessage = "Updating List... ";
-            toastMessage = "List Updated";
+            toastMessage = "Photo Saved Successfully";
             DriveTask updateList = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
             updateList.execute();
         }

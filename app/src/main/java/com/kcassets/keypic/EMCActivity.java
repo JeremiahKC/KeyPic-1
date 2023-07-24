@@ -5,16 +5,13 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -44,7 +41,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class EmcActivity extends AppCompatActivity {
+public class EMCActivity extends AppCompatActivity {
 
 
     /***********************************************************
@@ -61,23 +58,21 @@ public class EmcActivity extends AppCompatActivity {
     private static final int CAMERA_REQUEST_CODE = 123;
     private Drive driveService;
     ProgressDialog progressDialog;
-    TextView title;
-    TextView textPhase;
-    TextView textUnit;
+    TextView title, textPhase, textUnit;
     PhotoAdapter photoAdapter;
 
     // Arrays and Strings
     String[] typeArray;
-    String[] phaseArray;
     String[] unitArray;
     private String selectedType;
+    private String selectedPhase;
     private String selectedUnit;
     String folderName;
-    List<String> fileNames = new ArrayList<>();
-    List<String> existingFileNames = new ArrayList<>();
-    String accessToken;
     String progressMessage;
     String toastMessage;
+    String accessToken;
+    List<String> fileNames = new ArrayList<>();
+    List<String> existingFileNames = new ArrayList<>();
 
 
     /***********************************************************
@@ -105,7 +100,7 @@ public class EmcActivity extends AppCompatActivity {
         textPhase = findViewById(R.id.textPhase);
         textUnit = findViewById(R.id.textUnit);
 
-        progressDialog = new ProgressDialog(EmcActivity.this);
+        progressDialog = new ProgressDialog(EMCActivity.this);
         progressDialog.setIndeterminate(true);
         progressDialog.setCancelable(false);
 
@@ -119,7 +114,6 @@ public class EmcActivity extends AppCompatActivity {
 
         // Initialize arrays from resources
         typeArray = getResources().getStringArray(R.array.test_type);
-        phaseArray = getResources().getStringArray(R.array.amazon_phase);
         unitArray = getResources().getStringArray(R.array.amazon_unit);
 
         // Setup Spinners
@@ -138,7 +132,7 @@ public class EmcActivity extends AppCompatActivity {
         backArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EmcActivity.this, WelcomeActivity.class);
+                Intent intent = new Intent(EMCActivity.this, WelcomeActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -164,7 +158,7 @@ public class EmcActivity extends AppCompatActivity {
                         launchCamera(selectedPhoto, selectedFileName, folderName);
                     }
                 } else {
-                    Toast.makeText(EmcActivity.this, "Error: Job Number/Folder is empty or invalid", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EMCActivity.this, "Error: Job Number/Folder is empty or invalid", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -241,13 +235,13 @@ public class EmcActivity extends AppCompatActivity {
         Drawable background = view.getBackground();
         if (background instanceof ColorDrawable) {
             int backgroundColor = ((ColorDrawable) background).getColor();
-            return backgroundColor == ContextCompat.getColor(EmcActivity.this, R.color.photoColor);
+            return backgroundColor == ContextCompat.getColor(EMCActivity.this, R.color.photoColor);
         }
         return false;
     }
 
     private void showRetakeDialog(final int position) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(EmcActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(EMCActivity.this);
         builder.setTitle("Retake Photo");
         builder.setMessage("This photo already exists in the folder. Would you like to retake it?");
         builder.setPositiveButton("Retake", new DialogInterface.OnClickListener() {
@@ -256,6 +250,7 @@ public class EmcActivity extends AppCompatActivity {
                 // Get the selected photo name
                 String selectedPhoto = (String) photoList.getItemAtPosition(position);
                 String selectedFileName = fileNames.get(position);
+                // Call the launchCamera method or perform desired action
                 launchCamera(selectedPhoto, selectedFileName, folderName);
             }
         });
@@ -274,6 +269,30 @@ public class EmcActivity extends AppCompatActivity {
 
         ArrayAdapter<String> unitAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, unitArray);
         unitSpinner.setAdapter(unitAdapter);
+
+        typeSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
+
+        unitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
     }
 
 
@@ -283,6 +302,7 @@ public class EmcActivity extends AppCompatActivity {
     private void makePhotoList() {
         // Get selected spinner values
         selectedType = typeSpinner.getSelectedItem().toString();
+        selectedPhase = phaseSpinner.getSelectedItem().toString();
         selectedUnit = unitSpinner.getSelectedItem().toString();
 
         // Create an array name based on the selected values
@@ -313,6 +333,7 @@ public class EmcActivity extends AppCompatActivity {
             String fileName = fileNameArray[i];
             fileNames.add(fileName);
         }
+
         photoAdapter = new PhotoAdapter(getApplicationContext(), fileNames, existingFileNames, listViewItems);
         photoList.setAdapter(photoAdapter);
     }
@@ -327,13 +348,14 @@ public class EmcActivity extends AppCompatActivity {
         intent.putExtra("fileName", fileName);
         intent.putExtra("folderName", folderName);
         intent.putExtra("selectedType", selectedType);
+        intent.putExtra("selectedPhase", selectedPhase);
         intent.putExtra("selectedUnit", selectedUnit);
         startActivityForResult(intent, CAMERA_REQUEST_CODE);
     }
 
 
     /***********************************************************
-     * Resume EmcActivity and Update Highlight
+     * Resume AmazonActivity and Update Highlight
      **********************************************************/
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -342,6 +364,7 @@ public class EmcActivity extends AppCompatActivity {
             // Restore the state of the activity
             if (data != null) {
                 selectedType = data.getStringExtra("selectedType");
+                selectedPhase = data.getStringExtra("selectedPhase");
                 selectedUnit = data.getStringExtra("selectedUnit");
 
                 // Set the spinner values
@@ -350,9 +373,8 @@ public class EmcActivity extends AppCompatActivity {
             }
         }
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
-            Toast.makeText(EmcActivity.this, "Photo Saved Successfully in Drive", Toast.LENGTH_SHORT).show();
             progressMessage = "Updating List... ";
-            toastMessage = "List Updated";
+            toastMessage = "Photo Saved Successfully";
             DriveTask updateList = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
             updateList.execute();
         }
@@ -414,7 +436,6 @@ public class EmcActivity extends AppCompatActivity {
                     FileList fileList = service.files().list().setQ(fileQuery).setSpaces("drive").execute();
                     List<File> folderFiles = fileList.getFiles();
                     existingFileNames.clear();
-
                     for (File file : folderFiles) {
                         existingFileNames.add(file.getName());
                     }
@@ -436,7 +457,7 @@ public class EmcActivity extends AppCompatActivity {
             if (result) {
                 if (!createFolder) {
                     check.setVisibility(View.VISIBLE);
-                    Toast.makeText(EmcActivity.this, toastMessage, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EMCActivity.this, toastMessage, Toast.LENGTH_SHORT).show();
                     if (!fileNames.isEmpty()) {
                         makePhotoList();
                     }
@@ -446,7 +467,7 @@ public class EmcActivity extends AppCompatActivity {
                     showCreateFolderDialog();
                 }
             } else {
-                Toast.makeText(EmcActivity.this, "Error: Network connection not found.", Toast.LENGTH_LONG).show();
+                Toast.makeText(EMCActivity.this, "Error: Network connection not found.", Toast.LENGTH_LONG).show();
             }
         }
 
@@ -463,6 +484,7 @@ public class EmcActivity extends AppCompatActivity {
                             folderName = null;
                         }
                     });
+
             AlertDialog alert = builder.create();
             alert.show();
         }
@@ -472,7 +494,7 @@ public class EmcActivity extends AppCompatActivity {
          * Create Folder if it Does not Exist
          **********************************************************/
         private void createFolder() {
-            ProgressDialog createFolderProgressDialog = new ProgressDialog(EmcActivity.this);
+            ProgressDialog createFolderProgressDialog = new ProgressDialog(EMCActivity.this);
             createFolderProgressDialog.setCancelable(false);
 
             new CreateFolderTask(folderInput, service, createFolderProgressDialog).execute();
@@ -525,11 +547,12 @@ public class EmcActivity extends AppCompatActivity {
                         photoList.setAdapter(photoAdapter);
                     }
                     existingFileNames.clear();
+                    makePhotoList();
                     check.setVisibility(View.VISIBLE);
-                    Toast.makeText(EmcActivity.this, "Folder Created in 'My Drive'", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EMCActivity.this, "Folder Created in 'My Drive'", Toast.LENGTH_SHORT).show();
 
                 } else {
-                    Toast.makeText(EmcActivity.this, "Error: Network connection not found.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(EMCActivity.this, "Error: Network connection not found.", Toast.LENGTH_LONG).show();
                 }
             }
         }
