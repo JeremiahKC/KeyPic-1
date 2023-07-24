@@ -41,6 +41,7 @@ import com.google.api.services.drive.model.FileList;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class CustomActivity extends AppCompatActivity {
@@ -57,6 +58,7 @@ public class CustomActivity extends AppCompatActivity {
     private Drive driveService;
     ProgressDialog progressDialog;
     TextView title, number, fileDisplay;
+    ListView photoList;
 
     // Arrays and Strings
     String folderName;
@@ -93,6 +95,7 @@ public class CustomActivity extends AppCompatActivity {
         number = findViewById(R.id.number);
         fileDisplay = findViewById(R.id.fileDisplay);
         backArrow = findViewById(R.id.backArrow);
+        photoList = findViewById(R.id.photoList);
 
         progressDialog = new ProgressDialog(CustomActivity.this);
         progressDialog.setIndeterminate(true);
@@ -364,6 +367,18 @@ public class CustomActivity extends AppCompatActivity {
             if (result) {
                 if (!createFolder) {
                     check.setVisibility(View.VISIBLE);
+
+                    // Get the current list of items from the photoList ListView
+
+                    // Add the fileName string at the first position of the list
+                    List<String> currentList = new ArrayList<>(existingFileNames);
+
+                    // Create or update the adapter with the new list of items
+                    ArrayAdapter<String> adapter = new ArrayAdapter<>(CustomActivity.this,android.R.layout.simple_list_item_1, currentList);
+
+                    // Set the updated adapter to the photoList ListView
+                    photoList.setAdapter(adapter);
+
                     Toast.makeText(CustomActivity.this, toastMessage, Toast.LENGTH_SHORT).show();
                 }
 

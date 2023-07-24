@@ -1,5 +1,7 @@
 package com.kcassets.keypic;
 
+import static androidx.camera.core.AspectRatio.RATIO_4_3;
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -140,14 +142,13 @@ public class CameraLaunchActivity extends AppCompatActivity {
      * Camera Opener
      **********************************************************/
     public void startCamera(int cameraFacing) {
-        int aspectRatio = aspectRatio(previewView.getWidth(), previewView.getHeight());
         ListenableFuture<ProcessCameraProvider> listenableFuture = ProcessCameraProvider.getInstance(this);
 
         listenableFuture.addListener(() -> {
             try {
                 ProcessCameraProvider cameraProvider = (ProcessCameraProvider) listenableFuture.get();
 
-                Preview preview = new Preview.Builder().setTargetAspectRatio(aspectRatio).build();
+                Preview preview = new Preview.Builder().setTargetAspectRatio(RATIO_4_3).build();
 
                 ImageCapture imageCapture = new ImageCapture.Builder().setCaptureMode(ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY)
                         .setTargetRotation(getWindowManager().getDefaultDisplay().getRotation()).build();
@@ -448,14 +449,6 @@ public class CameraLaunchActivity extends AppCompatActivity {
                 toggleFlash.setImageResource(R.drawable.baseline_flash_on_24);
             }
         }
-    }
-
-    private int aspectRatio(int width, int height) {
-        double previewRatio = (double) Math.max(width, height) / Math.min(width, height);
-        if (Math.abs(previewRatio - 4.0 / 3.0) <= Math.abs(previewRatio - 16.0 / 9.0)) {
-            return AspectRatio.RATIO_4_3;
-        }
-        return AspectRatio.RATIO_16_9;
     }
 }
 
