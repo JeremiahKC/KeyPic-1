@@ -82,7 +82,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:background="@color/KeyOr"
-        android:text="AMAZON"
+        android:text="PACKAGE"
         android:textColor="@color/white"
         android:textSize="20sp" />
 

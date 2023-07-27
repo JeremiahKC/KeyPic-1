@@ -130,7 +130,7 @@ public class AmazonActivity extends AppCompatActivity {
                 finish();
             }
         });
-        title.setText("Amazon");
+        title.setText("Package");
 
         // Set click listener for photo list items
         photoList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
