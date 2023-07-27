@@ -4,63 +4,63 @@
     * PreTest
     **********************************************************/
     <string-array name="TypeG_PreTest_1">
-        <item>Side 1 (unit1)</item>
-        <item>Side 2 (unit1)</item>
-        <item>Side 3 (unit1)</item>
-        <item>Side 4 (unit1)</item>
-        <item>Side 5 (unit1)</item>
-        <item>Side 6 (unit1)</item>
+        <item>Face 1 (unit1)</item>
+        <item>Face 2 (unit1)</item>
+        <item>Face 3 (unit1)</item>
+        <item>Face 4 (unit1)</item>
+        <item>Face 5 (unit1)</item>
+        <item>Face 6 (unit1)</item>
         <item>Box Cert (unit1)</item>
-        <item>ISO #1 Side 1/2/5 (unit1)</item>
-        <item>ISO #2 Sides 3/4/6 (unit1)</item>
+        <item>Pre Test ISO 1-2-5 (unit1)</item>
+        <item>Pre Test ISO 3-4-6 (unit1)</item>
     </string-array>
 
     <string-array name="TypeG_PreTest_2">
-        <item>Side 1 (unit2)</item>
-        <item>Side 2 (unit2)</item>
-        <item>Side 3 (unit2)</item>
-        <item>Side 4 (unit2)</item>
-        <item>Side 5 (unit2)</item>
-        <item>Side 6 (unit2)</item>
+        <item>Face 1 (unit2)</item>
+        <item>Face 2 (unit2)</item>
+        <item>Face 3 (unit2)</item>
+        <item>Face 4 (unit2)</item>
+        <item>Face 5 (unit2)</item>
+        <item>Face 6 (unit2)</item>
         <item>Box Cert (unit2)</item>
-        <item>ISO #1 Side 1/2/5 (unit2)</item>
-        <item>ISO #2 Sides 3/4/6 (unit2)</item>
+        <item>Pre Test ISO 1-2-5 (unit2)</item>
+        <item>Pre Test ISO 3-4-6 (unit2)</item>
     </string-array>
 
     <string-array name="TypeG_PreTest_3">
-        <item>Side 1 (unit3)</item>
-        <item>Side 2 (unit3)</item>
-        <item>Side 3 (unit3)</item>
-        <item>Side 4 (unit3)</item>
-        <item>Side 5 (unit3)</item>
-        <item>Side 6 (unit3)</item>
+        <item>Face 1 (unit3)</item>
+        <item>Face 2 (unit3)</item>
+        <item>Face 3 (unit3)</item>
+        <item>Face 4 (unit3)</item>
+        <item>Face 5 (unit3)</item>
+        <item>Face 6 (unit3)</item>
         <item>Box Cert (unit3)</item>
-        <item>ISO #1 Side 1/2/5 (unit3)</item>
-        <item>ISO #2 Sides 3/4/6 (unit3)</item>
+        <item>Pre Test ISO 1-2-5 (unit3)</item>
+        <item>Pre Test ISO 3-4-6 (unit3)</item>
     </string-array>
 
     <string-array name="TypeG_PreTest_4">
-        <item>Side 1 (unit4)</item>
-        <item>Side 2 (unit4)</item>
-        <item>Side 3 (unit4)</item>
-        <item>Side 4 (unit4)</item>
-        <item>Side 5 (unit4)</item>
-        <item>Side 6 (unit4)</item>
+        <item>Face 1 (unit4)</item>
+        <item>Face 2 (unit4)</item>
+        <item>Face 3 (unit4)</item>
+        <item>Face 4 (unit4)</item>
+        <item>Face 5 (unit4)</item>
+        <item>Face 6 (unit4)</item>
         <item>Box Cert (unit4)</item>
-        <item>ISO #1 Side 1/2/5 (unit4)</item>
-        <item>ISO #2 Sides 3/4/6 (unit4)</item>
+        <item>Pre Test ISO 1-2-5 (unit4)</item>
+        <item>Pre Test ISO 3-4-6 (unit4)</item>
     </string-array>
 
     <string-array name="TypeG_PreTest_5">
-        <item>Side 1 (unit5)</item>
-        <item>Side 2 (unit5)</item>
-        <item>Side 3 (unit5)</item>
-        <item>Side 4 (unit5)</item>
-        <item>Side 5 (unit5)</item>
-        <item>Side 6 (unit5)</item>
+        <item>Face 1 (unit5)</item>
+        <item>Face 2 (unit5)</item>
+        <item>Face 3 (unit5)</item>
+        <item>Face 4 (unit5)</item>
+        <item>Face 5 (unit5)</item>
+        <item>Face 6 (unit5)</item>
         <item>Box Cert (unit5)</item>
-        <item>ISO #1 Side 1/2/5 (unit5)</item>
-        <item>ISO #2 Sides 3/4/6 (unit5)</item>
+        <item>Pre Test ISO 1-2-5 (unit5)</item>
+        <item>Pre Test ISO 3-4-6 (unit5)</item>
     </string-array>
 
 
@@ -68,118 +68,118 @@
     * Test
     **********************************************************/
     <string-array name="TypeG_Test_1">
-        <item>Block 2 Test Set Up (unit1)</item>
-        <item>Block 2 Post Test Item (unit1)</item>
-        <item>Block 9 Test Set Up (unit1)</item>
-        <item>Block 9 Post Test Item (unit1)</item>
-        <item>Block 10 Test Set Up (unit1)</item>
-        <item>Block 10 Post Test Item (unit1)</item>
-        <item>Block 12 Face 3 Test Set Up (unit1)</item>
-        <item>Block 12 Face 3 Post Test Item (unit1)</item>
-        <item>Block 12 Face 4 Test Set Up (unit1)</item>
-        <item>Block 12 Face 4 Post Test Item (unit1)</item>
-        <item>Block 12 Face 6 Test Set Up (unit1)</item>
-        <item>Block 12 Face 6 Post Test Item (unit1)</item>
-        <item>Block 12 Face 3 (Pick-up) Test Set Up (unit1)</item>
-        <item>Block 12 Face 3 (Pick-up) Post Test Item (unit1)</item>
-        <item>Block 20 Test Set Up (unit1)</item>
-        <item>Block 20 Post Test Item (unit1)</item>
-        <item>Block 15 Test Set Up (unit1)</item>
-        <item>Block 15 Post Test Item (unit1)</item>
-        <item>Block 24 Test Set Up (unit1)</item>
-        <item>Block 24 Post Test Item (unit1)</item>
+        <item>Drop Test 1 Setup (unit1)</item>
+        <item>Drop Test 1 Post Test (unit1)</item>
+        <item>Horizontal Clamping Setup (unit1)</item>
+        <item>Horizontal Clamping Post Test (unit1)</item>
+        <item>Vertical Compression Setup (unit1)</item>
+        <item>Vertical Compression Post Test (unit1)</item>
+        <item>Face 3 Vibe Setup (unit1)</item>
+        <item>Face 3 Vibe Post Test (unit1)</item>
+        <item>Face 4 Vibe Setup (unit1)</item>
+        <item>Face 4 Vibe Post Test (unit1)</item>
+        <item>Face 6 Vibe Setup (unit1)</item>
+        <item>Face 6 Vibe Post Test (unit1)</item>
+        <item>Pickup and Delivery Setup (unit1)</item>
+        <item>Pickup and Delivery Post Test (unit1)</item>
+        <item>Incline Impact Setup (unit1)</item>
+        <item>Incline Impact Post Test (unit1)</item>
+        <item>Drop Test 2 Setup (unit1)</item>
+        <item>Drop Test 2 Post Test (unit1)</item>
+        <item>Concentrated Edge Impact Setup (unit1)</item>
+        <item>Concentrated Edge Impact Post Test (unit1)</item>
     </string-array>
 
     <string-array name="TypeG_Test_2">
-        <item>Block 2 Test Set Up (unit2)</item>
-        <item>Block 2 Post Test Item (unit2)</item>
-        <item>Block 9 Test Set Up (unit2)</item>
-        <item>Block 9 Post Test Item (unit2)</item>
-        <item>Block 10 Test Set Up (unit2)</item>
-        <item>Block 10 Post Test Item (unit2)</item>
-        <item>Block 12 Face 3 Test Set Up (unit2)</item>
-        <item>Block 12 Face 3 Post Test Item (unit2)</item>
-        <item>Block 12 Face 4 Test Set Up (unit2)</item>
-        <item>Block 12 Face 4 Post Test Item (unit2)</item>
-        <item>Block 12 Face 6 Test Set Up (unit2)</item>
-        <item>Block 12 Face 6 Post Test Item (unit2)</item>
-        <item>Block 12 Face 3 (Pick-up) Test Set Up (unit2)</item>
-        <item>Block 12 Face 3 (Pick-up) Post Test Item (unit2)</item>
-        <item>Block 20 Test Set Up (unit2)</item>
-        <item>Block 20 Post Test Item (unit2)</item>
-        <item>Block 15 Test Set Up (unit2)</item>
-        <item>Block 15 Post Test Item (unit2)</item>
-        <item>Block 24 Test Set Up (unit2)</item>
-        <item>Block 24 Post Test Item (unit2)</item>
+        <item>Drop Test 1 Setup (unit2)</item>
+        <item>Drop Test 1 Post Test (unit2)</item>
+        <item>Horizontal Clamping Setup (unit2)</item>
+        <item>Horizontal Clamping Post Test (unit2)</item>
+        <item>Vertical Compression Setup (unit2)</item>
+        <item>Vertical Compression Post Test (unit2)</item>
+        <item>Face 3 Vibe Setup (unit2)</item>
+        <item>Face 3 Vibe Post Test (unit2)</item>
+        <item>Face 4 Vibe Setup (unit2)</item>
+        <item>Face 4 Vibe Post Test (unit2)</item>
+        <item>Face 6 Vibe Setup (unit2)</item>
+        <item>Face 6 Vibe Post Test (unit2)</item>
+        <item>Pickup and Delivery Setup (unit2)</item>
+        <item>Pickup and Delivery Post Test (unit2)</item>
+        <item>Incline Impact Setup (unit2)</item>
+        <item>Incline Impact Post Test (unit2)</item>
+        <item>Drop Test 2 Setup (unit2)</item>
+        <item>Drop Test 2 Post Test (unit2)</item>
+        <item>Concentrated Edge Impact Setup (unit2)</item>
+        <item>Concentrated Edge Impact Post Test (unit2)</item>
     </string-array>
 
     <string-array name="TypeG_Test_3">
-        <item>Block 2 Test Set Up (unit3)</item>
-        <item>Block 2 Post Test Item (unit3)</item>
-        <item>Block 9 Test Set Up (unit3)</item>
-        <item>Block 9 Post Test Item (unit3)</item>
-        <item>Block 10 Test Set Up (unit3)</item>
-        <item>Block 10 Post Test Item (unit3)</item>
-        <item>Block 12 Face 3 Test Set Up (unit3)</item>
-        <item>Block 12 Face 3 Post Test Item (unit3)</item>
-        <item>Block 12 Face 4 Test Set Up (unit3)</item>
-        <item>Block 12 Face 4 Post Test Item (unit3)</item>
-        <item>Block 12 Face 6 Test Set Up (unit3)</item>
-        <item>Block 12 Face 6 Post Test Item (unit3)</item>
-        <item>Block 12 Face 3 (Pick-up) Test Set Up (unit3)</item>
-        <item>Block 12 Face 3 (Pick-up) Post Test Item (unit3)</item>
-        <item>Block 20 Test Set Up (unit3)</item>
-        <item>Block 20 Post Test Item (unit3)</item>
-        <item>Block 15 Test Set Up (unit3)</item>
-        <item>Block 15 Post Test Item (unit3)</item>
-        <item>Block 24 Test Set Up (unit3)</item>
-        <item>Block 24 Post Test Item (unit3)</item>
+        <item>Drop Test 1 Setup (unit3)</item>
+        <item>Drop Test 1 Post Test (unit3)</item>
+        <item>Horizontal Clamping Setup (unit3)</item>
+        <item>Horizontal Clamping Post Test (unit3)</item>
+        <item>Vertical Compression Setup (unit3)</item>
+        <item>Vertical Compression Post Test (unit3)</item>
+        <item>Face 3 Vibe Setup (unit3)</item>
+        <item>Face 3 Vibe Post Test (unit3)</item>
+        <item>Face 4 Vibe Setup (unit3)</item>
+        <item>Face 4 Vibe Post Test (unit3)</item>
+        <item>Face 6 Vibe Setup (unit3)</item>
+        <item>Face 6 Vibe Post Test (unit3)</item>
+        <item>Pickup and Delivery Setup (unit3)</item>
+        <item>Pickup and Delivery Post Test (unit3)</item>
+        <item>Incline Impact Setup (unit3)</item>
+        <item>Incline Impact Post Test (unit3)</item>
+        <item>Drop Test 2 Setup (unit3)</item>
+        <item>Drop Test 2 Post Test (unit3)</item>
+        <item>Concentrated Edge Impact Setup (unit3)</item>
+        <item>Concentrated Edge Impact Post Test (unit3)</item>
     </string-array>
 
     <string-array name="TypeG_Test_4">
-        <item>Block 2 Test Set Up (unit4)</item>
-        <item>Block 2 Post Test Item (unit4)</item>
-        <item>Block 9 Test Set Up (unit4)</item>
-        <item>Block 9 Post Test Item (unit4)</item>
-        <item>Block 10 Test Set Up (unit4)</item>
-        <item>Block 10 Post Test Item (unit4)</item>
-        <item>Block 12 Face 3 Test Set Up (unit4)</item>
-        <item>Block 12 Face 3 Post Test Item (unit4)</item>
-        <item>Block 12 Face 4 Test Set Up (unit4)</item>
-        <item>Block 12 Face 4 Post Test Item (unit4)</item>
-        <item>Block 12 Face 6 Test Set Up (unit4)</item>
-        <item>Block 12 Face 6 Post Test Item (unit4)</item>
-        <item>Block 12 Face 3 (Pick-up) Test Set Up (unit4)</item>
-        <item>Block 12 Face 3 (Pick-up) Post Test Item (unit4)</item>
-        <item>Block 20 Test Set Up (unit4)</item>
-        <item>Block 20 Post Test Item (unit4)</item>
-        <item>Block 15 Test Set Up (unit4)</item>
-        <item>Block 15 Post Test Item (unit4)</item>
-        <item>Block 24 Test Set Up (unit4)</item>
-        <item>Block 24 Post Test Item (unit4)</item>
+        <item>Drop Test 1 Setup (unit4)</item>
+        <item>Drop Test 1 Post Test (unit4)</item>
+        <item>Horizontal Clamping Setup (unit4)</item>
+        <item>Horizontal Clamping Post Test (unit4)</item>
+        <item>Vertical Compression Setup (unit4)</item>
+        <item>Vertical Compression Post Test (unit4)</item>
+        <item>Face 3 Vibe Setup (unit4)</item>
+        <item>Face 3 Vibe Post Test (unit4)</item>
+        <item>Face 4 Vibe Setup (unit4)</item>
+        <item>Face 4 Vibe Post Test (unit4)</item>
+        <item>Face 6 Vibe Setup (unit4)</item>
+        <item>Face 6 Vibe Post Test (unit4)</item>
+        <item>Pickup and Delivery Setup (unit4)</item>
+        <item>Pickup and Delivery Post Test (unit4)</item>
+        <item>Incline Impact Setup (unit4)</item>
+        <item>Incline Impact Post Test (unit4)</item>
+        <item>Drop Test 2 Setup (unit4)</item>
+        <item>Drop Test 2 Post Test (unit4)</item>
+        <item>Concentrated Edge Impact Setup (unit4)</item>
+        <item>Concentrated Edge Impact Post Test (unit4)</item>
     </string-array>
 
     <string-array name="TypeG_Test_5">
-        <item>Block 2 Test Set Up (unit5)</item>
-        <item>Block 2 Post Test Item (unit5)</item>
-        <item>Block 9 Test Set Up (unit5)</item>
-        <item>Block 9 Post Test Item (unit5)</item>
-        <item>Block 10 Test Set Up (unit5)</item>
-        <item>Block 10 Post Test Item (unit5)</item>
-        <item>Block 12 Face 3 Test Set Up (unit5)</item>
-        <item>Block 12 Face 3 Post Test Item (unit5)</item>
-        <item>Block 12 Face 4 Test Set Up (unit5)</item>
-        <item>Block 12 Face 4 Post Test Item (unit5)</item>
-        <item>Block 12 Face 6 Test Set Up (unit5)</item>
-        <item>Block 12 Face 6 Post Test Item (unit5)</item>
-        <item>Block 12 Face 3 (Pick-up) Test Set Up (unit5)</item>
-        <item>Block 12 Face 3 (Pick-up) Post Test Item (unit5)</item>
-        <item>Block 20 Test Set Up (unit5)</item>
-        <item>Block 20 Post Test Item (unit5)</item>
-        <item>Block 15 Test Set Up (unit5)</item>
-        <item>Block 15 Post Test Item (unit5)</item>
-        <item>Block 24 Test Set Up (unit5)</item>
-        <item>Block 24 Post Test Item (unit5)</item>
+        <item>Drop Test 1 Setup (unit5)</item>
+        <item>Drop Test 1 Post Test (unit5)</item>
+        <item>Horizontal Clamping Setup (unit5)</item>
+        <item>Horizontal Clamping Post Test (unit5)</item>
+        <item>Vertical Compression Setup (unit5)</item>
+        <item>Vertical Compression Post Test (unit5)</item>
+        <item>Face 3 Vibe Setup (unit5)</item>
+        <item>Face 3 Vibe Post Test (unit5)</item>
+        <item>Face 4 Vibe Setup (unit5)</item>
+        <item>Face 4 Vibe Post Test (unit5)</item>
+        <item>Face 6 Vibe Setup (unit5)</item>
+        <item>Face 6 Vibe Post Test (unit5)</item>
+        <item>Pickup and Delivery Setup (unit5)</item>
+        <item>Pickup and Delivery Post Test (unit5)</item>
+        <item>Incline Impact Setup (unit5)</item>
+        <item>Incline Impact Post Test (unit5)</item>
+        <item>Drop Test 2 Setup (unit5)</item>
+        <item>Drop Test 2 Post Test (unit5)</item>
+        <item>Concentrated Edge Impact Setup (unit5)</item>
+        <item>Concentrated Edge Impact Post Test (unit5)</item>
     </string-array>
 
 
@@ -187,8 +187,8 @@
     * PostTest
     **********************************************************/
     <string-array name="TypeG_PostTest_1">
-        <item>ISO #1 Side 1/2/5 (unit1)</item>
-        <item>ISO #2 Sides 3/4/6 (unit1)</item>
+        <item>Post Test ISO 1-2-5 (unit1)</item>
+        <item>Post Test ISO 3-4-6 (unit1)</item>
         <item>Exploded BOM View (unit1)</item>
         <item>TV turned on 1 (unit1)</item>
         <item>TV turned on 2 (unit1)</item>
@@ -199,8 +199,8 @@
     </string-array>
 
     <string-array name="TypeG_PostTest_2">
-        <item>ISO #1 Side 1/2/5 (unit2)</item>
-        <item>ISO #2 Sides 3/4/6 (unit2)</item>
+        <item>Post Test ISO 1-2-5 (unit2)</item>
+        <item>Post Test ISO 3-4-6 (unit2)</item>
         <item>Exploded BOM View (unit2)</item>
         <item>TV turned on 1 (unit2)</item>
         <item>TV turned on 2 (unit2)</item>
@@ -211,8 +211,8 @@
     </string-array>
 
     <string-array name="TypeG_PostTest_3">
-        <item>ISO #1 Side 1/2/5 (unit3)</item>
-        <item>ISO #2 Sides 3/4/6 (unit3)</item>
+        <item>Post Test ISO 1-2-5 (unit3)</item>
+        <item>Post Test ISO 3-4-6 (unit3)</item>
         <item>Exploded BOM View (unit3)</item>
         <item>TV turned on 1 (unit3)</item>
         <item>TV turned on 2 (unit3)</item>
@@ -223,8 +223,8 @@
     </string-array>
 
     <string-array name="TypeG_PostTest_4">
-        <item>ISO #1 Side 1/2/5 (unit4)</item>
-        <item>ISO #2 Sides 3/4/6 (unit4)</item>
+        <item>Post Test ISO 1-2-5 (unit4)</item>
+        <item>Post Test ISO 3-4-6 (unit4)</item>
         <item>Exploded BOM View (unit4)</item>
         <item>TV turned on 1 (unit4)</item>
         <item>TV turned on 2 (unit4)</item>
@@ -235,8 +235,8 @@
     </string-array>
 
     <string-array name="TypeG_PostTest_5">
-        <item>ISO #1 Side 1/2/5 (unit5)</item>
-        <item>ISO #2 Sides 3/4/6 (unit5)</item>
+        <item>Post Test ISO 1-2-5 (unit5)</item>
+        <item>Post Test ISO 3-4-6 (unit5)</item>
         <item>Exploded BOM View (unit5)</item>
         <item>TV turned on 1 (unit5)</item>
         <item>TV turned on 2 (unit5)</item>
