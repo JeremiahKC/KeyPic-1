@@ -15,6 +15,8 @@
         <item>CI</item>
         <item>MAGFIELD</item>
         <item>DIPS</item>
+        <item>PROXMAGFIELD</item>
+
     </string-array>
 
 
@@ -106,6 +108,7 @@
     * RE Photos and Files
     **********************************************************/
     <string-array name="RE_1">
+        <item>9KHZ TO 30MHZ TEST SETUP (unit1)</item>
         <item>30MHZ TO 1GHZ TEST SETUP (unit1)</item>
         <item>1GHZ TO 6GHZ TEST SETUP (unit1)</item>
         <item>1GHZ TO 18GHZ TEST SETUP (unit1)</item>
@@ -113,6 +116,7 @@
         <item>18GHZ TO 40GHZ TEST SETUP (unit1)</item>
     </string-array>
     <string-array name="RE_2">
+        <item>9KHZ TO 30MHZ TEST SETUP (unit2)</item>
         <item>30MHZ TO 1GHZ TEST SETUP (unit2)</item>
         <item>1GHZ TO 6GHZ TEST SETUP (unit2)</item>
         <item>1GHZ TO 18GHZ TEST SETUP (unit2)</item>
@@ -120,6 +124,7 @@
         <item>18GHZ TO 40GHZ TEST SETUP (unit2)</item>
     </string-array>
     <string-array name="RE_3">
+        <item>9KHZ TO 30MHZ TEST SETUP (unit3)</item>
         <item>30MHZ TO 1GHZ TEST SETUP (unit3)</item>
         <item>1GHZ TO 6GHZ TEST SETUP (unit3)</item>
         <item>1GHZ TO 18GHZ TEST SETUP (unit3)</item>
@@ -127,6 +132,7 @@
         <item>18GHZ TO 40GHZ TEST SETUP (unit3)</item>
     </string-array>
     <string-array name="RE_4">
+        <item>9KHZ TO 30MHZ TEST SETUP (unit4)</item>
         <item>30MHZ TO 1GHZ TEST SETUP (unit4)</item>
         <item>1GHZ TO 6GHZ TEST SETUP (unit4)</item>
         <item>1GHZ TO 18GHZ TEST SETUP (unit4)</item>
@@ -134,6 +140,7 @@
         <item>18GHZ TO 40GHZ TEST SETUP (unit4)</item>
     </string-array>
     <string-array name="RE_5">
+        <item>9KHZ TO 30MHZ TEST SETUP (unit5)</item>
         <item>30MHZ TO 1GHZ TEST SETUP (unit5)</item>
         <item>1GHZ TO 6GHZ TEST SETUP (unit5)</item>
         <item>1GHZ TO 18GHZ TEST SETUP (unit5)</item>
@@ -143,6 +150,7 @@
 
 
     <string-array name="RE_1_File">
+        <item>RE9KHzto30MHz-1.jpg</item>
         <item>RE30MHzto1GHz-1.jpg</item>
         <item>RE1GHzto6GHz-1.jpg</item>
         <item>RE1GHzto18GHz-1.jpg</item>
@@ -150,6 +158,7 @@
         <item>RE18GHzto40GHz-1.jpg</item>
     </string-array>
     <string-array name="RE_2_File">
+        <item>RE9KHzto30MHz-2.jpg</item>
         <item>RE30MHzto1GHz-2.jpg</item>
         <item>RE1GHzto6GHz-2.jpg</item>
         <item>RE1GHzto18GHz-2.jpg</item>
@@ -157,6 +166,7 @@
         <item>RE18GHzto40GHz-2.jpg</item>
     </string-array>
     <string-array name="RE_3_File">
+        <item>RE9KHzto30MHz-3.jpg</item>
         <item>RE30MHzto1GHz-3.jpg</item>
         <item>RE1GHzto6GHz-3.jpg</item>
         <item>RE1GHzto18GHz-3.jpg</item>
@@ -164,6 +174,7 @@
         <item>RE18GHzto40GHz-3.jpg</item>
     </string-array>
     <string-array name="RE_4_File">
+        <item>RE9KHzto30MHz-4.jpg</item>
         <item>RE30MHzto1GHz-4.jpg</item>
         <item>RE1GHzto6GHz-4.jpg</item>
         <item>RE1GHzto18GHz-4.jpg</item>
@@ -171,6 +182,7 @@
         <item>RE18GHzto40GHz-4.jpg</item>
     </string-array>
     <string-array name="RE_5_File">
+        <item>RE9KHzto30MHz-5.jpg</item>
         <item>RE30MHzto1GHz-5.jpg</item>
         <item>RE1GHzto6GHz-5.jpg</item>
         <item>RE1GHzto18GHz-5.jpg</item>
@@ -415,45 +427,85 @@
     **********************************************************/
     <string-array name="EFT_1">
         <item>EFT POWER TEST SETUP (unit1)</item>
-        <item>EFT CABLE TEST SETUP (unit1)</item>
+        <item>EFT CABLE TEST SETUP A (unit1)</item>
+        <item>EFT CABLE TEST SETUP B (unit1)</item>
+        <item>EFT CABLE TEST SETUP C (unit1)</item>
+        <item>EFT CABLE TEST SETUP D (unit1)</item>
+        <item>EFT CABLE TEST SETUP E (unit1)</item>
     </string-array>
     <string-array name="EFT_2">
         <item>EFT POWER TEST SETUP (unit2)</item>
-        <item>EFT CABLE TEST SETUP (unit2)</item>
+        <item>EFT CABLE TEST SETUP A (unit2)</item>
+        <item>EFT CABLE TEST SETUP B (unit2)</item>
+        <item>EFT CABLE TEST SETUP C (unit2)</item>
+        <item>EFT CABLE TEST SETUP D (unit2)</item>
+        <item>EFT CABLE TEST SETUP E (unit2)</item>
     </string-array>
     <string-array name="EFT_3">
         <item>EFT POWER TEST SETUP (unit3)</item>
-        <item>EFT CABLE TEST SETUP (unit3)</item>
+        <item>EFT CABLE TEST SETUP A (unit3)</item>
+        <item>EFT CABLE TEST SETUP B (unit3)</item>
+        <item>EFT CABLE TEST SETUP C (unit3)</item>
+        <item>EFT CABLE TEST SETUP D (unit3)</item>
+        <item>EFT CABLE TEST SETUP E (unit3)</item>
     </string-array>
     <string-array name="EFT_4">
         <item>EFT POWER TEST SETUP (unit4)</item>
-        <item>EFT CABLE TEST SETUP (unit4)</item>
+        <item>EFT CABLE TEST SETUP A (unit4)</item>
+        <item>EFT CABLE TEST SETUP B (unit4)</item>
+        <item>EFT CABLE TEST SETUP C (unit4)</item>
+        <item>EFT CABLE TEST SETUP D (unit4)</item>
+        <item>EFT CABLE TEST SETUP E (unit4)</item>
     </string-array>
     <string-array name="EFT_5">
         <item>EFT POWER TEST SETUP (unit5)</item>
-        <item>EFT CABLE TEST SETUP (unit5)</item>
+        <item>EFT CABLE TEST SETUP A (unit5)</item>
+        <item>EFT CABLE TEST SETUP B (unit5)</item>
+        <item>EFT CABLE TEST SETUP C (unit5)</item>
+        <item>EFT CABLE TEST SETUP D (unit5)</item>
+        <item>EFT CABLE TEST SETUP E (unit5)</item>
     </string-array>
 
 
     <string-array name="EFT_1_File">
         <item>EFTPowerSetup-1.jpg</item>
-        <item>EFTCableSetup-1.jpg</item>
+        <item>EFTCableSetup-A-1.jpg</item>
+        <item>EFTCableSetup-B-1.jpg</item>
+        <item>EFTCableSetup-C-1.jpg</item>
+        <item>EFTCableSetup-D-1.jpg</item>
+        <item>EFTCableSetup-E-1.jpg</item>
     </string-array>
     <string-array name="EFT_2_File">
         <item>EFTPowerSetup-2.jpg</item>
-        <item>EFTCableSetup-2.jpg</item>
+        <item>EFTCableSetup-A-2.jpg</item>
+        <item>EFTCableSetup-B-2.jpg</item>
+        <item>EFTCableSetup-C-2.jpg</item>
+        <item>EFTCableSetup-D-2.jpg</item>
+        <item>EFTCableSetup-E-2.jpg</item>
     </string-array>
     <string-array name="EFT_3_File">
         <item>EFTPowerSetup-3.jpg</item>
-        <item>EFTCableSetup-3.jpg</item>
+        <item>EFTCableSetup-A-3.jpg</item>
+        <item>EFTCableSetup-B-3.jpg</item>
+        <item>EFTCableSetup-C-3.jpg</item>
+        <item>EFTCableSetup-D-3.jpg</item>
+        <item>EFTCableSetup-E-3.jpg</item>
     </string-array>
     <string-array name="EFT_4_File">
         <item>EFTPowerSetup-4.jpg</item>
-        <item>EFTCableSetup-4.jpg</item>
+        <item>EFTCableSetup-A-4.jpg</item>
+        <item>EFTCableSetup-B-4.jpg</item>
+        <item>EFTCableSetup-C-4.jpg</item>
+        <item>EFTCableSetup-D-4.jpg</item>
+        <item>EFTCableSetup-E-4.jpg</item>
     </string-array>
     <string-array name="EFT_5_File">
         <item>EFTPowerSetup-5.jpg</item>
-        <item>EFTCableSetup-5.jpg</item>
+        <item>EFTCableSetup-A-5.jpg</item>
+        <item>EFTCableSetup-B-5.jpg</item>
+        <item>EFTCableSetup-C-5.jpg</item>
+        <item>EFTCableSetup-D-5.jpg</item>
+        <item>EFTCableSetup-E-5.jpg</item>
     </string-array>
 
 
@@ -462,45 +514,85 @@
     **********************************************************/
     <string-array name="SURGE_1">
         <item>SURGE POWER TEST SETUP (unit1)</item>
-        <item>SURGE CABLE TEST SETUP (unit1)</item>
+        <item>SURGE CABLE TEST SETUP A (unit1)</item>
+        <item>SURGE CABLE TEST SETUP B (unit1)</item>
+        <item>SURGE CABLE TEST SETUP C (unit1)</item>
+        <item>SURGE CABLE TEST SETUP D (unit1)</item>
+        <item>SURGE CABLE TEST SETUP E (unit1)</item>
     </string-array>
     <string-array name="SURGE_2">
         <item>SURGE POWER TEST SETUP (unit2)</item>
-        <item>SURGE CABLE TEST SETUP (unit2)</item>
+        <item>SURGE CABLE TEST SETUP A (unit2)</item>
+        <item>SURGE CABLE TEST SETUP B (unit2)</item>
+        <item>SURGE CABLE TEST SETUP C (unit2)</item>
+        <item>SURGE CABLE TEST SETUP D (unit2)</item>
+        <item>SURGE CABLE TEST SETUP E (unit2)</item>
     </string-array>
     <string-array name="SURGE_3">
         <item>SURGE POWER TEST SETUP (unit3)</item>
-        <item>SURGE CABLE TEST SETUP (unit3)</item>
+        <item>SURGE CABLE TEST SETUP A (unit3)</item>
+        <item>SURGE CABLE TEST SETUP B (unit3)</item>
+        <item>SURGE CABLE TEST SETUP C (unit3)</item>
+        <item>SURGE CABLE TEST SETUP D (unit3)</item>
+        <item>SURGE CABLE TEST SETUP E (unit3)</item>
     </string-array>
     <string-array name="SURGE_4">
         <item>SURGE POWER TEST SETUP (unit4)</item>
-        <item>SURGE CABLE TEST SETUP (unit4)</item>
+        <item>SURGE CABLE TEST SETUP A (unit4)</item>
+        <item>SURGE CABLE TEST SETUP B (unit4)</item>
+        <item>SURGE CABLE TEST SETUP C (unit4)</item>
+        <item>SURGE CABLE TEST SETUP D (unit4)</item>
+        <item>SURGE CABLE TEST SETUP E (unit4)</item>
     </string-array>
     <string-array name="SURGE_5">
         <item>SURGE POWER TEST SETUP (unit5)</item>
-        <item>SURGE CABLE TEST SETUP (unit5)</item>
+        <item>SURGE CABLE TEST SETUP A (unit5)</item>
+        <item>SURGE CABLE TEST SETUP B (unit5)</item>
+        <item>SURGE CABLE TEST SETUP C (unit5)</item>
+        <item>SURGE CABLE TEST SETUP D (unit5)</item>
+        <item>SURGE CABLE TEST SETUP E (unit5)</item>
     </string-array>
 
 
     <string-array name="SURGE_1_File">
         <item>SurgePowerSetup-1.jpg</item>
-        <item>SurgeCableSetup-1.jpg</item>
+        <item>SurgeCableSetup-A-1.jpg</item>
+        <item>SurgeCableSetup-B-1.jpg</item>
+        <item>SurgeCableSetup-C-1.jpg</item>
+        <item>SurgeCableSetup-D-1.jpg</item>
+        <item>SurgeCableSetup-E-1.jpg</item>
     </string-array>
     <string-array name="SURGE_2_File">
         <item>SurgePowerSetup-2.jpg</item>
-        <item>SurgeCableSetup-2.jpg</item>
+        <item>SurgeCableSetup-A-2.jpg</item>
+        <item>SurgeCableSetup-B-2.jpg</item>
+        <item>SurgeCableSetup-C-2.jpg</item>
+        <item>SurgeCableSetup-D-2.jpg</item>
+        <item>SurgeCableSetup-E-2.jpg</item>
     </string-array>
     <string-array name="SURGE_3_File">
         <item>SurgePowerSetup-3.jpg</item>
-        <item>SurgeCableSetup-3.jpg</item>
+        <item>SurgeCableSetup-A-3.jpg</item>
+        <item>SurgeCableSetup-B-3.jpg</item>
+        <item>SurgeCableSetup-C-3.jpg</item>
+        <item>SurgeCableSetup-D-3.jpg</item>
+        <item>SurgeCableSetup-E-3.jpg</item>
     </string-array>
     <string-array name="SURGE_4_File">
         <item>SurgePowerSetup-4.jpg</item>
-        <item>SurgeCableSetup-4.jpg</item>
+        <item>SurgeCableSetup-A-4.jpg</item>
+        <item>SurgeCableSetup-B-4.jpg</item>
+        <item>SurgeCableSetup-C-4.jpg</item>
+        <item>SurgeCableSetup-D-4.jpg</item>
+        <item>SurgeCableSetup-E-4.jpg</item>
     </string-array>
     <string-array name="SURGE_5_File">
         <item>SurgePowerSetup-5.jpg</item>
-        <item>SurgeCableSetup-5.jpg</item>
+        <item>SurgeCableSetup-A-5.jpg</item>
+        <item>SurgeCableSetup-B-5.jpg</item>
+        <item>SurgeCableSetup-C-5.jpg</item>
+        <item>SurgeCableSetup-D-5.jpg</item>
+        <item>SurgeCableSetup-E-5.jpg</item>
     </string-array>
 
 
@@ -682,6 +774,83 @@
     </string-array>
     <string-array name="DIPS_5_File">
         <item>DipsSetup-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PROXMAGFIELD Photos and Files
+    **********************************************************/
+    <string-array name="PROXMAGFIELD_1">
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup A (unit1)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup B (unit1)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup C (unit1)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup D (unit1)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup E (unit1)</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_2">
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup A (unit2)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup B (unit2)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup C (unit2)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup D (unit2)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup E (unit2)</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_3">
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup A (unit3)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup B (unit3)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup C (unit3)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup D (unit3)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup E (unit3)</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_4">
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup A (unit4)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup B (unit4)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup C (unit4)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup D (unit4)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup E (unit4)</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_5">
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup A (unit5)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup B (unit5)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup C (unit5)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup D (unit5)</item>
+        <item>Radiated Magnetic Fields in Close Proximity Immunity Test Setup E (unit5)</item>
+    </string-array>
+
+
+    <string-array name="PROXMAGFIELD_1_File">
+        <item>ProxMagField-A-1.jpg</item>
+        <item>ProxMagField-B-1.jpg</item>
+        <item>ProxMagField-C-1.jpg</item>
+        <item>ProxMagField-D-1.jpg</item>
+        <item>ProxMagField-E-1.jpg</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_2_File">
+        <item>ProxMagField-A-2.jpg</item>
+        <item>ProxMagField-B-2.jpg</item>
+        <item>ProxMagField-C-2.jpg</item>
+        <item>ProxMagField-D-2.jpg</item>
+        <item>ProxMagField-E-2.jpg</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_3_File">
+        <item>ProxMagField-A-3.jpg</item>
+        <item>ProxMagField-B-3.jpg</item>
+        <item>ProxMagField-C-3.jpg</item>
+        <item>ProxMagField-D-3.jpg</item>
+        <item>ProxMagField-E-3.jpg</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_4_File">
+        <item>ProxMagField-A-4.jpg</item>
+        <item>ProxMagField-B-4.jpg</item>
+        <item>ProxMagField-C-4.jpg</item>
+        <item>ProxMagField-D-4.jpg</item>
+        <item>ProxMagField-E-4.jpg</item>
+    </string-array>
+    <string-array name="PROXMAGFIELD_5_File">
+        <item>ProxMagField-A-5.jpg</item>
+        <item>ProxMagField-B-5.jpg</item>
+        <item>ProxMagField-C-5.jpg</item>
+        <item>ProxMagField-D-5.jpg</item>
+        <item>ProxMagField-E-5.jpg</item>
     </string-array>
 
 </resources>
