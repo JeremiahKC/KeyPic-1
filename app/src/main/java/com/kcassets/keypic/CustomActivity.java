@@ -66,6 +66,8 @@ public class CustomActivity extends AppCompatActivity {
     private int currentNumber = 1;
     String progressMessage;
     String toastMessage;
+    SharedPreferences sharedPreferences;
+    String PREF_FOLDER_CUS = "folder_CUS";
 
 
     /***********************************************************
@@ -104,11 +106,38 @@ public class CustomActivity extends AppCompatActivity {
         fileName = picFile.getText().toString() + "_" + currentNumber + ".jpg";
         fileDisplay.setText(fileName);
 
-        SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        accessToken = sharedPreferences.getString("access_token", null);
+        // Retrieve access token
+        sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+        folderName = sharedPreferences.getString("folder_CUS", null);
 
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
+
+
+        /***********************************************************
+         * Google Drive Folder Check
+         **********************************************************/
+        accessToken = sharedPreferences.getString("access_token", null);
+
+        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
+        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
+
+        // Initialize Google Drive API client
+        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
+                .setApplicationName("KeyPic")
+                .build();
+
+        if (folderName != null) {
+
+            job.setText(folderName);
+
+            // Perform the Google Drive API task
+            progressMessage = "Searching for folder... ";
+            toastMessage = "Folder found in 'My Drive'";
+            DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
+            driveTask.execute();
+        }
 
 
         /***********************************************************
@@ -217,25 +246,15 @@ public class CustomActivity extends AppCompatActivity {
             }
         });
 
-
-        /***********************************************************
-         * Google Drive Folder Check
-         **********************************************************/
-        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
-        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
-
-        // Initialize Google Drive API client
-        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
-        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
-                .setApplicationName("KeyPic")
-                .build();
-
         // Set click listener for the search/create button
         folderBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(PREF_FOLDER_CUS, folderName);
+                editor.apply();
 
                 // Close the keyboard
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);

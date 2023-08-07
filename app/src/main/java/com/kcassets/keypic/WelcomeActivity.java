@@ -2,6 +2,7 @@ package com.kcassets.keypic;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -51,6 +52,10 @@ public class WelcomeActivity extends AppCompatActivity {
 
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this,gso);
+
+        // Check expiration time of access token
+        AccessTokenManager accessTokenManager = new AccessTokenManager(this);
+        accessTokenManager.checkAccessTokenExpiration();
 
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         if(account!=null){

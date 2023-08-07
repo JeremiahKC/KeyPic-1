@@ -71,6 +71,12 @@ public class EMCActivity extends AppCompatActivity {
     String accessToken;
     List<String> fileNames = new ArrayList<>();
     List<String> existingFileNames = new ArrayList<>();
+    SharedPreferences sharedPreferences;
+    String PREF_FOLDER_EMC = "folder_EMC";
+    String PREF_TYPE_EMC = "type_EMC";
+    String PREF_UNIT_EMC = "unit_EMC";
+    String PREF_TYPE_POS_EMC = "type_pos_EMC";
+    String PREF_UNIT_POS_EMC = "unit_pos_EMC";
 
 
     /***********************************************************
@@ -117,11 +123,48 @@ public class EMCActivity extends AppCompatActivity {
         // Setup Spinners
         setupSpinners();
 
-        SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        accessToken = sharedPreferences.getString("access_token", null);
+        // Retrieve access token
+        sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+        folderName = sharedPreferences.getString("folder_EMC", null);
+        selectedType = sharedPreferences.getString("type_EMC", null);
+        selectedUnit = sharedPreferences.getString("unit_EMC", null);
+        int typePosition = sharedPreferences.getInt("type_pos_EMC", -1);
+        int unitPosition = sharedPreferences.getInt("unit_pos_EMC", -1);
 
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
+
+
+        /***********************************************************
+         * Google Drive Folder Check
+         **********************************************************/
+        accessToken = sharedPreferences.getString("access_token", null);
+
+        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
+        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
+
+        // Initialize Google Drive API client
+        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
+                .setApplicationName("KeyPic")
+                .build();
+
+        if (selectedType != null && selectedUnit != null) {
+
+            typeSpinner.setSelection(typePosition);
+            unitSpinner.setSelection(unitPosition);
+        }
+
+        if (folderName != null) {
+
+            job.setText(folderName);
+
+            // Perform the Google Drive API task
+            progressMessage = "Searching for folder... ";
+            toastMessage = "Folder found in 'My Drive'";
+            DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
+            driveTask.execute();
+        }
 
 
         /***********************************************************
@@ -189,25 +232,15 @@ public class EMCActivity extends AppCompatActivity {
             }
         });
 
-
-        /***********************************************************
-         * Google Drive Folder Check
-         **********************************************************/
-        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
-        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
-
-        // Initialize Google Drive API client
-        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
-        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
-                .setApplicationName("KeyPic")
-                .build();
-
         // Set click listener for the search/create button
         folderBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(PREF_FOLDER_EMC, folderName);
+                editor.apply();
 
                 // Close the keyboard
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -300,8 +333,17 @@ public class EMCActivity extends AppCompatActivity {
     private void makePhotoList() {
         // Get selected spinner values
         selectedType = typeSpinner.getSelectedItem().toString();
-        selectedPhase = phaseSpinner.getSelectedItem().toString();
         selectedUnit = unitSpinner.getSelectedItem().toString();
+
+        int typePosition = typeSpinner.getSelectedItemPosition();
+        int unitPosition = unitSpinner.getSelectedItemPosition();
+
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(PREF_TYPE_EMC, selectedType);
+        editor.putString(PREF_UNIT_EMC, selectedUnit);
+        editor.putInt(PREF_TYPE_POS_EMC, typePosition);
+        editor.putInt(PREF_UNIT_POS_EMC, unitPosition);
+        editor.apply();
 
         // Create an array name based on the selected values
         String arrayName = selectedType + "_" + selectedUnit;

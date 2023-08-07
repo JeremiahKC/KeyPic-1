@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -35,10 +36,13 @@ public class LoginActivity extends AppCompatActivity {
      * Initializations
      **********************************************************/
     private static final int RC_SIGN_IN = 9001;
+    private static final String TAG = "LoginActivity";
     private GoogleSignInClient mGoogleSignInClient;
     private static final String PREF_ACCESS_TOKEN = "access_token";
+    private static final String PREF_REFRESH_TOKEN = "refresh_token";
     private static final String PREF_ACCESS_TOKEN_EXPIRATION = "access_token_expiration";
     private SharedPreferences sharedPreferences;
+    GoogleSignInOptions gso;
 
 
     /***********************************************************
@@ -63,13 +67,23 @@ public class LoginActivity extends AppCompatActivity {
         // Initialize SharedPreferences
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
 
-        // Configure Google Sign-In
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.client_id))
-                .requestServerAuthCode(getString(R.string.client_id))
-                .requestEmail()
-                .requestScopes(new Scope("https://www.googleapis.com/auth/drive"))
-                .build();
+        String refreshToken = sharedPreferences.getString(PREF_REFRESH_TOKEN, null);
+        if (refreshToken != null) {
+            gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                    .requestIdToken(getString(R.string.client_id))
+                    .requestServerAuthCode(getString(R.string.client_id))
+                    .requestEmail()
+                    .requestScopes(new Scope("https://www.googleapis.com/auth/drive"))
+                    .build();
+
+        } else {
+            gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                    .requestIdToken(getString(R.string.client_id))
+                    .requestServerAuthCode(getString(R.string.client_id), true)
+                    .requestEmail()
+                    .requestScopes(new Scope("https://www.googleapis.com/auth/drive"))
+                    .build();
+        }
 
         // Build a GoogleSignInClient with the options specified by gso.
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
@@ -151,24 +165,49 @@ public class LoginActivity extends AppCompatActivity {
                     try {
                         jsonObject = JsonParser.parseString(responseBody).getAsJsonObject();
 
+                        String refreshTokenCheck = sharedPreferences.getString(PREF_REFRESH_TOKEN, null);
                         JsonElement accessTokenElement = jsonObject.get("access_token");
                         JsonElement expiresInElement = jsonObject.get("expires_in");
 
-                        String accessToken = accessTokenElement != null ? accessTokenElement.getAsString() : null;
-                        long expiresIn = expiresInElement != null ? expiresInElement.getAsLong() : 0;
+                        if (refreshTokenCheck != null) {
 
-                        long expirationTime = System.currentTimeMillis() / 1000 + expiresIn;
+                            String accessToken = accessTokenElement != null ? accessTokenElement.getAsString() : null;
+                            long expiresIn = expiresInElement != null ? expiresInElement.getAsLong() : 0;
 
-                        SharedPreferences.Editor editor = sharedPreferences.edit();
-                        editor.putString(PREF_ACCESS_TOKEN, accessToken);
-                        editor.putLong(PREF_ACCESS_TOKEN_EXPIRATION, expirationTime);
-                        editor.apply();
+                            long expirationTime = System.currentTimeMillis() / 1000 + expiresIn;
+
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString(PREF_ACCESS_TOKEN, accessToken);
+                            editor.putLong(PREF_ACCESS_TOKEN_EXPIRATION, expirationTime);
+                            editor.apply();
+
+                            Log.d(TAG, "Access Token: " + accessToken);
+                            Log.d(TAG, "Refresh Token: " + refreshTokenCheck);
+
+                        } else {
+                            JsonElement refreshTokenElement = jsonObject.get("refresh_token"); // Get the refresh token
+
+                            String accessToken = accessTokenElement != null ? accessTokenElement.getAsString() : null;
+                            String refreshToken = refreshTokenElement != null ? refreshTokenElement.getAsString() : null;
+                            long expiresIn = expiresInElement != null ? expiresInElement.getAsLong() : 0;
+
+                            long expirationTime = System.currentTimeMillis() / 1000 + expiresIn;
+
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString(PREF_ACCESS_TOKEN, accessToken);
+                            editor.putString(PREF_REFRESH_TOKEN, refreshToken); // Store the refresh token
+                            editor.putLong(PREF_ACCESS_TOKEN_EXPIRATION, expirationTime);
+                            editor.apply();
+
+                            Log.d(TAG, "Access Token: " + accessToken);
+                            Log.d(TAG, "Refresh Token: " + refreshToken);
+                        }
 
                     } catch (JsonParseException e) {
                         e.printStackTrace();
                     }
                 } else {
-
+                    Log.e(TAG, "Failed to exchange code for tokens. Response code: " + response.code());
                 }
             }
         });

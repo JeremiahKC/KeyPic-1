@@ -71,6 +71,14 @@ public class AmazonActivity extends AppCompatActivity {
     String accessToken;
     List<String> fileNames = new ArrayList<>();
     List<String> existingFileNames = new ArrayList<>();
+    SharedPreferences sharedPreferences;
+    String PREF_FOLDER = "folder";
+    String PREF_TYPE = "type";
+    String PREF_PHASE = "phase";
+    String PREF_UNIT = "unit";
+    String PREF_TYPE_POS = "type_pos";
+    String PREF_PHASE_POS = "phase_pos";
+    String PREF_UNIT_POS = "unit_pos";
 
 
     /***********************************************************
@@ -111,12 +119,51 @@ public class AmazonActivity extends AppCompatActivity {
         setupSpinners();
 
         // Retrieve access token
-        SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        accessToken = sharedPreferences.getString("access_token", null);
+        sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+        folderName = sharedPreferences.getString("folder", null);
+        selectedType = sharedPreferences.getString("type", null);
+        selectedPhase = sharedPreferences.getString("phase", null);
+        selectedUnit = sharedPreferences.getString("unit", null);
+        int typePosition = sharedPreferences.getInt("type_pos", -1);
+        int phasePosition = sharedPreferences.getInt("phase_pos", -1);
+        int unitPosition = sharedPreferences.getInt("unit_pos", -1);
 
         // Check expiration time of access token
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
+
+
+        /***********************************************************
+         * Google Drive Folder Check
+         **********************************************************/
+        accessToken = sharedPreferences.getString("access_token", null);
+
+        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
+        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
+
+        // Initialize Google Drive API client
+        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
+                .setApplicationName("KeyPic")
+                .build();
+
+        if (selectedType != null && selectedPhase != null && selectedUnit != null) {
+
+            typeSpinner.setSelection(typePosition);
+            phaseSpinner.setSelection(phasePosition);
+            unitSpinner.setSelection(unitPosition);
+        }
+
+        if (folderName != null) {
+
+            job.setText(folderName);
+
+            // Perform the Google Drive API task
+            progressMessage = "Searching for folder... ";
+            toastMessage = "Folder found in 'My Drive'";
+            DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
+            driveTask.execute();
+        }
 
 
         /***********************************************************
@@ -184,25 +231,15 @@ public class AmazonActivity extends AppCompatActivity {
             }
         });
 
-
-        /***********************************************************
-         * Google Drive Folder Check
-         **********************************************************/
-        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
-        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
-
-        // Initialize Google Drive API client
-        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
-        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
-                .setApplicationName("KeyPic")
-                .build();
-
         // Set click listener for the search/create button
         folderBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(PREF_FOLDER, folderName);
+                editor.apply();
 
                 // Close the keyboard
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -312,6 +349,19 @@ public class AmazonActivity extends AppCompatActivity {
         selectedType = typeSpinner.getSelectedItem().toString();
         selectedPhase = phaseSpinner.getSelectedItem().toString();
         selectedUnit = unitSpinner.getSelectedItem().toString();
+
+        int typePosition = typeSpinner.getSelectedItemPosition();
+        int phasePosition = phaseSpinner.getSelectedItemPosition();
+        int unitPosition = unitSpinner.getSelectedItemPosition();
+
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(PREF_TYPE, selectedType);
+        editor.putString(PREF_PHASE, selectedPhase);
+        editor.putString(PREF_UNIT, selectedUnit);
+        editor.putInt(PREF_TYPE_POS, typePosition);
+        editor.putInt(PREF_PHASE_POS, phasePosition);
+        editor.putInt(PREF_UNIT_POS, unitPosition);
+        editor.apply();
 
         // Create an array name based on the selected values
         String arrayName = selectedType + "_" + selectedPhase + "_" + selectedUnit;
