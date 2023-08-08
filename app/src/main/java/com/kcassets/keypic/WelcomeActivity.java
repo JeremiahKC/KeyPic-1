@@ -53,10 +53,6 @@ public class WelcomeActivity extends AppCompatActivity {
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this,gso);
 
-        // Check expiration time of access token
-        AccessTokenManager accessTokenManager = new AccessTokenManager(this);
-        accessTokenManager.checkAccessTokenExpiration();
-
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         if(account!=null){
             String personName = account.getDisplayName();
