@@ -113,21 +113,6 @@ public class CustomActivity extends AppCompatActivity {
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
 
-
-        /***********************************************************
-         * Google Drive Folder Check
-         **********************************************************/
-        accessToken = sharedPreferences.getString("access_token", null);
-
-        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
-        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
-
-        // Initialize Google Drive API client
-        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
-        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
-                .setApplicationName("KeyPic")
-                .build();
-
         if (folderName != null) {
 
             job.setText(folderName);
@@ -135,7 +120,7 @@ public class CustomActivity extends AppCompatActivity {
             // Perform the Google Drive API task
             progressMessage = "Searching for folder... ";
             toastMessage = "Folder found in 'My Drive'";
-            DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
+            DriveTask driveTask = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
             driveTask.execute();
         }
 
@@ -146,6 +131,9 @@ public class CustomActivity extends AppCompatActivity {
         photoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                AccessTokenManager accessTokenManager = new AccessTokenManager(CustomActivity.this);
+                accessTokenManager.checkAccessTokenExpiration();
+
                 if (folderName != null && fileName != null) {
 
                     if (existingFileNames.contains(fileName)){
@@ -250,6 +238,9 @@ public class CustomActivity extends AppCompatActivity {
         folderBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                AccessTokenManager accessTokenManager = new AccessTokenManager(CustomActivity.this);
+                accessTokenManager.checkAccessTokenExpiration();
+
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
                 SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -266,7 +257,7 @@ public class CustomActivity extends AppCompatActivity {
                 // Perform the Google Drive API task
                 progressMessage = "Searching for folder... ";
                 toastMessage = "Folder found in 'My Drive'";
-                DriveTask driveTask = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
+                DriveTask driveTask = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
                 driveTask.execute();
             }
         });
@@ -310,7 +301,7 @@ public class CustomActivity extends AppCompatActivity {
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
             progressMessage = "Updating Folder... ";
             toastMessage = "Photo Saved Successfully";
-            DriveTask updateList = new DriveTask(folderName, driveService, progressDialog, progressMessage, toastMessage);
+            DriveTask updateList = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
             updateList.execute();
         }
     }
@@ -321,15 +312,13 @@ public class CustomActivity extends AppCompatActivity {
      **********************************************************/
     public class DriveTask extends AsyncTask<String, Void, Boolean> {
         private String folderInput;
-        private Drive service;
         private ProgressDialog progressDialog;
         private boolean createFolder;
         private String progressMessage;
         private String toastMessage;
 
-        public DriveTask(String folderInput, Drive service, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
+        public DriveTask(String folderInput, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
             this.folderInput = folderInput;
-            this.service = service;
             this.progressMessage = progressMessage;
             this.toastMessage = toastMessage;
             this.progressDialog = progressDialog;
@@ -346,9 +335,21 @@ public class CustomActivity extends AppCompatActivity {
         @Override
         protected Boolean doInBackground(String... params) {
             try {
+                sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                accessToken = sharedPreferences.getString("access_token", null);
+
+                HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
+                JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
+
+                // Initialize Google Drive API client
+                GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+                driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
+                        .setApplicationName("KeyPic")
+                        .build();
+
                 // Search for the folder by name
                 String query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "'";
-                FileList result = service.files().list().setQ(query).setSpaces("drive").execute();
+                FileList result = driveService.files().list().setQ(query).setSpaces("drive").execute();
                 List<File> files = result.getFiles();
 
                 // Check if the folder exists
@@ -359,7 +360,7 @@ public class CustomActivity extends AppCompatActivity {
                     // Gather file names that exist in that folder and add them to a list
                     String folderId = folder.getId();
                     String fileQuery = "'" + folderId + "' in parents and trashed=false";
-                    FileList fileList = service.files().list().setQ(fileQuery).setSpaces("drive").execute();
+                    FileList fileList = driveService.files().list().setQ(fileQuery).setSpaces("drive").execute();
                     List<File> folderFiles = fileList.getFiles();
                     existingFileNames.clear();
                     for (File file : folderFiles) {
@@ -432,17 +433,15 @@ public class CustomActivity extends AppCompatActivity {
             ProgressDialog createFolderProgressDialog = new ProgressDialog(CustomActivity.this);
             createFolderProgressDialog.setCancelable(false);
 
-            new CreateFolderTask(folderInput, service, createFolderProgressDialog).execute();
+            new CreateFolderTask(folderInput, createFolderProgressDialog).execute();
         }
 
         private class CreateFolderTask extends AsyncTask<Void, Void, Boolean> {
             private String folderInput;
-            private Drive service;
             private ProgressDialog progressDialog;
 
-            public CreateFolderTask(String folderInput, Drive service, ProgressDialog progressDialog) {
+            public CreateFolderTask(String folderInput, ProgressDialog progressDialog) {
                 this.folderInput = folderInput;
-                this.service = service;
                 this.progressDialog = progressDialog;
             }
 
@@ -456,11 +455,23 @@ public class CustomActivity extends AppCompatActivity {
             @Override
             protected Boolean doInBackground(Void... params) {
                 try {
+                    sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                    accessToken = sharedPreferences.getString("access_token", null);
+
+                    HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
+                    JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
+
+                    // Initialize Google Drive API client
+                    GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+                    driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
+                            .setApplicationName("KeyPic")
+                            .build();
+
                     File folderMetadata = new File();
                     folderMetadata.setName(folderInput);
                     folderMetadata.setMimeType("application/vnd.google-apps.folder");
 
-                    File folder = service.files().create(folderMetadata).setFields("id").execute();
+                    File folder = driveService.files().create(folderMetadata).setFields("id").execute();
                     System.out.println("Folder created: " + folder.getName() + " (ID: " + folder.getId() + ")");
                     return true;
                 } catch (IOException e) {

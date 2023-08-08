@@ -67,6 +67,7 @@ public class CameraLaunchActivity extends AppCompatActivity {
     Button closeBtn;
     String accessToken;
     private Drive driveService;
+    SharedPreferences sharedPreferences;
     private PreviewView previewView;
     private int currentOrientation;
     int cameraFacing = CameraSelector.LENS_FACING_BACK;
@@ -98,8 +99,7 @@ public class CameraLaunchActivity extends AppCompatActivity {
         photoNameView = findViewById(R.id.photoName);
         closeBtn = findViewById(R.id.closeBtn);
 
-        SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        accessToken = sharedPreferences.getString("access_token", null);
+        sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
 
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
@@ -108,15 +108,6 @@ public class CameraLaunchActivity extends AppCompatActivity {
         photoName = getIntent().getStringExtra("photoName");
         fileName = getIntent().getStringExtra("fileName");
         folderName = getIntent().getStringExtra("folderName");
-
-        HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
-        JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
-
-        // Initialize Google Drive API client
-        GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
-        driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
-                .setApplicationName("KeyPic")
-                .build();
 
         photoNameView.setText(photoName);
 
@@ -159,6 +150,9 @@ public class CameraLaunchActivity extends AppCompatActivity {
                 capture.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        AccessTokenManager accessTokenManager = new AccessTokenManager(CameraLaunchActivity.this);
+                        accessTokenManager.checkAccessTokenExpiration();
+
                         // Set the output file path and create a file to store the captured image
                         capture.setVisibility(View.GONE);
                         closeBtn.setVisibility(View.GONE);
@@ -230,13 +224,19 @@ public class CameraLaunchActivity extends AppCompatActivity {
         builder.setPositiveButton("Save and Continue", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                new SaveImageToDriveTask(driveService).execute(imageFile);
+                AccessTokenManager accessTokenManager = new AccessTokenManager(CameraLaunchActivity.this);
+                accessTokenManager.checkAccessTokenExpiration();
+
+                new SaveImageToDriveTask().execute(imageFile);
             }
         });
 
         builder.setNegativeButton("Retake", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
+                AccessTokenManager accessTokenManager = new AccessTokenManager(CameraLaunchActivity.this);
+                accessTokenManager.checkAccessTokenExpiration();
+
                 deletePhoto(imageFile);
                 capture.setVisibility(View.VISIBLE);
                 closeBtn.setVisibility(View.VISIBLE);
@@ -273,9 +273,7 @@ public class CameraLaunchActivity extends AppCompatActivity {
      **********************************************************/
     private class SaveImageToDriveTask extends AsyncTask<File, Void, Boolean> {
         private ProgressDialog progressDialog;
-        private Drive driveService;
-        public SaveImageToDriveTask(Drive driveService) {
-            this.driveService = driveService;
+        public SaveImageToDriveTask() {
         }
 
         @Override
@@ -291,6 +289,18 @@ public class CameraLaunchActivity extends AppCompatActivity {
 
         @Override
         protected Boolean doInBackground(File... files) {
+            sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+            accessToken = sharedPreferences.getString("access_token", null);
+
+            HttpTransport httpTransport = new com.google.api.client.http.javanet.NetHttpTransport();
+            JsonFactory jsonFactory = new com.google.api.client.json.jackson2.JacksonFactory();
+
+            // Initialize Google Drive API client
+            GoogleCredential credential = new GoogleCredential().setAccessToken(accessToken);
+            driveService = new Drive.Builder(httpTransport, jsonFactory, credential)
+                    .setApplicationName("KeyPic")
+                    .build();
+
             File imageFile = files[0];
 
             // Compress the photo
