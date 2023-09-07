@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /***********************************************************
+    * Test Spinners
+    **********************************************************/
+    <string-array name="env_test">
+        <item>PreTest</item>
+        <item>X_axis</item>
+        <item>Y_axis</item>
+        <item>Z_axis</item>
+    </string-array>
+
+    <string-array name="sequence">
+        <item>FirstTest</item>
+        <item>SecondTest</item>
+        <item>ThirdTest</item>
+    </string-array>
+
+
+    /***********************************************************
+    * PreTest Photos and Files
+    **********************************************************/
+    <string-array name="PreTest_1">
+        <item>EUT Photo (unit1)</item>
+        <item>Identification Verification (unit1)</item>
+        <item>Fixturing Verification photo 1 (unit1)</item>
+        <item>Fixturing Verification photo 2 (unit1)</item>
+        <item>Testing Support Equipment photo 1 (unit1)</item>
+        <item>Testing Support Equipment photo 2 (unit1)</item>
+        <item>Pre-Test Functional Verification (unit1)</item>
+        <item>Torque Verification (unit1)</item>
+    </string-array>
+    <string-array name="PreTest_2">
+        <item>EUT Photo (unit2)</item>
+        <item>Identification Verification (unit2)</item>
+        <item>Fixturing Verification photo 1 (unit2)</item>
+        <item>Fixturing Verification photo 2 (unit2)</item>
+        <item>Testing Support Equipment photo 1 (unit2)</item>
+        <item>Testing Support Equipment photo 2 (unit2)</item>
+        <item>Pre-Test Functional Verification (unit2)</item>
+        <item>Torque Verification (unit2)</item>
+    </string-array>
+    <string-array name="PreTest_3">
+        <item>EUT Photo (unit3)</item>
+        <item>Identification Verification (unit3)</item>
+        <item>Fixturing Verification photo 1 (unit3)</item>
+        <item>Fixturing Verification photo 2 (unit3)</item>
+        <item>Testing Support Equipment photo 1 (unit3)</item>
+        <item>Testing Support Equipment photo 2 (unit3)</item>
+        <item>Pre-Test Functional Verification (unit3)</item>
+        <item>Torque Verification (unit3)</item>
+    </string-array>
+    <string-array name="PreTest_4">
+        <item>EUT Photo (unit4)</item>
+        <item>Identification Verification (unit4)</item>
+        <item>Fixturing Verification photo 1 (unit4)</item>
+        <item>Fixturing Verification photo 2 (unit4)</item>
+        <item>Testing Support Equipment photo 1 (unit4)</item>
+        <item>Testing Support Equipment photo 2 (unit4)</item>
+        <item>Pre-Test Functional Verification (unit4)</item>
+        <item>Torque Verification (unit4)</item>
+    </string-array>
+    <string-array name="PreTest_5">
+        <item>EUT Photo (unit5)</item>
+        <item>Identification Verification (unit5)</item>
+        <item>Fixturing Verification photo 1 (unit5)</item>
+        <item>Fixturing Verification photo 2 (unit5)</item>
+        <item>Testing Support Equipment photo 1 (unit5)</item>
+        <item>Testing Support Equipment photo 2 (unit5)</item>
+        <item>Pre-Test Functional Verification (unit5)</item>
+        <item>Torque Verification (unit5)</item>
+    </string-array>
+
+
+    <string-array name="PreTest_1_File">
+        <item>EUT-1.jpg</item>
+        <item>IDVerif-1.jpg</item>
+        <item>FixtureVerif1-1.jpg</item>
+        <item>FixtureVerif2-1.jpg</item>
+        <item>TestSupEquip1-1.jpg</item>
+        <item>TestSupEquip2-1.jpg</item>
+        <item>PreTestVerif-1.jpg</item>
+        <item>TorqueVerif-1.jpg</item>
+    </string-array>
+    <string-array name="PreTest_2_File">
+        <item>EUT-2.jpg</item>
+        <item>IDVerif-2.jpg</item>
+        <item>FixtureVerif1-2.jpg</item>
+        <item>FixtureVerif2-2.jpg</item>
+        <item>TestSupEquip1-2.jpg</item>
+        <item>TestSupEquip2-2.jpg</item>
+        <item>PreTestVerif-2.jpg</item>
+        <item>TorqueVerif-2.jpg</item>
+    </string-array>
+    <string-array name="PreTest_3_File">
+        <item>EUT-3.jpg</item>
+        <item>IDVerif-3.jpg</item>
+        <item>FixtureVerif1-3.jpg</item>
+        <item>FixtureVerif2-3.jpg</item>
+        <item>TestSupEquip1-3.jpg</item>
+        <item>TestSupEquip2-3.jpg</item>
+        <item>PreTestVerif-3.jpg</item>
+        <item>TorqueVerif-3.jpg</item>
+    </string-array>
+    <string-array name="PreTest_4_File">
+        <item>EUT-4.jpg</item>
+        <item>IDVerif-4.jpg</item>
+        <item>FixtureVerif1-4.jpg</item>
+        <item>FixtureVerif2-4.jpg</item>
+        <item>TestSupEquip1-4.jpg</item>
+        <item>TestSupEquip2-4.jpg</item>
+        <item>PreTestVerif-4.jpg</item>
+        <item>TorqueVerif-4.jpg</item>
+    </string-array>
+    <string-array name="PreTest_5_File">
+        <item>EUT-5.jpg</item>
+        <item>IDVerif-5.jpg</item>
+        <item>FixtureVerif1-5.jpg</item>
+        <item>FixtureVerif2-5.jpg</item>
+        <item>TestSupEquip1-5.jpg</item>
+        <item>TestSupEquip2-5.jpg</item>
+        <item>PreTestVerif-5.jpg</item>
+        <item>TorqueVerif-5.jpg</item>
+    </string-array>
+
+</resources>
+
+
+

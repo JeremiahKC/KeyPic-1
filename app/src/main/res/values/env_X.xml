@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /***********************************************************
+    * X-Axis FirstTest
+    **********************************************************/
+    <string-array name="FirstTest_X_axis_1">
+        <item>X-Testing Set-Up (unit1)</item>
+        <item>X-Axis (Control) Accelerometer Location Verification (unit1)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 1 (unit1)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 2 (unit1)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 3 (unit1)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 4 (unit1)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 5 (unit1)</item>
+    </string-array>
+    <string-array name="FirstTest_X_axis_2">
+        <item>X-Testing Set-Up (unit2)</item>
+        <item>X-Axis (Control) Accelerometer Location Verification (unit2)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 1 (unit2)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 2 (unit2)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 3 (unit2)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 4 (unit2)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 5 (unit2)</item>
+    </string-array>
+    <string-array name="FirstTest_X_axis_3">
+        <item>X-Testing Set-Up (unit3)</item>
+        <item>X-Axis (Control) Accelerometer Location Verification (unit3)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 1 (unit3)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 2 (unit3)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 3 (unit3)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 4 (unit3)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 5 (unit3)</item>
+    </string-array>
+    <string-array name="FirstTest_X_axis_4">
+        <item>X-Testing Set-Up (unit4)</item>
+        <item>X-Axis (Control) Accelerometer Location Verification (unit4)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 1 (unit4)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 2 (unit4)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 3 (unit4)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 4 (unit4)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 5 (unit4)</item>
+    </string-array>
+    <string-array name="FirstTest_X_axis_5">
+        <item>X-Testing Set-Up (unit5)</item>
+        <item>X-Axis (Control) Accelerometer Location Verification (unit5)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 1 (unit5)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 2 (unit5)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 3 (unit5)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 4 (unit5)</item>
+        <item>X-Axis (Response) Accelerometer Location Verification photo 5 (unit5)</item>
+    </string-array>
+
+</resources>
