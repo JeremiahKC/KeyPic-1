@@ -40,6 +40,9 @@
         <activity android:name=".EMCActivity"
             android:screenOrientation="portrait">
         </activity>
+        <activity android:name=".ENVActivity"
+            android:screenOrientation="portrait">
+        </activity>
         <activity android:name=".CustomActivity"
             android:screenOrientation="portrait">
         </activity>
