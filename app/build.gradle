@@ -3,14 +3,6 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\jagger\\.android\\debug.keystore')
-            storePassword 'keystone'
-            keyAlias 'keypic_key'
-            keyPassword 'keystone'
-        }
-    }
     namespace 'com.kcassets.keypic'
     compileSdk 33
 
