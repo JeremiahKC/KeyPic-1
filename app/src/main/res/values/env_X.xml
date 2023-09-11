@@ -51,54 +51,54 @@
 
 
     <string-array name="First_X_axis_1_File">
-        <item>1-XTestSetup-1</item>
-        <item>1-XControlAccel-1</item>
-        <item>1-XRespAccel1-1</item>
-        <item>1-XRespAccel2-1</item>
-        <item>1-XRespAccel3-1</item>
-        <item>1-XRespAccel4-1</item>
-        <item>1-XRespAccel5-1</item>
+        <item>1-XTestSetup-1.jpg</item>
+        <item>1-XControlAccel-1.jpg</item>
+        <item>1-XRespAccel1-1.jpg</item>
+        <item>1-XRespAccel2-1.jpg</item>
+        <item>1-XRespAccel3-1.jpg</item>
+        <item>1-XRespAccel4-1.jpg</item>
+        <item>1-XRespAccel5-1.jpg</item>
     </string-array>
     <string-array name="First_X_axis_2_File">
-        <item>1-XTestSetup-2</item>
-        <item>1-XControlAccel-2</item>
-        <item>1-XRespAccel1-2</item>
-        <item>1-XRespAccel2-2</item>
-        <item>1-XRespAccel3-2</item>
-        <item>1-XRespAccel4-2</item>
-        <item>1-XRespAccel5-2</item>
+        <item>1-XTestSetup-2.jpg</item>
+        <item>1-XControlAccel-2.jpg</item>
+        <item>1-XRespAccel1-2.jpg</item>
+        <item>1-XRespAccel2-2.jpg</item>
+        <item>1-XRespAccel3-2.jpg</item>
+        <item>1-XRespAccel4-2.jpg</item>
+        <item>1-XRespAccel5-2.jpg</item>
     </string-array>
     <string-array name="First_X_axis_3_File">
-        <item>1-XTestSetup-3</item>
-        <item>1-XControlAccel-3</item>
-        <item>1-XRespAccel1-3</item>
-        <item>1-XRespAccel2-3</item>
-        <item>1-XRespAccel3-3</item>
-        <item>1-XRespAccel4-3</item>
-        <item>1-XRespAccel5-3</item>
+        <item>1-XTestSetup-3.jpg</item>
+        <item>1-XControlAccel-3.jpg</item>
+        <item>1-XRespAccel1-3.jpg</item>
+        <item>1-XRespAccel2-3.jpg</item>
+        <item>1-XRespAccel3-3.jpg</item>
+        <item>1-XRespAccel4-3.jpg</item>
+        <item>1-XRespAccel5-3.jpg</item>
     </string-array>
     <string-array name="First_X_axis_4_File">
-        <item>1-XTestSetup-4</item>
-        <item>1-XControlAccel-4</item>
-        <item>1-XRespAccel1-4</item>
-        <item>1-XRespAccel2-4</item>
-        <item>1-XRespAccel3-4</item>
-        <item>1-XRespAccel4-4</item>
-        <item>1-XRespAccel5-4</item>
+        <item>1-XTestSetup-4.jpg</item>
+        <item>1-XControlAccel-4.jpg</item>
+        <item>1-XRespAccel1-4.jpg</item>
+        <item>1-XRespAccel2-4.jpg</item>
+        <item>1-XRespAccel3-4.jpg</item>
+        <item>1-XRespAccel4-4.jpg</item>
+        <item>1-XRespAccel5-4.jpg</item>
     </string-array>
     <string-array name="First_X_axis_5_File">
-        <item>1-XTestSetup-5</item>
-        <item>1-XControlAccel-5</item>
-        <item>1-XRespAccel1-5</item>
-        <item>1-XRespAccel2-5</item>
-        <item>1-XRespAccel3-5</item>
-        <item>1-XRespAccel4-5</item>
-        <item>1-XRespAccel5-5</item>
+        <item>1-XTestSetup-5.jpg</item>
+        <item>1-XControlAccel-5.jpg</item>
+        <item>1-XRespAccel1-5.jpg</item>
+        <item>1-XRespAccel2-5.jpg</item>
+        <item>1-XRespAccel3-5.jpg</item>
+        <item>1-XRespAccel4-5.jpg</item>
+        <item>1-XRespAccel5-5.jpg</item>
     </string-array>
 
 
     /***********************************************************
-    * X-Axis Seconds
+    * X-Axis Second
     **********************************************************/
     <string-array name="Second_X_axis_1">
         <item>Test #2 - X-Testing Set-Up (unit1)</item>
@@ -148,49 +148,146 @@
 
 
     <string-array name="Second_X_axis_1_File">
-        <item>2-XTestSetup-1</item>
-        <item>2-XControlAccel-1</item>
-        <item>2-XRespAccel1-1</item>
-        <item>2-XRespAccel2-1</item>
-        <item>2-XRespAccel3-1</item>
-        <item>2-XRespAccel4-1</item>
-        <item>2-XRespAccel5-1</item>
+        <item>2-XTestSetup-1.jpg</item>
+        <item>2-XControlAccel-1.jpg</item>
+        <item>2-XRespAccel1-1.jpg</item>
+        <item>2-XRespAccel2-1.jpg</item>
+        <item>2-XRespAccel3-1.jpg</item>
+        <item>2-XRespAccel4-1.jpg</item>
+        <item>2-XRespAccel5-1.jpg</item>
     </string-array>
     <string-array name="Second_X_axis_2_File">
-        <item>2-XTestSetup-2</item>
-        <item>2-XControlAccel-2</item>
-        <item>2-XRespAccel1-2</item>
-        <item>2-XRespAccel2-2</item>
-        <item>2-XRespAccel3-2</item>
-        <item>2-XRespAccel4-2</item>
-        <item>2-XRespAccel5-2</item>
+        <item>2-XTestSetup-2.jpg</item>
+        <item>2-XControlAccel-2.jpg</item>
+        <item>2-XRespAccel1-2.jpg</item>
+        <item>2-XRespAccel2-2.jpg</item>
+        <item>2-XRespAccel3-2.jpg</item>
+        <item>2-XRespAccel4-2.jpg</item>
+        <item>2-XRespAccel5-2.jpg</item>
     </string-array>
     <string-array name="Second_X_axis_3_File">
-        <item>2-XTestSetup-3</item>
-        <item>2-XControlAccel-3</item>
-        <item>2-XRespAccel1-3</item>
-        <item>2-XRespAccel2-3</item>
-        <item>2-XRespAccel3-3</item>
-        <item>2-XRespAccel4-3</item>
-        <item>2-XRespAccel5-3</item>
+        <item>2-XTestSetup-3.jpg</item>
+        <item>2-XControlAccel-3.jpg</item>
+        <item>2-XRespAccel1-3.jpg</item>
+        <item>2-XRespAccel2-3.jpg</item>
+        <item>2-XRespAccel3-3.jpg</item>
+        <item>2-XRespAccel4-3.jpg</item>
+        <item>2-XRespAccel5-3.jpg</item>
     </string-array>
     <string-array name="Second_X_axis_4_File">
-        <item>2-XTestSetup-4</item>
-        <item>2-XControlAccel-4</item>
-        <item>2-XRespAccel1-4</item>
-        <item>2-XRespAccel2-4</item>
-        <item>2-XRespAccel3-4</item>
-        <item>2-XRespAccel4-4</item>
-        <item>2-XRespAccel5-4</item>
+        <item>2-XTestSetup-4.jpg</item>
+        <item>2-XControlAccel-4.jpg</item>
+        <item>2-XRespAccel1-4.jpg</item>
+        <item>2-XRespAccel2-4.jpg</item>
+        <item>2-XRespAccel3-4.jpg</item>
+        <item>2-XRespAccel4-4.jpg</item>
+        <item>2-XRespAccel5-4.jpg</item>
     </string-array>
     <string-array name="Second_X_axis_5_File">
-        <item>2-XTestSetup-5</item>
-        <item>2-XControlAccel-5</item>
-        <item>2-XRespAccel1-5</item>
-        <item>2-XRespAccel2-5</item>
-        <item>2-XRespAccel3-5</item>
-        <item>2-XRespAccel4-5</item>
-        <item>2-XRespAccel5-5</item>
+        <item>2-XTestSetup-5.jpg</item>
+        <item>2-XControlAccel-5.jpg</item>
+        <item>2-XRespAccel1-5.jpg</item>
+        <item>2-XRespAccel2-5.jpg</item>
+        <item>2-XRespAccel3-5.jpg</item>
+        <item>2-XRespAccel4-5.jpg</item>
+        <item>2-XRespAccel5-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * X-Axis Third
+    **********************************************************/
+    <string-array name="Third_X_axis_1">
+        <item>Test #3 - X-Testing Set-Up (unit1)</item>
+        <item>Test #3 - X-Axis (Control) Accelerometer Location Verification (unit1)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 1 (unit1)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 2 (unit1)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 3 (unit1)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 4 (unit1)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 5 (unit1)</item>
+    </string-array>
+    <string-array name="Third_X_axis_2">
+        <item>Test #3 - X-Testing Set-Up (unit2)</item>
+        <item>Test #3 - X-Axis (Control) Accelerometer Location Verification (unit2)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 1 (unit2)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 2 (unit2)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 3 (unit2)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 4 (unit2)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 5 (unit2)</item>
+    </string-array>
+    <string-array name="Third_X_axis_3">
+        <item>Test #3 - X-Testing Set-Up (unit3)</item>
+        <item>Test #3 - X-Axis (Control) Accelerometer Location Verification (unit3)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 1 (unit3)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 2 (unit3)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 3 (unit3)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 4 (unit3)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 5 (unit3)</item>
+    </string-array>
+    <string-array name="Third_X_axis_4">
+        <item>Test #3 - X-Testing Set-Up (unit4)</item>
+        <item>Test #3 - X-Axis (Control) Accelerometer Location Verification (unit4)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 1 (unit4)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 2 (unit4)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 3 (unit4)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 4 (unit4)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 5 (unit4)</item>
+    </string-array>
+    <string-array name="Third_X_axis_5">
+        <item>Test #3 - X-Testing Set-Up (unit5)</item>
+        <item>Test #3 - X-Axis (Control) Accelerometer Location Verification (unit5)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 1 (unit5)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 2 (unit5)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 3 (unit5)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 4 (unit5)</item>
+        <item>Test #3 - X-Axis (Response) Accelerometer Location Verification photo 5 (unit5)</item>
+    </string-array>
+
+
+    <string-array name="Third_X_axis_1_File">
+        <item>3-XTestSetup-1.jpg</item>
+        <item>3-XControlAccel-1.jpg</item>
+        <item>3-XRespAccel1-1.jpg</item>
+        <item>3-XRespAccel2-1.jpg</item>
+        <item>3-XRespAccel3-1.jpg</item>
+        <item>3-XRespAccel4-1.jpg</item>
+        <item>3-XRespAccel5-1.jpg</item>
+    </string-array>
+    <string-array name="Third_X_axis_2_File">
+        <item>3-XTestSetup-2.jpg</item>
+        <item>3-XControlAccel-2.jpg</item>
+        <item>3-XRespAccel1-2.jpg</item>
+        <item>3-XRespAccel2-2.jpg</item>
+        <item>3-XRespAccel3-2.jpg</item>
+        <item>3-XRespAccel4-2.jpg</item>
+        <item>3-XRespAccel5-2.jpg</item>
+    </string-array>
+    <string-array name="Third_X_axis_3_File">
+        <item>3-XTestSetup-3.jpg</item>
+        <item>3-XControlAccel-3.jpg</item>
+        <item>3-XRespAccel1-3.jpg</item>
+        <item>3-XRespAccel2-3.jpg</item>
+        <item>3-XRespAccel3-3.jpg</item>
+        <item>3-XRespAccel4-3.jpg</item>
+        <item>3-XRespAccel5-3.jpg</item>
+    </string-array>
+    <string-array name="Third_X_axis_4_File">
+        <item>3-XTestSetup-4.jpg</item>
+        <item>3-XControlAccel-4.jpg</item>
+        <item>3-XRespAccel1-4.jpg</item>
+        <item>3-XRespAccel2-4.jpg</item>
+        <item>3-XRespAccel3-4.jpg</item>
+        <item>3-XRespAccel4-4.jpg</item>
+        <item>3-XRespAccel5-4.jpg</item>
+    </string-array>
+    <string-array name="Third_X_axis_5_File">
+        <item>3-XTestSetup-5.jpg</item>
+        <item>3-XControlAccel-5.jpg</item>
+        <item>3-XRespAccel1-5.jpg</item>
+        <item>3-XRespAccel2-5.jpg</item>
+        <item>3-XRespAccel3-5.jpg</item>
+        <item>3-XRespAccel4-5.jpg</item>
+        <item>3-XRespAccel5-5.jpg</item>
     </string-array>
 
 </resources>

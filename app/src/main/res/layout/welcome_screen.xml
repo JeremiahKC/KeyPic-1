@@ -70,7 +70,6 @@
         android:layout_marginTop="15dp"
         android:background="@color/KeyOr"
         android:text="EMC"
-
         android:textColor="@color/white"
         android:textSize="20sp" />
 
@@ -87,10 +86,22 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/customBtn"
+        android:id="@+id/envBtn"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:layout_below="@+id/amazonBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/KeyOr"
+        android:text="ENV"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/customBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/envBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:background="@color/KeyOr"

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /***********************************************************
+    * Z-Axis First
+    **********************************************************/
+    <string-array name="First_Z_axis_1">
+        <item>Test #1 - Z-Testing Set-Up (unit1)</item>
+        <item>Test #1 - Z-Axis (Control) Accelerometer Location Verification (unit1)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit1)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit1)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit1)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit1)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit1)</item>
+    </string-array>
+    <string-array name="First_Z_axis_2">
+        <item>Test #1 - Z-Testing Set-Up (unit2)</item>
+        <item>Test #1 - Z-Axis (Control) Accelerometer Location Verification (unit2)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit2)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit2)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit2)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit2)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit2)</item>
+    </string-array>
+    <string-array name="First_Z_axis_3">
+        <item>Test #1 - Z-Testing Set-Up (unit3)</item>
+        <item>Test #1 - Z-Axis (Control) Accelerometer Location Verification (unit3)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit3)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit3)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit3)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit3)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit3)</item>
+    </string-array>
+    <string-array name="First_Z_axis_4">
+        <item>Test #1 - Z-Testing Set-Up (unit4)</item>
+        <item>Test #1 - Z-Axis (Control) Accelerometer Location Verification (unit4)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit4)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit4)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit4)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit4)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit4)</item>
+    </string-array>
+    <string-array name="First_Z_axis_5">
+        <item>Test #1 - Z-Testing Set-Up (unit5)</item>
+        <item>Test #1 - Z-Axis (Control) Accelerometer Location Verification (unit5)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit5)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit5)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit5)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit5)</item>
+        <item>Test #1 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit5)</item>
+    </string-array>
+
+
+    <string-array name="First_Z_axis_1_File">
+        <item>1-ZTestSetup-1.jpg</item>
+        <item>1-ZControlAccel-1.jpg</item>
+        <item>1-ZRespAccel1-1.jpg</item>
+        <item>1-ZRespAccel2-1.jpg</item>
+        <item>1-ZRespAccel3-1.jpg</item>
+        <item>1-ZRespAccel4-1.jpg</item>
+        <item>1-ZRespAccel5-1.jpg</item>
+    </string-array>
+    <string-array name="First_Z_axis_2_File">
+        <item>1-ZTestSetup-2.jpg</item>
+        <item>1-ZControlAccel-2.jpg</item>
+        <item>1-ZRespAccel1-2.jpg</item>
+        <item>1-ZRespAccel2-2.jpg</item>
+        <item>1-ZRespAccel3-2.jpg</item>
+        <item>1-ZRespAccel4-2.jpg</item>
+        <item>1-ZRespAccel5-2.jpg</item>
+    </string-array>
+    <string-array name="First_Z_axis_3_File">
+        <item>1-ZTestSetup-3.jpg</item>
+        <item>1-ZControlAccel-3.jpg</item>
+        <item>1-ZRespAccel1-3.jpg</item>
+        <item>1-ZRespAccel2-3.jpg</item>
+        <item>1-ZRespAccel3-3.jpg</item>
+        <item>1-ZRespAccel4-3.jpg</item>
+        <item>1-ZRespAccel5-3.jpg</item>
+    </string-array>
+    <string-array name="First_Z_axis_4_File">
+        <item>1-ZTestSetup-4.jpg</item>
+        <item>1-ZControlAccel-4.jpg</item>
+        <item>1-ZRespAccel1-4.jpg</item>
+        <item>1-ZRespAccel2-4.jpg</item>
+        <item>1-ZRespAccel3-4.jpg</item>
+        <item>1-ZRespAccel4-4.jpg</item>
+        <item>1-ZRespAccel5-4.jpg</item>
+    </string-array>
+    <string-array name="First_Z_axis_5_File">
+        <item>1-ZTestSetup-5.jpg</item>
+        <item>1-ZControlAccel-5.jpg</item>
+        <item>1-ZRespAccel1-5.jpg</item>
+        <item>1-ZRespAccel2-5.jpg</item>
+        <item>1-ZRespAccel3-5.jpg</item>
+        <item>1-ZRespAccel4-5.jpg</item>
+        <item>1-ZRespAccel5-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * Z-Axis Second
+    **********************************************************/
+    <string-array name="Second_Z_axis_1">
+        <item>Test #2 - Z-Testing Set-Up (unit1)</item>
+        <item>Test #2 - Z-Axis (Control) Accelerometer Location Verification (unit1)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit1)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit1)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit1)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit1)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit1)</item>
+    </string-array>
+    <string-array name="Second_Z_axis_2">
+        <item>Test #2 - Z-Testing Set-Up (unit2)</item>
+        <item>Test #2 - Z-Axis (Control) Accelerometer Location Verification (unit2)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit2)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit2)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit2)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit2)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit2)</item>
+    </string-array>
+    <string-array name="Second_Z_axis_3">
+        <item>Test #2 - Z-Testing Set-Up (unit3)</item>
+        <item>Test #2 - Z-Axis (Control) Accelerometer Location Verification (unit3)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit3)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit3)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit3)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit3)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit3)</item>
+    </string-array>
+    <string-array name="Second_Z_axis_4">
+        <item>Test #2 - Z-Testing Set-Up (unit4)</item>
+        <item>Test #2 - Z-Axis (Control) Accelerometer Location Verification (unit4)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit4)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit4)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit4)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit4)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit4)</item>
+    </string-array>
+    <string-array name="Second_Z_axis_5">
+        <item>Test #2 - Z-Testing Set-Up (unit5)</item>
+        <item>Test #2 - Z-Axis (Control) Accelerometer Location Verification (unit5)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit5)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit5)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit5)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit5)</item>
+        <item>Test #2 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit5)</item>
+    </string-array>
+
+
+    <string-array name="Second_Z_axis_1_File">
+        <item>2-ZTestSetup-1.jpg</item>
+        <item>2-ZControlAccel-1.jpg</item>
+        <item>2-ZRespAccel1-1.jpg</item>
+        <item>2-ZRespAccel2-1.jpg</item>
+        <item>2-ZRespAccel3-1.jpg</item>
+        <item>2-ZRespAccel4-1.jpg</item>
+        <item>2-ZRespAccel5-1.jpg</item>
+    </string-array>
+    <string-array name="Second_Z_axis_2_File">
+        <item>2-ZTestSetup-2.jpg</item>
+        <item>2-ZControlAccel-2.jpg</item>
+        <item>2-ZRespAccel1-2.jpg</item>
+        <item>2-ZRespAccel2-2.jpg</item>
+        <item>2-ZRespAccel3-2.jpg</item>
+        <item>2-ZRespAccel4-2.jpg</item>
+        <item>2-ZRespAccel5-2.jpg</item>
+    </string-array>
+    <string-array name="Second_Z_axis_3_File">
+        <item>2-ZTestSetup-3.jpg</item>
+        <item>2-ZControlAccel-3.jpg</item>
+        <item>2-ZRespAccel1-3.jpg</item>
+        <item>2-ZRespAccel2-3.jpg</item>
+        <item>2-ZRespAccel3-3.jpg</item>
+        <item>2-ZRespAccel4-3.jpg</item>
+        <item>2-ZRespAccel5-3.jpg</item>
+    </string-array>
+    <string-array name="Second_Z_axis_4_File">
+        <item>2-ZTestSetup-4.jpg</item>
+        <item>2-ZControlAccel-4.jpg</item>
+        <item>2-ZRespAccel1-4.jpg</item>
+        <item>2-ZRespAccel2-4.jpg</item>
+        <item>2-ZRespAccel3-4.jpg</item>
+        <item>2-ZRespAccel4-4.jpg</item>
+        <item>2-ZRespAccel5-4.jpg</item>
+    </string-array>
+    <string-array name="Second_Z_axis_5_File">
+        <item>2-ZTestSetup-5.jpg</item>
+        <item>2-ZControlAccel-5.jpg</item>
+        <item>2-ZRespAccel1-5.jpg</item>
+        <item>2-ZRespAccel2-5.jpg</item>
+        <item>2-ZRespAccel3-5.jpg</item>
+        <item>2-ZRespAccel4-5.jpg</item>
+        <item>2-ZRespAccel5-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * Z-Axis Third
+    **********************************************************/
+    <string-array name="Third_Z_axis_1">
+        <item>Test #3 - Z-Testing Set-Up (unit1)</item>
+        <item>Test #3 - Z-Axis (Control) Accelerometer Location Verification (unit1)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit1)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit1)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit1)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit1)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit1)</item>
+    </string-array>
+    <string-array name="Third_Z_axis_2">
+        <item>Test #3 - Z-Testing Set-Up (unit2)</item>
+        <item>Test #3 - Z-Axis (Control) Accelerometer Location Verification (unit2)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit2)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit2)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit2)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit2)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit2)</item>
+    </string-array>
+    <string-array name="Third_Z_axis_3">
+        <item>Test #3 - Z-Testing Set-Up (unit3)</item>
+        <item>Test #3 - Z-Axis (Control) Accelerometer Location Verification (unit3)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit3)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit3)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit3)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit3)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit3)</item>
+    </string-array>
+    <string-array name="Third_Z_axis_4">
+        <item>Test #3 - Z-Testing Set-Up (unit4)</item>
+        <item>Test #3 - Z-Axis (Control) Accelerometer Location Verification (unit4)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit4)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit4)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit4)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit4)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit4)</item>
+    </string-array>
+    <string-array name="Third_Z_axis_5">
+        <item>Test #3 - Z-Testing Set-Up (unit5)</item>
+        <item>Test #3 - Z-Axis (Control) Accelerometer Location Verification (unit5)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 1 (unit5)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 2 (unit5)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 3 (unit5)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 4 (unit5)</item>
+        <item>Test #3 - Z-Axis (Response) Accelerometer Location Verification photo 5 (unit5)</item>
+    </string-array>
+
+
+    <string-array name="Third_Z_axis_1_File">
+        <item>3-ZTestSetup-1.jpg</item>
+        <item>3-ZControlAccel-1.jpg</item>
+        <item>3-ZRespAccel1-1.jpg</item>
+        <item>3-ZRespAccel2-1.jpg</item>
+        <item>3-ZRespAccel3-1.jpg</item>
+        <item>3-ZRespAccel4-1.jpg</item>
+        <item>3-ZRespAccel5-1.jpg</item>
+    </string-array>
+    <string-array name="Third_Z_axis_2_File">
+        <item>3-ZTestSetup-2.jpg</item>
+        <item>3-ZControlAccel-2.jpg</item>
+        <item>3-ZRespAccel1-2.jpg</item>
+        <item>3-ZRespAccel2-2.jpg</item>
+        <item>3-ZRespAccel3-2.jpg</item>
+        <item>3-ZRespAccel4-2.jpg</item>
+        <item>3-ZRespAccel5-2.jpg</item>
+    </string-array>
+    <string-array name="Third_Z_axis_3_File">
+        <item>3-ZTestSetup-3.jpg</item>
+        <item>3-ZControlAccel-3.jpg</item>
+        <item>3-ZRespAccel1-3.jpg</item>
+        <item>3-ZRespAccel2-3.jpg</item>
+        <item>3-ZRespAccel3-3.jpg</item>
+        <item>3-ZRespAccel4-3.jpg</item>
+        <item>3-ZRespAccel5-3.jpg</item>
+    </string-array>
+    <string-array name="Third_Z_axis_4_File">
+        <item>3-ZTestSetup-4.jpg</item>
+        <item>3-ZControlAccel-4.jpg</item>
+        <item>3-ZRespAccel1-4.jpg</item>
+        <item>3-ZRespAccel2-4.jpg</item>
+        <item>3-ZRespAccel3-4.jpg</item>
+        <item>3-ZRespAccel4-4.jpg</item>
+        <item>3-ZRespAccel5-4.jpg</item>
+    </string-array>
+    <string-array name="Third_Z_axis_5_File">
+        <item>3-ZTestSetup-5.jpg</item>
+        <item>3-ZControlAccel-5.jpg</item>
+        <item>3-ZRespAccel1-5.jpg</item>
+        <item>3-ZRespAccel2-5.jpg</item>
+        <item>3-ZRespAccel3-5.jpg</item>
+        <item>3-ZRespAccel4-5.jpg</item>
+        <item>3-ZRespAccel5-5.jpg</item>
+    </string-array>
+
+</resources>

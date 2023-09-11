@@ -214,6 +214,8 @@ public class CameraLaunchActivity extends AppCompatActivity {
         // Set the photo name
         TextView photoNameTextView = dialogView.findViewById(R.id.photoNameTextView);
         photoNameTextView.setText(photoName);
+        int textColor = ContextCompat.getColor(CameraLaunchActivity.this, R.color.textColor); // Replace 'context' with your actual context
+        photoNameTextView.setTextColor(textColor);
 
         // Set the captured image
         ImageView capturedImageView = dialogView.findViewById(R.id.capturedImageView);

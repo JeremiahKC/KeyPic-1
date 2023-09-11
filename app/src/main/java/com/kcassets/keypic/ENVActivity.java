@@ -11,6 +11,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -39,6 +40,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class ENVActivity extends AppCompatActivity {
 
@@ -57,7 +59,7 @@ public class ENVActivity extends AppCompatActivity {
     private static final int CAMERA_REQUEST_CODE = 123;
     private Drive driveService;
     ProgressDialog progressDialog;
-    TextView title;
+    TextView title, textPhase, textUnit, textType;
     PhotoAdapter photoAdapter;
     String[] typeArray;
     String[] phaseArray;
@@ -72,13 +74,13 @@ public class ENVActivity extends AppCompatActivity {
     List<String> fileNames = new ArrayList<>();
     List<String> existingFileNames = new ArrayList<>();
     SharedPreferences sharedPreferences;
-    String PREF_FOLDER = "folder";
-    String PREF_TYPE = "type";
-    String PREF_PHASE = "phase";
-    String PREF_UNIT = "unit";
-    String PREF_TYPE_POS = "type_pos";
-    String PREF_PHASE_POS = "phase_pos";
-    String PREF_UNIT_POS = "unit_pos";
+    String PREF_FOLDER_ENV = "folder_ENV";
+    String PREF_TYPE_ENV = "type_ENV";
+    String PREF_PHASE_ENV = "phase_ENV";
+    String PREF_UNIT_ENV = "unit_ENV";
+    String PREF_TYPE_POS_ENV = "type_pos_ENV";
+    String PREF_PHASE_POS_ENV = "phase_pos_ENV";
+    String PREF_UNIT_POS_ENV = "unit_pos_ENV";
 
 
     /***********************************************************
@@ -103,17 +105,23 @@ public class ENVActivity extends AppCompatActivity {
         check = findViewById(R.id.check);
         title = findViewById(R.id.title);
         backArrow = findViewById(R.id.backArrow);
+        textPhase = findViewById(R.id.textPhase);
+        textUnit = findViewById(R.id.textUnit);
+        textType = findViewById(R.id.textType);
 
         // Loading Popup Initialization
         progressDialog = new ProgressDialog(ENVActivity.this);
         progressDialog.setIndeterminate(true);
         progressDialog.setCancelable(false);
 
+        // Hide/Move Elements
+        textType.setText("Test Sequence");
+        textPhase.setText("Test Type");
         check.setVisibility(View.INVISIBLE);
 
         // Initialize arrays from resources
-        typeArray = getResources().getStringArray(R.array.amazon_type);
-        phaseArray = getResources().getStringArray(R.array.amazon_phase);
+        typeArray = getResources().getStringArray(R.array.sequence);
+        phaseArray = getResources().getStringArray(R.array.env_test);
         unitArray = getResources().getStringArray(R.array.amazon_unit);
 
         // Setup Spinners
@@ -121,13 +129,13 @@ public class ENVActivity extends AppCompatActivity {
 
         // Retrieve Previous Folder and Spinner Selections
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        folderName = sharedPreferences.getString("folder", null);
-        selectedType = sharedPreferences.getString("type", null);
-        selectedPhase = sharedPreferences.getString("phase", null);
-        selectedUnit = sharedPreferences.getString("unit", null);
-        int typePosition = sharedPreferences.getInt("type_pos", -1);
-        int phasePosition = sharedPreferences.getInt("phase_pos", -1);
-        int unitPosition = sharedPreferences.getInt("unit_pos", -1);
+        folderName = sharedPreferences.getString("folder_ENV", null);
+        selectedType = sharedPreferences.getString("type_ENV", null);
+        selectedPhase = sharedPreferences.getString("phase_ENV", null);
+        selectedUnit = sharedPreferences.getString("unit_ENV", null);
+        int typePosition = sharedPreferences.getInt("type_pos_ENV", -1);
+        int phasePosition = sharedPreferences.getInt("phase_pos_ENV", -1);
+        int unitPosition = sharedPreferences.getInt("unit_pos_ENV", -1);
 
         // Check expiration time of access token
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
@@ -163,7 +171,7 @@ public class ENVActivity extends AppCompatActivity {
                 finish();
             }
         });
-        title.setText("Package");
+        title.setText("ENV");
 
         // Set click listener for photo list items
         photoList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -231,7 +239,7 @@ public class ENVActivity extends AppCompatActivity {
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
                 SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putString(PREF_FOLDER, folderName);
+                editor.putString(PREF_FOLDER_ENV, folderName);
                 editor.apply();
 
                 // Close the keyboard
@@ -348,16 +356,21 @@ public class ENVActivity extends AppCompatActivity {
         int unitPosition = unitSpinner.getSelectedItemPosition();
 
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(PREF_TYPE, selectedType);
-        editor.putString(PREF_PHASE, selectedPhase);
-        editor.putString(PREF_UNIT, selectedUnit);
-        editor.putInt(PREF_TYPE_POS, typePosition);
-        editor.putInt(PREF_PHASE_POS, phasePosition);
-        editor.putInt(PREF_UNIT_POS, unitPosition);
+        editor.putString(PREF_TYPE_ENV, selectedType);
+        editor.putString(PREF_PHASE_ENV, selectedPhase);
+        editor.putString(PREF_UNIT_ENV, selectedUnit);
+        editor.putInt(PREF_TYPE_POS_ENV, typePosition);
+        editor.putInt(PREF_PHASE_POS_ENV, phasePosition);
+        editor.putInt(PREF_UNIT_POS_ENV, unitPosition);
         editor.apply();
 
-        // Create an array name based on the selected values
-        String arrayName = selectedType + "_" + selectedPhase + "_" + selectedUnit;
+        String arrayName;
+
+        if (Objects.equals(selectedPhase, "PreTest") || Objects.equals(selectedPhase, "PostTest")) {
+            arrayName = selectedPhase + "_" + selectedUnit;
+        } else {
+            arrayName = selectedType + "_" + selectedPhase + "_" + selectedUnit;
+        }
 
         // Get the resource ID of the array dynamically
         int arrayId = getResources().getIdentifier(arrayName, "array", getPackageName());

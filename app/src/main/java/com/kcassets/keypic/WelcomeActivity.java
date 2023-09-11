@@ -26,6 +26,7 @@ public class WelcomeActivity extends AppCompatActivity {
     TextView name,email;
     Button signOutBtn;
     Button emcBtn;
+    Button envBtn;
     Button amazonBtn;
     Button customBtn;
 
@@ -47,6 +48,7 @@ public class WelcomeActivity extends AppCompatActivity {
         email = findViewById(R.id.email);
         signOutBtn = findViewById(R.id.signOutBtn);
         emcBtn = findViewById(R.id.emcBtn);
+        envBtn = findViewById(R.id.envBtn);
         amazonBtn = findViewById(R.id.amazonBtn);
         customBtn = findViewById(R.id.customBtn);
 
@@ -70,6 +72,14 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 startActivity(new Intent(WelcomeActivity.this, EMCActivity.class));
+            }
+        });
+
+        envBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                startActivity(new Intent(WelcomeActivity.this, ENVActivity.class));
             }
         });
 
