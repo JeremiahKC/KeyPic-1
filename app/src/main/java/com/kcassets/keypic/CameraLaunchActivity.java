@@ -16,6 +16,8 @@ import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -30,6 +32,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.camera.core.Camera;
+import androidx.camera.core.CameraControl;
 import androidx.camera.core.CameraSelector;
 import androidx.camera.core.ImageCapture;
 import androidx.camera.core.ImageCaptureException;
@@ -69,6 +72,8 @@ public class CameraLaunchActivity extends AppCompatActivity {
     private Drive driveService;
     SharedPreferences sharedPreferences;
     private PreviewView previewView;
+    private float zoomRatio = 1.0f;
+    private ProcessCameraProvider cameraProvider;
     private int currentOrientation;
     int cameraFacing = CameraSelector.LENS_FACING_BACK;
     private final ActivityResultLauncher<String> activityResultLauncher = registerForActivityResult(new ActivityResultContracts.RequestPermission(), new ActivityResultCallback<Boolean>() {
@@ -185,6 +190,26 @@ public class CameraLaunchActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         setFlashIcon(camera);
+                    }
+                });
+
+                // Inside onCreate or after camera initialization
+                previewView.setOnTouchListener(new View.OnTouchListener() {
+                    private ScaleGestureDetector scaleGestureDetector = new ScaleGestureDetector(CameraLaunchActivity.this, new ScaleGestureDetector.SimpleOnScaleGestureListener() {
+                        @Override
+                        public boolean onScale(ScaleGestureDetector detector) {
+                            zoomRatio *= detector.getScaleFactor();
+                            zoomRatio = Math.max(1.0f, Math.min(zoomRatio, 5.0f));
+                            Camera camera = cameraProvider.bindToLifecycle(CameraLaunchActivity.this, cameraSelector, preview, imageCapture);
+                            camera.getCameraControl().setZoomRatio(zoomRatio);
+                            return true;
+                        }
+                    });
+
+                    @Override
+                    public boolean onTouch(View view, MotionEvent motionEvent) {
+                        scaleGestureDetector.onTouchEvent(motionEvent);
+                        return true;
                     }
                 });
 
