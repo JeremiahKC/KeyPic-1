@@ -48,6 +48,7 @@ public class AmazonActivity extends AppCompatActivity {
      **********************************************************/
     Spinner typeSpinner;
     Spinner phaseSpinner;
+    Spinner phaseSpinner2;
     Spinner unitSpinner;
     ListView photoList;
     EditText job;
@@ -96,6 +97,7 @@ public class AmazonActivity extends AppCompatActivity {
         // Initialize elements
         typeSpinner = findViewById(R.id.typeSpinner);
         phaseSpinner = findViewById(R.id.phaseSpinner);
+        phaseSpinner2 = findViewById(R.id.phaseSpinner2);
         unitSpinner = findViewById(R.id.unitSpinner);
         photoList = findViewById(R.id.photoList);
         folderBtn = findViewById(R.id.folderBtn);
@@ -103,6 +105,8 @@ public class AmazonActivity extends AppCompatActivity {
         check = findViewById(R.id.check);
         title = findViewById(R.id.title);
         backArrow = findViewById(R.id.backArrow);
+
+        phaseSpinner2.setVisibility(View.GONE);
 
         // Loading Popup Initialization
         progressDialog = new ProgressDialog(AmazonActivity.this);

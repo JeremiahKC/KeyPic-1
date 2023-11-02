@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /***********************************************************
+    * CE101 Photos and Files
+    **********************************************************/
+    <string-array name="CE101_1">
+        <item>VERIFICATION SETUP PHOTO (unit1)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
+    </string-array>
+    <string-array name="CE101_2">
+        <item>VERIFICATION SETUP PHOTO (unit2)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit2)</item>
+    </string-array>
+    <string-array name="CE101_3">
+        <item>VERIFICATION SETUP PHOTO (unit3)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit3)</item>
+    </string-array>
+    <string-array name="CE101_4">
+        <item>VERIFICATION SETUP PHOTO (unit4)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit4)</item>
+    </string-array>
+    <string-array name="CE101_5">
+        <item>VERIFICATION SETUP PHOTO (unit5)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit5)</item>
+    </string-array>
+
+
+    <string-array name="CE101_1_File">
+        <item>CE101Check-1.jpg</item>
+        <item>CE101Line1-1.jpg</item>
+        <item>CE101Line2-1.jpg</item>
+        <item>CE101Line3-1.jpg</item>
+        <item>CE101Line4-1.jpg</item>
+    </string-array>
+    <string-array name="CE101_2_File">
+        <item>CE101Check-2.jpg</item>
+        <item>CE101Line1-2.jpg</item>
+        <item>CE101Line2-2.jpg</item>
+        <item>CE101Line3-2.jpg</item>
+        <item>CE101Line4-2.jpg</item>
+    </string-array>
+    <string-array name="CE101_3_File">
+        <item>CE101Check-3.jpg</item>
+        <item>CE101Line1-3.jpg</item>
+        <item>CE101Line2-3.jpg</item>
+        <item>CE101Line3-3.jpg</item>
+        <item>CE101Line4-3.jpg</item>
+    </string-array>
+    <string-array name="CE101_4_File">
+        <item>CE101Check-4.jpg</item>
+        <item>CE101Line1-4.jpg</item>
+        <item>CE101Line2-4.jpg</item>
+        <item>CE101Line3-4.jpg</item>
+        <item>CE101Line4-4.jpg</item>
+    </string-array>
+    <string-array name="CE101_5_File">
+        <item>CE101Check-5.jpg</item>
+        <item>CE101Line1-5.jpg</item>
+        <item>CE101Line2-5.jpg</item>
+        <item>CE101Line3-5.jpg</item>
+        <item>CE101Line4-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CE102 Photos and Files
+    **********************************************************/
+    <string-array name="CE102_1">
+        <item>VERIFICATION SETUP PHOTO (unit1)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
+    </string-array>
+    <string-array name="CE102_2">
+        <item>VERIFICATION SETUP PHOTO (unit2)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit2)</item>
+    </string-array>
+    <string-array name="CE102_3">
+        <item>VERIFICATION SETUP PHOTO (unit3)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit3)</item>
+    </string-array>
+    <string-array name="CE102_4">
+        <item>VERIFICATION SETUP PHOTO (unit4)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit4)</item>
+    </string-array>
+    <string-array name="CE102_5">
+        <item>VERIFICATION SETUP PHOTO (unit5)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit5)</item>
+    </string-array>
+
+
+    <string-array name="CE102_1_File">
+        <item>CE102Check-1.jpg</item>
+        <item>CE102Line1-1.jpg</item>
+        <item>CE102Line2-1.jpg</item>
+        <item>CE102Line3-1.jpg</item>
+        <item>CE102Line4-1.jpg</item>
+    </string-array>
+    <string-array name="CE102_2_File">
+        <item>CE102Check-2.jpg</item>
+        <item>CE102Line1-2.jpg</item>
+        <item>CE102Line2-2.jpg</item>
+        <item>CE102Line3-2.jpg</item>
+        <item>CE102Line4-2.jpg</item>
+    </string-array>
+    <string-array name="CE102_3_File">
+        <item>CE102Check-3.jpg</item>
+        <item>CE102Line1-3.jpg</item>
+        <item>CE102Line2-3.jpg</item>
+        <item>CE102Line3-3.jpg</item>
+        <item>CE102Line4-3.jpg</item>
+    </string-array>
+    <string-array name="CE102_4_File">
+        <item>CE102Check-4.jpg</item>
+        <item>CE102Line1-4.jpg</item>
+        <item>CE102Line2-4.jpg</item>
+        <item>CE102Line3-4.jpg</item>
+        <item>CE102Line4-4.jpg</item>
+    </string-array>
+    <string-array name="CE102_5_File">
+        <item>CE102Check-5.jpg</item>
+        <item>CE102Line1-5.jpg</item>
+        <item>CE102Line2-5.jpg</item>
+        <item>CE102Line3-5.jpg</item>
+        <item>CE102Line4-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CE106 Photos and Files
+    **********************************************************/
+    <string-array name="CE106_1">
+        <item>VERIFICATION SETUP PHOTO (unit1)</item>
+        <item>RECEIVE MODE TEST SETUP PHOTO (unit1)</item>
+        <item>TRANSMIT MODE TEST SETUP PHOTO (unit1)</item>
+    </string-array>
+    <string-array name="CE106_2">
+        <item>VERIFICATION SETUP PHOTO (unit2)</item>
+        <item>RECEIVE MODE TEST SETUP PHOTO (unit2)</item>
+        <item>TRANSMIT MODE TEST SETUP PHOTO (unit2)</item>
+    </string-array>
+    <string-array name="CE106_3">
+        <item>VERIFICATION SETUP PHOTO (unit3)</item>
+        <item>RECEIVE MODE TEST SETUP PHOTO (unit3)</item>
+        <item>TRANSMIT MODE TEST SETUP PHOTO (unit3)</item>
+    </string-array>
+    <string-array name="CE106_4">
+        <item>VERIFICATION SETUP PHOTO (unit4)</item>
+        <item>RECEIVE MODE TEST SETUP PHOTO (unit4)</item>
+        <item>TRANSMIT MODE TEST SETUP PHOTO (unit4)</item>
+    </string-array>
+    <string-array name="CE106_5">
+        <item>VERIFICATION SETUP PHOTO (unit5)</item>
+        <item>RECEIVE MODE TEST SETUP PHOTO (unit5)</item>
+        <item>TRANSMIT MODE TEST SETUP PHOTO (unit5)</item>
+    </string-array>
+
+
+    <string-array name="CE106_1_File">
+        <item>CE106Check-1.jpg</item>
+        <item>CE106RX-1.jpg</item>
+        <item>CE106TX-1.jpg</item>
+    </string-array>
+    <string-array name="CE106_2_File">
+        <item>CE106Check-2.jpg</item>
+        <item>CE106RX-2.jpg</item>
+        <item>CE106TX-2.jpg</item>
+    </string-array>
+    <string-array name="CE106_3_File">
+        <item>CE106Check-3.jpg</item>
+        <item>CE106RX-3.jpg</item>
+        <item>CE106TX-3.jpg</item>
+    </string-array>
+    <string-array name="CE106_4_File">
+        <item>CE106Check-4.jpg</item>
+        <item>CE106RX-4.jpg</item>
+        <item>CE106TX-4.jpg</item>
+    </string-array>
+    <string-array name="CE106_5_File">
+        <item>CE106Check-5.jpg</item>
+        <item>CE106RX-5.jpg</item>
+        <item>CE106TX-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CS101 Photos and Files
+    **********************************************************/
+    <string-array name="CS101_1">
+        <item>CALIBRATION SETUP PHOTO (unit1)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
+    </string-array>
+    <string-array name="CS101_2">
+        <item>CALIBRATION SETUP PHOTO (unit2)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit2)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit2)</item>
+    </string-array>
+    <string-array name="CS101_3">
+        <item>CALIBRATION SETUP PHOTO (unit3)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit3)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit3)</item>
+    </string-array>
+    <string-array name="CS101_4">
+        <item>CALIBRATION SETUP PHOTO (unit4)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit4)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit4)</item>
+    </string-array>
+    <string-array name="CS101_5">
+        <item>CALIBRATION SETUP PHOTO (unit5)</item>
+        <item>LINE 1 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit5)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit5)</item>
+    </string-array>
+
+
+    <string-array name="CS101_1_File">
+        <item>CS101Cal-1.jpg</item>
+        <item>CS101Line1-1.jpg</item>
+        <item>CS101Line2-1.jpg</item>
+        <item>CS101Line3-1.jpg</item>
+        <item>CS101Line4-1.jpg</item>
+    </string-array>
+    <string-array name="CS101_2_File">
+        <item>CS101Cal-2.jpg</item>
+        <item>CS101Line1-2.jpg</item>
+        <item>CS101Line2-2.jpg</item>
+        <item>CS101Line3-2.jpg</item>
+        <item>CS101Line4-2.jpg</item>
+    </string-array>
+    <string-array name="CS101_3_File">
+        <item>CS101Cal-3.jpg</item>
+        <item>CS101Line1-3.jpg</item>
+        <item>CS101Line2-3.jpg</item>
+        <item>CS101Line3-3.jpg</item>
+        <item>CS101Line4-3.jpg</item>
+    </string-array>
+    <string-array name="CS101_4_File">
+        <item>CS101Cal-4.jpg</item>
+        <item>CS101Line1-4.jpg</item>
+        <item>CS101Line2-4.jpg</item>
+        <item>CS101Line3-4.jpg</item>
+        <item>CS101Line4-4.jpg</item>
+    </string-array>
+    <string-array name="CS101_5_File">
+        <item>CS101Cal-5.jpg</item>
+        <item>CS101Line1-5.jpg</item>
+        <item>CS101Line2-5.jpg</item>
+        <item>CS101Line3-5.jpg</item>
+        <item>CS101Line4-5.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CS114 Photos and Files
+    **********************************************************/
+    <string-array name="CS114_1">
+        <item>CALIBRATION SETUP PHOTO (unit1)</item>
+        <item>VERIFICATION SETUP PHOTO (unit1)</item>
+        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
+        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
+    </string-array>
+
+
+</resources>

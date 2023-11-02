@@ -39,6 +39,18 @@
         android:entries="@array/amazon_phase"
         android:spinnerMode="dropdown" />
     <Spinner
+        android:id="@+id/phaseSpinner2"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_toRightOf="@+id/typeSpinner"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="190dp"
+        android:dropDownWidth="wrap_content"
+        android:dropDownSelector="@android:drawable/arrow_down_float"
+        android:entries="@array/amazon_phase"
+        android:spinnerMode="dropdown" />
+    <Spinner
         android:id="@+id/unitSpinner"
         style="@android:style/Widget.Material.Spinner.Underlined"
         android:layout_width="wrap_content"

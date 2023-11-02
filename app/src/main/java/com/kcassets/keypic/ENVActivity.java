@@ -50,6 +50,7 @@ public class ENVActivity extends AppCompatActivity {
      **********************************************************/
     Spinner typeSpinner;
     Spinner phaseSpinner;
+    Spinner phaseSpinner2;
     Spinner unitSpinner;
     ListView photoList;
     EditText job;
@@ -98,6 +99,7 @@ public class ENVActivity extends AppCompatActivity {
         // Initialize elements
         typeSpinner = findViewById(R.id.typeSpinner);
         phaseSpinner = findViewById(R.id.phaseSpinner);
+        phaseSpinner2 = findViewById(R.id.phaseSpinner2);
         unitSpinner = findViewById(R.id.unitSpinner);
         photoList = findViewById(R.id.photoList);
         folderBtn = findViewById(R.id.folderBtn);
@@ -108,6 +110,8 @@ public class ENVActivity extends AppCompatActivity {
         textPhase = findViewById(R.id.textPhase);
         textUnit = findViewById(R.id.textUnit);
         textType = findViewById(R.id.textType);
+
+        phaseSpinner2.setVisibility(View.GONE);
 
         // Loading Popup Initialization
         progressDialog = new ProgressDialog(ENVActivity.this);

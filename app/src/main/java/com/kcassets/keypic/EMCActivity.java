@@ -49,6 +49,7 @@ public class EMCActivity extends AppCompatActivity {
      **********************************************************/
     Spinner typeSpinner;
     Spinner phaseSpinner;
+    Spinner phaseSpinner2;
     Spinner unitSpinner;
     ListView photoList;
     EditText job;
@@ -58,9 +59,11 @@ public class EMCActivity extends AppCompatActivity {
     private static final int CAMERA_REQUEST_CODE = 123;
     private Drive driveService;
     ProgressDialog progressDialog;
-    TextView title, textPhase, textUnit;
+    TextView title, textType, textPhase, textUnit;
     PhotoAdapter photoAdapter;
+    String[] categoryArray;
     String[] typeArray;
+    String[] typeArray2;
     String[] unitArray;
     private String selectedType;
     private String selectedPhase;
@@ -94,6 +97,7 @@ public class EMCActivity extends AppCompatActivity {
         // Initialize spinners and list view and buttons
         typeSpinner = findViewById(R.id.typeSpinner);
         phaseSpinner = findViewById(R.id.phaseSpinner);
+        phaseSpinner2 = findViewById(R.id.phaseSpinner2);
         unitSpinner = findViewById(R.id.unitSpinner);
         photoList = findViewById(R.id.photoList);
         folderBtn = findViewById(R.id.folderBtn);
@@ -101,6 +105,7 @@ public class EMCActivity extends AppCompatActivity {
         check = findViewById(R.id.check);
         title = findViewById(R.id.title);
         backArrow = findViewById(R.id.backArrow);
+        textType = findViewById(R.id.textType);
         textPhase = findViewById(R.id.textPhase);
         textUnit = findViewById(R.id.textUnit);
 
@@ -110,14 +115,25 @@ public class EMCActivity extends AppCompatActivity {
 
         // Hide/Move Elements
         check.setVisibility(View.INVISIBLE);
-        phaseSpinner.setVisibility(View.GONE);
-        textPhase.setVisibility(View.GONE);
-        ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) textUnit.getLayoutParams();
-        params.leftMargin = 720;
-        textUnit.setLayoutParams(params);
+        textType.setText("Test Category");
+        textPhase.setText("Test Type");
+
+        // For the TextView (textUnit)
+        ViewGroup.MarginLayoutParams params1 = (ViewGroup.MarginLayoutParams) textUnit.getLayoutParams();
+        params1.leftMargin = 50;
+        params1.topMargin = 800;
+        textUnit.setLayoutParams(params1);
+
+        // For the Spinner (unitSpinner)
+        ViewGroup.MarginLayoutParams params2 = (ViewGroup.MarginLayoutParams) unitSpinner.getLayoutParams();
+        params2.leftMargin = 50; // Adjust this margin as needed
+        params2.topMargin = 900; // Adjust this margin as needed
+        unitSpinner.setLayoutParams(params2);
 
         // Initialize arrays from resources
+        categoryArray = getResources().getStringArray(R.array.test_category);
         typeArray = getResources().getStringArray(R.array.test_type);
+        typeArray2 = getResources().getStringArray(R.array.test_type2);
         unitArray = getResources().getStringArray(R.array.amazon_unit);
 
         // Setup Spinners
@@ -286,13 +302,40 @@ public class EMCActivity extends AppCompatActivity {
      **********************************************************/
     private void setupSpinners() {
         // Set adapters for spinners
+        ArrayAdapter<String> categoryAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, categoryArray);
+        typeSpinner.setAdapter(categoryAdapter);
+
         ArrayAdapter<String> typeAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, typeArray);
-        typeSpinner.setAdapter(typeAdapter);
+        phaseSpinner.setAdapter(typeAdapter);
+
+        ArrayAdapter<String> typeAdapter2 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, typeArray2);
+        phaseSpinner2.setAdapter(typeAdapter2);
 
         ArrayAdapter<String> unitAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, unitArray);
         unitSpinner.setAdapter(unitAdapter);
 
         typeSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                selectedPhase = typeSpinner.getSelectedItem().toString();
+                if (selectedPhase.equals("CE MARK/FCC")) {
+                    phaseSpinner2.setVisibility(View.GONE);
+                    phaseSpinner.setVisibility(View.VISIBLE);
+                }
+                if (selectedPhase.equals("MIL-STD-461")) {
+                    phaseSpinner.setVisibility(View.GONE);
+                    phaseSpinner2.setVisibility(View.VISIBLE);
+                }
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
+
+        phaseSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
                 makePhotoList();
@@ -323,10 +366,18 @@ public class EMCActivity extends AppCompatActivity {
      **********************************************************/
     private void makePhotoList() {
         // Get selected spinner values
-        selectedType = typeSpinner.getSelectedItem().toString();
+        int typePosition;
+
+        if (phaseSpinner.getVisibility() == View.VISIBLE) {
+            selectedType = phaseSpinner.getSelectedItem().toString();
+            typePosition = phaseSpinner.getSelectedItemPosition();
+        } else {
+            selectedType = phaseSpinner2.getSelectedItem().toString();
+            typePosition = phaseSpinner2.getSelectedItemPosition();
+        }
+
         selectedUnit = unitSpinner.getSelectedItem().toString();
 
-        int typePosition = typeSpinner.getSelectedItemPosition();
         int unitPosition = unitSpinner.getSelectedItemPosition();
 
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -398,9 +449,6 @@ public class EMCActivity extends AppCompatActivity {
                 selectedPhase = data.getStringExtra("selectedPhase");
                 selectedUnit = data.getStringExtra("selectedUnit");
 
-                // Set the spinner values
-                typeSpinner.setSelection(getIndex(typeArray, selectedType));
-                unitSpinner.setSelection(getIndex(unitArray, selectedUnit));
             }
         }
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {

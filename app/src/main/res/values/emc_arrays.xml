@@ -3,6 +3,12 @@
     /***********************************************************
     * Test Types
     **********************************************************/
+    <string-array name="test_category">
+        <item>CE MARK/FCC</item>
+        <item>MIL-STD-461</item>
+
+    </string-array>
+
     <string-array name="test_type">
         <item>EUT</item>
         <item>CE</item>
@@ -16,6 +22,23 @@
         <item>MAGFIELD</item>
         <item>DIPS</item>
         <item>PROXMAGFIELD</item>
+
+    </string-array>
+
+    <string-array name="test_type2">
+        <item>CE101</item>
+        <item>CE102</item>
+        <item>CE106</item>
+        <item>CS101</item>
+        <item>CS114</item>
+        <item>CS115</item>
+        <item>CS116</item>
+        <item>CS117</item>
+        <item>CS118</item>
+        <item>RE101</item>
+        <item>RE102</item>
+        <item>RS101</item>
+        <item>RS103</item>
 
     </string-array>
 
