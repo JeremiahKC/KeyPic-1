@@ -80,6 +80,7 @@ public class EMCActivity extends AppCompatActivity {
     String PREF_UNIT_EMC = "unit_EMC";
     String PREF_TYPE_POS_EMC = "type_pos_EMC";
     String PREF_UNIT_POS_EMC = "unit_pos_EMC";
+    String PREF_CURRENT_TYPE = "current_type";
 
 
     /***********************************************************
@@ -88,7 +89,7 @@ public class EMCActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.photo_screen);
+        setContentView(R.layout.photo_screen_emc);
 
 
         /***********************************************************
@@ -118,18 +119,6 @@ public class EMCActivity extends AppCompatActivity {
         textType.setText("Test Category");
         textPhase.setText("Test Type");
 
-        // For the TextView (textUnit)
-        ViewGroup.MarginLayoutParams params1 = (ViewGroup.MarginLayoutParams) textUnit.getLayoutParams();
-        params1.leftMargin = 50;
-        params1.topMargin = 800;
-        textUnit.setLayoutParams(params1);
-
-        // For the Spinner (unitSpinner)
-        ViewGroup.MarginLayoutParams params2 = (ViewGroup.MarginLayoutParams) unitSpinner.getLayoutParams();
-        params2.leftMargin = 50; // Adjust this margin as needed
-        params2.topMargin = 900; // Adjust this margin as needed
-        unitSpinner.setLayoutParams(params2);
-
         // Initialize arrays from resources
         categoryArray = getResources().getStringArray(R.array.test_category);
         typeArray = getResources().getStringArray(R.array.test_type);
@@ -146,15 +135,24 @@ public class EMCActivity extends AppCompatActivity {
         selectedUnit = sharedPreferences.getString("unit_EMC", null);
         int typePosition = sharedPreferences.getInt("type_pos_EMC", -1);
         int unitPosition = sharedPreferences.getInt("unit_pos_EMC", -1);
+        int currentType = sharedPreferences.getInt("current_type", -1);
 
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
 
-        if (selectedType != null && selectedUnit != null) {
-
-            typeSpinner.setSelection(typePosition);
-            unitSpinner.setSelection(unitPosition);
-        }
+    //    if (selectedType != null) {
+    //        if (currentType == 0) {
+    //            phaseSpinner.setVisibility(View.VISIBLE);
+    //            phaseSpinner2.setVisibility(View.GONE);
+    //        }
+    //        if (currentType == 1) {
+    //            phaseSpinner2.setVisibility(View.VISIBLE);
+    //            phaseSpinner.setVisibility(View.GONE);
+    //        }
+    //
+    //        typeSpinner.setSelection(typePosition);
+    //        unitSpinner.setSelection(unitPosition);
+    //    }
 
         if (folderName != null) {
 
@@ -347,6 +345,18 @@ public class EMCActivity extends AppCompatActivity {
             }
         });
 
+        phaseSpinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                makePhotoList();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
+
         unitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
@@ -367,13 +377,16 @@ public class EMCActivity extends AppCompatActivity {
     private void makePhotoList() {
         // Get selected spinner values
         int typePosition;
+        int currentType;
 
         if (phaseSpinner.getVisibility() == View.VISIBLE) {
+            currentType = 0;
             selectedType = phaseSpinner.getSelectedItem().toString();
             typePosition = phaseSpinner.getSelectedItemPosition();
         } else {
             selectedType = phaseSpinner2.getSelectedItem().toString();
             typePosition = phaseSpinner2.getSelectedItemPosition();
+            currentType = 1;
         }
 
         selectedUnit = unitSpinner.getSelectedItem().toString();
@@ -381,14 +394,22 @@ public class EMCActivity extends AppCompatActivity {
         int unitPosition = unitSpinner.getSelectedItemPosition();
 
         SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(PREF_CURRENT_TYPE, currentType);
         editor.putString(PREF_TYPE_EMC, selectedType);
         editor.putString(PREF_UNIT_EMC, selectedUnit);
         editor.putInt(PREF_TYPE_POS_EMC, typePosition);
         editor.putInt(PREF_UNIT_POS_EMC, unitPosition);
         editor.apply();
 
+        String arrayName;
+
         // Create an array name based on the selected values
-        String arrayName = selectedType + "_" + selectedUnit;
+        if (phaseSpinner.getVisibility() == View.VISIBLE) {
+            arrayName = selectedType + "_" + selectedUnit;
+        } else {
+            arrayName = selectedType;
+        }
+
 
         // Get the resource ID of the array dynamically
         int arrayId = getResources().getIdentifier(arrayName, "array", getPackageName());

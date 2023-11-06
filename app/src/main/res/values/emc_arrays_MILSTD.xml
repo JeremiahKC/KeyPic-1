@@ -1,302 +1,884 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     /***********************************************************
+    * EUT Photos and Files
+    **********************************************************/
+    <string-array name="EUT">
+        <item>EUT Photo A</item>
+        <item>EUT Photo B</item>
+        <item>EUT Photo C</item>
+        <item>EUT Photo D</item>
+        <item>EUT Photo E</item>
+        <item>EUT Photo F</item>
+        <item>EUT Photo G</item>
+        <item>EUT Photo H</item>
+        <item>EUT Photo I</item>
+        <item>EUT Photo J</item>
+        <item>EUT Photo K</item>
+        <item>EUT Photo L</item>
+        <item>EUT Photo M</item>
+        <item>EUT Photo N</item>
+        <item>EUT Photo O</item>
+        <item>EUT Photo P</item>
+        <item>EUT Photo Q</item>
+        <item>EUT Photo R</item>
+        <item>EUT Photo S</item>
+        <item>EUT Photo T</item>
+        <item>EUT Photo U</item>
+        <item>EUT Photo V</item>
+        <item>EUT Photo W</item>
+        <item>EUT Photo X</item>
+        <item>EUT Photo Y</item>
+        <item>EUT Photo Z</item>
+    </string-array>
+
+
+    <string-array name="EUT_File">
+        <item>EUT-A.jpg</item>
+        <item>EUT-B.jpg</item>
+        <item>EUT-C.jpg</item>
+        <item>EUT-D.jpg</item>
+        <item>EUT-E.jpg</item>
+        <item>EUT-F.jpg</item>
+        <item>EUT-G.jpg</item>
+        <item>EUT-H.jpg</item>
+        <item>EUT-I.jpg</item>
+        <item>EUT-J.jpg</item>
+        <item>EUT-K.jpg</item>
+        <item>EUT-L.jpg</item>
+        <item>EUT-M.jpg</item>
+        <item>EUT-N.jpg</item>
+        <item>EUT-O.jpg</item>
+        <item>EUT-P.jpg</item>
+        <item>EUT-Q.jpg</item>
+        <item>EUT-R.jpg</item>
+        <item>EUT-S.jpg</item>
+        <item>EUT-T.jpg</item>
+        <item>EUT-U.jpg</item>
+        <item>EUT-V.jpg</item>
+        <item>EUT-W.jpg</item>
+        <item>EUT-X.jpg</item>
+        <item>EUT-Y.jpg</item>
+        <item>EUT-Z.jpg</item>
+    </string-array>
+
+
+    /***********************************************************
     * CE101 Photos and Files
     **********************************************************/
-    <string-array name="CE101_1">
-        <item>VERIFICATION SETUP PHOTO (unit1)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
-    </string-array>
-    <string-array name="CE101_2">
-        <item>VERIFICATION SETUP PHOTO (unit2)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit2)</item>
-    </string-array>
-    <string-array name="CE101_3">
-        <item>VERIFICATION SETUP PHOTO (unit3)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit3)</item>
-    </string-array>
-    <string-array name="CE101_4">
-        <item>VERIFICATION SETUP PHOTO (unit4)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit4)</item>
-    </string-array>
-    <string-array name="CE101_5">
-        <item>VERIFICATION SETUP PHOTO (unit5)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit5)</item>
+    <string-array name="CE101">
+        <item>CE101 TEST SETUP A</item>
+        <item>CE101 TEST SETUP B</item>
+        <item>CE101 TEST SETUP C</item>
+        <item>CE101 TEST SETUP D</item>
+        <item>CE101 TEST SETUP E</item>
+        <item>CE101 TEST SETUP F</item>
+        <item>CE101 TEST SETUP G</item>
+        <item>CE101 TEST SETUP H</item>
+        <item>CE101 TEST SETUP I</item>
+        <item>CE101 TEST SETUP J</item>
+        <item>CE101 TEST SETUP K</item>
+        <item>CE101 TEST SETUP L</item>
+        <item>CE101 TEST SETUP M</item>
+        <item>CE101 TEST SETUP N</item>
+        <item>CE101 TEST SETUP O</item>
+        <item>CE101 TEST SETUP P</item>
+        <item>CE101 TEST SETUP Q</item>
+        <item>CE101 TEST SETUP R</item>
+        <item>CE101 TEST SETUP S</item>
+        <item>CE101 TEST SETUP T</item>
+        <item>CE101 TEST SETUP U</item>
+        <item>CE101 TEST SETUP V</item>
+        <item>CE101 TEST SETUP W</item>
+        <item>CE101 TEST SETUP X</item>
+        <item>CE101 TEST SETUP Y</item>
+        <item>CE101 TEST SETUP Z</item>
     </string-array>
 
 
-    <string-array name="CE101_1_File">
-        <item>CE101Check-1.jpg</item>
-        <item>CE101Line1-1.jpg</item>
-        <item>CE101Line2-1.jpg</item>
-        <item>CE101Line3-1.jpg</item>
-        <item>CE101Line4-1.jpg</item>
-    </string-array>
-    <string-array name="CE101_2_File">
-        <item>CE101Check-2.jpg</item>
-        <item>CE101Line1-2.jpg</item>
-        <item>CE101Line2-2.jpg</item>
-        <item>CE101Line3-2.jpg</item>
-        <item>CE101Line4-2.jpg</item>
-    </string-array>
-    <string-array name="CE101_3_File">
-        <item>CE101Check-3.jpg</item>
-        <item>CE101Line1-3.jpg</item>
-        <item>CE101Line2-3.jpg</item>
-        <item>CE101Line3-3.jpg</item>
-        <item>CE101Line4-3.jpg</item>
-    </string-array>
-    <string-array name="CE101_4_File">
-        <item>CE101Check-4.jpg</item>
-        <item>CE101Line1-4.jpg</item>
-        <item>CE101Line2-4.jpg</item>
-        <item>CE101Line3-4.jpg</item>
-        <item>CE101Line4-4.jpg</item>
-    </string-array>
-    <string-array name="CE101_5_File">
-        <item>CE101Check-5.jpg</item>
-        <item>CE101Line1-5.jpg</item>
-        <item>CE101Line2-5.jpg</item>
-        <item>CE101Line3-5.jpg</item>
-        <item>CE101Line4-5.jpg</item>
+    <string-array name="CE101_File">
+        <item>CE101Setup-A.jpg</item>
+        <item>CE101Setup-B.jpg</item>
+        <item>CE101Setup-C.jpg</item>
+        <item>CE101Setup-D.jpg</item>
+        <item>CE101Setup-E.jpg</item>
+        <item>CE101Setup-F.jpg</item>
+        <item>CE101Setup-G.jpg</item>
+        <item>CE101Setup-H.jpg</item>
+        <item>CE101Setup-I.jpg</item>
+        <item>CE101Setup-J.jpg</item>
+        <item>CE101Setup-K.jpg</item>
+        <item>CE101Setup-L.jpg</item>
+        <item>CE101Setup-M.jpg</item>
+        <item>CE101Setup-N.jpg</item>
+        <item>CE101Setup-O.jpg</item>
+        <item>CE101Setup-P.jpg</item>
+        <item>CE101Setup-Q.jpg</item>
+        <item>CE101Setup-R.jpg</item>
+        <item>CE101Setup-S.jpg</item>
+        <item>CE101Setup-T.jpg</item>
+        <item>CE101Setup-U.jpg</item>
+        <item>CE101Setup-V.jpg</item>
+        <item>CE101Setup-W.jpg</item>
+        <item>CE101Setup-X.jpg</item>
+        <item>CE101Setup-Y.jpg</item>
+        <item>CE101Setup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * CE102 Photos and Files
     **********************************************************/
-    <string-array name="CE102_1">
-        <item>VERIFICATION SETUP PHOTO (unit1)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
-    </string-array>
-    <string-array name="CE102_2">
-        <item>VERIFICATION SETUP PHOTO (unit2)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit2)</item>
-    </string-array>
-    <string-array name="CE102_3">
-        <item>VERIFICATION SETUP PHOTO (unit3)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit3)</item>
-    </string-array>
-    <string-array name="CE102_4">
-        <item>VERIFICATION SETUP PHOTO (unit4)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit4)</item>
-    </string-array>
-    <string-array name="CE102_5">
-        <item>VERIFICATION SETUP PHOTO (unit5)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit5)</item>
+    <string-array name="CE102">
+        <item>CE102 TEST SETUP A</item>
+        <item>CE102 TEST SETUP B</item>
+        <item>CE102 TEST SETUP C</item>
+        <item>CE102 TEST SETUP D</item>
+        <item>CE102 TEST SETUP E</item>
+        <item>CE102 TEST SETUP F</item>
+        <item>CE102 TEST SETUP G</item>
+        <item>CE102 TEST SETUP H</item>
+        <item>CE102 TEST SETUP I</item>
+        <item>CE102 TEST SETUP J</item>
+        <item>CE102 TEST SETUP K</item>
+        <item>CE102 TEST SETUP L</item>
+        <item>CE102 TEST SETUP M</item>
+        <item>CE102 TEST SETUP N</item>
+        <item>CE102 TEST SETUP O</item>
+        <item>CE102 TEST SETUP P</item>
+        <item>CE102 TEST SETUP Q</item>
+        <item>CE102 TEST SETUP R</item>
+        <item>CE102 TEST SETUP S</item>
+        <item>CE102 TEST SETUP T</item>
+        <item>CE102 TEST SETUP U</item>
+        <item>CE102 TEST SETUP V</item>
+        <item>CE102 TEST SETUP W</item>
+        <item>CE102 TEST SETUP X</item>
+        <item>CE102 TEST SETUP Y</item>
+        <item>CE102 TEST SETUP Z</item>
     </string-array>
 
 
-    <string-array name="CE102_1_File">
-        <item>CE102Check-1.jpg</item>
-        <item>CE102Line1-1.jpg</item>
-        <item>CE102Line2-1.jpg</item>
-        <item>CE102Line3-1.jpg</item>
-        <item>CE102Line4-1.jpg</item>
-    </string-array>
-    <string-array name="CE102_2_File">
-        <item>CE102Check-2.jpg</item>
-        <item>CE102Line1-2.jpg</item>
-        <item>CE102Line2-2.jpg</item>
-        <item>CE102Line3-2.jpg</item>
-        <item>CE102Line4-2.jpg</item>
-    </string-array>
-    <string-array name="CE102_3_File">
-        <item>CE102Check-3.jpg</item>
-        <item>CE102Line1-3.jpg</item>
-        <item>CE102Line2-3.jpg</item>
-        <item>CE102Line3-3.jpg</item>
-        <item>CE102Line4-3.jpg</item>
-    </string-array>
-    <string-array name="CE102_4_File">
-        <item>CE102Check-4.jpg</item>
-        <item>CE102Line1-4.jpg</item>
-        <item>CE102Line2-4.jpg</item>
-        <item>CE102Line3-4.jpg</item>
-        <item>CE102Line4-4.jpg</item>
-    </string-array>
-    <string-array name="CE102_5_File">
-        <item>CE102Check-5.jpg</item>
-        <item>CE102Line1-5.jpg</item>
-        <item>CE102Line2-5.jpg</item>
-        <item>CE102Line3-5.jpg</item>
-        <item>CE102Line4-5.jpg</item>
+    <string-array name="CE102_File">
+        <item>CE102Setup-A.jpg</item>
+        <item>CE102Setup-B.jpg</item>
+        <item>CE102Setup-C.jpg</item>
+        <item>CE102Setup-D.jpg</item>
+        <item>CE102Setup-E.jpg</item>
+        <item>CE102Setup-F.jpg</item>
+        <item>CE102Setup-G.jpg</item>
+        <item>CE102Setup-H.jpg</item>
+        <item>CE102Setup-I.jpg</item>
+        <item>CE102Setup-J.jpg</item>
+        <item>CE102Setup-K.jpg</item>
+        <item>CE102Setup-L.jpg</item>
+        <item>CE102Setup-M.jpg</item>
+        <item>CE102Setup-N.jpg</item>
+        <item>CE102Setup-O.jpg</item>
+        <item>CE102Setup-P.jpg</item>
+        <item>CE102Setup-Q.jpg</item>
+        <item>CE102Setup-R.jpg</item>
+        <item>CE102Setup-S.jpg</item>
+        <item>CE102Setup-T.jpg</item>
+        <item>CE102Setup-U.jpg</item>
+        <item>CE102Setup-V.jpg</item>
+        <item>CE102Setup-W.jpg</item>
+        <item>CE102Setup-X.jpg</item>
+        <item>CE102Setup-Y.jpg</item>
+        <item>CE102Setup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * CE106 Photos and Files
     **********************************************************/
-    <string-array name="CE106_1">
-        <item>VERIFICATION SETUP PHOTO (unit1)</item>
-        <item>RECEIVE MODE TEST SETUP PHOTO (unit1)</item>
-        <item>TRANSMIT MODE TEST SETUP PHOTO (unit1)</item>
-    </string-array>
-    <string-array name="CE106_2">
-        <item>VERIFICATION SETUP PHOTO (unit2)</item>
-        <item>RECEIVE MODE TEST SETUP PHOTO (unit2)</item>
-        <item>TRANSMIT MODE TEST SETUP PHOTO (unit2)</item>
-    </string-array>
-    <string-array name="CE106_3">
-        <item>VERIFICATION SETUP PHOTO (unit3)</item>
-        <item>RECEIVE MODE TEST SETUP PHOTO (unit3)</item>
-        <item>TRANSMIT MODE TEST SETUP PHOTO (unit3)</item>
-    </string-array>
-    <string-array name="CE106_4">
-        <item>VERIFICATION SETUP PHOTO (unit4)</item>
-        <item>RECEIVE MODE TEST SETUP PHOTO (unit4)</item>
-        <item>TRANSMIT MODE TEST SETUP PHOTO (unit4)</item>
-    </string-array>
-    <string-array name="CE106_5">
-        <item>VERIFICATION SETUP PHOTO (unit5)</item>
-        <item>RECEIVE MODE TEST SETUP PHOTO (unit5)</item>
-        <item>TRANSMIT MODE TEST SETUP PHOTO (unit5)</item>
+    <string-array name="CE106">
+        <item>CE106 TEST SETUP A</item>
+        <item>CE106 TEST SETUP B</item>
+        <item>CE106 TEST SETUP C</item>
+        <item>CE106 TEST SETUP D</item>
+        <item>CE106 TEST SETUP E</item>
+        <item>CE106 TEST SETUP F</item>
+        <item>CE106 TEST SETUP G</item>
+        <item>CE106 TEST SETUP H</item>
+        <item>CE106 TEST SETUP I</item>
+        <item>CE106 TEST SETUP J</item>
+        <item>CE106 TEST SETUP K</item>
+        <item>CE106 TEST SETUP L</item>
+        <item>CE106 TEST SETUP M</item>
+        <item>CE106 TEST SETUP N</item>
+        <item>CE106 TEST SETUP O</item>
+        <item>CE106 TEST SETUP P</item>
+        <item>CE106 TEST SETUP Q</item>
+        <item>CE106 TEST SETUP R</item>
+        <item>CE106 TEST SETUP S</item>
+        <item>CE106 TEST SETUP T</item>
+        <item>CE106 TEST SETUP U</item>
+        <item>CE106 TEST SETUP V</item>
+        <item>CE106 TEST SETUP W</item>
+        <item>CE106 TEST SETUP X</item>
+        <item>CE106 TEST SETUP Y</item>
+        <item>CE106 TEST SETUP Z</item>
     </string-array>
 
 
-    <string-array name="CE106_1_File">
-        <item>CE106Check-1.jpg</item>
-        <item>CE106RX-1.jpg</item>
-        <item>CE106TX-1.jpg</item>
-    </string-array>
-    <string-array name="CE106_2_File">
-        <item>CE106Check-2.jpg</item>
-        <item>CE106RX-2.jpg</item>
-        <item>CE106TX-2.jpg</item>
-    </string-array>
-    <string-array name="CE106_3_File">
-        <item>CE106Check-3.jpg</item>
-        <item>CE106RX-3.jpg</item>
-        <item>CE106TX-3.jpg</item>
-    </string-array>
-    <string-array name="CE106_4_File">
-        <item>CE106Check-4.jpg</item>
-        <item>CE106RX-4.jpg</item>
-        <item>CE106TX-4.jpg</item>
-    </string-array>
-    <string-array name="CE106_5_File">
-        <item>CE106Check-5.jpg</item>
-        <item>CE106RX-5.jpg</item>
-        <item>CE106TX-5.jpg</item>
+    <string-array name="CE106_File">
+        <item>CE106Setup-A.jpg</item>
+        <item>CE106Setup-B.jpg</item>
+        <item>CE106Setup-C.jpg</item>
+        <item>CE106Setup-D.jpg</item>
+        <item>CE106Setup-E.jpg</item>
+        <item>CE106Setup-F.jpg</item>
+        <item>CE106Setup-G.jpg</item>
+        <item>CE106Setup-H.jpg</item>
+        <item>CE106Setup-I.jpg</item>
+        <item>CE106Setup-J.jpg</item>
+        <item>CE106Setup-K.jpg</item>
+        <item>CE106Setup-L.jpg</item>
+        <item>CE106Setup-M.jpg</item>
+        <item>CE106Setup-N.jpg</item>
+        <item>CE106Setup-O.jpg</item>
+        <item>CE106Setup-P.jpg</item>
+        <item>CE106Setup-Q.jpg</item>
+        <item>CE106Setup-R.jpg</item>
+        <item>CE106Setup-S.jpg</item>
+        <item>CE106Setup-T.jpg</item>
+        <item>CE106Setup-U.jpg</item>
+        <item>CE106Setup-V.jpg</item>
+        <item>CE106Setup-W.jpg</item>
+        <item>CE106Setup-X.jpg</item>
+        <item>CE106Setup-Y.jpg</item>
+        <item>CE106Setup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * CS101 Photos and Files
     **********************************************************/
-    <string-array name="CS101_1">
-        <item>CALIBRATION SETUP PHOTO (unit1)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
-    </string-array>
-    <string-array name="CS101_2">
-        <item>CALIBRATION SETUP PHOTO (unit2)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit2)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit2)</item>
-    </string-array>
-    <string-array name="CS101_3">
-        <item>CALIBRATION SETUP PHOTO (unit3)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit3)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit3)</item>
-    </string-array>
-    <string-array name="CS101_4">
-        <item>CALIBRATION SETUP PHOTO (unit4)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit4)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit4)</item>
-    </string-array>
-    <string-array name="CS101_5">
-        <item>CALIBRATION SETUP PHOTO (unit5)</item>
-        <item>LINE 1 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit5)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit5)</item>
+    <string-array name="CS101">
+        <item>CS101 TEST SETUP A</item>
+        <item>CS101 TEST SETUP B</item>
+        <item>CS101 TEST SETUP C</item>
+        <item>CS101 TEST SETUP D</item>
+        <item>CS101 TEST SETUP E</item>
+        <item>CS101 TEST SETUP F</item>
+        <item>CS101 TEST SETUP G</item>
+        <item>CS101 TEST SETUP H</item>
+        <item>CS101 TEST SETUP I</item>
+        <item>CS101 TEST SETUP J</item>
+        <item>CS101 TEST SETUP K</item>
+        <item>CS101 TEST SETUP L</item>
+        <item>CS101 TEST SETUP M</item>
+        <item>CS101 TEST SETUP N</item>
+        <item>CS101 TEST SETUP O</item>
+        <item>CS101 TEST SETUP P</item>
+        <item>CS101 TEST SETUP Q</item>
+        <item>CS101 TEST SETUP R</item>
+        <item>CS101 TEST SETUP S</item>
+        <item>CS101 TEST SETUP T</item>
+        <item>CS101 TEST SETUP U</item>
+        <item>CS101 TEST SETUP V</item>
+        <item>CS101 TEST SETUP W</item>
+        <item>CS101 TEST SETUP X</item>
+        <item>CS101 TEST SETUP Y</item>
+        <item>CS101 TEST SETUP Z</item>
     </string-array>
 
 
-    <string-array name="CS101_1_File">
-        <item>CS101Cal-1.jpg</item>
-        <item>CS101Line1-1.jpg</item>
-        <item>CS101Line2-1.jpg</item>
-        <item>CS101Line3-1.jpg</item>
-        <item>CS101Line4-1.jpg</item>
-    </string-array>
-    <string-array name="CS101_2_File">
-        <item>CS101Cal-2.jpg</item>
-        <item>CS101Line1-2.jpg</item>
-        <item>CS101Line2-2.jpg</item>
-        <item>CS101Line3-2.jpg</item>
-        <item>CS101Line4-2.jpg</item>
-    </string-array>
-    <string-array name="CS101_3_File">
-        <item>CS101Cal-3.jpg</item>
-        <item>CS101Line1-3.jpg</item>
-        <item>CS101Line2-3.jpg</item>
-        <item>CS101Line3-3.jpg</item>
-        <item>CS101Line4-3.jpg</item>
-    </string-array>
-    <string-array name="CS101_4_File">
-        <item>CS101Cal-4.jpg</item>
-        <item>CS101Line1-4.jpg</item>
-        <item>CS101Line2-4.jpg</item>
-        <item>CS101Line3-4.jpg</item>
-        <item>CS101Line4-4.jpg</item>
-    </string-array>
-    <string-array name="CS101_5_File">
-        <item>CS101Cal-5.jpg</item>
-        <item>CS101Line1-5.jpg</item>
-        <item>CS101Line2-5.jpg</item>
-        <item>CS101Line3-5.jpg</item>
-        <item>CS101Line4-5.jpg</item>
+    <string-array name="CS101_File">
+        <item>CS101Setup-A.jpg</item>
+        <item>CS101Setup-B.jpg</item>
+        <item>CS101Setup-C.jpg</item>
+        <item>CS101Setup-D.jpg</item>
+        <item>CS101Setup-E.jpg</item>
+        <item>CS101Setup-F.jpg</item>
+        <item>CS101Setup-G.jpg</item>
+        <item>CS101Setup-H.jpg</item>
+        <item>CS101Setup-I.jpg</item>
+        <item>CS101Setup-J.jpg</item>
+        <item>CS101Setup-K.jpg</item>
+        <item>CS101Setup-L.jpg</item>
+        <item>CS101Setup-M.jpg</item>
+        <item>CS101Setup-N.jpg</item>
+        <item>CS101Setup-O.jpg</item>
+        <item>CS101Setup-P.jpg</item>
+        <item>CS101Setup-Q.jpg</item>
+        <item>CS101Setup-R.jpg</item>
+        <item>CS101Setup-S.jpg</item>
+        <item>CS101Setup-T.jpg</item>
+        <item>CS101Setup-U.jpg</item>
+        <item>CS101Setup-V.jpg</item>
+        <item>CS101Setup-W.jpg</item>
+        <item>CS101Setup-X.jpg</item>
+        <item>CS101Setup-Y.jpg</item>
+        <item>CS101Setup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * CS114 Photos and Files
     **********************************************************/
-    <string-array name="CS114_1">
-        <item>CALIBRATION SETUP PHOTO (unit1)</item>
-        <item>VERIFICATION SETUP PHOTO (unit1)</item>
-        <item>LINE 2 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 3 TEST SETUP PHOTO (unit1)</item>
-        <item>LINE 4 TEST SETUP PHOTO (unit1)</item>
+    <string-array name="CS114">
+        <item>CS114 TEST SETUP A</item>
+        <item>CS114 TEST SETUP B</item>
+        <item>CS114 TEST SETUP C</item>
+        <item>CS114 TEST SETUP D</item>
+        <item>CS114 TEST SETUP E</item>
+        <item>CS114 TEST SETUP F</item>
+        <item>CS114 TEST SETUP G</item>
+        <item>CS114 TEST SETUP H</item>
+        <item>CS114 TEST SETUP I</item>
+        <item>CS114 TEST SETUP J</item>
+        <item>CS114 TEST SETUP K</item>
+        <item>CS114 TEST SETUP L</item>
+        <item>CS114 TEST SETUP M</item>
+        <item>CS114 TEST SETUP N</item>
+        <item>CS114 TEST SETUP O</item>
+        <item>CS114 TEST SETUP P</item>
+        <item>CS114 TEST SETUP Q</item>
+        <item>CS114 TEST SETUP R</item>
+        <item>CS114 TEST SETUP S</item>
+        <item>CS114 TEST SETUP T</item>
+        <item>CS114 TEST SETUP U</item>
+        <item>CS114 TEST SETUP V</item>
+        <item>CS114 TEST SETUP W</item>
+        <item>CS114 TEST SETUP X</item>
+        <item>CS114 TEST SETUP Y</item>
+        <item>CS114 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="CS114_File">
+        <item>CS114Setup-A</item>
+        <item>CS114Setup-B</item>
+        <item>CS114Setup-C</item>
+        <item>CS114Setup-D</item>
+        <item>CS114Setup-E</item>
+        <item>CS114Setup-F</item>
+        <item>CS114Setup-G</item>
+        <item>CS114Setup-H</item>
+        <item>CS114Setup-I</item>
+        <item>CS114Setup-J</item>
+        <item>CS114Setup-K</item>
+        <item>CS114Setup-L</item>
+        <item>CS114Setup-M</item>
+        <item>CS114Setup-N</item>
+        <item>CS114Setup-O</item>
+        <item>CS114Setup-P</item>
+        <item>CS114Setup-Q</item>
+        <item>CS114Setup-R</item>
+        <item>CS114Setup-S</item>
+        <item>CS114Setup-T</item>
+        <item>CS114Setup-U</item>
+        <item>CS114Setup-V</item>
+        <item>CS114Setup-W</item>
+        <item>CS114Setup-X</item>
+        <item>CS114Setup-Y</item>
+        <item>CS114Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CS115 Photos and Files
+    **********************************************************/
+    <string-array name="CS115">
+        <item>CS115 TEST SETUP A</item>
+        <item>CS115 TEST SETUP B</item>
+        <item>CS115 TEST SETUP C</item>
+        <item>CS115 TEST SETUP D</item>
+        <item>CS115 TEST SETUP E</item>
+        <item>CS115 TEST SETUP F</item>
+        <item>CS115 TEST SETUP G</item>
+        <item>CS115 TEST SETUP H</item>
+        <item>CS115 TEST SETUP I</item>
+        <item>CS115 TEST SETUP J</item>
+        <item>CS115 TEST SETUP K</item>
+        <item>CS115 TEST SETUP L</item>
+        <item>CS115 TEST SETUP M</item>
+        <item>CS115 TEST SETUP N</item>
+        <item>CS115 TEST SETUP O</item>
+        <item>CS115 TEST SETUP P</item>
+        <item>CS115 TEST SETUP Q</item>
+        <item>CS115 TEST SETUP R</item>
+        <item>CS115 TEST SETUP S</item>
+        <item>CS115 TEST SETUP T</item>
+        <item>CS115 TEST SETUP U</item>
+        <item>CS115 TEST SETUP V</item>
+        <item>CS115 TEST SETUP W</item>
+        <item>CS115 TEST SETUP X</item>
+        <item>CS115 TEST SETUP Y</item>
+        <item>CS115 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="CS115_File">
+        <item>CS115Setup-A</item>
+        <item>CS115Setup-B</item>
+        <item>CS115Setup-C</item>
+        <item>CS115Setup-D</item>
+        <item>CS115Setup-E</item>
+        <item>CS115Setup-F</item>
+        <item>CS115Setup-G</item>
+        <item>CS115Setup-H</item>
+        <item>CS115Setup-I</item>
+        <item>CS115Setup-J</item>
+        <item>CS115Setup-K</item>
+        <item>CS115Setup-L</item>
+        <item>CS115Setup-M</item>
+        <item>CS115Setup-N</item>
+        <item>CS115Setup-O</item>
+        <item>CS115Setup-P</item>
+        <item>CS115Setup-Q</item>
+        <item>CS115Setup-R</item>
+        <item>CS115Setup-S</item>
+        <item>CS115Setup-T</item>
+        <item>CS115Setup-U</item>
+        <item>CS115Setup-V</item>
+        <item>CS115Setup-W</item>
+        <item>CS115Setup-X</item>
+        <item>CS115Setup-Y</item>
+        <item>CS115Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CS116 Photos and Files
+    **********************************************************/
+    <string-array name="CS116">
+        <item>CS116 TEST SETUP A</item>
+        <item>CS116 TEST SETUP B</item>
+        <item>CS116 TEST SETUP C</item>
+        <item>CS116 TEST SETUP D</item>
+        <item>CS116 TEST SETUP E</item>
+        <item>CS116 TEST SETUP F</item>
+        <item>CS116 TEST SETUP G</item>
+        <item>CS116 TEST SETUP H</item>
+        <item>CS116 TEST SETUP I</item>
+        <item>CS116 TEST SETUP J</item>
+        <item>CS116 TEST SETUP K</item>
+        <item>CS116 TEST SETUP L</item>
+        <item>CS116 TEST SETUP M</item>
+        <item>CS116 TEST SETUP N</item>
+        <item>CS116 TEST SETUP O</item>
+        <item>CS116 TEST SETUP P</item>
+        <item>CS116 TEST SETUP Q</item>
+        <item>CS116 TEST SETUP R</item>
+        <item>CS116 TEST SETUP S</item>
+        <item>CS116 TEST SETUP T</item>
+        <item>CS116 TEST SETUP U</item>
+        <item>CS116 TEST SETUP V</item>
+        <item>CS116 TEST SETUP W</item>
+        <item>CS116 TEST SETUP X</item>
+        <item>CS116 TEST SETUP Y</item>
+        <item>CS116 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="CS116_File">
+        <item>CS116Setup-A</item>
+        <item>CS116Setup-B</item>
+        <item>CS116Setup-C</item>
+        <item>CS116Setup-D</item>
+        <item>CS116Setup-E</item>
+        <item>CS116Setup-F</item>
+        <item>CS116Setup-G</item>
+        <item>CS116Setup-H</item>
+        <item>CS116Setup-I</item>
+        <item>CS116Setup-J</item>
+        <item>CS116Setup-K</item>
+        <item>CS116Setup-L</item>
+        <item>CS116Setup-M</item>
+        <item>CS116Setup-N</item>
+        <item>CS116Setup-O</item>
+        <item>CS116Setup-P</item>
+        <item>CS116Setup-Q</item>
+        <item>CS116Setup-R</item>
+        <item>CS116Setup-S</item>
+        <item>CS116Setup-T</item>
+        <item>CS116Setup-U</item>
+        <item>CS116Setup-V</item>
+        <item>CS116Setup-W</item>
+        <item>CS116Setup-X</item>
+        <item>CS116Setup-Y</item>
+        <item>CS116Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CS117 Photos and Files
+    **********************************************************/
+    <string-array name="CS117">
+        <item>CS117 TEST SETUP A</item>
+        <item>CS117 TEST SETUP B</item>
+        <item>CS117 TEST SETUP C</item>
+        <item>CS117 TEST SETUP D</item>
+        <item>CS117 TEST SETUP E</item>
+        <item>CS117 TEST SETUP F</item>
+        <item>CS117 TEST SETUP G</item>
+        <item>CS117 TEST SETUP H</item>
+        <item>CS117 TEST SETUP I</item>
+        <item>CS117 TEST SETUP J</item>
+        <item>CS117 TEST SETUP K</item>
+        <item>CS117 TEST SETUP L</item>
+        <item>CS117 TEST SETUP M</item>
+        <item>CS117 TEST SETUP N</item>
+        <item>CS117 TEST SETUP O</item>
+        <item>CS117 TEST SETUP P</item>
+        <item>CS117 TEST SETUP Q</item>
+        <item>CS117 TEST SETUP R</item>
+        <item>CS117 TEST SETUP S</item>
+        <item>CS117 TEST SETUP T</item>
+        <item>CS117 TEST SETUP U</item>
+        <item>CS117 TEST SETUP V</item>
+        <item>CS117 TEST SETUP W</item>
+        <item>CS117 TEST SETUP X</item>
+        <item>CS117 TEST SETUP Y</item>
+        <item>CS117 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="CS117_File">
+        <item>CS117Setup-A</item>
+        <item>CS117Setup-B</item>
+        <item>CS117Setup-C</item>
+        <item>CS117Setup-D</item>
+        <item>CS117Setup-E</item>
+        <item>CS117Setup-F</item>
+        <item>CS117Setup-G</item>
+        <item>CS117Setup-H</item>
+        <item>CS117Setup-I</item>
+        <item>CS117Setup-J</item>
+        <item>CS117Setup-K</item>
+        <item>CS117Setup-L</item>
+        <item>CS117Setup-M</item>
+        <item>CS117Setup-N</item>
+        <item>CS117Setup-O</item>
+        <item>CS117Setup-P</item>
+        <item>CS117Setup-Q</item>
+        <item>CS117Setup-R</item>
+        <item>CS117Setup-S</item>
+        <item>CS117Setup-T</item>
+        <item>CS117Setup-U</item>
+        <item>CS117Setup-V</item>
+        <item>CS117Setup-W</item>
+        <item>CS117Setup-X</item>
+        <item>CS117Setup-Y</item>
+        <item>CS117Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * CS118 Photos and Files
+    **********************************************************/
+    <string-array name="CS118">
+        <item>CS118 TEST SETUP A</item>
+        <item>CS118 TEST SETUP B</item>
+        <item>CS118 TEST SETUP C</item>
+        <item>CS118 TEST SETUP D</item>
+        <item>CS118 TEST SETUP E</item>
+        <item>CS118 TEST SETUP F</item>
+        <item>CS118 TEST SETUP G</item>
+        <item>CS118 TEST SETUP H</item>
+        <item>CS118 TEST SETUP I</item>
+        <item>CS118 TEST SETUP J</item>
+        <item>CS118 TEST SETUP K</item>
+        <item>CS118 TEST SETUP L</item>
+        <item>CS118 TEST SETUP M</item>
+        <item>CS118 TEST SETUP N</item>
+        <item>CS118 TEST SETUP O</item>
+        <item>CS118 TEST SETUP P</item>
+        <item>CS118 TEST SETUP Q</item>
+        <item>CS118 TEST SETUP R</item>
+        <item>CS118 TEST SETUP S</item>
+        <item>CS118 TEST SETUP T</item>
+        <item>CS118 TEST SETUP U</item>
+        <item>CS118 TEST SETUP V</item>
+        <item>CS118 TEST SETUP W</item>
+        <item>CS118 TEST SETUP X</item>
+        <item>CS118 TEST SETUP Y</item>
+        <item>CS118 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="CS118_File">
+        <item>CS118Setup-A</item>
+        <item>CS118Setup-B</item>
+        <item>CS118Setup-C</item>
+        <item>CS118Setup-D</item>
+        <item>CS118Setup-E</item>
+        <item>CS118Setup-F</item>
+        <item>CS118Setup-G</item>
+        <item>CS118Setup-H</item>
+        <item>CS118Setup-I</item>
+        <item>CS118Setup-J</item>
+        <item>CS118Setup-K</item>
+        <item>CS118Setup-L</item>
+        <item>CS118Setup-M</item>
+        <item>CS118Setup-N</item>
+        <item>CS118Setup-O</item>
+        <item>CS118Setup-P</item>
+        <item>CS118Setup-Q</item>
+        <item>CS118Setup-R</item>
+        <item>CS118Setup-S</item>
+        <item>CS118Setup-T</item>
+        <item>CS118Setup-U</item>
+        <item>CS118Setup-V</item>
+        <item>CS118Setup-W</item>
+        <item>CS118Setup-X</item>
+        <item>CS118Setup-Y</item>
+        <item>CS118Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * RE101 Photos and Files
+    **********************************************************/
+    <string-array name="RE101">
+        <item>RE101 TEST SETUP A</item>
+        <item>RE101 TEST SETUP B</item>
+        <item>RE101 TEST SETUP C</item>
+        <item>RE101 TEST SETUP D</item>
+        <item>RE101 TEST SETUP E</item>
+        <item>RE101 TEST SETUP F</item>
+        <item>RE101 TEST SETUP G</item>
+        <item>RE101 TEST SETUP H</item>
+        <item>RE101 TEST SETUP I</item>
+        <item>RE101 TEST SETUP J</item>
+        <item>RE101 TEST SETUP K</item>
+        <item>RE101 TEST SETUP L</item>
+        <item>RE101 TEST SETUP M</item>
+        <item>RE101 TEST SETUP N</item>
+        <item>RE101 TEST SETUP O</item>
+        <item>RE101 TEST SETUP P</item>
+        <item>RE101 TEST SETUP Q</item>
+        <item>RE101 TEST SETUP R</item>
+        <item>RE101 TEST SETUP S</item>
+        <item>RE101 TEST SETUP T</item>
+        <item>RE101 TEST SETUP U</item>
+        <item>RE101 TEST SETUP V</item>
+        <item>RE101 TEST SETUP W</item>
+        <item>RE101 TEST SETUP X</item>
+        <item>RE101 TEST SETUP Y</item>
+        <item>RE101 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="RE101_File">
+        <item>RE101Setup-A</item>
+        <item>RE101Setup-B</item>
+        <item>RE101Setup-C</item>
+        <item>RE101Setup-D</item>
+        <item>RE101Setup-E</item>
+        <item>RE101Setup-F</item>
+        <item>RE101Setup-G</item>
+        <item>RE101Setup-H</item>
+        <item>RE101Setup-I</item>
+        <item>RE101Setup-J</item>
+        <item>RE101Setup-K</item>
+        <item>RE101Setup-L</item>
+        <item>RE101Setup-M</item>
+        <item>RE101Setup-N</item>
+        <item>RE101Setup-O</item>
+        <item>RE101Setup-P</item>
+        <item>RE101Setup-Q</item>
+        <item>RE101Setup-R</item>
+        <item>RE101Setup-S</item>
+        <item>RE101Setup-T</item>
+        <item>RE101Setup-U</item>
+        <item>RE101Setup-V</item>
+        <item>RE101Setup-W</item>
+        <item>RE101Setup-X</item>
+        <item>RE101Setup-Y</item>
+        <item>RE101Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * RE102 Photos and Files
+    **********************************************************/
+    <string-array name="RE102">
+        <item>10KHZ T0 30MHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>10KHZ T0 30MHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 5 VERTICAL TEST SETUP</item>
+    </string-array>
+
+
+    <string-array name="RE102_File">
+        <item>RE102Setup-A</item>
+        <item>RE102Setup-B</item>
+        <item>RE102Setup-C</item>
+        <item>RE102Setup-D</item>
+        <item>RE102Setup-E</item>
+        <item>RE102Setup-F</item>
+        <item>RE102Setup-G</item>
+        <item>RE102Setup-H</item>
+        <item>RE102Setup-I</item>
+        <item>RE102Setup-J</item>
+        <item>RE102Setup-K</item>
+        <item>RE102Setup-L</item>
+        <item>RE102Setup-M</item>
+        <item>RE102Setup-N</item>
+        <item>RE102Setup-O</item>
+        <item>RE102Setup-P</item>
+        <item>RE102Setup-Q</item>
+        <item>RE102Setup-R</item>
+        <item>RE102Setup-S</item>
+        <item>RE102Setup-T</item>
+        <item>RE102Setup-U</item>
+        <item>RE102Setup-V</item>
+        <item>RE102Setup-W</item>
+        <item>RE102Setup-X</item>
+        <item>RE102Setup-Y</item>
+        <item>RE102Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * RE101 Photos and Files
+    **********************************************************/
+    <string-array name="RS101">
+        <item>RS101 TEST SETUP A</item>
+        <item>RS101 TEST SETUP B</item>
+        <item>RS101 TEST SETUP C</item>
+        <item>RS101 TEST SETUP D</item>
+        <item>RS101 TEST SETUP E</item>
+        <item>RS101 TEST SETUP F</item>
+        <item>RS101 TEST SETUP G</item>
+        <item>RS101 TEST SETUP H</item>
+        <item>RS101 TEST SETUP I</item>
+        <item>RS101 TEST SETUP J</item>
+        <item>RS101 TEST SETUP K</item>
+        <item>RS101 TEST SETUP L</item>
+        <item>RS101 TEST SETUP M</item>
+        <item>RS101 TEST SETUP N</item>
+        <item>RS101 TEST SETUP O</item>
+        <item>RS101 TEST SETUP P</item>
+        <item>RS101 TEST SETUP Q</item>
+        <item>RS101 TEST SETUP R</item>
+        <item>RS101 TEST SETUP S</item>
+        <item>RS101 TEST SETUP T</item>
+        <item>RS101 TEST SETUP U</item>
+        <item>RS101 TEST SETUP V</item>
+        <item>RS101 TEST SETUP W</item>
+        <item>RS101 TEST SETUP X</item>
+        <item>RS101 TEST SETUP Y</item>
+        <item>RS101 TEST SETUP Z</item>
+    </string-array>
+
+
+    <string-array name="RS101_File">
+        <item>RS101Setup-A</item>
+        <item>RS101Setup-B</item>
+        <item>RS101Setup-C</item>
+        <item>RS101Setup-D</item>
+        <item>RS101Setup-E</item>
+        <item>RS101Setup-F</item>
+        <item>RS101Setup-G</item>
+        <item>RS101Setup-H</item>
+        <item>RS101Setup-I</item>
+        <item>RS101Setup-J</item>
+        <item>RS101Setup-K</item>
+        <item>RS101Setup-L</item>
+        <item>RS101Setup-M</item>
+        <item>RS101Setup-N</item>
+        <item>RS101Setup-O</item>
+        <item>RS101Setup-P</item>
+        <item>RS101Setup-Q</item>
+        <item>RS101Setup-R</item>
+        <item>RS101Setup-S</item>
+        <item>RS101Setup-T</item>
+        <item>RS101Setup-U</item>
+        <item>RS101Setup-V</item>
+        <item>RS101Setup-W</item>
+        <item>RS101Setup-X</item>
+        <item>RS101Setup-Y</item>
+        <item>RS101Setup-Z</item>
+    </string-array>
+
+
+    /***********************************************************
+    * RS103 Photos and Files
+    **********************************************************/
+    <string-array name="RS103">
+        <item>2MHZ TO 30MHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>2MHZ TO 30MHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>30MHZ TO 200MHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>200MHZ TO 1GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 18GHZ POSITION 5 VERTICAL TEST SETUP</item>
+    </string-array>
+
+
+    <string-array name="RS103_File">
+        <item>RE103Setup-A</item>
+        <item>RE103Setup-B</item>
+        <item>RE103Setup-C</item>
+        <item>RE103Setup-D</item>
+        <item>RE103Setup-E</item>
+        <item>RE103Setup-F</item>
+        <item>RE103Setup-G</item>
+        <item>RE103Setup-H</item>
+        <item>RE103Setup-I</item>
+        <item>RE103Setup-J</item>
+        <item>RE103Setup-K</item>
+        <item>RE103Setup-L</item>
+        <item>RE103Setup-M</item>
+        <item>RE103Setup-N</item>
+        <item>RE103Setup-O</item>
+        <item>RE103Setup-P</item>
+        <item>RE103Setup-Q</item>
+        <item>RE103Setup-R</item>
+        <item>RE103Setup-S</item>
+        <item>RE103Setup-T</item>
+        <item>RE103Setup-U</item>
+        <item>RE103Setup-V</item>
+        <item>RE103Setup-W</item>
+        <item>RE103Setup-X</item>
+        <item>RE103Setup-Y</item>
+        <item>RE103Setup-Z</item>
     </string-array>
 
 
