@@ -349,32 +349,32 @@
 
 
     <string-array name="CS114_File">
-        <item>CS114Setup-A</item>
-        <item>CS114Setup-B</item>
-        <item>CS114Setup-C</item>
-        <item>CS114Setup-D</item>
-        <item>CS114Setup-E</item>
-        <item>CS114Setup-F</item>
-        <item>CS114Setup-G</item>
-        <item>CS114Setup-H</item>
-        <item>CS114Setup-I</item>
-        <item>CS114Setup-J</item>
-        <item>CS114Setup-K</item>
-        <item>CS114Setup-L</item>
-        <item>CS114Setup-M</item>
-        <item>CS114Setup-N</item>
-        <item>CS114Setup-O</item>
-        <item>CS114Setup-P</item>
-        <item>CS114Setup-Q</item>
-        <item>CS114Setup-R</item>
-        <item>CS114Setup-S</item>
-        <item>CS114Setup-T</item>
-        <item>CS114Setup-U</item>
-        <item>CS114Setup-V</item>
-        <item>CS114Setup-W</item>
-        <item>CS114Setup-X</item>
-        <item>CS114Setup-Y</item>
-        <item>CS114Setup-Z</item>
+        <item>CS114Setup-A.jpg</item>
+        <item>CS114Setup-B.jpg</item>
+        <item>CS114Setup-C.jpg</item>
+        <item>CS114Setup-D.jpg</item>
+        <item>CS114Setup-E.jpg</item>
+        <item>CS114Setup-F.jpg</item>
+        <item>CS114Setup-G.jpg</item>
+        <item>CS114Setup-H.jpg</item>
+        <item>CS114Setup-I.jpg</item>
+        <item>CS114Setup-J.jpg</item>
+        <item>CS114Setup-K.jpg</item>
+        <item>CS114Setup-L.jpg</item>
+        <item>CS114Setup-M.jpg</item>
+        <item>CS114Setup-N.jpg</item>
+        <item>CS114Setup-O.jpg</item>
+        <item>CS114Setup-P.jpg</item>
+        <item>CS114Setup-Q.jpg</item>
+        <item>CS114Setup-R.jpg</item>
+        <item>CS114Setup-S.jpg</item>
+        <item>CS114Setup-T.jpg</item>
+        <item>CS114Setup-U.jpg</item>
+        <item>CS114Setup-V.jpg</item>
+        <item>CS114Setup-W.jpg</item>
+        <item>CS114Setup-X.jpg</item>
+        <item>CS114Setup-Y.jpg</item>
+        <item>CS114Setup-Z.jpg</item>
     </string-array>
 
 
@@ -412,32 +412,32 @@
 
 
     <string-array name="CS115_File">
-        <item>CS115Setup-A</item>
-        <item>CS115Setup-B</item>
-        <item>CS115Setup-C</item>
-        <item>CS115Setup-D</item>
-        <item>CS115Setup-E</item>
-        <item>CS115Setup-F</item>
-        <item>CS115Setup-G</item>
-        <item>CS115Setup-H</item>
-        <item>CS115Setup-I</item>
-        <item>CS115Setup-J</item>
-        <item>CS115Setup-K</item>
-        <item>CS115Setup-L</item>
-        <item>CS115Setup-M</item>
-        <item>CS115Setup-N</item>
-        <item>CS115Setup-O</item>
-        <item>CS115Setup-P</item>
-        <item>CS115Setup-Q</item>
-        <item>CS115Setup-R</item>
-        <item>CS115Setup-S</item>
-        <item>CS115Setup-T</item>
-        <item>CS115Setup-U</item>
-        <item>CS115Setup-V</item>
-        <item>CS115Setup-W</item>
-        <item>CS115Setup-X</item>
-        <item>CS115Setup-Y</item>
-        <item>CS115Setup-Z</item>
+        <item>CS115Setup-A.jpg</item>
+        <item>CS115Setup-B.jpg</item>
+        <item>CS115Setup-C.jpg</item>
+        <item>CS115Setup-D.jpg</item>
+        <item>CS115Setup-E.jpg</item>
+        <item>CS115Setup-F.jpg</item>
+        <item>CS115Setup-G.jpg</item>
+        <item>CS115Setup-H.jpg</item>
+        <item>CS115Setup-I.jpg</item>
+        <item>CS115Setup-J.jpg</item>
+        <item>CS115Setup-K.jpg</item>
+        <item>CS115Setup-L.jpg</item>
+        <item>CS115Setup-M.jpg</item>
+        <item>CS115Setup-N.jpg</item>
+        <item>CS115Setup-O.jpg</item>
+        <item>CS115Setup-P.jpg</item>
+        <item>CS115Setup-Q.jpg</item>
+        <item>CS115Setup-R.jpg</item>
+        <item>CS115Setup-S.jpg</item>
+        <item>CS115Setup-T.jpg</item>
+        <item>CS115Setup-U.jpg</item>
+        <item>CS115Setup-V.jpg</item>
+        <item>CS115Setup-W.jpg</item>
+        <item>CS115Setup-X.jpg</item>
+        <item>CS115Setup-Y.jpg</item>
+        <item>CS115Setup-Z.jpg</item>
     </string-array>
 
 
@@ -475,32 +475,32 @@
 
 
     <string-array name="CS116_File">
-        <item>CS116Setup-A</item>
-        <item>CS116Setup-B</item>
-        <item>CS116Setup-C</item>
-        <item>CS116Setup-D</item>
-        <item>CS116Setup-E</item>
-        <item>CS116Setup-F</item>
-        <item>CS116Setup-G</item>
-        <item>CS116Setup-H</item>
-        <item>CS116Setup-I</item>
-        <item>CS116Setup-J</item>
-        <item>CS116Setup-K</item>
-        <item>CS116Setup-L</item>
-        <item>CS116Setup-M</item>
-        <item>CS116Setup-N</item>
-        <item>CS116Setup-O</item>
-        <item>CS116Setup-P</item>
-        <item>CS116Setup-Q</item>
-        <item>CS116Setup-R</item>
-        <item>CS116Setup-S</item>
-        <item>CS116Setup-T</item>
-        <item>CS116Setup-U</item>
-        <item>CS116Setup-V</item>
-        <item>CS116Setup-W</item>
-        <item>CS116Setup-X</item>
-        <item>CS116Setup-Y</item>
-        <item>CS116Setup-Z</item>
+        <item>CS116Setup-A.jpg</item>
+        <item>CS116Setup-B.jpg</item>
+        <item>CS116Setup-C.jpg</item>
+        <item>CS116Setup-D.jpg</item>
+        <item>CS116Setup-E.jpg</item>
+        <item>CS116Setup-F.jpg</item>
+        <item>CS116Setup-G.jpg</item>
+        <item>CS116Setup-H.jpg</item>
+        <item>CS116Setup-I.jpg</item>
+        <item>CS116Setup-J.jpg</item>
+        <item>CS116Setup-K.jpg</item>
+        <item>CS116Setup-L.jpg</item>
+        <item>CS116Setup-M.jpg</item>
+        <item>CS116Setup-N.jpg</item>
+        <item>CS116Setup-O.jpg</item>
+        <item>CS116Setup-P.jpg</item>
+        <item>CS116Setup-Q.jpg</item>
+        <item>CS116Setup-R.jpg</item>
+        <item>CS116Setup-S.jpg</item>
+        <item>CS116Setup-T.jpg</item>
+        <item>CS116Setup-U.jpg</item>
+        <item>CS116Setup-V.jpg</item>
+        <item>CS116Setup-W.jpg</item>
+        <item>CS116Setup-X.jpg</item>
+        <item>CS116Setup-Y.jpg</item>
+        <item>CS116Setup-Z.jpg</item>
     </string-array>
 
 
@@ -538,32 +538,32 @@
 
 
     <string-array name="CS117_File">
-        <item>CS117Setup-A</item>
-        <item>CS117Setup-B</item>
-        <item>CS117Setup-C</item>
-        <item>CS117Setup-D</item>
-        <item>CS117Setup-E</item>
-        <item>CS117Setup-F</item>
-        <item>CS117Setup-G</item>
-        <item>CS117Setup-H</item>
-        <item>CS117Setup-I</item>
-        <item>CS117Setup-J</item>
-        <item>CS117Setup-K</item>
-        <item>CS117Setup-L</item>
-        <item>CS117Setup-M</item>
-        <item>CS117Setup-N</item>
-        <item>CS117Setup-O</item>
-        <item>CS117Setup-P</item>
-        <item>CS117Setup-Q</item>
-        <item>CS117Setup-R</item>
-        <item>CS117Setup-S</item>
-        <item>CS117Setup-T</item>
-        <item>CS117Setup-U</item>
-        <item>CS117Setup-V</item>
-        <item>CS117Setup-W</item>
-        <item>CS117Setup-X</item>
-        <item>CS117Setup-Y</item>
-        <item>CS117Setup-Z</item>
+        <item>CS117Setup-A.jpg</item>
+        <item>CS117Setup-B.jpg</item>
+        <item>CS117Setup-C.jpg</item>
+        <item>CS117Setup-D.jpg</item>
+        <item>CS117Setup-E.jpg</item>
+        <item>CS117Setup-F.jpg</item>
+        <item>CS117Setup-G.jpg</item>
+        <item>CS117Setup-H.jpg</item>
+        <item>CS117Setup-I.jpg</item>
+        <item>CS117Setup-J.jpg</item>
+        <item>CS117Setup-K.jpg</item>
+        <item>CS117Setup-L.jpg</item>
+        <item>CS117Setup-M.jpg</item>
+        <item>CS117Setup-N.jpg</item>
+        <item>CS117Setup-O.jpg</item>
+        <item>CS117Setup-P.jpg</item>
+        <item>CS117Setup-Q.jpg</item>
+        <item>CS117Setup-R.jpg</item>
+        <item>CS117Setup-S.jpg</item>
+        <item>CS117Setup-T.jpg</item>
+        <item>CS117Setup-U.jpg</item>
+        <item>CS117Setup-V.jpg</item>
+        <item>CS117Setup-W.jpg</item>
+        <item>CS117Setup-X.jpg</item>
+        <item>CS117Setup-Y.jpg</item>
+        <item>CS117Setup-Z.jpg</item>
     </string-array>
 
 
@@ -601,32 +601,32 @@
 
 
     <string-array name="CS118_File">
-        <item>CS118Setup-A</item>
-        <item>CS118Setup-B</item>
-        <item>CS118Setup-C</item>
-        <item>CS118Setup-D</item>
-        <item>CS118Setup-E</item>
-        <item>CS118Setup-F</item>
-        <item>CS118Setup-G</item>
-        <item>CS118Setup-H</item>
-        <item>CS118Setup-I</item>
-        <item>CS118Setup-J</item>
-        <item>CS118Setup-K</item>
-        <item>CS118Setup-L</item>
-        <item>CS118Setup-M</item>
-        <item>CS118Setup-N</item>
-        <item>CS118Setup-O</item>
-        <item>CS118Setup-P</item>
-        <item>CS118Setup-Q</item>
-        <item>CS118Setup-R</item>
-        <item>CS118Setup-S</item>
-        <item>CS118Setup-T</item>
-        <item>CS118Setup-U</item>
-        <item>CS118Setup-V</item>
-        <item>CS118Setup-W</item>
-        <item>CS118Setup-X</item>
-        <item>CS118Setup-Y</item>
-        <item>CS118Setup-Z</item>
+        <item>CS118Setup-A.jpg</item>
+        <item>CS118Setup-B.jpg</item>
+        <item>CS118Setup-C.jpg</item>
+        <item>CS118Setup-D.jpg</item>
+        <item>CS118Setup-E.jpg</item>
+        <item>CS118Setup-F.jpg</item>
+        <item>CS118Setup-G.jpg</item>
+        <item>CS118Setup-H.jpg</item>
+        <item>CS118Setup-I.jpg</item>
+        <item>CS118Setup-J.jpg</item>
+        <item>CS118Setup-K.jpg</item>
+        <item>CS118Setup-L.jpg</item>
+        <item>CS118Setup-M.jpg</item>
+        <item>CS118Setup-N.jpg</item>
+        <item>CS118Setup-O.jpg</item>
+        <item>CS118Setup-P.jpg</item>
+        <item>CS118Setup-Q.jpg</item>
+        <item>CS118Setup-R.jpg</item>
+        <item>CS118Setup-S.jpg</item>
+        <item>CS118Setup-T.jpg</item>
+        <item>CS118Setup-U.jpg</item>
+        <item>CS118Setup-V.jpg</item>
+        <item>CS118Setup-W.jpg</item>
+        <item>CS118Setup-X.jpg</item>
+        <item>CS118Setup-Y.jpg</item>
+        <item>CS118Setup-Z.jpg</item>
     </string-array>
 
 
@@ -664,32 +664,32 @@
 
 
     <string-array name="RE101_File">
-        <item>RE101Setup-A</item>
-        <item>RE101Setup-B</item>
-        <item>RE101Setup-C</item>
-        <item>RE101Setup-D</item>
-        <item>RE101Setup-E</item>
-        <item>RE101Setup-F</item>
-        <item>RE101Setup-G</item>
-        <item>RE101Setup-H</item>
-        <item>RE101Setup-I</item>
-        <item>RE101Setup-J</item>
-        <item>RE101Setup-K</item>
-        <item>RE101Setup-L</item>
-        <item>RE101Setup-M</item>
-        <item>RE101Setup-N</item>
-        <item>RE101Setup-O</item>
-        <item>RE101Setup-P</item>
-        <item>RE101Setup-Q</item>
-        <item>RE101Setup-R</item>
-        <item>RE101Setup-S</item>
-        <item>RE101Setup-T</item>
-        <item>RE101Setup-U</item>
-        <item>RE101Setup-V</item>
-        <item>RE101Setup-W</item>
-        <item>RE101Setup-X</item>
-        <item>RE101Setup-Y</item>
-        <item>RE101Setup-Z</item>
+        <item>RE101Setup-A.jpg</item>
+        <item>RE101Setup-B.jpg</item>
+        <item>RE101Setup-C.jpg</item>
+        <item>RE101Setup-D.jpg</item>
+        <item>RE101Setup-E.jpg</item>
+        <item>RE101Setup-F.jpg</item>
+        <item>RE101Setup-G.jpg</item>
+        <item>RE101Setup-H.jpg</item>
+        <item>RE101Setup-I.jpg</item>
+        <item>RE101Setup-J.jpg</item>
+        <item>RE101Setup-K.jpg</item>
+        <item>RE101Setup-L.jpg</item>
+        <item>RE101Setup-M.jpg</item>
+        <item>RE101Setup-N.jpg</item>
+        <item>RE101Setup-O.jpg</item>
+        <item>RE101Setup-P.jpg</item>
+        <item>RE101Setup-Q.jpg</item>
+        <item>RE101Setup-R.jpg</item>
+        <item>RE101Setup-S.jpg</item>
+        <item>RE101Setup-T.jpg</item>
+        <item>RE101Setup-U.jpg</item>
+        <item>RE101Setup-V.jpg</item>
+        <item>RE101Setup-W.jpg</item>
+        <item>RE101Setup-X.jpg</item>
+        <item>RE101Setup-Y.jpg</item>
+        <item>RE101Setup-Z.jpg</item>
     </string-array>
 
 
@@ -727,37 +727,37 @@
 
 
     <string-array name="RE102_File">
-        <item>RE102Setup-A</item>
-        <item>RE102Setup-B</item>
-        <item>RE102Setup-C</item>
-        <item>RE102Setup-D</item>
-        <item>RE102Setup-E</item>
-        <item>RE102Setup-F</item>
-        <item>RE102Setup-G</item>
-        <item>RE102Setup-H</item>
-        <item>RE102Setup-I</item>
-        <item>RE102Setup-J</item>
-        <item>RE102Setup-K</item>
-        <item>RE102Setup-L</item>
-        <item>RE102Setup-M</item>
-        <item>RE102Setup-N</item>
-        <item>RE102Setup-O</item>
-        <item>RE102Setup-P</item>
-        <item>RE102Setup-Q</item>
-        <item>RE102Setup-R</item>
-        <item>RE102Setup-S</item>
-        <item>RE102Setup-T</item>
-        <item>RE102Setup-U</item>
-        <item>RE102Setup-V</item>
-        <item>RE102Setup-W</item>
-        <item>RE102Setup-X</item>
-        <item>RE102Setup-Y</item>
-        <item>RE102Setup-Z</item>
+        <item>RE102Setup-A.jpg</item>
+        <item>RE102Setup-B.jpg</item>
+        <item>RE102Setup-C.jpg</item>
+        <item>RE102Setup-D.jpg</item>
+        <item>RE102Setup-E.jpg</item>
+        <item>RE102Setup-F.jpg</item>
+        <item>RE102Setup-G.jpg</item>
+        <item>RE102Setup-H.jpg</item>
+        <item>RE102Setup-I.jpg</item>
+        <item>RE102Setup-J.jpg</item>
+        <item>RE102Setup-K.jpg</item>
+        <item>RE102Setup-L.jpg</item>
+        <item>RE102Setup-M.jpg</item>
+        <item>RE102Setup-N.jpg</item>
+        <item>RE102Setup-O.jpg</item>
+        <item>RE102Setup-P.jpg</item>
+        <item>RE102Setup-Q.jpg</item>
+        <item>RE102Setup-R.jpg</item>
+        <item>RE102Setup-S.jpg</item>
+        <item>RE102Setup-T.jpg</item>
+        <item>RE102Setup-U.jpg</item>
+        <item>RE102Setup-V.jpg</item>
+        <item>RE102Setup-W.jpg</item>
+        <item>RE102Setup-X.jpg</item>
+        <item>RE102Setup-Y.jpg</item>
+        <item>RE102Setup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
-    * RE101 Photos and Files
+    * RS101 Photos and Files
     **********************************************************/
     <string-array name="RS101">
         <item>RS101 TEST SETUP A</item>
@@ -790,32 +790,32 @@
 
 
     <string-array name="RS101_File">
-        <item>RS101Setup-A</item>
-        <item>RS101Setup-B</item>
-        <item>RS101Setup-C</item>
-        <item>RS101Setup-D</item>
-        <item>RS101Setup-E</item>
-        <item>RS101Setup-F</item>
-        <item>RS101Setup-G</item>
-        <item>RS101Setup-H</item>
-        <item>RS101Setup-I</item>
-        <item>RS101Setup-J</item>
-        <item>RS101Setup-K</item>
-        <item>RS101Setup-L</item>
-        <item>RS101Setup-M</item>
-        <item>RS101Setup-N</item>
-        <item>RS101Setup-O</item>
-        <item>RS101Setup-P</item>
-        <item>RS101Setup-Q</item>
-        <item>RS101Setup-R</item>
-        <item>RS101Setup-S</item>
-        <item>RS101Setup-T</item>
-        <item>RS101Setup-U</item>
-        <item>RS101Setup-V</item>
-        <item>RS101Setup-W</item>
-        <item>RS101Setup-X</item>
-        <item>RS101Setup-Y</item>
-        <item>RS101Setup-Z</item>
+        <item>RS101Setup-A.jpg</item>
+        <item>RS101Setup-B.jpg</item>
+        <item>RS101Setup-C.jpg</item>
+        <item>RS101Setup-D.jpg</item>
+        <item>RS101Setup-E.jpg</item>
+        <item>RS101Setup-F.jpg</item>
+        <item>RS101Setup-G.jpg</item>
+        <item>RS101Setup-H.jpg</item>
+        <item>RS101Setup-I.jpg</item>
+        <item>RS101Setup-J.jpg</item>
+        <item>RS101Setup-K.jpg</item>
+        <item>RS101Setup-L.jpg</item>
+        <item>RS101Setup-M.jpg</item>
+        <item>RS101Setup-N.jpg</item>
+        <item>RS101Setup-O.jpg</item>
+        <item>RS101Setup-P.jpg</item>
+        <item>RS101Setup-Q.jpg</item>
+        <item>RS101Setup-R.jpg</item>
+        <item>RS101Setup-S.jpg</item>
+        <item>RS101Setup-T.jpg</item>
+        <item>RS101Setup-U.jpg</item>
+        <item>RS101Setup-V.jpg</item>
+        <item>RS101Setup-W.jpg</item>
+        <item>RS101Setup-X.jpg</item>
+        <item>RS101Setup-Y.jpg</item>
+        <item>RS101Setup-Z.jpg</item>
     </string-array>
 
 
@@ -853,32 +853,32 @@
 
 
     <string-array name="RS103_File">
-        <item>RE103Setup-A</item>
-        <item>RE103Setup-B</item>
-        <item>RE103Setup-C</item>
-        <item>RE103Setup-D</item>
-        <item>RE103Setup-E</item>
-        <item>RE103Setup-F</item>
-        <item>RE103Setup-G</item>
-        <item>RE103Setup-H</item>
-        <item>RE103Setup-I</item>
-        <item>RE103Setup-J</item>
-        <item>RE103Setup-K</item>
-        <item>RE103Setup-L</item>
-        <item>RE103Setup-M</item>
-        <item>RE103Setup-N</item>
-        <item>RE103Setup-O</item>
-        <item>RE103Setup-P</item>
-        <item>RE103Setup-Q</item>
-        <item>RE103Setup-R</item>
-        <item>RE103Setup-S</item>
-        <item>RE103Setup-T</item>
-        <item>RE103Setup-U</item>
-        <item>RE103Setup-V</item>
-        <item>RE103Setup-W</item>
-        <item>RE103Setup-X</item>
-        <item>RE103Setup-Y</item>
-        <item>RE103Setup-Z</item>
+        <item>RS103Setup-A.jpg</item>
+        <item>RS103Setup-B.jpg</item>
+        <item>RS103Setup-C.jpg</item>
+        <item>RS103Setup-D.jpg</item>
+        <item>RS103Setup-E.jpg</item>
+        <item>RS103Setup-F.jpg</item>
+        <item>RS103Setup-G.jpg</item>
+        <item>RS103Setup-H.jpg</item>
+        <item>RS103Setup-I.jpg</item>
+        <item>RS103Setup-J.jpg</item>
+        <item>RS103Setup-K.jpg</item>
+        <item>RS103Setup-L.jpg</item>
+        <item>RS103Setup-M.jpg</item>
+        <item>RS103Setup-N.jpg</item>
+        <item>RS103Setup-O.jpg</item>
+        <item>RS103Setup-P.jpg</item>
+        <item>RS103Setup-Q.jpg</item>
+        <item>RS103Setup-R.jpg</item>
+        <item>RS103Setup-S.jpg</item>
+        <item>RS103Setup-T.jpg</item>
+        <item>RS103Setup-U.jpg</item>
+        <item>RS103Setup-V.jpg</item>
+        <item>RS103Setup-W.jpg</item>
+        <item>RS103Setup-X.jpg</item>
+        <item>RS103Setup-Y.jpg</item>
+        <item>RS103Setup-Z.jpg</item>
     </string-array>
 
 
