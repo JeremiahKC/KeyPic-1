@@ -108,7 +108,7 @@ public class CustomActivity extends AppCompatActivity {
 
         // Retrieve access token
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        folderName = sharedPreferences.getString("folder_CUS", null);
+        folderName = sharedPreferences.getString("folder", null);
 
         AccessTokenManager accessTokenManager = new AccessTokenManager(this);
         accessTokenManager.checkAccessTokenExpiration();
