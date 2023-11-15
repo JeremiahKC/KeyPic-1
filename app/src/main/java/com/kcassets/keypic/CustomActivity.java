@@ -52,7 +52,9 @@ public class CustomActivity extends AppCompatActivity {
      **********************************************************/
     EditText job, picFile;
     ImageView check;
-    Button folderBtn, minusBtn, plusBtn, photoBtn;
+    ImageView unitCheck;
+    Button folderBtn, unitFolderBtn, minusBtn, plusBtn, photoBtn;
+    Spinner unitSpinner;
     ImageView backArrow;
     private static final int CAMERA_REQUEST_CODE = 123;
     private Drive driveService;
@@ -60,6 +62,10 @@ public class CustomActivity extends AppCompatActivity {
     TextView title, number, fileDisplay;
     ListView photoList;
     String folderName;
+    String unitFolderName;
+    String currentFolder;
+    String unitNumber;
+    String[] unitArray;
     String fileName;
     String accessToken;
     List<String> existingFileNames = new ArrayList<>();
@@ -67,7 +73,7 @@ public class CustomActivity extends AppCompatActivity {
     String progressMessage;
     String toastMessage;
     SharedPreferences sharedPreferences;
-    String PREF_FOLDER_CUS = "folder_CUS";
+    String PREF_FOLDER = "folder";
 
 
     /***********************************************************
@@ -84,12 +90,15 @@ public class CustomActivity extends AppCompatActivity {
          **********************************************************/
         // Initialize spinners and list view and buttons
         folderBtn = findViewById(R.id.folderBtn);
+        unitFolderBtn = findViewById(R.id.unitFolderBtn);
+        unitSpinner = findViewById(R.id.unitFolderSpinner);
         minusBtn = findViewById(R.id.minusBtn);
         plusBtn = findViewById(R.id.plusBtn);
         photoBtn = findViewById(R.id.photoBtn);
         job = findViewById(R.id.job);
         picFile = findViewById(R.id.pic);
         check = findViewById(R.id.check);
+        unitCheck = findViewById(R.id.checkunit);
         title = findViewById(R.id.title);
         number = findViewById(R.id.number);
         fileDisplay = findViewById(R.id.fileDisplay);
@@ -101,6 +110,7 @@ public class CustomActivity extends AppCompatActivity {
         progressDialog.setCancelable(false);
 
         check.setVisibility(View.INVISIBLE);
+        unitCheck.setVisibility(View.INVISIBLE);
         number.setText(String.valueOf(currentNumber));
 
         fileName = picFile.getText().toString() + "_" + currentNumber + ".jpg";
@@ -120,9 +130,26 @@ public class CustomActivity extends AppCompatActivity {
             // Perform the Google Drive API task
             progressMessage = "Searching for folder... ";
             toastMessage = "Folder found in 'My Drive'";
-            DriveTask driveTask = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
+            DriveTask driveTask = new DriveTask(folderName, null,progressDialog, progressMessage, toastMessage);
             driveTask.execute();
         }
+
+        unitArray = getResources().getStringArray(R.array.custom_unit);
+
+        ArrayAdapter<String> unitAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, unitArray);
+        unitSpinner.setAdapter(unitAdapter);
+
+        unitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                unitCheck.setVisibility(View.INVISIBLE);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
 
 
         /***********************************************************
@@ -136,12 +163,18 @@ public class CustomActivity extends AppCompatActivity {
 
                 if (folderName != null && fileName != null) {
 
+                    if (unitCheck.getVisibility() == View.VISIBLE) {
+                        currentFolder = unitFolderName;
+                    } else {
+                        currentFolder = folderName;
+                    }
+
                     if (existingFileNames.contains(fileName)){
                         showRetakeDialog();
                     } else {
                         String selectedPhoto = "Photo: " + fileName;
                         // Call the launchCamera method or perform desired action
-                        launchCamera(selectedPhoto, fileName, folderName);
+                        launchCamera(selectedPhoto, fileName, currentFolder);
                     }
                 } else {
                     Toast.makeText(CustomActivity.this, "Error: Job Folder or File Name is empty or invalid", Toast.LENGTH_SHORT).show();
@@ -241,10 +274,12 @@ public class CustomActivity extends AppCompatActivity {
                 AccessTokenManager accessTokenManager = new AccessTokenManager(CustomActivity.this);
                 accessTokenManager.checkAccessTokenExpiration();
 
+                unitCheck.setVisibility(View.INVISIBLE);
+
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
                 SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putString(PREF_FOLDER_CUS, folderName);
+                editor.putString(PREF_FOLDER, folderName);
                 editor.apply();
 
                 // Close the keyboard
@@ -257,8 +292,29 @@ public class CustomActivity extends AppCompatActivity {
                 // Perform the Google Drive API task
                 progressMessage = "Searching for folder... ";
                 toastMessage = "Folder found in 'My Drive'";
-                DriveTask driveTask = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
+                DriveTask driveTask = new DriveTask(folderName, null, progressDialog, progressMessage, toastMessage);
                 driveTask.execute();
+            }
+        });
+
+        unitFolderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AccessTokenManager accessTokenManager = new AccessTokenManager(CustomActivity.this);
+                accessTokenManager.checkAccessTokenExpiration();
+
+                if (folderName != null) {
+                    unitNumber = unitSpinner.getSelectedItem().toString();
+
+                    unitFolderName = folderName + "_Unit" + unitNumber;
+
+                    progressMessage = "Searching for unit folder... ";
+                    toastMessage = "Unit folder found in job folder";
+                    DriveTask unitTask = new DriveTask(unitFolderName, folderName, progressDialog, progressMessage, toastMessage);
+                    unitTask.execute();
+                } else {
+                    Toast.makeText(CustomActivity.this, "Error: No Job Folder Selected", Toast.LENGTH_LONG).show();
+                }
             }
         });
     }
@@ -301,7 +357,7 @@ public class CustomActivity extends AppCompatActivity {
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
             progressMessage = "Updating Folder... ";
             toastMessage = "Photo Saved Successfully";
-            DriveTask updateList = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
+            DriveTask updateList = new DriveTask(currentFolder, null,progressDialog, progressMessage, toastMessage);
             updateList.execute();
         }
     }
@@ -313,12 +369,14 @@ public class CustomActivity extends AppCompatActivity {
     public class DriveTask extends AsyncTask<String, Void, Boolean> {
         private String folderInput;
         private ProgressDialog progressDialog;
+        private String parentFolderName;
         private boolean createFolder;
         private String progressMessage;
         private String toastMessage;
 
-        public DriveTask(String folderInput, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
+        public DriveTask(String folderInput, String parentFolderName, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
             this.folderInput = folderInput;
+            this.parentFolderName = parentFolderName;
             this.progressMessage = progressMessage;
             this.toastMessage = toastMessage;
             this.progressDialog = progressDialog;
@@ -348,7 +406,13 @@ public class CustomActivity extends AppCompatActivity {
                         .build();
 
                 // Search for the folder by name
-                String query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "'";
+                String query;
+                if (parentFolderName != null) {
+                    query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "' and '" + getParentFolderId(parentFolderName) + "' in parents";
+                } else {
+                    query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "'";
+                }
+
                 FileList result = driveService.files().list().setQ(query).setSpaces("drive").execute();
                 List<File> files = result.getFiles();
 
@@ -383,7 +447,12 @@ public class CustomActivity extends AppCompatActivity {
             progressDialog.dismiss();
             if (result) {
                 if (!createFolder) {
-                    check.setVisibility(View.VISIBLE);
+
+                    if (parentFolderName != null) {
+                        unitCheck.setVisibility(View.VISIBLE);
+                    } else {
+                        check.setVisibility(View.VISIBLE);
+                    }
 
                     // Get the current list of items from the photoList ListView
 
@@ -412,12 +481,20 @@ public class CustomActivity extends AppCompatActivity {
             builder.setMessage("This folder does not exist. Would you like to create it?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
-                            createFolder();
+                            if (parentFolderName != null) {
+                                createFolderInsideParent();
+                            } else {
+                                createFolder();
+                            }
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
-                            folderName = null;
+                            if (parentFolderName != null) {
+                                unitFolderName = null;
+                            } else {
+                                folderName = null;
+                            }
                         }
                     });
 
@@ -425,23 +502,47 @@ public class CustomActivity extends AppCompatActivity {
             alert.show();
         }
 
+        private String getParentFolderId(String parentFolderName) {
+            try {
+                String query = "mimeType='application/vnd.google-apps.folder' and name='" + parentFolderName + "'";
+                FileList result = driveService.files().list().setQ(query).setSpaces("drive").execute();
+                List<File> files = result.getFiles();
+
+                if (files != null && !files.isEmpty()) {
+                    return files.get(0).getId();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
 
         /***********************************************************
          * Create Folder if it Does not Exist
          **********************************************************/
+        private void createFolderInsideParent() {
+            ProgressDialog createFolderProgressDialog = new ProgressDialog(CustomActivity.this);
+            createFolderProgressDialog.setCancelable(false);
+
+            new CreateFolderTask(folderInput, parentFolderName, createFolderProgressDialog).execute();
+        }
+
         private void createFolder() {
             ProgressDialog createFolderProgressDialog = new ProgressDialog(CustomActivity.this);
             createFolderProgressDialog.setCancelable(false);
 
-            new CreateFolderTask(folderInput, createFolderProgressDialog).execute();
+            new CreateFolderTask(folderInput, null, createFolderProgressDialog).execute();
         }
 
         private class CreateFolderTask extends AsyncTask<Void, Void, Boolean> {
             private String folderInput;
+            private String parentFolderName;  // New field for the parent folder name
             private ProgressDialog progressDialog;
 
-            public CreateFolderTask(String folderInput, ProgressDialog progressDialog) {
+            public CreateFolderTask(String folderInput, String parentFolderName, ProgressDialog progressDialog) {
                 this.folderInput = folderInput;
+                this.parentFolderName = parentFolderName;
                 this.progressDialog = progressDialog;
             }
 
@@ -471,6 +572,13 @@ public class CustomActivity extends AppCompatActivity {
                     folderMetadata.setName(folderInput);
                     folderMetadata.setMimeType("application/vnd.google-apps.folder");
 
+                    if (parentFolderName != null) {
+                        String parentFolderId = getParentFolderId(parentFolderName);
+                        if (parentFolderId != null) {
+                            folderMetadata.setParents(Collections.singletonList(parentFolderId));
+                        }
+                    }
+
                     File folder = driveService.files().create(folderMetadata).setFields("id").execute();
                     System.out.println("Folder created: " + folder.getName() + " (ID: " + folder.getId() + ")");
                     return true;
@@ -487,8 +595,12 @@ public class CustomActivity extends AppCompatActivity {
 
                 if (result) {
                     existingFileNames.clear();
-                    check.setVisibility(View.VISIBLE);
-                    Toast.makeText(CustomActivity.this, "Folder Created in 'My Drive'", Toast.LENGTH_SHORT).show();
+                    if (parentFolderName != null) {
+                        unitCheck.setVisibility(View.VISIBLE);
+                    } else {
+                        check.setVisibility(View.VISIBLE);
+                    }
+                    Toast.makeText(CustomActivity.this, "Folder Created Successfully", Toast.LENGTH_SHORT).show();
 
                 } else {
                     Toast.makeText(CustomActivity.this, "Error: Network connection not found.", Toast.LENGTH_LONG).show();
