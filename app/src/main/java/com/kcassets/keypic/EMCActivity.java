@@ -54,12 +54,13 @@ public class EMCActivity extends AppCompatActivity {
     ListView photoList;
     EditText job;
     ImageView check;
-    Button folderBtn;
+    ImageView unitCheck;
+    Button folderBtn, unitFolderBtn;
     ImageView backArrow;
     private static final int CAMERA_REQUEST_CODE = 123;
     private Drive driveService;
     ProgressDialog progressDialog;
-    TextView title, textType, textPhase, textUnit;
+    TextView title, textType, textPhase;
     PhotoAdapter photoAdapter;
     String[] categoryArray;
     String[] typeArray;
@@ -67,8 +68,10 @@ public class EMCActivity extends AppCompatActivity {
     String[] unitArray;
     private String selectedType;
     private String selectedPhase;
-    private String selectedUnit;
     String folderName;
+    String unitFolderName;
+    String currentFolder;
+    String unitNumber;
     String progressMessage;
     String toastMessage;
     String accessToken;
@@ -79,7 +82,6 @@ public class EMCActivity extends AppCompatActivity {
     String PREF_TYPE_EMC = "type_EMC";
     String PREF_UNIT_EMC = "unit_EMC";
     String PREF_TYPE_POS_EMC = "type_pos_EMC";
-    String PREF_UNIT_POS_EMC = "unit_pos_EMC";
     String PREF_CURRENT_TYPE = "current_type";
 
 
@@ -99,16 +101,17 @@ public class EMCActivity extends AppCompatActivity {
         typeSpinner = findViewById(R.id.typeSpinner);
         phaseSpinner = findViewById(R.id.phaseSpinner);
         phaseSpinner2 = findViewById(R.id.phaseSpinner2);
-        unitSpinner = findViewById(R.id.unitSpinner);
+        unitSpinner = findViewById(R.id.unitFolderSpinner);
         photoList = findViewById(R.id.photoList);
         folderBtn = findViewById(R.id.folderBtn);
+        unitFolderBtn = findViewById(R.id.unitFolderBtn);
         job = findViewById(R.id.job);
         check = findViewById(R.id.check);
+        unitCheck = findViewById(R.id.checkunit);
         title = findViewById(R.id.title);
         backArrow = findViewById(R.id.backArrow);
         textType = findViewById(R.id.textType);
         textPhase = findViewById(R.id.textPhase);
-        textUnit = findViewById(R.id.textUnit);
 
         progressDialog = new ProgressDialog(EMCActivity.this);
         progressDialog.setIndeterminate(true);
@@ -116,6 +119,7 @@ public class EMCActivity extends AppCompatActivity {
 
         // Hide/Move Elements
         check.setVisibility(View.INVISIBLE);
+        unitCheck.setVisibility(View.INVISIBLE);
         textType.setText("Test Category");
         textPhase.setText("Test Type");
 
@@ -123,7 +127,6 @@ public class EMCActivity extends AppCompatActivity {
         categoryArray = getResources().getStringArray(R.array.test_category);
         typeArray = getResources().getStringArray(R.array.test_type);
         typeArray2 = getResources().getStringArray(R.array.test_type2);
-        unitArray = getResources().getStringArray(R.array.amazon_unit);
 
         // Setup Spinners
         setupSpinners();
@@ -132,7 +135,6 @@ public class EMCActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         folderName = sharedPreferences.getString("folder_EMC", null);
         selectedType = sharedPreferences.getString("type_EMC", null);
-        selectedUnit = sharedPreferences.getString("unit_EMC", null);
         int typePosition = sharedPreferences.getInt("type_pos_EMC", -1);
         int unitPosition = sharedPreferences.getInt("unit_pos_EMC", -1);
         int currentType = sharedPreferences.getInt("current_type", -1);
@@ -161,9 +163,25 @@ public class EMCActivity extends AppCompatActivity {
             // Perform the Google Drive API task
             progressMessage = "Searching for folder... ";
             toastMessage = "Folder found in 'My Drive'";
-            DriveTask driveTask = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
+            DriveTask driveTask = new DriveTask(folderName,null, progressDialog, progressMessage, toastMessage);
             driveTask.execute();
         }
+
+        unitArray = getResources().getStringArray(R.array.custom_unit);
+        ArrayAdapter<String> unitAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, unitArray);
+        unitSpinner.setAdapter(unitAdapter);
+
+        unitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                unitCheck.setVisibility(View.INVISIBLE);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // Do nothing
+            }
+        });
 
 
         /***********************************************************
@@ -186,7 +204,7 @@ public class EMCActivity extends AppCompatActivity {
                 AccessTokenManager accessTokenManager = new AccessTokenManager(EMCActivity.this);
                 accessTokenManager.checkAccessTokenExpiration();
 
-                if (folderName != null) {
+                if (folderName != null && unitCheck.getVisibility() == View.VISIBLE) {
                     // Check if the item has a green background
                     boolean isGreenBackground = isGreenBackground(view);
 
@@ -198,10 +216,10 @@ public class EMCActivity extends AppCompatActivity {
                         String selectedPhoto = (String) parent.getItemAtPosition(position);
                         String selectedFileName = fileNames.get(position);
                         // Call the launchCamera method or perform desired action
-                        launchCamera(selectedPhoto, selectedFileName, folderName);
+                        launchCamera(selectedPhoto, selectedFileName, unitFolderName);
                     }
                 } else {
-                    Toast.makeText(EMCActivity.this, "Error: Job Number/Folder is empty or invalid", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EMCActivity.this, "Error: Job Folder or Unit Folder is empty", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -241,6 +259,8 @@ public class EMCActivity extends AppCompatActivity {
                 AccessTokenManager accessTokenManager = new AccessTokenManager(EMCActivity.this);
                 accessTokenManager.checkAccessTokenExpiration();
 
+                unitCheck.setVisibility(View.INVISIBLE);
+
                 // Get the folder name from the EditText
                 folderName = job.getText().toString();
                 SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -257,8 +277,29 @@ public class EMCActivity extends AppCompatActivity {
                 // Perform the Google Drive API task
                 progressMessage = "Searching for folder... ";
                 toastMessage = "Folder found in 'My Drive'";
-                DriveTask driveTask = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
+                DriveTask driveTask = new DriveTask(folderName, null, progressDialog, progressMessage, toastMessage);
                 driveTask.execute();
+            }
+        });
+
+        unitFolderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AccessTokenManager accessTokenManager = new AccessTokenManager(EMCActivity.this);
+                accessTokenManager.checkAccessTokenExpiration();
+
+                if (folderName != null) {
+                    unitNumber = unitSpinner.getSelectedItem().toString();
+
+                    unitFolderName = folderName + "_Unit" + unitNumber;
+
+                    progressMessage = "Searching for unit folder... ";
+                    toastMessage = "Unit folder found in job folder";
+                    DriveTask unitTask = new DriveTask(unitFolderName, folderName, progressDialog, progressMessage, toastMessage);
+                    unitTask.execute();
+                } else {
+                    Toast.makeText(EMCActivity.this, "Error: No Job Folder Selected", Toast.LENGTH_LONG).show();
+                }
             }
         });
     }
@@ -309,9 +350,6 @@ public class EMCActivity extends AppCompatActivity {
         ArrayAdapter<String> typeAdapter2 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, typeArray2);
         phaseSpinner2.setAdapter(typeAdapter2);
 
-        ArrayAdapter<String> unitAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, unitArray);
-        unitSpinner.setAdapter(unitAdapter);
-
         typeSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
@@ -356,18 +394,6 @@ public class EMCActivity extends AppCompatActivity {
                 // Do nothing
             }
         });
-
-        unitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                makePhotoList();
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-                // Do nothing
-            }
-        });
     }
 
 
@@ -389,27 +415,16 @@ public class EMCActivity extends AppCompatActivity {
             currentType = 1;
         }
 
-        selectedUnit = unitSpinner.getSelectedItem().toString();
-
-        int unitPosition = unitSpinner.getSelectedItemPosition();
-
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putInt(PREF_CURRENT_TYPE, currentType);
         editor.putString(PREF_TYPE_EMC, selectedType);
-        editor.putString(PREF_UNIT_EMC, selectedUnit);
         editor.putInt(PREF_TYPE_POS_EMC, typePosition);
-        editor.putInt(PREF_UNIT_POS_EMC, unitPosition);
         editor.apply();
 
         String arrayName;
 
         // Create an array name based on the selected values
-        if (phaseSpinner.getVisibility() == View.VISIBLE) {
-            arrayName = selectedType + "_" + selectedUnit;
-        } else {
-            arrayName = selectedType;
-        }
-
+        arrayName = selectedType;
 
         // Get the resource ID of the array dynamically
         int arrayId = getResources().getIdentifier(arrayName, "array", getPackageName());
@@ -452,7 +467,6 @@ public class EMCActivity extends AppCompatActivity {
         intent.putExtra("folderName", folderName);
         intent.putExtra("selectedType", selectedType);
         intent.putExtra("selectedPhase", selectedPhase);
-        intent.putExtra("selectedUnit", selectedUnit);
         startActivityForResult(intent, CAMERA_REQUEST_CODE);
     }
 
@@ -468,8 +482,6 @@ public class EMCActivity extends AppCompatActivity {
             if (data != null) {
                 selectedType = data.getStringExtra("selectedType");
                 selectedPhase = data.getStringExtra("selectedPhase");
-                selectedUnit = data.getStringExtra("selectedUnit");
-
             }
         }
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {

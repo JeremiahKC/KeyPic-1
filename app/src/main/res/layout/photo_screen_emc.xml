@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="240dp"
         android:dropDownWidth="wrap_content"
         android:dropDownSelector="@android:drawable/arrow_down_float"
         android:entries="@array/amazon_type"
@@ -33,7 +33,7 @@
         android:layout_height="49dp"
         android:layout_toRightOf="@+id/typeSpinner"
         android:layout_marginLeft="12dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="240dp"
         android:dropDownWidth="wrap_content"
         android:dropDownSelector="@android:drawable/arrow_down_float"
         android:entries="@array/amazon_phase"
@@ -45,21 +45,10 @@
         android:layout_height="49dp"
         android:layout_toRightOf="@+id/typeSpinner"
         android:layout_marginLeft="12dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="240dp"
         android:dropDownWidth="wrap_content"
         android:dropDownSelector="@android:drawable/arrow_down_float"
         android:entries="@array/amazon_phase"
-        android:spinnerMode="dropdown" />
-    <Spinner
-        android:id="@+id/unitSpinner"
-        style="@android:style/Widget.Material.Spinner.Underlined"
-        android:layout_width="wrap_content"
-        android:layout_height="49dp"
-        android:layout_marginTop="245dp"
-        android:layout_marginLeft="15dp"
-        android:dropDownWidth="wrap_content"
-        android:dropDownSelector="@android:drawable/arrow_down_float"
-        android:entries="@array/amazon_unit"
         android:spinnerMode="dropdown" />
 
     <TextView
@@ -82,7 +71,7 @@
         android:id="@+id/textType"
         android:text="Test Type"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="230dp"
         android:textSize="15sp"
         android:textColor="@color/textColor"
         android:textStyle="italic" />
@@ -92,20 +81,9 @@
         android:id="@+id/textPhase"
         android:text="Test Phase"
         android:layout_marginLeft="210dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="230dp"
         android:textSize="15sp"
         android:textColor="@color/textColor"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textUnit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="235dp"
-        android:text="Unit"
-        android:textColor="@color/textColor"
-        android:textSize="15sp"
         android:textStyle="italic" />
 
     <Button
@@ -113,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="100dp"
         android:layout_toRightOf="@+id/job"
         android:background="@color/KeyOr"
         android:paddingHorizontal="10dp"
@@ -122,12 +100,49 @@
         android:textColor="@color/white"
         android:textSize="14sp" />
 
+    <TextView
+        android:id="@+id/unitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="178dp"
+        android:textColor="@color/textColor"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:text="Unit" />
+
+    <Button
+        android:id="@+id/unitFolderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="163dp"
+        android:layout_toRightOf="@+id/job"
+        android:background="@color/KeyOr"
+        android:paddingHorizontal="10dp"
+        android:text="Create Unit Folder"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/unitFolderSpinner"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="163dp"
+        android:dropDownWidth="wrap_content"
+        android:dropDownSelector="@android:drawable/arrow_down_float"
+        android:entries="@array/custom_unit"
+        android:spinnerMode="dropdown" />
+
     <EditText
         android:id="@+id/job"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="105dp"
         android:hint="Job Number"
         android:paddingRight="50dp"
         android:paddingLeft="10dp"
@@ -141,8 +156,15 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/check_mark"
-        android:layout_marginTop="115dp"
+        android:layout_marginTop="110dp"
         android:layout_marginLeft="25dp"
         android:id="@+id/check"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/check_mark"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/checkunit"/>
 
 </RelativeLayout>
