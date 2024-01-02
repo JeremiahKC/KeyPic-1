@@ -39,6 +39,7 @@ import com.google.api.services.drive.model.FileList;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class EMCActivity extends AppCompatActivity {
@@ -328,7 +329,7 @@ public class EMCActivity extends AppCompatActivity {
                 String selectedPhoto = (String) photoList.getItemAtPosition(position);
                 String selectedFileName = fileNames.get(position);
                 // Call the launchCamera method or perform desired action
-                launchCamera(selectedPhoto, selectedFileName, folderName);
+                launchCamera(selectedPhoto, selectedFileName, unitFolderName);
             }
         });
         builder.setNegativeButton("Cancel", null);
@@ -487,7 +488,7 @@ public class EMCActivity extends AppCompatActivity {
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
             progressMessage = "Updating List... ";
             toastMessage = "Photo Saved Successfully";
-            DriveTask updateList = new DriveTask(folderName, progressDialog, progressMessage, toastMessage);
+            DriveTask updateList = new DriveTask(unitFolderName,null, progressDialog, progressMessage, toastMessage);
             updateList.execute();
         }
     }
@@ -507,13 +508,15 @@ public class EMCActivity extends AppCompatActivity {
      **********************************************************/
     public class DriveTask extends AsyncTask<String, Void, Boolean> {
         private String folderInput;
+        private String parentFolderName;
         private ProgressDialog progressDialog;
         private boolean createFolder;
         private String progressMessage;
         private String toastMessage;
 
-        public DriveTask(String folderInput, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
+        public DriveTask(String folderInput, String parentFolderName, ProgressDialog progressDialog, String progressMessage, String toastMessage) {
             this.folderInput = folderInput;
+            this.parentFolderName = parentFolderName;
             this.progressMessage = progressMessage;
             this.toastMessage = toastMessage;
             this.progressDialog = progressDialog;
@@ -543,7 +546,13 @@ public class EMCActivity extends AppCompatActivity {
                         .build();
 
                 // Search for the folder by name
-                String query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "'";
+                String query;
+                if (parentFolderName != null) {
+                    query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "' and '" + getParentFolderId(parentFolderName) + "' in parents";
+                } else {
+                    query = "mimeType='application/vnd.google-apps.folder' and name='" + folderInput + "'";
+                }
+
                 FileList result = driveService.files().list().setQ(query).setSpaces("drive").execute();
                 List<File> files = result.getFiles();
 
@@ -578,7 +587,13 @@ public class EMCActivity extends AppCompatActivity {
             progressDialog.dismiss();
             if (result) {
                 if (!createFolder) {
-                    check.setVisibility(View.VISIBLE);
+
+                    if (parentFolderName != null) {
+                        unitCheck.setVisibility(View.VISIBLE);
+                    } else {
+                        check.setVisibility(View.VISIBLE);
+                    }
+
                     Toast.makeText(EMCActivity.this, toastMessage, Toast.LENGTH_SHORT).show();
                     if (!fileNames.isEmpty()) {
                         makePhotoList();
@@ -598,12 +613,20 @@ public class EMCActivity extends AppCompatActivity {
             builder.setMessage("This folder does not exist. Would you like to create it?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
-                            createFolder();
+                            if (parentFolderName != null) {
+                                createFolderInsideParent();
+                            } else {
+                                createFolder();
+                            }
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
-                            folderName = null;
+                            if (parentFolderName != null) {
+                                unitFolderName = null;
+                            } else {
+                                folderName = null;
+                            }
                         }
                     });
 
@@ -611,23 +634,47 @@ public class EMCActivity extends AppCompatActivity {
             alert.show();
         }
 
+        private String getParentFolderId(String parentFolderName) {
+            try {
+                String query = "mimeType='application/vnd.google-apps.folder' and name='" + parentFolderName + "'";
+                FileList result = driveService.files().list().setQ(query).setSpaces("drive").execute();
+                List<File> files = result.getFiles();
+
+                if (files != null && !files.isEmpty()) {
+                    return files.get(0).getId();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
 
         /***********************************************************
          * Create Folder if it Does not Exist
          **********************************************************/
+        private void createFolderInsideParent() {
+            ProgressDialog createFolderProgressDialog = new ProgressDialog(EMCActivity.this);
+            createFolderProgressDialog.setCancelable(false);
+
+            new CreateFolderTask(folderInput, parentFolderName, createFolderProgressDialog).execute();
+        }
+
         private void createFolder() {
             ProgressDialog createFolderProgressDialog = new ProgressDialog(EMCActivity.this);
             createFolderProgressDialog.setCancelable(false);
 
-            new CreateFolderTask(folderInput, createFolderProgressDialog).execute();
+            new CreateFolderTask(folderInput, null, createFolderProgressDialog).execute();
         }
 
         private class CreateFolderTask extends AsyncTask<Void, Void, Boolean> {
             private String folderInput;
+            private String parentFolderName;
             private ProgressDialog progressDialog;
 
-            public CreateFolderTask(String folderInput, ProgressDialog progressDialog) {
+            public CreateFolderTask(String folderInput, String parentFolderName, ProgressDialog progressDialog) {
                 this.folderInput = folderInput;
+                this.parentFolderName = parentFolderName;
                 this.progressDialog = progressDialog;
             }
 
@@ -657,6 +704,13 @@ public class EMCActivity extends AppCompatActivity {
                     folderMetadata.setName(folderInput);
                     folderMetadata.setMimeType("application/vnd.google-apps.folder");
 
+                    if (parentFolderName != null) {
+                        String parentFolderId = getParentFolderId(parentFolderName);
+                        if (parentFolderId != null) {
+                            folderMetadata.setParents(Collections.singletonList(parentFolderId));
+                        }
+                    }
+
                     File folder = driveService.files().create(folderMetadata).setFields("id").execute();
                     System.out.println("Folder created: " + folder.getName() + " (ID: " + folder.getId() + ")");
                     return true;
@@ -680,7 +734,11 @@ public class EMCActivity extends AppCompatActivity {
                     }
                     existingFileNames.clear();
                     makePhotoList();
-                    check.setVisibility(View.VISIBLE);
+                    if (parentFolderName != null) {
+                        unitCheck.setVisibility(View.VISIBLE);
+                    } else {
+                        check.setVisibility(View.VISIBLE);
+                    }
                     Toast.makeText(EMCActivity.this, "Folder Created in 'My Drive'", Toast.LENGTH_SHORT).show();
 
                 } else {

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     /***********************************************************
     * EUT Photos and Files
     **********************************************************/
-    <string-array name="EUT">
+    <string-array name="MIL_EUT">
         <item>EUT Photo A</item>
         <item>EUT Photo B</item>
         <item>EUT Photo C</item>
@@ -32,34 +33,33 @@
         <item>EUT Photo Z</item>
     </string-array>
 
-
-    <string-array name="EUT_File">
-        <item>EUT-A.jpg</item>
-        <item>EUT-B.jpg</item>
-        <item>EUT-C.jpg</item>
-        <item>EUT-D.jpg</item>
-        <item>EUT-E.jpg</item>
-        <item>EUT-F.jpg</item>
-        <item>EUT-G.jpg</item>
-        <item>EUT-H.jpg</item>
-        <item>EUT-I.jpg</item>
-        <item>EUT-J.jpg</item>
-        <item>EUT-K.jpg</item>
-        <item>EUT-L.jpg</item>
-        <item>EUT-M.jpg</item>
-        <item>EUT-N.jpg</item>
-        <item>EUT-O.jpg</item>
-        <item>EUT-P.jpg</item>
-        <item>EUT-Q.jpg</item>
-        <item>EUT-R.jpg</item>
-        <item>EUT-S.jpg</item>
-        <item>EUT-T.jpg</item>
-        <item>EUT-U.jpg</item>
-        <item>EUT-V.jpg</item>
-        <item>EUT-W.jpg</item>
-        <item>EUT-X.jpg</item>
-        <item>EUT-Y.jpg</item>
-        <item>EUT-Z.jpg</item>
+    <string-array name="MIL_EUT_File">
+        <item>MIL-EUT-A.jpg</item>
+        <item>MIL-EUT-B.jpg</item>
+        <item>MIL-EUT-C.jpg</item>
+        <item>MIL-EUT-D.jpg</item>
+        <item>MIL-EUT-E.jpg</item>
+        <item>MIL-EUT-F.jpg</item>
+        <item>MIL-EUT-G.jpg</item>
+        <item>MIL-EUT-H.jpg</item>
+        <item>MIL-EUT-I.jpg</item>
+        <item>MIL-EUT-J.jpg</item>
+        <item>MIL-EUT-K.jpg</item>
+        <item>MIL-EUT-L.jpg</item>
+        <item>MIL-EUT-M.jpg</item>
+        <item>MIL-EUT-N.jpg</item>
+        <item>MIL-EUT-O.jpg</item>
+        <item>MIL-EUT-P.jpg</item>
+        <item>MIL-EUT-Q.jpg</item>
+        <item>MIL-EUT-R.jpg</item>
+        <item>MIL-EUT-S.jpg</item>
+        <item>MIL-EUT-T.jpg</item>
+        <item>MIL-EUT-U.jpg</item>
+        <item>MIL-EUT-V.jpg</item>
+        <item>MIL-EUT-W.jpg</item>
+        <item>MIL-EUT-X.jpg</item>
+        <item>MIL-EUT-Y.jpg</item>
+        <item>MIL-EUT-Z.jpg</item>
     </string-array>
 
 

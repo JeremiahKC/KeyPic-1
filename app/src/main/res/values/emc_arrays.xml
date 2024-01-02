@@ -26,7 +26,7 @@
     </string-array>
 
     <string-array name="test_type2">
-        <item>EUT</item>
+        <item>MIL_EUT</item>
         <item>CE101</item>
         <item>CE102</item>
         <item>CE106</item>
@@ -47,2864 +47,628 @@
     /***********************************************************
     * EUT Photos and Files
     **********************************************************/
-    <string-array name="EUT_1">
-        <item>EUT Photo A (unit1)</item>
-        <item>EUT Photo B (unit1)</item>
-        <item>EUT Photo C (unit1)</item>
-        <item>EUT Photo D (unit1)</item>
-        <item>EUT Photo E (unit1)</item>
-        <item>EUT Photo F (unit1)</item>
-        <item>EUT Photo G (unit1)</item>
-        <item>EUT Photo H (unit1)</item>
-        <item>EUT Photo I (unit1)</item>
-        <item>EUT Photo J (unit1)</item>
-        <item>EUT Photo K (unit1)</item>
-        <item>EUT Photo L (unit1)</item>
-        <item>EUT Photo M (unit1)</item>
-        <item>EUT Photo N (unit1)</item>
-        <item>EUT Photo O (unit1)</item>
-        <item>EUT Photo P (unit1)</item>
-        <item>EUT Photo Q (unit1)</item>
-        <item>EUT Photo R (unit1)</item>
-        <item>EUT Photo S (unit1)</item>
-        <item>EUT Photo T (unit1)</item>
-        <item>EUT Photo U (unit1)</item>
-        <item>EUT Photo V (unit1)</item>
-        <item>EUT Photo W (unit1)</item>
-        <item>EUT Photo X (unit1)</item>
-        <item>EUT Photo Y (unit1)</item>
-        <item>EUT Photo Z (unit1)</item>
-    </string-array>
-    <string-array name="EUT_2">
-        <item>EUT Photo A (unit2)</item>
-        <item>EUT Photo B (unit2)</item>
-        <item>EUT Photo C (unit2)</item>
-        <item>EUT Photo D (unit2)</item>
-        <item>EUT Photo E (unit2)</item>
-        <item>EUT Photo F (unit2)</item>
-        <item>EUT Photo G (unit2)</item>
-        <item>EUT Photo H (unit2)</item>
-        <item>EUT Photo I (unit2)</item>
-        <item>EUT Photo J (unit2)</item>
-        <item>EUT Photo K (unit2)</item>
-        <item>EUT Photo L (unit2)</item>
-        <item>EUT Photo M (unit2)</item>
-        <item>EUT Photo N (unit2)</item>
-        <item>EUT Photo O (unit2)</item>
-        <item>EUT Photo P (unit2)</item>
-        <item>EUT Photo Q (unit2)</item>
-        <item>EUT Photo R (unit2)</item>
-        <item>EUT Photo S (unit2)</item>
-        <item>EUT Photo T (unit2)</item>
-        <item>EUT Photo U (unit2)</item>
-        <item>EUT Photo V (unit2)</item>
-        <item>EUT Photo W (unit2)</item>
-        <item>EUT Photo X (unit2)</item>
-        <item>EUT Photo Y (unit2)</item>
-        <item>EUT Photo Z (unit2)</item>
-    </string-array>
-    <string-array name="EUT_3">
-        <item>EUT Photo A (unit3)</item>
-        <item>EUT Photo B (unit3)</item>
-        <item>EUT Photo C (unit3)</item>
-        <item>EUT Photo D (unit3)</item>
-        <item>EUT Photo E (unit3)</item>
-        <item>EUT Photo F (unit3)</item>
-        <item>EUT Photo G (unit3)</item>
-        <item>EUT Photo H (unit3)</item>
-        <item>EUT Photo I (unit3)</item>
-        <item>EUT Photo J (unit3)</item>
-        <item>EUT Photo K (unit3)</item>
-        <item>EUT Photo L (unit3)</item>
-        <item>EUT Photo M (unit3)</item>
-        <item>EUT Photo N (unit3)</item>
-        <item>EUT Photo O (unit3)</item>
-        <item>EUT Photo P (unit3)</item>
-        <item>EUT Photo Q (unit3)</item>
-        <item>EUT Photo R (unit3)</item>
-        <item>EUT Photo S (unit3)</item>
-        <item>EUT Photo T (unit3)</item>
-        <item>EUT Photo U (unit3)</item>
-        <item>EUT Photo V (unit3)</item>
-        <item>EUT Photo W (unit3)</item>
-        <item>EUT Photo X (unit3)</item>
-        <item>EUT Photo Y (unit3)</item>
-        <item>EUT Photo Z (unit3)</item>
-    </string-array>
-    <string-array name="EUT_4">
-        <item>EUT Photo A (unit4)</item>
-        <item>EUT Photo B (unit4)</item>
-        <item>EUT Photo C (unit4)</item>
-        <item>EUT Photo D (unit4)</item>
-        <item>EUT Photo E (unit4)</item>
-        <item>EUT Photo F (unit4)</item>
-        <item>EUT Photo G (unit4)</item>
-        <item>EUT Photo H (unit4)</item>
-        <item>EUT Photo I (unit4)</item>
-        <item>EUT Photo J (unit4)</item>
-        <item>EUT Photo K (unit4)</item>
-        <item>EUT Photo L (unit4)</item>
-        <item>EUT Photo M (unit4)</item>
-        <item>EUT Photo N (unit4)</item>
-        <item>EUT Photo O (unit4)</item>
-        <item>EUT Photo P (unit4)</item>
-        <item>EUT Photo Q (unit4)</item>
-        <item>EUT Photo R (unit4)</item>
-        <item>EUT Photo S (unit4)</item>
-        <item>EUT Photo T (unit4)</item>
-        <item>EUT Photo U (unit4)</item>
-        <item>EUT Photo V (unit4)</item>
-        <item>EUT Photo W (unit4)</item>
-        <item>EUT Photo X (unit4)</item>
-        <item>EUT Photo Y (unit4)</item>
-        <item>EUT Photo Z (unit4)</item>
-    </string-array>
-    <string-array name="EUT_5">
-        <item>EUT Photo A (unit5)</item>
-        <item>EUT Photo B (unit5)</item>
-        <item>EUT Photo C (unit5)</item>
-        <item>EUT Photo D (unit5)</item>
-        <item>EUT Photo E (unit5)</item>
-        <item>EUT Photo F (unit5)</item>
-        <item>EUT Photo G (unit5)</item>
-        <item>EUT Photo H (unit5)</item>
-        <item>EUT Photo I (unit5)</item>
-        <item>EUT Photo J (unit5)</item>
-        <item>EUT Photo K (unit5)</item>
-        <item>EUT Photo L (unit5)</item>
-        <item>EUT Photo M (unit5)</item>
-        <item>EUT Photo N (unit5)</item>
-        <item>EUT Photo O (unit5)</item>
-        <item>EUT Photo P (unit5)</item>
-        <item>EUT Photo Q (unit5)</item>
-        <item>EUT Photo R (unit5)</item>
-        <item>EUT Photo S (unit5)</item>
-        <item>EUT Photo T (unit5)</item>
-        <item>EUT Photo U (unit5)</item>
-        <item>EUT Photo V (unit5)</item>
-        <item>EUT Photo W (unit5)</item>
-        <item>EUT Photo X (unit5)</item>
-        <item>EUT Photo Y (unit5)</item>
-        <item>EUT Photo Z (unit5)</item>
+    <string-array name="EUT">
+        <item>EUT Photo A</item>
+        <item>EUT Photo B</item>
+        <item>EUT Photo C</item>
+        <item>EUT Photo D</item>
+        <item>EUT Photo E</item>
+        <item>EUT Photo F</item>
+        <item>EUT Photo G</item>
+        <item>EUT Photo H</item>
+        <item>EUT Photo I</item>
+        <item>EUT Photo J</item>
+        <item>EUT Photo K</item>
+        <item>EUT Photo L</item>
+        <item>EUT Photo M</item>
+        <item>EUT Photo N</item>
+        <item>EUT Photo O</item>
+        <item>EUT Photo P</item>
+        <item>EUT Photo Q</item>
+        <item>EUT Photo R</item>
+        <item>EUT Photo S</item>
+        <item>EUT Photo T</item>
+        <item>EUT Photo U</item>
+        <item>EUT Photo V</item>
+        <item>EUT Photo W</item>
+        <item>EUT Photo X</item>
+        <item>EUT Photo Y</item>
+        <item>EUT Photo Z</item>
     </string-array>
 
-
-    <string-array name="EUT_1_File">
-        <item>EUT-A-1.jpg</item>
-        <item>EUT-B-1.jpg</item>
-        <item>EUT-C-1.jpg</item>
-        <item>EUT-D-1.jpg</item>
-        <item>EUT-E-1.jpg</item>
-        <item>EUT-F-1.jpg</item>
-        <item>EUT-G-1.jpg</item>
-        <item>EUT-H-1.jpg</item>
-        <item>EUT-I-1.jpg</item>
-        <item>EUT-J-1.jpg</item>
-        <item>EUT-K-1.jpg</item>
-        <item>EUT-L-1.jpg</item>
-        <item>EUT-M-1.jpg</item>
-        <item>EUT-N-1.jpg</item>
-        <item>EUT-O-1.jpg</item>
-        <item>EUT-P-1.jpg</item>
-        <item>EUT-Q-1.jpg</item>
-        <item>EUT-R-1.jpg</item>
-        <item>EUT-S-1.jpg</item>
-        <item>EUT-T-1.jpg</item>
-        <item>EUT-U-1.jpg</item>
-        <item>EUT-V-1.jpg</item>
-        <item>EUT-W-1.jpg</item>
-        <item>EUT-X-1.jpg</item>
-        <item>EUT-Y-1.jpg</item>
-        <item>EUT-Z-1.jpg</item>
-    </string-array>
-    <string-array name="EUT_2_File">
-        <item>EUT-A-2.jpg</item>
-        <item>EUT-B-2.jpg</item>
-        <item>EUT-C-2.jpg</item>
-        <item>EUT-D-2.jpg</item>
-        <item>EUT-E-2.jpg</item>
-        <item>EUT-F-2.jpg</item>
-        <item>EUT-G-2.jpg</item>
-        <item>EUT-H-2.jpg</item>
-        <item>EUT-I-2.jpg</item>
-        <item>EUT-J-2.jpg</item>
-        <item>EUT-K-2.jpg</item>
-        <item>EUT-L-2.jpg</item>
-        <item>EUT-M-2.jpg</item>
-        <item>EUT-N-2.jpg</item>
-        <item>EUT-O-2.jpg</item>
-        <item>EUT-P-2.jpg</item>
-        <item>EUT-Q-2.jpg</item>
-        <item>EUT-R-2.jpg</item>
-        <item>EUT-S-2.jpg</item>
-        <item>EUT-T-2.jpg</item>
-        <item>EUT-U-2.jpg</item>
-        <item>EUT-V-2.jpg</item>
-        <item>EUT-W-2.jpg</item>
-        <item>EUT-X-2.jpg</item>
-        <item>EUT-Y-2.jpg</item>
-        <item>EUT-Z-2.jpg</item>
-    </string-array>
-    <string-array name="EUT_3_File">
-        <item>EUT-A-3.jpg</item>
-        <item>EUT-B-3.jpg</item>
-        <item>EUT-C-3.jpg</item>
-        <item>EUT-D-3.jpg</item>
-        <item>EUT-E-3.jpg</item>
-        <item>EUT-F-3.jpg</item>
-        <item>EUT-G-3.jpg</item>
-        <item>EUT-H-3.jpg</item>
-        <item>EUT-I-3.jpg</item>
-        <item>EUT-J-3.jpg</item>
-        <item>EUT-K-3.jpg</item>
-        <item>EUT-L-3.jpg</item>
-        <item>EUT-M-3.jpg</item>
-        <item>EUT-N-3.jpg</item>
-        <item>EUT-O-3.jpg</item>
-        <item>EUT-P-3.jpg</item>
-        <item>EUT-Q-3.jpg</item>
-        <item>EUT-R-3.jpg</item>
-        <item>EUT-S-3.jpg</item>
-        <item>EUT-T-3.jpg</item>
-        <item>EUT-U-3.jpg</item>
-        <item>EUT-V-3.jpg</item>
-        <item>EUT-W-3.jpg</item>
-        <item>EUT-X-3.jpg</item>
-        <item>EUT-Y-3.jpg</item>
-        <item>EUT-Z-3.jpg</item>
-    </string-array>
-    <string-array name="EUT_4_File">
-        <item>EUT-A-4.jpg</item>
-        <item>EUT-B-4.jpg</item>
-        <item>EUT-C-4.jpg</item>
-        <item>EUT-D-4.jpg</item>
-        <item>EUT-E-4.jpg</item>
-        <item>EUT-F-4.jpg</item>
-        <item>EUT-G-4.jpg</item>
-        <item>EUT-H-4.jpg</item>
-        <item>EUT-I-4.jpg</item>
-        <item>EUT-J-4.jpg</item>
-        <item>EUT-K-4.jpg</item>
-        <item>EUT-L-4.jpg</item>
-        <item>EUT-M-4.jpg</item>
-        <item>EUT-N-4.jpg</item>
-        <item>EUT-O-4.jpg</item>
-        <item>EUT-P-4.jpg</item>
-        <item>EUT-Q-4.jpg</item>
-        <item>EUT-R-4.jpg</item>
-        <item>EUT-S-4.jpg</item>
-        <item>EUT-T-4.jpg</item>
-        <item>EUT-U-4.jpg</item>
-        <item>EUT-V-4.jpg</item>
-        <item>EUT-W-4.jpg</item>
-        <item>EUT-X-4.jpg</item>
-        <item>EUT-Y-4.jpg</item>
-        <item>EUT-Z-4.jpg</item>
-    </string-array>
-    <string-array name="EUT_5_File">
-        <item>EUT-A-5.jpg</item>
-        <item>EUT-B-5.jpg</item>
-        <item>EUT-C-5.jpg</item>
-        <item>EUT-D-5.jpg</item>
-        <item>EUT-E-5.jpg</item>
-        <item>EUT-F-5.jpg</item>
-        <item>EUT-G-5.jpg</item>
-        <item>EUT-H-5.jpg</item>
-        <item>EUT-I-5.jpg</item>
-        <item>EUT-J-5.jpg</item>
-        <item>EUT-K-5.jpg</item>
-        <item>EUT-L-5.jpg</item>
-        <item>EUT-M-5.jpg</item>
-        <item>EUT-N-5.jpg</item>
-        <item>EUT-O-5.jpg</item>
-        <item>EUT-P-5.jpg</item>
-        <item>EUT-Q-5.jpg</item>
-        <item>EUT-R-5.jpg</item>
-        <item>EUT-S-5.jpg</item>
-        <item>EUT-T-5.jpg</item>
-        <item>EUT-U-5.jpg</item>
-        <item>EUT-V-5.jpg</item>
-        <item>EUT-W-5.jpg</item>
-        <item>EUT-X-5.jpg</item>
-        <item>EUT-Y-5.jpg</item>
-        <item>EUT-Z-5.jpg</item>
+    <string-array name="EUT_File">
+        <item>EUT-A.jpg</item>
+        <item>EUT-B.jpg</item>
+        <item>EUT-C.jpg</item>
+        <item>EUT-D.jpg</item>
+        <item>EUT-E.jpg</item>
+        <item>EUT-F.jpg</item>
+        <item>EUT-G.jpg</item>
+        <item>EUT-H.jpg</item>
+        <item>EUT-I.jpg</item>
+        <item>EUT-J.jpg</item>
+        <item>EUT-K.jpg</item>
+        <item>EUT-L.jpg</item>
+        <item>EUT-M.jpg</item>
+        <item>EUT-N.jpg</item>
+        <item>EUT-O.jpg</item>
+        <item>EUT-P.jpg</item>
+        <item>EUT-Q.jpg</item>
+        <item>EUT-R.jpg</item>
+        <item>EUT-S.jpg</item>
+        <item>EUT-T.jpg</item>
+        <item>EUT-U.jpg</item>
+        <item>EUT-V.jpg</item>
+        <item>EUT-W.jpg</item>
+        <item>EUT-X.jpg</item>
+        <item>EUT-Y.jpg</item>
+        <item>EUT-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * CE Photos and Files
     **********************************************************/
-    <string-array name="CE_1">
-        <item>CE TEST SETUP A (unit1)</item>
-        <item>CE TEST SETUP B (unit1)</item>
-        <item>CE TEST SETUP C (unit1)</item>
-        <item>CE TEST SETUP D (unit1)</item>
-        <item>CE TEST SETUP E (unit1)</item>
-        <item>CE TEST SETUP F (unit1)</item>
-        <item>CE TEST SETUP G (unit1)</item>
-        <item>CE TEST SETUP H (unit1)</item>
-        <item>CE TEST SETUP I (unit1)</item>
-        <item>CE TEST SETUP J (unit1)</item>
-        <item>CE TEST SETUP K (unit1)</item>
-        <item>CE TEST SETUP L (unit1)</item>
-        <item>CE TEST SETUP M (unit1)</item>
-        <item>CE TEST SETUP N (unit1)</item>
-        <item>CE TEST SETUP O (unit1)</item>
-        <item>CE TEST SETUP P (unit1)</item>
-        <item>CE TEST SETUP Q (unit1)</item>
-        <item>CE TEST SETUP R (unit1)</item>
-        <item>CE TEST SETUP S (unit1)</item>
-        <item>CE TEST SETUP T (unit1)</item>
-        <item>CE TEST SETUP U (unit1)</item>
-        <item>CE TEST SETUP V (unit1)</item>
-        <item>CE TEST SETUP W (unit1)</item>
-        <item>CE TEST SETUP X (unit1)</item>
-        <item>CE TEST SETUP Y (unit1)</item>
-        <item>CE TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="CE_2">
-        <item>CE TEST SETUP A (unit2)</item>
-        <item>CE TEST SETUP B (unit2)</item>
-        <item>CE TEST SETUP C (unit2)</item>
-        <item>CE TEST SETUP D (unit2)</item>
-        <item>CE TEST SETUP E (unit2)</item>
-        <item>CE TEST SETUP F (unit2)</item>
-        <item>CE TEST SETUP G (unit2)</item>
-        <item>CE TEST SETUP H (unit2)</item>
-        <item>CE TEST SETUP I (unit2)</item>
-        <item>CE TEST SETUP J (unit2)</item>
-        <item>CE TEST SETUP K (unit2)</item>
-        <item>CE TEST SETUP L (unit2)</item>
-        <item>CE TEST SETUP M (unit2)</item>
-        <item>CE TEST SETUP N (unit2)</item>
-        <item>CE TEST SETUP O (unit2)</item>
-        <item>CE TEST SETUP P (unit2)</item>
-        <item>CE TEST SETUP Q (unit2)</item>
-        <item>CE TEST SETUP R (unit2)</item>
-        <item>CE TEST SETUP S (unit2)</item>
-        <item>CE TEST SETUP T (unit2)</item>
-        <item>CE TEST SETUP U (unit2)</item>
-        <item>CE TEST SETUP V (unit2)</item>
-        <item>CE TEST SETUP W (unit2)</item>
-        <item>CE TEST SETUP X (unit2)</item>
-        <item>CE TEST SETUP Y (unit2)</item>
-        <item>CE TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="CE_3">
-        <item>CE TEST SETUP A (unit3)</item>
-        <item>CE TEST SETUP B (unit3)</item>
-        <item>CE TEST SETUP C (unit3)</item>
-        <item>CE TEST SETUP D (unit3)</item>
-        <item>CE TEST SETUP E (unit3)</item>
-        <item>CE TEST SETUP F (unit3)</item>
-        <item>CE TEST SETUP G (unit3)</item>
-        <item>CE TEST SETUP H (unit3)</item>
-        <item>CE TEST SETUP I (unit3)</item>
-        <item>CE TEST SETUP J (unit3)</item>
-        <item>CE TEST SETUP K (unit3)</item>
-        <item>CE TEST SETUP L (unit3)</item>
-        <item>CE TEST SETUP M (unit3)</item>
-        <item>CE TEST SETUP N (unit3)</item>
-        <item>CE TEST SETUP O (unit3)</item>
-        <item>CE TEST SETUP P (unit3)</item>
-        <item>CE TEST SETUP Q (unit3)</item>
-        <item>CE TEST SETUP R (unit3)</item>
-        <item>CE TEST SETUP S (unit3)</item>
-        <item>CE TEST SETUP T (unit3)</item>
-        <item>CE TEST SETUP U (unit3)</item>
-        <item>CE TEST SETUP V (unit3)</item>
-        <item>CE TEST SETUP W (unit3)</item>
-        <item>CE TEST SETUP X (unit3)</item>
-        <item>CE TEST SETUP Y (unit3)</item>
-        <item>CE TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="CE_4">
-        <item>CE TEST SETUP A (unit4)</item>
-        <item>CE TEST SETUP B (unit4)</item>
-        <item>CE TEST SETUP C (unit4)</item>
-        <item>CE TEST SETUP D (unit4)</item>
-        <item>CE TEST SETUP E (unit4)</item>
-        <item>CE TEST SETUP F (unit4)</item>
-        <item>CE TEST SETUP G (unit4)</item>
-        <item>CE TEST SETUP H (unit4)</item>
-        <item>CE TEST SETUP I (unit4)</item>
-        <item>CE TEST SETUP J (unit4)</item>
-        <item>CE TEST SETUP K (unit4)</item>
-        <item>CE TEST SETUP L (unit4)</item>
-        <item>CE TEST SETUP M (unit4)</item>
-        <item>CE TEST SETUP N (unit4)</item>
-        <item>CE TEST SETUP O (unit4)</item>
-        <item>CE TEST SETUP P (unit4)</item>
-        <item>CE TEST SETUP Q (unit4)</item>
-        <item>CE TEST SETUP R (unit4)</item>
-        <item>CE TEST SETUP S (unit4)</item>
-        <item>CE TEST SETUP T (unit4)</item>
-        <item>CE TEST SETUP U (unit4)</item>
-        <item>CE TEST SETUP V (unit4)</item>
-        <item>CE TEST SETUP W (unit4)</item>
-        <item>CE TEST SETUP X (unit4)</item>
-        <item>CE TEST SETUP Y (unit4)</item>
-        <item>CE TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="CE_5">
-        <item>CE TEST SETUP A (unit5)</item>
-        <item>CE TEST SETUP B (unit5)</item>
-        <item>CE TEST SETUP C (unit5)</item>
-        <item>CE TEST SETUP D (unit5)</item>
-        <item>CE TEST SETUP E (unit5)</item>
-        <item>CE TEST SETUP F (unit5)</item>
-        <item>CE TEST SETUP G (unit5)</item>
-        <item>CE TEST SETUP H (unit5)</item>
-        <item>CE TEST SETUP I (unit5)</item>
-        <item>CE TEST SETUP J (unit5)</item>
-        <item>CE TEST SETUP K (unit5)</item>
-        <item>CE TEST SETUP L (unit5)</item>
-        <item>CE TEST SETUP M (unit5)</item>
-        <item>CE TEST SETUP N (unit5)</item>
-        <item>CE TEST SETUP O (unit5)</item>
-        <item>CE TEST SETUP P (unit5)</item>
-        <item>CE TEST SETUP Q (unit5)</item>
-        <item>CE TEST SETUP R (unit5)</item>
-        <item>CE TEST SETUP S (unit5)</item>
-        <item>CE TEST SETUP T (unit5)</item>
-        <item>CE TEST SETUP U (unit5)</item>
-        <item>CE TEST SETUP V (unit5)</item>
-        <item>CE TEST SETUP W (unit5)</item>
-        <item>CE TEST SETUP X (unit5)</item>
-        <item>CE TEST SETUP Y (unit5)</item>
-        <item>CE TEST SETUP Z (unit5)</item>
+    <string-array name="CE">
+        <item>CE TEST SETUP A</item>
+        <item>CE TEST SETUP B</item>
+        <item>CE TEST SETUP C</item>
+        <item>CE TEST SETUP D</item>
+        <item>CE TEST SETUP E</item>
+        <item>CE TEST SETUP F</item>
+        <item>CE TEST SETUP G</item>
+        <item>CE TEST SETUP H</item>
+        <item>CE TEST SETUP I</item>
+        <item>CE TEST SETUP J</item>
+        <item>CE TEST SETUP K</item>
+        <item>CE TEST SETUP L</item>
+        <item>CE TEST SETUP M</item>
+        <item>CE TEST SETUP N</item>
+        <item>CE TEST SETUP O</item>
+        <item>CE TEST SETUP P</item>
+        <item>CE TEST SETUP Q</item>
+        <item>CE TEST SETUP R</item>
+        <item>CE TEST SETUP S</item>
+        <item>CE TEST SETUP T</item>
+        <item>CE TEST SETUP U</item>
+        <item>CE TEST SETUP V</item>
+        <item>CE TEST SETUP W</item>
+        <item>CE TEST SETUP X</item>
+        <item>CE TEST SETUP Y</item>
+        <item>CE TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="CE_1_File">
-        <item>CESetup-A-1.jpg</item>
-        <item>CESetup-B-1.jpg</item>
-        <item>CESetup-C-1.jpg</item>
-        <item>CESetup-D-1.jpg</item>
-        <item>CESetup-E-1.jpg</item>
-        <item>CESetup-F-1.jpg</item>
-        <item>CESetup-G-1.jpg</item>
-        <item>CESetup-H-1.jpg</item>
-        <item>CESetup-I-1.jpg</item>
-        <item>CESetup-J-1.jpg</item>
-        <item>CESetup-K-1.jpg</item>
-        <item>CESetup-L-1.jpg</item>
-        <item>CESetup-M-1.jpg</item>
-        <item>CESetup-N-1.jpg</item>
-        <item>CESetup-O-1.jpg</item>
-        <item>CESetup-P-1.jpg</item>
-        <item>CESetup-Q-1.jpg</item>
-        <item>CESetup-R-1.jpg</item>
-        <item>CESetup-S-1.jpg</item>
-        <item>CESetup-T-1.jpg</item>
-        <item>CESetup-U-1.jpg</item>
-        <item>CESetup-V-1.jpg</item>
-        <item>CESetup-W-1.jpg</item>
-        <item>CESetup-X-1.jpg</item>
-        <item>CESetup-Y-1.jpg</item>
-        <item>CESetup-Z-1.jpg</item>
-    </string-array>
-    <string-array name="CE_2_File">
-        <item>CESetup-A-2.jpg</item>
-        <item>CESetup-B-2.jpg</item>
-        <item>CESetup-C-2.jpg</item>
-        <item>CESetup-D-2.jpg</item>
-        <item>CESetup-E-2.jpg</item>
-        <item>CESetup-F-2.jpg</item>
-        <item>CESetup-G-2.jpg</item>
-        <item>CESetup-H-2.jpg</item>
-        <item>CESetup-I-2.jpg</item>
-        <item>CESetup-J-2.jpg</item>
-        <item>CESetup-K-2.jpg</item>
-        <item>CESetup-L-2.jpg</item>
-        <item>CESetup-M-2.jpg</item>
-        <item>CESetup-N-2.jpg</item>
-        <item>CESetup-O-2.jpg</item>
-        <item>CESetup-P-2.jpg</item>
-        <item>CESetup-Q-2.jpg</item>
-        <item>CESetup-R-2.jpg</item>
-        <item>CESetup-S-2.jpg</item>
-        <item>CESetup-T-2.jpg</item>
-        <item>CESetup-U-2.jpg</item>
-        <item>CESetup-V-2.jpg</item>
-        <item>CESetup-W-2.jpg</item>
-        <item>CESetup-X-2.jpg</item>
-        <item>CESetup-Y-2.jpg</item>
-        <item>CESetup-Z-2.jpg</item>
-    </string-array>
-    <string-array name="CE_3_File">
-        <item>CESetup-A-3.jpg</item>
-        <item>CESetup-B-3.jpg</item>
-        <item>CESetup-C-3.jpg</item>
-        <item>CESetup-D-3.jpg</item>
-        <item>CESetup-E-3.jpg</item>
-        <item>CESetup-F-3.jpg</item>
-        <item>CESetup-G-3.jpg</item>
-        <item>CESetup-H-3.jpg</item>
-        <item>CESetup-I-3.jpg</item>
-        <item>CESetup-J-3.jpg</item>
-        <item>CESetup-K-3.jpg</item>
-        <item>CESetup-L-3.jpg</item>
-        <item>CESetup-M-3.jpg</item>
-        <item>CESetup-N-3.jpg</item>
-        <item>CESetup-O-3.jpg</item>
-        <item>CESetup-P-3.jpg</item>
-        <item>CESetup-Q-3.jpg</item>
-        <item>CESetup-R-3.jpg</item>
-        <item>CESetup-S-3.jpg</item>
-        <item>CESetup-T-3.jpg</item>
-        <item>CESetup-U-3.jpg</item>
-        <item>CESetup-V-3.jpg</item>
-        <item>CESetup-W-3.jpg</item>
-        <item>CESetup-X-3.jpg</item>
-        <item>CESetup-Y-3.jpg</item>
-        <item>CESetup-Z-3.jpg</item>
-    </string-array>
-    <string-array name="CE_4_File">
-        <item>CESetup-A-4.jpg</item>
-        <item>CESetup-B-4.jpg</item>
-        <item>CESetup-C-4.jpg</item>
-        <item>CESetup-D-4.jpg</item>
-        <item>CESetup-E-4.jpg</item>
-        <item>CESetup-F-4.jpg</item>
-        <item>CESetup-G-4.jpg</item>
-        <item>CESetup-H-4.jpg</item>
-        <item>CESetup-I-4.jpg</item>
-        <item>CESetup-J-4.jpg</item>
-        <item>CESetup-K-4.jpg</item>
-        <item>CESetup-L-4.jpg</item>
-        <item>CESetup-M-4.jpg</item>
-        <item>CESetup-N-4.jpg</item>
-        <item>CESetup-O-4.jpg</item>
-        <item>CESetup-P-4.jpg</item>
-        <item>CESetup-Q-4.jpg</item>
-        <item>CESetup-R-4.jpg</item>
-        <item>CESetup-S-4.jpg</item>
-        <item>CESetup-T-4.jpg</item>
-        <item>CESetup-U-4.jpg</item>
-        <item>CESetup-V-4.jpg</item>
-        <item>CESetup-W-4.jpg</item>
-        <item>CESetup-X-4.jpg</item>
-        <item>CESetup-Y-4.jpg</item>
-        <item>CESetup-Z-4.jpg</item>
-    </string-array>
-    <string-array name="CE_5_File">
-        <item>CESetup-A-5.jpg</item>
-        <item>CESetup-B-5.jpg</item>
-        <item>CESetup-C-5.jpg</item>
-        <item>CESetup-D-5.jpg</item>
-        <item>CESetup-E-5.jpg</item>
-        <item>CESetup-F-5.jpg</item>
-        <item>CESetup-G-5.jpg</item>
-        <item>CESetup-H-5.jpg</item>
-        <item>CESetup-I-5.jpg</item>
-        <item>CESetup-J-5.jpg</item>
-        <item>CESetup-K-5.jpg</item>
-        <item>CESetup-L-5.jpg</item>
-        <item>CESetup-M-5.jpg</item>
-        <item>CESetup-N-5.jpg</item>
-        <item>CESetup-O-5.jpg</item>
-        <item>CESetup-P-5.jpg</item>
-        <item>CESetup-Q-5.jpg</item>
-        <item>CESetup-R-5.jpg</item>
-        <item>CESetup-S-5.jpg</item>
-        <item>CESetup-T-5.jpg</item>
-        <item>CESetup-U-5.jpg</item>
-        <item>CESetup-V-5.jpg</item>
-        <item>CESetup-W-5.jpg</item>
-        <item>CESetup-X-5.jpg</item>
-        <item>CESetup-Y-5.jpg</item>
-        <item>CESetup-Z-5.jpg</item>
+    <string-array name="CE_File">
+        <item>CESetup-A.jpg</item>
+        <item>CESetup-B.jpg</item>
+        <item>CESetup-C.jpg</item>
+        <item>CESetup-D.jpg</item>
+        <item>CESetup-E.jpg</item>
+        <item>CESetup-F.jpg</item>
+        <item>CESetup-G.jpg</item>
+        <item>CESetup-H.jpg</item>
+        <item>CESetup-I.jpg</item>
+        <item>CESetup-J.jpg</item>
+        <item>CESetup-K.jpg</item>
+        <item>CESetup-L.jpg</item>
+        <item>CESetup-M.jpg</item>
+        <item>CESetup-N.jpg</item>
+        <item>CESetup-O.jpg</item>
+        <item>CESetup-P.jpg</item>
+        <item>CESetup-Q.jpg</item>
+        <item>CESetup-R.jpg</item>
+        <item>CESetup-S.jpg</item>
+        <item>CESetup-T.jpg</item>
+        <item>CESetup-U.jpg</item>
+        <item>CESetup-V.jpg</item>
+        <item>CESetup-W.jpg</item>
+        <item>CESetup-X.jpg</item>
+        <item>CESetup-Y.jpg</item>
+        <item>CESetup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * RE Photos and Files
     **********************************************************/
-    <string-array name="RE_1">
-        <item>9KHZ TO 30MHZ TEST SETUP (unit1)</item>
-        <item>30MHZ TO 1GHZ TEST SETUP (unit1)</item>
-        <item>1GHZ TO 6GHZ TEST SETUP (unit1)</item>
-        <item>1GHZ TO 18GHZ TEST SETUP (unit1)</item>
-        <item>18GHZ TO 24GHZ TEST SETUP (unit1)</item>
-        <item>18GHZ TO 40GHZ TEST SETUP (unit1)</item>
-    </string-array>
-    <string-array name="RE_2">
-        <item>9KHZ TO 30MHZ TEST SETUP (unit2)</item>
-        <item>30MHZ TO 1GHZ TEST SETUP (unit2)</item>
-        <item>1GHZ TO 6GHZ TEST SETUP (unit2)</item>
-        <item>1GHZ TO 18GHZ TEST SETUP (unit2)</item>
-        <item>18GHZ TO 24GHZ TEST SETUP (unit2)</item>
-        <item>18GHZ TO 40GHZ TEST SETUP (unit2)</item>
-    </string-array>
-    <string-array name="RE_3">
-        <item>9KHZ TO 30MHZ TEST SETUP (unit3)</item>
-        <item>30MHZ TO 1GHZ TEST SETUP (unit3)</item>
-        <item>1GHZ TO 6GHZ TEST SETUP (unit3)</item>
-        <item>1GHZ TO 18GHZ TEST SETUP (unit3)</item>
-        <item>18GHZ TO 24GHZ TEST SETUP (unit3)</item>
-        <item>18GHZ TO 40GHZ TEST SETUP (unit3)</item>
-    </string-array>
-    <string-array name="RE_4">
-        <item>9KHZ TO 30MHZ TEST SETUP (unit4)</item>
-        <item>30MHZ TO 1GHZ TEST SETUP (unit4)</item>
-        <item>1GHZ TO 6GHZ TEST SETUP (unit4)</item>
-        <item>1GHZ TO 18GHZ TEST SETUP (unit4)</item>
-        <item>18GHZ TO 24GHZ TEST SETUP (unit4)</item>
-        <item>18GHZ TO 40GHZ TEST SETUP (unit4)</item>
-    </string-array>
-    <string-array name="RE_5">
-        <item>9KHZ TO 30MHZ TEST SETUP (unit5)</item>
-        <item>30MHZ TO 1GHZ TEST SETUP (unit5)</item>
-        <item>1GHZ TO 6GHZ TEST SETUP (unit5)</item>
-        <item>1GHZ TO 18GHZ TEST SETUP (unit5)</item>
-        <item>18GHZ TO 24GHZ TEST SETUP (unit5)</item>
-        <item>18GHZ TO 40GHZ TEST SETUP (unit5)</item>
+    <string-array name="RE">
+        <item>9KHZ TO 30MHZ TEST SETUP</item>
+        <item>30MHZ TO 1GHZ TEST SETUP</item>
+        <item>1GHZ TO 6GHZ TEST SETUP</item>
+        <item>1GHZ TO 18GHZ TEST SETUP</item>
+        <item>18GHZ TO 24GHZ TEST SETUP</item>
+        <item>18GHZ TO 40GHZ TEST SETUP</item>
     </string-array>
 
-
-    <string-array name="RE_1_File">
-        <item>RE9KHzto30MHz-1.jpg</item>
-        <item>RE30MHzto1GHz-1.jpg</item>
-        <item>RE1GHzto6GHz-1.jpg</item>
-        <item>RE1GHzto18GHz-1.jpg</item>
-        <item>RE18GHzto24GHz-1.jpg</item>
-        <item>RE18GHzto40GHz-1.jpg</item>
-    </string-array>
-    <string-array name="RE_2_File">
-        <item>RE9KHzto30MHz-2.jpg</item>
-        <item>RE30MHzto1GHz-2.jpg</item>
-        <item>RE1GHzto6GHz-2.jpg</item>
-        <item>RE1GHzto18GHz-2.jpg</item>
-        <item>RE18GHzto24GHz-2.jpg</item>
-        <item>RE18GHzto40GHz-2.jpg</item>
-    </string-array>
-    <string-array name="RE_3_File">
-        <item>RE9KHzto30MHz-3.jpg</item>
-        <item>RE30MHzto1GHz-3.jpg</item>
-        <item>RE1GHzto6GHz-3.jpg</item>
-        <item>RE1GHzto18GHz-3.jpg</item>
-        <item>RE18GHzto24GHz-3.jpg</item>
-        <item>RE18GHzto40GHz-3.jpg</item>
-    </string-array>
-    <string-array name="RE_4_File">
-        <item>RE9KHzto30MHz-4.jpg</item>
-        <item>RE30MHzto1GHz-4.jpg</item>
-        <item>RE1GHzto6GHz-4.jpg</item>
-        <item>RE1GHzto18GHz-4.jpg</item>
-        <item>RE18GHzto24GHz-4.jpg</item>
-        <item>RE18GHzto40GHz-4.jpg</item>
-    </string-array>
-    <string-array name="RE_5_File">
-        <item>RE9KHzto30MHz-5.jpg</item>
-        <item>RE30MHzto1GHz-5.jpg</item>
-        <item>RE1GHzto6GHz-5.jpg</item>
-        <item>RE1GHzto18GHz-5.jpg</item>
-        <item>RE18GHzto24GHz-5.jpg</item>
-        <item>RE18GHzto40GHz-5.jpg</item>
+    <string-array name="RE_File">
+        <item>RE9KHzto30MHz.jpg</item>
+        <item>RE30MHzto1GHz.jpg</item>
+        <item>RE1GHzto6GHz.jpg</item>
+        <item>RE1GHzto18GHz.jpg</item>
+        <item>RE18GHzto24GHz.jpg</item>
+        <item>RE18GHzto40GHz.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * HARM_FLICK Photos and Files
     **********************************************************/
-    <string-array name="HARM_FLICK_1">
-        <item>HARM/FLICK TEST SETUP A (unit1)</item>
-        <item>HARM/FLICK TEST SETUP B (unit1)</item>
-        <item>HARM/FLICK TEST SETUP C (unit1)</item>
-        <item>HARM/FLICK TEST SETUP D (unit1)</item>
-        <item>HARM/FLICK TEST SETUP E (unit1)</item>
-        <item>HARM/FLICK TEST SETUP F (unit1)</item>
-        <item>HARM/FLICK TEST SETUP G (unit1)</item>
-        <item>HARM/FLICK TEST SETUP H (unit1)</item>
-        <item>HARM/FLICK TEST SETUP I (unit1)</item>
-        <item>HARM/FLICK TEST SETUP J (unit1)</item>
-        <item>HARM/FLICK TEST SETUP K (unit1)</item>
-        <item>HARM/FLICK TEST SETUP L (unit1)</item>
-        <item>HARM/FLICK TEST SETUP M (unit1)</item>
-        <item>HARM/FLICK TEST SETUP N (unit1)</item>
-        <item>HARM/FLICK TEST SETUP O (unit1)</item>
-        <item>HARM/FLICK TEST SETUP P (unit1)</item>
-        <item>HARM/FLICK TEST SETUP Q (unit1)</item>
-        <item>HARM/FLICK TEST SETUP R (unit1)</item>
-        <item>HARM/FLICK TEST SETUP S (unit1)</item>
-        <item>HARM/FLICK TEST SETUP T (unit1)</item>
-        <item>HARM/FLICK TEST SETUP U (unit1)</item>
-        <item>HARM/FLICK TEST SETUP V (unit1)</item>
-        <item>HARM/FLICK TEST SETUP W (unit1)</item>
-        <item>HARM/FLICK TEST SETUP X (unit1)</item>
-        <item>HARM/FLICK TEST SETUP Y (unit1)</item>
-        <item>HARM/FLICK TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="HARM_FLICK_2">
-        <item>HARM/FLICK TEST SETUP A (unit2)</item>
-        <item>HARM/FLICK TEST SETUP B (unit2)</item>
-        <item>HARM/FLICK TEST SETUP C (unit2)</item>
-        <item>HARM/FLICK TEST SETUP D (unit2)</item>
-        <item>HARM/FLICK TEST SETUP E (unit2)</item>
-        <item>HARM/FLICK TEST SETUP F (unit2)</item>
-        <item>HARM/FLICK TEST SETUP G (unit2)</item>
-        <item>HARM/FLICK TEST SETUP H (unit2)</item>
-        <item>HARM/FLICK TEST SETUP I (unit2)</item>
-        <item>HARM/FLICK TEST SETUP J (unit2)</item>
-        <item>HARM/FLICK TEST SETUP K (unit2)</item>
-        <item>HARM/FLICK TEST SETUP L (unit2)</item>
-        <item>HARM/FLICK TEST SETUP M (unit2)</item>
-        <item>HARM/FLICK TEST SETUP N (unit2)</item>
-        <item>HARM/FLICK TEST SETUP O (unit2)</item>
-        <item>HARM/FLICK TEST SETUP P (unit2)</item>
-        <item>HARM/FLICK TEST SETUP Q (unit2)</item>
-        <item>HARM/FLICK TEST SETUP R (unit2)</item>
-        <item>HARM/FLICK TEST SETUP S (unit2)</item>
-        <item>HARM/FLICK TEST SETUP T (unit2)</item>
-        <item>HARM/FLICK TEST SETUP U (unit2)</item>
-        <item>HARM/FLICK TEST SETUP V (unit2)</item>
-        <item>HARM/FLICK TEST SETUP W (unit2)</item>
-        <item>HARM/FLICK TEST SETUP X (unit2)</item>
-        <item>HARM/FLICK TEST SETUP Y (unit2)</item>
-        <item>HARM/FLICK TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="HARM_FLICK_3">
-        <item>HARM/FLICK TEST SETUP A (unit3)</item>
-        <item>HARM/FLICK TEST SETUP B (unit3)</item>
-        <item>HARM/FLICK TEST SETUP C (unit3)</item>
-        <item>HARM/FLICK TEST SETUP D (unit3)</item>
-        <item>HARM/FLICK TEST SETUP E (unit3)</item>
-        <item>HARM/FLICK TEST SETUP F (unit3)</item>
-        <item>HARM/FLICK TEST SETUP G (unit3)</item>
-        <item>HARM/FLICK TEST SETUP H (unit3)</item>
-        <item>HARM/FLICK TEST SETUP I (unit3)</item>
-        <item>HARM/FLICK TEST SETUP J (unit3)</item>
-        <item>HARM/FLICK TEST SETUP K (unit3)</item>
-        <item>HARM/FLICK TEST SETUP L (unit3)</item>
-        <item>HARM/FLICK TEST SETUP M (unit3)</item>
-        <item>HARM/FLICK TEST SETUP N (unit3)</item>
-        <item>HARM/FLICK TEST SETUP O (unit3)</item>
-        <item>HARM/FLICK TEST SETUP P (unit3)</item>
-        <item>HARM/FLICK TEST SETUP Q (unit3)</item>
-        <item>HARM/FLICK TEST SETUP R (unit3)</item>
-        <item>HARM/FLICK TEST SETUP S (unit3)</item>
-        <item>HARM/FLICK TEST SETUP T (unit3)</item>
-        <item>HARM/FLICK TEST SETUP U (unit3)</item>
-        <item>HARM/FLICK TEST SETUP V (unit3)</item>
-        <item>HARM/FLICK TEST SETUP W (unit3)</item>
-        <item>HARM/FLICK TEST SETUP X (unit3)</item>
-        <item>HARM/FLICK TEST SETUP Y (unit3)</item>
-        <item>HARM/FLICK TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="HARM_FLICK_4">
-        <item>HARM/FLICK TEST SETUP A (unit4)</item>
-        <item>HARM/FLICK TEST SETUP B (unit4)</item>
-        <item>HARM/FLICK TEST SETUP C (unit4)</item>
-        <item>HARM/FLICK TEST SETUP D (unit4)</item>
-        <item>HARM/FLICK TEST SETUP E (unit4)</item>
-        <item>HARM/FLICK TEST SETUP F (unit4)</item>
-        <item>HARM/FLICK TEST SETUP G (unit4)</item>
-        <item>HARM/FLICK TEST SETUP H (unit4)</item>
-        <item>HARM/FLICK TEST SETUP I (unit4)</item>
-        <item>HARM/FLICK TEST SETUP J (unit4)</item>
-        <item>HARM/FLICK TEST SETUP K (unit4)</item>
-        <item>HARM/FLICK TEST SETUP L (unit4)</item>
-        <item>HARM/FLICK TEST SETUP M (unit4)</item>
-        <item>HARM/FLICK TEST SETUP N (unit4)</item>
-        <item>HARM/FLICK TEST SETUP O (unit4)</item>
-        <item>HARM/FLICK TEST SETUP P (unit4)</item>
-        <item>HARM/FLICK TEST SETUP Q (unit4)</item>
-        <item>HARM/FLICK TEST SETUP R (unit4)</item>
-        <item>HARM/FLICK TEST SETUP S (unit4)</item>
-        <item>HARM/FLICK TEST SETUP T (unit4)</item>
-        <item>HARM/FLICK TEST SETUP U (unit4)</item>
-        <item>HARM/FLICK TEST SETUP V (unit4)</item>
-        <item>HARM/FLICK TEST SETUP W (unit4)</item>
-        <item>HARM/FLICK TEST SETUP X (unit4)</item>
-        <item>HARM/FLICK TEST SETUP Y (unit4)</item>
-        <item>HARM/FLICK TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="HARM_FLICK_5">
-        <item>HARM/FLICK TEST SETUP A (unit5)</item>
-        <item>HARM/FLICK TEST SETUP B (unit5)</item>
-        <item>HARM/FLICK TEST SETUP C (unit5)</item>
-        <item>HARM/FLICK TEST SETUP D (unit5)</item>
-        <item>HARM/FLICK TEST SETUP E (unit5)</item>
-        <item>HARM/FLICK TEST SETUP F (unit5)</item>
-        <item>HARM/FLICK TEST SETUP G (unit5)</item>
-        <item>HARM/FLICK TEST SETUP H (unit5)</item>
-        <item>HARM/FLICK TEST SETUP I (unit5)</item>
-        <item>HARM/FLICK TEST SETUP J (unit5)</item>
-        <item>HARM/FLICK TEST SETUP K (unit5)</item>
-        <item>HARM/FLICK TEST SETUP L (unit5)</item>
-        <item>HARM/FLICK TEST SETUP M (unit5)</item>
-        <item>HARM/FLICK TEST SETUP N (unit5)</item>
-        <item>HARM/FLICK TEST SETUP O (unit5)</item>
-        <item>HARM/FLICK TEST SETUP P (unit5)</item>
-        <item>HARM/FLICK TEST SETUP Q (unit5)</item>
-        <item>HARM/FLICK TEST SETUP R (unit5)</item>
-        <item>HARM/FLICK TEST SETUP S (unit5)</item>
-        <item>HARM/FLICK TEST SETUP T (unit5)</item>
-        <item>HARM/FLICK TEST SETUP U (unit5)</item>
-        <item>HARM/FLICK TEST SETUP V (unit5)</item>
-        <item>HARM/FLICK TEST SETUP W (unit5)</item>
-        <item>HARM/FLICK TEST SETUP X (unit5)</item>
-        <item>HARM/FLICK TEST SETUP Y (unit5)</item>
-        <item>HARM/FLICK TEST SETUP Z (unit5)</item>
+    <string-array name="HARM_FLICK">
+        <item>HARM/FLICK TEST SETUP A</item>
+        <item>HARM/FLICK TEST SETUP B</item>
+        <item>HARM/FLICK TEST SETUP C</item>
+        <item>HARM/FLICK TEST SETUP D</item>
+        <item>HARM/FLICK TEST SETUP E</item>
+        <item>HARM/FLICK TEST SETUP F</item>
+        <item>HARM/FLICK TEST SETUP G</item>
+        <item>HARM/FLICK TEST SETUP H</item>
+        <item>HARM/FLICK TEST SETUP I</item>
+        <item>HARM/FLICK TEST SETUP J</item>
+        <item>HARM/FLICK TEST SETUP K</item>
+        <item>HARM/FLICK TEST SETUP L</item>
+        <item>HARM/FLICK TEST SETUP M</item>
+        <item>HARM/FLICK TEST SETUP N</item>
+        <item>HARM/FLICK TEST SETUP O</item>
+        <item>HARM/FLICK TEST SETUP P</item>
+        <item>HARM/FLICK TEST SETUP Q</item>
+        <item>HARM/FLICK TEST SETUP R</item>
+        <item>HARM/FLICK TEST SETUP S</item>
+        <item>HARM/FLICK TEST SETUP T</item>
+        <item>HARM/FLICK TEST SETUP U</item>
+        <item>HARM/FLICK TEST SETUP V</item>
+        <item>HARM/FLICK TEST SETUP W</item>
+        <item>HARM/FLICK TEST SETUP X</item>
+        <item>HARM/FLICK TEST SETUP Y</item>
+        <item>HARM/FLICK TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="HARM_FLICK_1_File">
-        <item>HarmonicsFlicker-A-1.jpg</item>
-        <item>HarmonicsFlicker-B-1.jpg</item>
-        <item>HarmonicsFlicker-C-1.jpg</item>
-        <item>HarmonicsFlicker-D-1.jpg</item>
-        <item>HarmonicsFlicker-E-1.jpg</item>
-        <item>HarmonicsFlicker-F-1.jpg</item>
-        <item>HarmonicsFlicker-G-1.jpg</item>
-        <item>HarmonicsFlicker-H-1.jpg</item>
-        <item>HarmonicsFlicker-I-1.jpg</item>
-        <item>HarmonicsFlicker-J-1.jpg</item>
-        <item>HarmonicsFlicker-K-1.jpg</item>
-        <item>HarmonicsFlicker-L-1.jpg</item>
-        <item>HarmonicsFlicker-M-1.jpg</item>
-        <item>HarmonicsFlicker-N-1.jpg</item>
-        <item>HarmonicsFlicker-O-1.jpg</item>
-        <item>HarmonicsFlicker-P-1.jpg</item>
-        <item>HarmonicsFlicker-Q-1.jpg</item>
-        <item>HarmonicsFlicker-R-1.jpg</item>
-        <item>HarmonicsFlicker-S-1.jpg</item>
-        <item>HarmonicsFlicker-T-1.jpg</item>
-        <item>HarmonicsFlicker-U-1.jpg</item>
-        <item>HarmonicsFlicker-V-1.jpg</item>
-        <item>HarmonicsFlicker-W-1.jpg</item>
-        <item>HarmonicsFlicker-X-1.jpg</item>
-        <item>HarmonicsFlicker-Y-1.jpg</item>
-        <item>HarmonicsFlicker-Z-1.jpg</item>
-    </string-array>
-    <string-array name="HARM_FLICK_2_File">
-        <item>HarmonicsFlicker-A-2.jpg</item>
-        <item>HarmonicsFlicker-B-2.jpg</item>
-        <item>HarmonicsFlicker-C-2.jpg</item>
-        <item>HarmonicsFlicker-D-2.jpg</item>
-        <item>HarmonicsFlicker-E-2.jpg</item>
-        <item>HarmonicsFlicker-F-2.jpg</item>
-        <item>HarmonicsFlicker-G-2.jpg</item>
-        <item>HarmonicsFlicker-H-2.jpg</item>
-        <item>HarmonicsFlicker-I-2.jpg</item>
-        <item>HarmonicsFlicker-J-2.jpg</item>
-        <item>HarmonicsFlicker-K-2.jpg</item>
-        <item>HarmonicsFlicker-L-2.jpg</item>
-        <item>HarmonicsFlicker-M-2.jpg</item>
-        <item>HarmonicsFlicker-N-2.jpg</item>
-        <item>HarmonicsFlicker-O-2.jpg</item>
-        <item>HarmonicsFlicker-P-2.jpg</item>
-        <item>HarmonicsFlicker-Q-2.jpg</item>
-        <item>HarmonicsFlicker-R-2.jpg</item>
-        <item>HarmonicsFlicker-S-2.jpg</item>
-        <item>HarmonicsFlicker-T-2.jpg</item>
-        <item>HarmonicsFlicker-U-2.jpg</item>
-        <item>HarmonicsFlicker-V-2.jpg</item>
-        <item>HarmonicsFlicker-W-2.jpg</item>
-        <item>HarmonicsFlicker-X-2.jpg</item>
-        <item>HarmonicsFlicker-Y-2.jpg</item>
-        <item>HarmonicsFlicker-Z-2.jpg</item>
-    </string-array>
-    <string-array name="HARM_FLICK_3_File">
-        <item>HarmonicsFlicker-A-3.jpg</item>
-        <item>HarmonicsFlicker-B-3.jpg</item>
-        <item>HarmonicsFlicker-C-3.jpg</item>
-        <item>HarmonicsFlicker-D-3.jpg</item>
-        <item>HarmonicsFlicker-E-3.jpg</item>
-        <item>HarmonicsFlicker-F-3.jpg</item>
-        <item>HarmonicsFlicker-G-3.jpg</item>
-        <item>HarmonicsFlicker-H-3.jpg</item>
-        <item>HarmonicsFlicker-I-3.jpg</item>
-        <item>HarmonicsFlicker-J-3.jpg</item>
-        <item>HarmonicsFlicker-K-3.jpg</item>
-        <item>HarmonicsFlicker-L-3.jpg</item>
-        <item>HarmonicsFlicker-M-3.jpg</item>
-        <item>HarmonicsFlicker-N-3.jpg</item>
-        <item>HarmonicsFlicker-O-3.jpg</item>
-        <item>HarmonicsFlicker-P-3.jpg</item>
-        <item>HarmonicsFlicker-Q-3.jpg</item>
-        <item>HarmonicsFlicker-R-3.jpg</item>
-        <item>HarmonicsFlicker-S-3.jpg</item>
-        <item>HarmonicsFlicker-T-3.jpg</item>
-        <item>HarmonicsFlicker-U-3.jpg</item>
-        <item>HarmonicsFlicker-V-3.jpg</item>
-        <item>HarmonicsFlicker-W-3.jpg</item>
-        <item>HarmonicsFlicker-X-3.jpg</item>
-        <item>HarmonicsFlicker-Y-3.jpg</item>
-        <item>HarmonicsFlicker-Z-3.jpg</item>
-    </string-array>
-    <string-array name="HARM_FLICK_4_File">
-        <item>HarmonicsFlicker-A-4.jpg</item>
-        <item>HarmonicsFlicker-B-4.jpg</item>
-        <item>HarmonicsFlicker-C-4.jpg</item>
-        <item>HarmonicsFlicker-D-4.jpg</item>
-        <item>HarmonicsFlicker-E-4.jpg</item>
-        <item>HarmonicsFlicker-F-4.jpg</item>
-        <item>HarmonicsFlicker-G-4.jpg</item>
-        <item>HarmonicsFlicker-H-4.jpg</item>
-        <item>HarmonicsFlicker-I-4.jpg</item>
-        <item>HarmonicsFlicker-J-4.jpg</item>
-        <item>HarmonicsFlicker-K-4.jpg</item>
-        <item>HarmonicsFlicker-L-4.jpg</item>
-        <item>HarmonicsFlicker-M-4.jpg</item>
-        <item>HarmonicsFlicker-N-4.jpg</item>
-        <item>HarmonicsFlicker-O-4.jpg</item>
-        <item>HarmonicsFlicker-P-4.jpg</item>
-        <item>HarmonicsFlicker-Q-4.jpg</item>
-        <item>HarmonicsFlicker-R-4.jpg</item>
-        <item>HarmonicsFlicker-S-4.jpg</item>
-        <item>HarmonicsFlicker-T-4.jpg</item>
-        <item>HarmonicsFlicker-U-4.jpg</item>
-        <item>HarmonicsFlicker-V-4.jpg</item>
-        <item>HarmonicsFlicker-W-4.jpg</item>
-        <item>HarmonicsFlicker-X-4.jpg</item>
-        <item>HarmonicsFlicker-Y-4.jpg</item>
-        <item>HarmonicsFlicker-Z-4.jpg</item>
-    </string-array>
-    <string-array name="HARM_FLICK_5_File">
-        <item>HarmonicsFlicker-A-5.jpg</item>
-        <item>HarmonicsFlicker-B-5.jpg</item>
-        <item>HarmonicsFlicker-C-5.jpg</item>
-        <item>HarmonicsFlicker-D-5.jpg</item>
-        <item>HarmonicsFlicker-E-5.jpg</item>
-        <item>HarmonicsFlicker-F-5.jpg</item>
-        <item>HarmonicsFlicker-G-5.jpg</item>
-        <item>HarmonicsFlicker-H-5.jpg</item>
-        <item>HarmonicsFlicker-I-5.jpg</item>
-        <item>HarmonicsFlicker-J-5.jpg</item>
-        <item>HarmonicsFlicker-K-5.jpg</item>
-        <item>HarmonicsFlicker-L-5.jpg</item>
-        <item>HarmonicsFlicker-M-5.jpg</item>
-        <item>HarmonicsFlicker-N-5.jpg</item>
-        <item>HarmonicsFlicker-O-5.jpg</item>
-        <item>HarmonicsFlicker-P-5.jpg</item>
-        <item>HarmonicsFlicker-Q-5.jpg</item>
-        <item>HarmonicsFlicker-R-5.jpg</item>
-        <item>HarmonicsFlicker-S-5.jpg</item>
-        <item>HarmonicsFlicker-T-5.jpg</item>
-        <item>HarmonicsFlicker-U-5.jpg</item>
-        <item>HarmonicsFlicker-V-5.jpg</item>
-        <item>HarmonicsFlicker-W-5.jpg</item>
-        <item>HarmonicsFlicker-X-5.jpg</item>
-        <item>HarmonicsFlicker-Y-5.jpg</item>
-        <item>HarmonicsFlicker-Z-5.jpg</item>
+    <string-array name="HARM_FLICK_File">
+        <item>HarmonicsFlicker-A.jpg</item>
+        <item>HarmonicsFlicker-B.jpg</item>
+        <item>HarmonicsFlicker-C.jpg</item>
+        <item>HarmonicsFlicker-D.jpg</item>
+        <item>HarmonicsFlicker-E.jpg</item>
+        <item>HarmonicsFlicker-F.jpg</item>
+        <item>HarmonicsFlicker-G.jpg</item>
+        <item>HarmonicsFlicker-H.jpg</item>
+        <item>HarmonicsFlicker-I.jpg</item>
+        <item>HarmonicsFlicker-J.jpg</item>
+        <item>HarmonicsFlicker-K.jpg</item>
+        <item>HarmonicsFlicker-L.jpg</item>
+        <item>HarmonicsFlicker-M.jpg</item>
+        <item>HarmonicsFlicker-N.jpg</item>
+        <item>HarmonicsFlicker-O.jpg</item>
+        <item>HarmonicsFlicker-P.jpg</item>
+        <item>HarmonicsFlicker-Q.jpg</item>
+        <item>HarmonicsFlicker-R.jpg</item>
+        <item>HarmonicsFlicker-S.jpg</item>
+        <item>HarmonicsFlicker-T.jpg</item>
+        <item>HarmonicsFlicker-U.jpg</item>
+        <item>HarmonicsFlicker-V.jpg</item>
+        <item>HarmonicsFlicker-W.jpg</item>
+        <item>HarmonicsFlicker-X.jpg</item>
+        <item>HarmonicsFlicker-Y.jpg</item>
+        <item>HarmonicsFlicker-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * ESD Photos and Files
     **********************************************************/
-    <string-array name="ESD_1">
-        <item>ESD TEST SETUP (unit1)</item>
-        <item>ESD TEST LOCATION A (unit1)</item>
-        <item>ESD TEST LOCATION B (unit1)</item>
-        <item>ESD TEST LOCATION C (unit1)</item>
-        <item>ESD TEST LOCATION D (unit1)</item>
-        <item>ESD TEST LOCATION E (unit1)</item>
-        <item>ESD TEST LOCATION F (unit1)</item>
-        <item>ESD TEST LOCATION G (unit1)</item>
-        <item>ESD TEST LOCATION H (unit1)</item>
-        <item>ESD TEST LOCATION I (unit1)</item>
-        <item>ESD TEST LOCATION J (unit1)</item>
-    </string-array>
-    <string-array name="ESD_2">
-        <item>ESD TEST SETUP (unit2)</item>
-        <item>ESD TEST LOCATION A (unit2)</item>
-        <item>ESD TEST LOCATION B (unit2)</item>
-        <item>ESD TEST LOCATION C (unit2)</item>
-        <item>ESD TEST LOCATION D (unit2)</item>
-        <item>ESD TEST LOCATION E (unit2)</item>
-        <item>ESD TEST LOCATION F (unit2)</item>
-        <item>ESD TEST LOCATION G (unit2)</item>
-        <item>ESD TEST LOCATION H (unit2)</item>
-        <item>ESD TEST LOCATION I (unit2)</item>
-        <item>ESD TEST LOCATION J (unit2)</item>
-    </string-array>
-    <string-array name="ESD_3">
-        <item>ESD TEST SETUP (unit3)</item>
-        <item>ESD TEST LOCATION A (unit3)</item>
-        <item>ESD TEST LOCATION B (unit3)</item>
-        <item>ESD TEST LOCATION C (unit3)</item>
-        <item>ESD TEST LOCATION D (unit3)</item>
-        <item>ESD TEST LOCATION E (unit3)</item>
-        <item>ESD TEST LOCATION F (unit3)</item>
-        <item>ESD TEST LOCATION G (unit3)</item>
-        <item>ESD TEST LOCATION H (unit3)</item>
-        <item>ESD TEST LOCATION I (unit3)</item>
-        <item>ESD TEST LOCATION J (unit3)</item>
-    </string-array>
-    <string-array name="ESD_4">
-        <item>ESD TEST SETUP (unit4)</item>
-        <item>ESD TEST LOCATION A (unit4)</item>
-        <item>ESD TEST LOCATION B (unit4)</item>
-        <item>ESD TEST LOCATION C (unit4)</item>
-        <item>ESD TEST LOCATION D (unit4)</item>
-        <item>ESD TEST LOCATION E (unit4)</item>
-        <item>ESD TEST LOCATION F (unit4)</item>
-        <item>ESD TEST LOCATION G (unit4)</item>
-        <item>ESD TEST LOCATION H (unit4)</item>
-        <item>ESD TEST LOCATION I (unit4)</item>
-        <item>ESD TEST LOCATION J (unit4)</item>
-    </string-array>
-    <string-array name="ESD_5">
-        <item>ESD TEST SETUP (unit5)</item>
-        <item>ESD TEST LOCATION A (unit5)</item>
-        <item>ESD TEST LOCATION B (unit5)</item>
-        <item>ESD TEST LOCATION C (unit5)</item>
-        <item>ESD TEST LOCATION D (unit5)</item>
-        <item>ESD TEST LOCATION E (unit5)</item>
-        <item>ESD TEST LOCATION F (unit5)</item>
-        <item>ESD TEST LOCATION G (unit5)</item>
-        <item>ESD TEST LOCATION H (unit5)</item>
-        <item>ESD TEST LOCATION I (unit5)</item>
-        <item>ESD TEST LOCATION J (unit5)</item>
+    <string-array name="ESD">
+        <item>ESD TEST SETUP</item>
+        <item>ESD TEST LOCATION A</item>
+        <item>ESD TEST LOCATION B</item>
+        <item>ESD TEST LOCATION C</item>
+        <item>ESD TEST LOCATION D</item>
+        <item>ESD TEST LOCATION E</item>
+        <item>ESD TEST LOCATION F</item>
+        <item>ESD TEST LOCATION G</item>
+        <item>ESD TEST LOCATION H</item>
+        <item>ESD TEST LOCATION I</item>
+        <item>ESD TEST LOCATION J</item>
     </string-array>
 
-
-    <string-array name="ESD_1_File">
-        <item>ESDTestSetup-1.jpg</item>
-        <item>ESDTestLocation-A-1.jpg</item>
-        <item>ESDTestLocation-B-1.jpg</item>
-        <item>ESDTestLocation-C-1.jpg</item>
-        <item>ESDTestLocation-D-1.jpg</item>
-        <item>ESDTestLocation-E-1.jpg</item>
-        <item>ESDTestLocation-F-1.jpg</item>
-        <item>ESDTestLocation-G-1.jpg</item>
-        <item>ESDTestLocation-H-1.jpg</item>
-        <item>ESDTestLocation-I-1.jpg</item>
-        <item>ESDTestLocation-J-1.jpg</item>
-    </string-array>
-    <string-array name="ESD_2_File">
-        <item>ESDTestSetup-2.jpg</item>
-        <item>ESDTestLocation-A-2.jpg</item>
-        <item>ESDTestLocation-B-2.jpg</item>
-        <item>ESDTestLocation-C-2.jpg</item>
-        <item>ESDTestLocation-D-2.jpg</item>
-        <item>ESDTestLocation-E-2.jpg</item>
-        <item>ESDTestLocation-F-2.jpg</item>
-        <item>ESDTestLocation-G-2.jpg</item>
-        <item>ESDTestLocation-H-2.jpg</item>
-        <item>ESDTestLocation-I-2.jpg</item>
-        <item>ESDTestLocation-J-2.jpg</item>
-    </string-array>
-    <string-array name="ESD_3_File">
-        <item>ESDTestSetup-3.jpg</item>
-        <item>ESDTestLocation-A-3.jpg</item>
-        <item>ESDTestLocation-B-3.jpg</item>
-        <item>ESDTestLocation-C-3.jpg</item>
-        <item>ESDTestLocation-D-3.jpg</item>
-        <item>ESDTestLocation-E-3.jpg</item>
-        <item>ESDTestLocation-F-3.jpg</item>
-        <item>ESDTestLocation-G-3.jpg</item>
-        <item>ESDTestLocation-H-3.jpg</item>
-        <item>ESDTestLocation-I-3.jpg</item>
-        <item>ESDTestLocation-J-3.jpg</item>
-    </string-array>
-    <string-array name="ESD_4_File">
-        <item>ESDTestSetup-4.jpg</item>
-        <item>ESDTestLocation-A-4.jpg</item>
-        <item>ESDTestLocation-B-4.jpg</item>
-        <item>ESDTestLocation-C-4.jpg</item>
-        <item>ESDTestLocation-D-4.jpg</item>
-        <item>ESDTestLocation-E-4.jpg</item>
-        <item>ESDTestLocation-F-4.jpg</item>
-        <item>ESDTestLocation-G-4.jpg</item>
-        <item>ESDTestLocation-H-4.jpg</item>
-        <item>ESDTestLocation-I-4.jpg</item>
-        <item>ESDTestLocation-J-4.jpg</item>
-    </string-array>
-    <string-array name="ESD_5_File">
-        <item>ESDTestSetup-5.jpg</item>
-        <item>ESDTestLocation-A-5.jpg</item>
-        <item>ESDTestLocation-B-5.jpg</item>
-        <item>ESDTestLocation-C-5.jpg</item>
-        <item>ESDTestLocation-D-5.jpg</item>
-        <item>ESDTestLocation-E-5.jpg</item>
-        <item>ESDTestLocation-F-5.jpg</item>
-        <item>ESDTestLocation-G-5.jpg</item>
-        <item>ESDTestLocation-H-5.jpg</item>
-        <item>ESDTestLocation-I-5.jpg</item>
-        <item>ESDTestLocation-J-5.jpg</item>
+    <string-array name="ESD_File">
+        <item>ESDTestSetup.jpg</item>
+        <item>ESDTestLocation-A.jpg</item>
+        <item>ESDTestLocation-B.jpg</item>
+        <item>ESDTestLocation-C.jpg</item>
+        <item>ESDTestLocation-D.jpg</item>
+        <item>ESDTestLocation-E.jpg</item>
+        <item>ESDTestLocation-F.jpg</item>
+        <item>ESDTestLocation-G.jpg</item>
+        <item>ESDTestLocation-H.jpg</item>
+        <item>ESDTestLocation-I.jpg</item>
+        <item>ESDTestLocation-J.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * RI Photos and Files
     **********************************************************/
-    <string-array name="RI_1">
-        <item>RI BELOW 1GHZ TEST SETUP (unit1)</item>
-        <item>RI ABOVE 1GHZ TEST SETUP (unit1)</item>
-        <item>RI CABLE LAYOUT (unit1)</item>
-    </string-array>
-    <string-array name="RI_2">
-        <item>RI BELOW 1GHZ TEST SETUP (unit2)</item>
-        <item>RI ABOVE 1GHZ TEST SETUP (unit2)</item>
-        <item>RI CABLE LAYOUT (unit2)</item>
-    </string-array>
-    <string-array name="RI_3">
-        <item>RI BELOW 1GHZ TEST SETUP (unit3)</item>
-        <item>RI ABOVE 1GHZ TEST SETUP (unit3)</item>
-        <item>RI CABLE LAYOUT (unit3)</item>
-    </string-array>
-    <string-array name="RI_4">
-        <item>RI BELOW 1GHZ TEST SETUP (unit4)</item>
-        <item>RI ABOVE 1GHZ TEST SETUP (unit4)</item>
-        <item>RI CABLE LAYOUT (unit4)</item>
-    </string-array>
-    <string-array name="RI_5">
-        <item>RI BELOW 1GHZ TEST SETUP (unit5)</item>
-        <item>RI ABOVE 1GHZ TEST SETUP (unit5)</item>
-        <item>RI CABLE LAYOUT (unit5)</item>
+    <string-array name="RI">
+        <item>RI BELOW 1GHZ TEST SETUP</item>
+        <item>RI ABOVE 1GHZ TEST SETUP</item>
+        <item>RI CABLE LAYOUT</item>
     </string-array>
 
-
-    <string-array name="RI_1_File">
-        <item>RIBelow1GHz-1.jpg</item>
-        <item>RIAbove1GHz-1.jpg</item>
-        <item>RICableLayout-1.jpg</item>
-    </string-array>
-    <string-array name="RI_2_File">
-        <item>RIBelow1GHz-2.jpg</item>
-        <item>RIAbove1GHz-2.jpg</item>
-        <item>RICableLayout-2.jpg</item>
-    </string-array>
-    <string-array name="RI_3_File">
-        <item>RIBelow1GHz-3.jpg</item>
-        <item>RIAbove1GHz-3.jpg</item>
-        <item>RICableLayout-3.jpg</item>
-    </string-array>
-    <string-array name="RI_4_File">
-        <item>RIBelow1GHz-4.jpg</item>
-        <item>RIAbove1GHz-4.jpg</item>
-        <item>RICableLayout-4.jpg</item>
-    </string-array>
-    <string-array name="RI_5_File">
-        <item>RIBelow1GHz-5.jpg</item>
-        <item>RIAbove1GHz-5.jpg</item>
-        <item>RICableLayout-5.jpg</item>
+    <string-array name="RI_File">
+        <item>RIBelow1GHz.jpg</item>
+        <item>RIAbove1GHz.jpg</item>
+        <item>RICableLayout.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * EFT Photos and Files
     **********************************************************/
-    <string-array name="EFT_1">
-        <item>EFT TEST SETUP A (unit1)</item>
-        <item>EFT TEST SETUP B (unit1)</item>
-        <item>EFT TEST SETUP C (unit1)</item>
-        <item>EFT TEST SETUP D (unit1)</item>
-        <item>EFT TEST SETUP E (unit1)</item>
-        <item>EFT TEST SETUP F (unit1)</item>
-        <item>EFT TEST SETUP G (unit1)</item>
-        <item>EFT TEST SETUP H (unit1)</item>
-        <item>EFT TEST SETUP I (unit1)</item>
-        <item>EFT TEST SETUP J (unit1)</item>
-        <item>EFT TEST SETUP K (unit1)</item>
-        <item>EFT TEST SETUP L (unit1)</item>
-        <item>EFT TEST SETUP M (unit1)</item>
-        <item>EFT TEST SETUP N (unit1)</item>
-        <item>EFT TEST SETUP O (unit1)</item>
-        <item>EFT TEST SETUP P (unit1)</item>
-        <item>EFT TEST SETUP Q (unit1)</item>
-        <item>EFT TEST SETUP R (unit1)</item>
-        <item>EFT TEST SETUP S (unit1)</item>
-        <item>EFT TEST SETUP T (unit1)</item>
-        <item>EFT TEST SETUP U (unit1)</item>
-        <item>EFT TEST SETUP V (unit1)</item>
-        <item>EFT TEST SETUP W (unit1)</item>
-        <item>EFT TEST SETUP X (unit1)</item>
-        <item>EFT TEST SETUP Y (unit1)</item>
-        <item>EFT TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="EFT_2">
-        <item>EFT TEST SETUP A (unit2)</item>
-        <item>EFT TEST SETUP B (unit2)</item>
-        <item>EFT TEST SETUP C (unit2)</item>
-        <item>EFT TEST SETUP D (unit2)</item>
-        <item>EFT TEST SETUP E (unit2)</item>
-        <item>EFT TEST SETUP F (unit2)</item>
-        <item>EFT TEST SETUP G (unit2)</item>
-        <item>EFT TEST SETUP H (unit2)</item>
-        <item>EFT TEST SETUP I (unit2)</item>
-        <item>EFT TEST SETUP J (unit2)</item>
-        <item>EFT TEST SETUP K (unit2)</item>
-        <item>EFT TEST SETUP L (unit2)</item>
-        <item>EFT TEST SETUP M (unit2)</item>
-        <item>EFT TEST SETUP N (unit2)</item>
-        <item>EFT TEST SETUP O (unit2)</item>
-        <item>EFT TEST SETUP P (unit2)</item>
-        <item>EFT TEST SETUP Q (unit2)</item>
-        <item>EFT TEST SETUP R (unit2)</item>
-        <item>EFT TEST SETUP S (unit2)</item>
-        <item>EFT TEST SETUP T (unit2)</item>
-        <item>EFT TEST SETUP U (unit2)</item>
-        <item>EFT TEST SETUP V (unit2)</item>
-        <item>EFT TEST SETUP W (unit2)</item>
-        <item>EFT TEST SETUP X (unit2)</item>
-        <item>EFT TEST SETUP Y (unit2)</item>
-        <item>EFT TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="EFT_3">
-        <item>EFT TEST SETUP A (unit3)</item>
-        <item>EFT TEST SETUP B (unit3)</item>
-        <item>EFT TEST SETUP C (unit3)</item>
-        <item>EFT TEST SETUP D (unit3)</item>
-        <item>EFT TEST SETUP E (unit3)</item>
-        <item>EFT TEST SETUP F (unit3)</item>
-        <item>EFT TEST SETUP G (unit3)</item>
-        <item>EFT TEST SETUP H (unit3)</item>
-        <item>EFT TEST SETUP I (unit3)</item>
-        <item>EFT TEST SETUP J (unit3)</item>
-        <item>EFT TEST SETUP K (unit3)</item>
-        <item>EFT TEST SETUP L (unit3)</item>
-        <item>EFT TEST SETUP M (unit3)</item>
-        <item>EFT TEST SETUP N (unit3)</item>
-        <item>EFT TEST SETUP O (unit3)</item>
-        <item>EFT TEST SETUP P (unit3)</item>
-        <item>EFT TEST SETUP Q (unit3)</item>
-        <item>EFT TEST SETUP R (unit3)</item>
-        <item>EFT TEST SETUP S (unit3)</item>
-        <item>EFT TEST SETUP T (unit3)</item>
-        <item>EFT TEST SETUP U (unit3)</item>
-        <item>EFT TEST SETUP V (unit3)</item>
-        <item>EFT TEST SETUP W (unit3)</item>
-        <item>EFT TEST SETUP X (unit3)</item>
-        <item>EFT TEST SETUP Y (unit3)</item>
-        <item>EFT TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="EFT_4">
-        <item>EFT TEST SETUP A (unit4)</item>
-        <item>EFT TEST SETUP B (unit4)</item>
-        <item>EFT TEST SETUP C (unit4)</item>
-        <item>EFT TEST SETUP D (unit4)</item>
-        <item>EFT TEST SETUP E (unit4)</item>
-        <item>EFT TEST SETUP F (unit4)</item>
-        <item>EFT TEST SETUP G (unit4)</item>
-        <item>EFT TEST SETUP H (unit4)</item>
-        <item>EFT TEST SETUP I (unit4)</item>
-        <item>EFT TEST SETUP J (unit4)</item>
-        <item>EFT TEST SETUP K (unit4)</item>
-        <item>EFT TEST SETUP L (unit4)</item>
-        <item>EFT TEST SETUP M (unit4)</item>
-        <item>EFT TEST SETUP N (unit4)</item>
-        <item>EFT TEST SETUP O (unit4)</item>
-        <item>EFT TEST SETUP P (unit4)</item>
-        <item>EFT TEST SETUP Q (unit4)</item>
-        <item>EFT TEST SETUP R (unit4)</item>
-        <item>EFT TEST SETUP S (unit4)</item>
-        <item>EFT TEST SETUP T (unit4)</item>
-        <item>EFT TEST SETUP U (unit4)</item>
-        <item>EFT TEST SETUP V (unit4)</item>
-        <item>EFT TEST SETUP W (unit4)</item>
-        <item>EFT TEST SETUP X (unit4)</item>
-        <item>EFT TEST SETUP Y (unit4)</item>
-        <item>EFT TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="EFT_5">
-        <item>EFT TEST SETUP A (unit5)</item>
-        <item>EFT TEST SETUP B (unit5)</item>
-        <item>EFT TEST SETUP C (unit5)</item>
-        <item>EFT TEST SETUP D (unit5)</item>
-        <item>EFT TEST SETUP E (unit5)</item>
-        <item>EFT TEST SETUP F (unit5)</item>
-        <item>EFT TEST SETUP G (unit5)</item>
-        <item>EFT TEST SETUP H (unit5)</item>
-        <item>EFT TEST SETUP I (unit5)</item>
-        <item>EFT TEST SETUP J (unit5)</item>
-        <item>EFT TEST SETUP K (unit5)</item>
-        <item>EFT TEST SETUP L (unit5)</item>
-        <item>EFT TEST SETUP M (unit5)</item>
-        <item>EFT TEST SETUP N (unit5)</item>
-        <item>EFT TEST SETUP O (unit5)</item>
-        <item>EFT TEST SETUP P (unit5)</item>
-        <item>EFT TEST SETUP Q (unit5)</item>
-        <item>EFT TEST SETUP R (unit5)</item>
-        <item>EFT TEST SETUP S (unit5)</item>
-        <item>EFT TEST SETUP T (unit5)</item>
-        <item>EFT TEST SETUP U (unit5)</item>
-        <item>EFT TEST SETUP V (unit5)</item>
-        <item>EFT TEST SETUP W (unit5)</item>
-        <item>EFT TEST SETUP X (unit5)</item>
-        <item>EFT TEST SETUP Y (unit5)</item>
-        <item>EFT TEST SETUP Z (unit5)</item>
+    <string-array name="EFT">
+        <item>EFT TEST SETUP A</item>
+        <item>EFT TEST SETUP B</item>
+        <item>EFT TEST SETUP C</item>
+        <item>EFT TEST SETUP D</item>
+        <item>EFT TEST SETUP E</item>
+        <item>EFT TEST SETUP F</item>
+        <item>EFT TEST SETUP G</item>
+        <item>EFT TEST SETUP H</item>
+        <item>EFT TEST SETUP I</item>
+        <item>EFT TEST SETUP J</item>
+        <item>EFT TEST SETUP K</item>
+        <item>EFT TEST SETUP L</item>
+        <item>EFT TEST SETUP M</item>
+        <item>EFT TEST SETUP N</item>
+        <item>EFT TEST SETUP O</item>
+        <item>EFT TEST SETUP P</item>
+        <item>EFT TEST SETUP Q</item>
+        <item>EFT TEST SETUP R</item>
+        <item>EFT TEST SETUP S</item>
+        <item>EFT TEST SETUP T</item>
+        <item>EFT TEST SETUP U</item>
+        <item>EFT TEST SETUP V</item>
+        <item>EFT TEST SETUP W</item>
+        <item>EFT TEST SETUP X</item>
+        <item>EFT TEST SETUP Y</item>
+        <item>EFT TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="EFT_1_File">
-        <item>EFTSetup-A-1.jpg</item>
-        <item>EFTSetup-B-1.jpg</item>
-        <item>EFTSetup-C-1.jpg</item>
-        <item>EFTSetup-D-1.jpg</item>
-        <item>EFTSetup-E-1.jpg</item>
-        <item>EFTSetup-F-1.jpg</item>
-        <item>EFTSetup-G-1.jpg</item>
-        <item>EFTSetup-H-1.jpg</item>
-        <item>EFTSetup-I-1.jpg</item>
-        <item>EFTSetup-J-1.jpg</item>
-        <item>EFTSetup-K-1.jpg</item>
-        <item>EFTSetup-L-1.jpg</item>
-        <item>EFTSetup-M-1.jpg</item>
-        <item>EFTSetup-N-1.jpg</item>
-        <item>EFTSetup-O-1.jpg</item>
-        <item>EFTSetup-P-1.jpg</item>
-        <item>EFTSetup-Q-1.jpg</item>
-        <item>EFTSetup-R-1.jpg</item>
-        <item>EFTSetup-S-1.jpg</item>
-        <item>EFTSetup-T-1.jpg</item>
-        <item>EFTSetup-U-1.jpg</item>
-        <item>EFTSetup-V-1.jpg</item>
-        <item>EFTSetup-W-1.jpg</item>
-        <item>EFTSetup-X-1.jpg</item>
-        <item>EFTSetup-Y-1.jpg</item>
-        <item>EFTSetup-Z-1.jpg</item>
-    </string-array>
-    <string-array name="EFT_2_File">
-        <item>EFTSetup-A-2.jpg</item>
-        <item>EFTSetup-B-2.jpg</item>
-        <item>EFTSetup-C-2.jpg</item>
-        <item>EFTSetup-D-2.jpg</item>
-        <item>EFTSetup-E-2.jpg</item>
-        <item>EFTSetup-F-2.jpg</item>
-        <item>EFTSetup-G-2.jpg</item>
-        <item>EFTSetup-H-2.jpg</item>
-        <item>EFTSetup-I-2.jpg</item>
-        <item>EFTSetup-J-2.jpg</item>
-        <item>EFTSetup-K-2.jpg</item>
-        <item>EFTSetup-L-2.jpg</item>
-        <item>EFTSetup-M-2.jpg</item>
-        <item>EFTSetup-N-2.jpg</item>
-        <item>EFTSetup-O-2.jpg</item>
-        <item>EFTSetup-P-2.jpg</item>
-        <item>EFTSetup-Q-2.jpg</item>
-        <item>EFTSetup-R-2.jpg</item>
-        <item>EFTSetup-S-2.jpg</item>
-        <item>EFTSetup-T-2.jpg</item>
-        <item>EFTSetup-U-2.jpg</item>
-        <item>EFTSetup-V-2.jpg</item>
-        <item>EFTSetup-W-2.jpg</item>
-        <item>EFTSetup-X-2.jpg</item>
-        <item>EFTSetup-Y-2.jpg</item>
-        <item>EFTSetup-Z-2.jpg</item>
-    </string-array>
-    <string-array name="EFT_3_File">
-        <item>EFTSetup-A-3.jpg</item>
-        <item>EFTSetup-B-3.jpg</item>
-        <item>EFTSetup-C-3.jpg</item>
-        <item>EFTSetup-D-3.jpg</item>
-        <item>EFTSetup-E-3.jpg</item>
-        <item>EFTSetup-F-3.jpg</item>
-        <item>EFTSetup-G-3.jpg</item>
-        <item>EFTSetup-H-3.jpg</item>
-        <item>EFTSetup-I-3.jpg</item>
-        <item>EFTSetup-J-3.jpg</item>
-        <item>EFTSetup-K-3.jpg</item>
-        <item>EFTSetup-L-3.jpg</item>
-        <item>EFTSetup-M-3.jpg</item>
-        <item>EFTSetup-N-3.jpg</item>
-        <item>EFTSetup-O-3.jpg</item>
-        <item>EFTSetup-P-3.jpg</item>
-        <item>EFTSetup-Q-3.jpg</item>
-        <item>EFTSetup-R-3.jpg</item>
-        <item>EFTSetup-S-3.jpg</item>
-        <item>EFTSetup-T-3.jpg</item>
-        <item>EFTSetup-U-3.jpg</item>
-        <item>EFTSetup-V-3.jpg</item>
-        <item>EFTSetup-W-3.jpg</item>
-        <item>EFTSetup-X-3.jpg</item>
-        <item>EFTSetup-Y-3.jpg</item>
-        <item>EFTSetup-Z-3.jpg</item>
-    </string-array>
-    <string-array name="EFT_4_File">
-        <item>EFTSetup-A-4.jpg</item>
-        <item>EFTSetup-B-4.jpg</item>
-        <item>EFTSetup-C-4.jpg</item>
-        <item>EFTSetup-D-4.jpg</item>
-        <item>EFTSetup-E-4.jpg</item>
-        <item>EFTSetup-F-4.jpg</item>
-        <item>EFTSetup-G-4.jpg</item>
-        <item>EFTSetup-H-4.jpg</item>
-        <item>EFTSetup-I-4.jpg</item>
-        <item>EFTSetup-J-4.jpg</item>
-        <item>EFTSetup-K-4.jpg</item>
-        <item>EFTSetup-L-4.jpg</item>
-        <item>EFTSetup-M-4.jpg</item>
-        <item>EFTSetup-N-4.jpg</item>
-        <item>EFTSetup-O-4.jpg</item>
-        <item>EFTSetup-P-4.jpg</item>
-        <item>EFTSetup-Q-4.jpg</item>
-        <item>EFTSetup-R-4.jpg</item>
-        <item>EFTSetup-S-4.jpg</item>
-        <item>EFTSetup-T-4.jpg</item>
-        <item>EFTSetup-U-4.jpg</item>
-        <item>EFTSetup-V-4.jpg</item>
-        <item>EFTSetup-W-4.jpg</item>
-        <item>EFTSetup-X-4.jpg</item>
-        <item>EFTSetup-Y-4.jpg</item>
-        <item>EFTSetup-Z-4.jpg</item>
-    </string-array>
-    <string-array name="EFT_5_File">
-        <item>EFTSetup-A-5.jpg</item>
-        <item>EFTSetup-B-5.jpg</item>
-        <item>EFTSetup-C-5.jpg</item>
-        <item>EFTSetup-D-5.jpg</item>
-        <item>EFTSetup-E-5.jpg</item>
-        <item>EFTSetup-F-5.jpg</item>
-        <item>EFTSetup-G-5.jpg</item>
-        <item>EFTSetup-H-5.jpg</item>
-        <item>EFTSetup-I-5.jpg</item>
-        <item>EFTSetup-J-5.jpg</item>
-        <item>EFTSetup-K-5.jpg</item>
-        <item>EFTSetup-L-5.jpg</item>
-        <item>EFTSetup-M-5.jpg</item>
-        <item>EFTSetup-N-5.jpg</item>
-        <item>EFTSetup-O-5.jpg</item>
-        <item>EFTSetup-P-5.jpg</item>
-        <item>EFTSetup-Q-5.jpg</item>
-        <item>EFTSetup-R-5.jpg</item>
-        <item>EFTSetup-S-5.jpg</item>
-        <item>EFTSetup-T-5.jpg</item>
-        <item>EFTSetup-U-5.jpg</item>
-        <item>EFTSetup-V-5.jpg</item>
-        <item>EFTSetup-W-5.jpg</item>
-        <item>EFTSetup-X-5.jpg</item>
-        <item>EFTSetup-Y-5.jpg</item>
-        <item>EFTSetup-Z-5.jpg</item>
+    <string-array name="EFT_File">
+        <item>EFTSetup-A.jpg</item>
+        <item>EFTSetup-B.jpg</item>
+        <item>EFTSetup-C.jpg</item>
+        <item>EFTSetup-D.jpg</item>
+        <item>EFTSetup-E.jpg</item>
+        <item>EFTSetup-F.jpg</item>
+        <item>EFTSetup-G.jpg</item>
+        <item>EFTSetup-H.jpg</item>
+        <item>EFTSetup-I.jpg</item>
+        <item>EFTSetup-J.jpg</item>
+        <item>EFTSetup-K.jpg</item>
+        <item>EFTSetup-L.jpg</item>
+        <item>EFTSetup-M.jpg</item>
+        <item>EFTSetup-N.jpg</item>
+        <item>EFTSetup-O.jpg</item>
+        <item>EFTSetup-P.jpg</item>
+        <item>EFTSetup-Q.jpg</item>
+        <item>EFTSetup-R.jpg</item>
+        <item>EFTSetup-S.jpg</item>
+        <item>EFTSetup-T.jpg</item>
+        <item>EFTSetup-U.jpg</item>
+        <item>EFTSetup-V.jpg</item>
+        <item>EFTSetup-W.jpg</item>
+        <item>EFTSetup-X.jpg</item>
+        <item>EFTSetup-Y.jpg</item>
+        <item>EFTSetup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * SURGE Photos and Files
     **********************************************************/
-    <string-array name="SURGE_1">
-        <item>SURGE TEST SETUP A (unit1)</item>
-        <item>SURGE TEST SETUP B (unit1)</item>
-        <item>SURGE TEST SETUP C (unit1)</item>
-        <item>SURGE TEST SETUP D (unit1)</item>
-        <item>SURGE TEST SETUP E (unit1)</item>
-        <item>SURGE TEST SETUP F (unit1)</item>
-        <item>SURGE TEST SETUP G (unit1)</item>
-        <item>SURGE TEST SETUP H (unit1)</item>
-        <item>SURGE TEST SETUP I (unit1)</item>
-        <item>SURGE TEST SETUP J (unit1)</item>
-        <item>SURGE TEST SETUP K (unit1)</item>
-        <item>SURGE TEST SETUP L (unit1)</item>
-        <item>SURGE TEST SETUP M (unit1)</item>
-        <item>SURGE TEST SETUP N (unit1)</item>
-        <item>SURGE TEST SETUP O (unit1)</item>
-        <item>SURGE TEST SETUP P (unit1)</item>
-        <item>SURGE TEST SETUP Q (unit1)</item>
-        <item>SURGE TEST SETUP R (unit1)</item>
-        <item>SURGE TEST SETUP S (unit1)</item>
-        <item>SURGE TEST SETUP T (unit1)</item>
-        <item>SURGE TEST SETUP U (unit1)</item>
-        <item>SURGE TEST SETUP V (unit1)</item>
-        <item>SURGE TEST SETUP W (unit1)</item>
-        <item>SURGE TEST SETUP X (unit1)</item>
-        <item>SURGE TEST SETUP Y (unit1)</item>
-        <item>SURGE TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="SURGE_2">
-        <item>SURGE TEST SETUP A (unit2)</item>
-        <item>SURGE TEST SETUP B (unit2)</item>
-        <item>SURGE TEST SETUP C (unit2)</item>
-        <item>SURGE TEST SETUP D (unit2)</item>
-        <item>SURGE TEST SETUP E (unit2)</item>
-        <item>SURGE TEST SETUP F (unit2)</item>
-        <item>SURGE TEST SETUP G (unit2)</item>
-        <item>SURGE TEST SETUP H (unit2)</item>
-        <item>SURGE TEST SETUP I (unit2)</item>
-        <item>SURGE TEST SETUP J (unit2)</item>
-        <item>SURGE TEST SETUP K (unit2)</item>
-        <item>SURGE TEST SETUP L (unit2)</item>
-        <item>SURGE TEST SETUP M (unit2)</item>
-        <item>SURGE TEST SETUP N (unit2)</item>
-        <item>SURGE TEST SETUP O (unit2)</item>
-        <item>SURGE TEST SETUP P (unit2)</item>
-        <item>SURGE TEST SETUP Q (unit2)</item>
-        <item>SURGE TEST SETUP R (unit2)</item>
-        <item>SURGE TEST SETUP S (unit2)</item>
-        <item>SURGE TEST SETUP T (unit2)</item>
-        <item>SURGE TEST SETUP U (unit2)</item>
-        <item>SURGE TEST SETUP V (unit2)</item>
-        <item>SURGE TEST SETUP W (unit2)</item>
-        <item>SURGE TEST SETUP X (unit2)</item>
-        <item>SURGE TEST SETUP Y (unit2)</item>
-        <item>SURGE TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="SURGE_3">
-        <item>SURGE TEST SETUP A (unit3)</item>
-        <item>SURGE TEST SETUP B (unit3)</item>
-        <item>SURGE TEST SETUP C (unit3)</item>
-        <item>SURGE TEST SETUP D (unit3)</item>
-        <item>SURGE TEST SETUP E (unit3)</item>
-        <item>SURGE TEST SETUP F (unit3)</item>
-        <item>SURGE TEST SETUP G (unit3)</item>
-        <item>SURGE TEST SETUP H (unit3)</item>
-        <item>SURGE TEST SETUP I (unit3)</item>
-        <item>SURGE TEST SETUP J (unit3)</item>
-        <item>SURGE TEST SETUP K (unit3)</item>
-        <item>SURGE TEST SETUP L (unit3)</item>
-        <item>SURGE TEST SETUP M (unit3)</item>
-        <item>SURGE TEST SETUP N (unit3)</item>
-        <item>SURGE TEST SETUP O (unit3)</item>
-        <item>SURGE TEST SETUP P (unit3)</item>
-        <item>SURGE TEST SETUP Q (unit3)</item>
-        <item>SURGE TEST SETUP R (unit3)</item>
-        <item>SURGE TEST SETUP S (unit3)</item>
-        <item>SURGE TEST SETUP T (unit3)</item>
-        <item>SURGE TEST SETUP U (unit3)</item>
-        <item>SURGE TEST SETUP V (unit3)</item>
-        <item>SURGE TEST SETUP W (unit3)</item>
-        <item>SURGE TEST SETUP X (unit3)</item>
-        <item>SURGE TEST SETUP Y (unit3)</item>
-        <item>SURGE TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="SURGE_4">
-        <item>SURGE TEST SETUP A (unit4)</item>
-        <item>SURGE TEST SETUP B (unit4)</item>
-        <item>SURGE TEST SETUP C (unit4)</item>
-        <item>SURGE TEST SETUP D (unit4)</item>
-        <item>SURGE TEST SETUP E (unit4)</item>
-        <item>SURGE TEST SETUP F (unit4)</item>
-        <item>SURGE TEST SETUP G (unit4)</item>
-        <item>SURGE TEST SETUP H (unit4)</item>
-        <item>SURGE TEST SETUP I (unit4)</item>
-        <item>SURGE TEST SETUP J (unit4)</item>
-        <item>SURGE TEST SETUP K (unit4)</item>
-        <item>SURGE TEST SETUP L (unit4)</item>
-        <item>SURGE TEST SETUP M (unit4)</item>
-        <item>SURGE TEST SETUP N (unit4)</item>
-        <item>SURGE TEST SETUP O (unit4)</item>
-        <item>SURGE TEST SETUP P (unit4)</item>
-        <item>SURGE TEST SETUP Q (unit4)</item>
-        <item>SURGE TEST SETUP R (unit4)</item>
-        <item>SURGE TEST SETUP S (unit4)</item>
-        <item>SURGE TEST SETUP T (unit4)</item>
-        <item>SURGE TEST SETUP U (unit4)</item>
-        <item>SURGE TEST SETUP V (unit4)</item>
-        <item>SURGE TEST SETUP W (unit4)</item>
-        <item>SURGE TEST SETUP X (unit4)</item>
-        <item>SURGE TEST SETUP Y (unit4)</item>
-        <item>SURGE TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="SURGE_5">
-        <item>SURGE TEST SETUP A (unit5)</item>
-        <item>SURGE TEST SETUP B (unit5)</item>
-        <item>SURGE TEST SETUP C (unit5)</item>
-        <item>SURGE TEST SETUP D (unit5)</item>
-        <item>SURGE TEST SETUP E (unit5)</item>
-        <item>SURGE TEST SETUP F (unit5)</item>
-        <item>SURGE TEST SETUP G (unit5)</item>
-        <item>SURGE TEST SETUP H (unit5)</item>
-        <item>SURGE TEST SETUP I (unit5)</item>
-        <item>SURGE TEST SETUP J (unit5)</item>
-        <item>SURGE TEST SETUP K (unit5)</item>
-        <item>SURGE TEST SETUP L (unit5)</item>
-        <item>SURGE TEST SETUP M (unit5)</item>
-        <item>SURGE TEST SETUP N (unit5)</item>
-        <item>SURGE TEST SETUP O (unit5)</item>
-        <item>SURGE TEST SETUP P (unit5)</item>
-        <item>SURGE TEST SETUP Q (unit5)</item>
-        <item>SURGE TEST SETUP R (unit5)</item>
-        <item>SURGE TEST SETUP S (unit5)</item>
-        <item>SURGE TEST SETUP T (unit5)</item>
-        <item>SURGE TEST SETUP U (unit5)</item>
-        <item>SURGE TEST SETUP V (unit5)</item>
-        <item>SURGE TEST SETUP W (unit5)</item>
-        <item>SURGE TEST SETUP X (unit5)</item>
-        <item>SURGE TEST SETUP Y (unit5)</item>
-        <item>SURGE TEST SETUP Z (unit5)</item>
+    <string-array name="SURGE">
+        <item>SURGE TEST SETUP A</item>
+        <item>SURGE TEST SETUP B</item>
+        <item>SURGE TEST SETUP C</item>
+        <item>SURGE TEST SETUP D</item>
+        <item>SURGE TEST SETUP E</item>
+        <item>SURGE TEST SETUP F</item>
+        <item>SURGE TEST SETUP G</item>
+        <item>SURGE TEST SETUP H</item>
+        <item>SURGE TEST SETUP I</item>
+        <item>SURGE TEST SETUP J</item>
+        <item>SURGE TEST SETUP K</item>
+        <item>SURGE TEST SETUP L</item>
+        <item>SURGE TEST SETUP M</item>
+        <item>SURGE TEST SETUP N</item>
+        <item>SURGE TEST SETUP O</item>
+        <item>SURGE TEST SETUP P</item>
+        <item>SURGE TEST SETUP Q</item>
+        <item>SURGE TEST SETUP R</item>
+        <item>SURGE TEST SETUP S</item>
+        <item>SURGE TEST SETUP T</item>
+        <item>SURGE TEST SETUP U</item>
+        <item>SURGE TEST SETUP V</item>
+        <item>SURGE TEST SETUP W</item>
+        <item>SURGE TEST SETUP X</item>
+        <item>SURGE TEST SETUP Y</item>
+        <item>SURGE TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="SURGE_1_File">
-        <item>SurgeSetup-A-1.jpg</item>
-        <item>SurgeSetup-B-1.jpg</item>
-        <item>SurgeSetup-C-1.jpg</item>
-        <item>SurgeSetup-D-1.jpg</item>
-        <item>SurgeSetup-E-1.jpg</item>
-        <item>SurgeSetup-F-1.jpg</item>
-        <item>SurgeSetup-G-1.jpg</item>
-        <item>SurgeSetup-H-1.jpg</item>
-        <item>SurgeSetup-I-1.jpg</item>
-        <item>SurgeSetup-J-1.jpg</item>
-        <item>SurgeSetup-K-1.jpg</item>
-        <item>SurgeSetup-L-1.jpg</item>
-        <item>SurgeSetup-M-1.jpg</item>
-        <item>SurgeSetup-N-1.jpg</item>
-        <item>SurgeSetup-O-1.jpg</item>
-        <item>SurgeSetup-P-1.jpg</item>
-        <item>SurgeSetup-Q-1.jpg</item>
-        <item>SurgeSetup-R-1.jpg</item>
-        <item>SurgeSetup-S-1.jpg</item>
-        <item>SurgeSetup-T-1.jpg</item>
-        <item>SurgeSetup-U-1.jpg</item>
-        <item>SurgeSetup-V-1.jpg</item>
-        <item>SurgeSetup-W-1.jpg</item>
-        <item>SurgeSetup-X-1.jpg</item>
-        <item>SurgeSetup-Y-1.jpg</item>
-        <item>SurgeSetup-Z-1.jpg</item>
-    </string-array>
-    <string-array name="SURGE_2_File">
-        <item>SurgeSetup-A-2.jpg</item>
-        <item>SurgeSetup-B-2.jpg</item>
-        <item>SurgeSetup-C-2.jpg</item>
-        <item>SurgeSetup-D-2.jpg</item>
-        <item>SurgeSetup-E-2.jpg</item>
-        <item>SurgeSetup-F-2.jpg</item>
-        <item>SurgeSetup-G-2.jpg</item>
-        <item>SurgeSetup-H-2.jpg</item>
-        <item>SurgeSetup-I-2.jpg</item>
-        <item>SurgeSetup-J-2.jpg</item>
-        <item>SurgeSetup-K-2.jpg</item>
-        <item>SurgeSetup-L-2.jpg</item>
-        <item>SurgeSetup-M-2.jpg</item>
-        <item>SurgeSetup-N-2.jpg</item>
-        <item>SurgeSetup-O-2.jpg</item>
-        <item>SurgeSetup-P-2.jpg</item>
-        <item>SurgeSetup-Q-2.jpg</item>
-        <item>SurgeSetup-R-2.jpg</item>
-        <item>SurgeSetup-S-2.jpg</item>
-        <item>SurgeSetup-T-2.jpg</item>
-        <item>SurgeSetup-U-2.jpg</item>
-        <item>SurgeSetup-V-2.jpg</item>
-        <item>SurgeSetup-W-2.jpg</item>
-        <item>SurgeSetup-X-2.jpg</item>
-        <item>SurgeSetup-Y-2.jpg</item>
-        <item>SurgeSetup-Z-2.jpg</item>
-    </string-array>
-    <string-array name="SURGE_3_File">
-        <item>SurgeSetup-A-3.jpg</item>
-        <item>SurgeSetup-B-3.jpg</item>
-        <item>SurgeSetup-C-3.jpg</item>
-        <item>SurgeSetup-D-3.jpg</item>
-        <item>SurgeSetup-E-3.jpg</item>
-        <item>SurgeSetup-F-3.jpg</item>
-        <item>SurgeSetup-G-3.jpg</item>
-        <item>SurgeSetup-H-3.jpg</item>
-        <item>SurgeSetup-I-3.jpg</item>
-        <item>SurgeSetup-J-3.jpg</item>
-        <item>SurgeSetup-K-3.jpg</item>
-        <item>SurgeSetup-L-3.jpg</item>
-        <item>SurgeSetup-M-3.jpg</item>
-        <item>SurgeSetup-N-3.jpg</item>
-        <item>SurgeSetup-O-3.jpg</item>
-        <item>SurgeSetup-P-3.jpg</item>
-        <item>SurgeSetup-Q-3.jpg</item>
-        <item>SurgeSetup-R-3.jpg</item>
-        <item>SurgeSetup-S-3.jpg</item>
-        <item>SurgeSetup-T-3.jpg</item>
-        <item>SurgeSetup-U-3.jpg</item>
-        <item>SurgeSetup-V-3.jpg</item>
-        <item>SurgeSetup-W-3.jpg</item>
-        <item>SurgeSetup-X-3.jpg</item>
-        <item>SurgeSetup-Y-3.jpg</item>
-        <item>SurgeSetup-Z-3.jpg</item>
-    </string-array>
-    <string-array name="SURGE_4_File">
-        <item>SurgeSetup-A-4.jpg</item>
-        <item>SurgeSetup-B-4.jpg</item>
-        <item>SurgeSetup-C-4.jpg</item>
-        <item>SurgeSetup-D-4.jpg</item>
-        <item>SurgeSetup-E-4.jpg</item>
-        <item>SurgeSetup-F-4.jpg</item>
-        <item>SurgeSetup-G-4.jpg</item>
-        <item>SurgeSetup-H-4.jpg</item>
-        <item>SurgeSetup-I-4.jpg</item>
-        <item>SurgeSetup-J-4.jpg</item>
-        <item>SurgeSetup-K-4.jpg</item>
-        <item>SurgeSetup-L-4.jpg</item>
-        <item>SurgeSetup-M-4.jpg</item>
-        <item>SurgeSetup-N-4.jpg</item>
-        <item>SurgeSetup-O-4.jpg</item>
-        <item>SurgeSetup-P-4.jpg</item>
-        <item>SurgeSetup-Q-4.jpg</item>
-        <item>SurgeSetup-R-4.jpg</item>
-        <item>SurgeSetup-S-4.jpg</item>
-        <item>SurgeSetup-T-4.jpg</item>
-        <item>SurgeSetup-U-4.jpg</item>
-        <item>SurgeSetup-V-4.jpg</item>
-        <item>SurgeSetup-W-4.jpg</item>
-        <item>SurgeSetup-X-4.jpg</item>
-        <item>SurgeSetup-Y-4.jpg</item>
-        <item>SurgeSetup-Z-4.jpg</item>
-    </string-array>
-    <string-array name="SURGE_5_File">
-        <item>SurgeSetup-A-5.jpg</item>
-        <item>SurgeSetup-B-5.jpg</item>
-        <item>SurgeSetup-C-5.jpg</item>
-        <item>SurgeSetup-D-5.jpg</item>
-        <item>SurgeSetup-E-5.jpg</item>
-        <item>SurgeSetup-F-5.jpg</item>
-        <item>SurgeSetup-G-5.jpg</item>
-        <item>SurgeSetup-H-5.jpg</item>
-        <item>SurgeSetup-I-5.jpg</item>
-        <item>SurgeSetup-J-5.jpg</item>
-        <item>SurgeSetup-K-5.jpg</item>
-        <item>SurgeSetup-L-5.jpg</item>
-        <item>SurgeSetup-M-5.jpg</item>
-        <item>SurgeSetup-N-5.jpg</item>
-        <item>SurgeSetup-O-5.jpg</item>
-        <item>SurgeSetup-P-5.jpg</item>
-        <item>SurgeSetup-Q-5.jpg</item>
-        <item>SurgeSetup-R-5.jpg</item>
-        <item>SurgeSetup-S-5.jpg</item>
-        <item>SurgeSetup-T-5.jpg</item>
-        <item>SurgeSetup-U-5.jpg</item>
-        <item>SurgeSetup-V-5.jpg</item>
-        <item>SurgeSetup-W-5.jpg</item>
-        <item>SurgeSetup-X-5.jpg</item>
-        <item>SurgeSetup-Y-5.jpg</item>
-        <item>SurgeSetup-Z-5.jpg</item>
+    <string-array name="SURGE_File">
+        <item>SurgeSetup-A.jpg</item>
+        <item>SurgeSetup-B.jpg</item>
+        <item>SurgeSetup-C.jpg</item>
+        <item>SurgeSetup-D.jpg</item>
+        <item>SurgeSetup-E.jpg</item>
+        <item>SurgeSetup-F.jpg</item>
+        <item>SurgeSetup-G.jpg</item>
+        <item>SurgeSetup-H.jpg</item>
+        <item>SurgeSetup-I.jpg</item>
+        <item>SurgeSetup-J.jpg</item>
+        <item>SurgeSetup-K.jpg</item>
+        <item>SurgeSetup-L.jpg</item>
+        <item>SurgeSetup-M.jpg</item>
+        <item>SurgeSetup-N.jpg</item>
+        <item>SurgeSetup-O.jpg</item>
+        <item>SurgeSetup-P.jpg</item>
+        <item>SurgeSetup-Q.jpg</item>
+        <item>SurgeSetup-R.jpg</item>
+        <item>SurgeSetup-S.jpg</item>
+        <item>SurgeSetup-T.jpg</item>
+        <item>SurgeSetup-U.jpg</item>
+        <item>SurgeSetup-V.jpg</item>
+        <item>SurgeSetup-W.jpg</item>
+        <item>SurgeSetup-X.jpg</item>
+        <item>SurgeSetup-Y.jpg</item>
+        <item>SurgeSetup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * CI Photos and Files
     **********************************************************/
-    <string-array name="CI_1">
-        <item>CI TEST SETUP A (unit1)</item>
-        <item>CI TEST SETUP B (unit1)</item>
-        <item>CI TEST SETUP C (unit1)</item>
-        <item>CI TEST SETUP D (unit1)</item>
-        <item>CI TEST SETUP E (unit1)</item>
-        <item>CI TEST SETUP F (unit1)</item>
-        <item>CI TEST SETUP G (unit1)</item>
-        <item>CI TEST SETUP H (unit1)</item>
-        <item>CI TEST SETUP I (unit1)</item>
-        <item>CI TEST SETUP J (unit1)</item>
-        <item>CI TEST SETUP K (unit1)</item>
-        <item>CI TEST SETUP L (unit1)</item>
-        <item>CI TEST SETUP M (unit1)</item>
-        <item>CI TEST SETUP N (unit1)</item>
-        <item>CI TEST SETUP O (unit1)</item>
-        <item>CI TEST SETUP P (unit1)</item>
-        <item>CI TEST SETUP Q (unit1)</item>
-        <item>CI TEST SETUP R (unit1)</item>
-        <item>CI TEST SETUP S (unit1)</item>
-        <item>CI TEST SETUP T (unit1)</item>
-        <item>CI TEST SETUP U (unit1)</item>
-        <item>CI TEST SETUP V (unit1)</item>
-        <item>CI TEST SETUP W (unit1)</item>
-        <item>CI TEST SETUP X (unit1)</item>
-        <item>CI TEST SETUP Y (unit1)</item>
-        <item>CI TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="CI_2">
-        <item>CI TEST SETUP A (unit2)</item>
-        <item>CI TEST SETUP B (unit2)</item>
-        <item>CI TEST SETUP C (unit2)</item>
-        <item>CI TEST SETUP D (unit2)</item>
-        <item>CI TEST SETUP E (unit2)</item>
-        <item>CI TEST SETUP F (unit2)</item>
-        <item>CI TEST SETUP G (unit2)</item>
-        <item>CI TEST SETUP H (unit2)</item>
-        <item>CI TEST SETUP I (unit2)</item>
-        <item>CI TEST SETUP J (unit2)</item>
-        <item>CI TEST SETUP K (unit2)</item>
-        <item>CI TEST SETUP L (unit2)</item>
-        <item>CI TEST SETUP M (unit2)</item>
-        <item>CI TEST SETUP N (unit2)</item>
-        <item>CI TEST SETUP O (unit2)</item>
-        <item>CI TEST SETUP P (unit2)</item>
-        <item>CI TEST SETUP Q (unit2)</item>
-        <item>CI TEST SETUP R (unit2)</item>
-        <item>CI TEST SETUP S (unit2)</item>
-        <item>CI TEST SETUP T (unit2)</item>
-        <item>CI TEST SETUP U (unit2)</item>
-        <item>CI TEST SETUP V (unit2)</item>
-        <item>CI TEST SETUP W (unit2)</item>
-        <item>CI TEST SETUP X (unit2)</item>
-        <item>CI TEST SETUP Y (unit2)</item>
-        <item>CI TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="CI_3">
-        <item>CI TEST SETUP A (unit3)</item>
-        <item>CI TEST SETUP B (unit3)</item>
-        <item>CI TEST SETUP C (unit3)</item>
-        <item>CI TEST SETUP D (unit3)</item>
-        <item>CI TEST SETUP E (unit3)</item>
-        <item>CI TEST SETUP F (unit3)</item>
-        <item>CI TEST SETUP G (unit3)</item>
-        <item>CI TEST SETUP H (unit3)</item>
-        <item>CI TEST SETUP I (unit3)</item>
-        <item>CI TEST SETUP J (unit3)</item>
-        <item>CI TEST SETUP K (unit3)</item>
-        <item>CI TEST SETUP L (unit3)</item>
-        <item>CI TEST SETUP M (unit3)</item>
-        <item>CI TEST SETUP N (unit3)</item>
-        <item>CI TEST SETUP O (unit3)</item>
-        <item>CI TEST SETUP P (unit3)</item>
-        <item>CI TEST SETUP Q (unit3)</item>
-        <item>CI TEST SETUP R (unit3)</item>
-        <item>CI TEST SETUP S (unit3)</item>
-        <item>CI TEST SETUP T (unit3)</item>
-        <item>CI TEST SETUP U (unit3)</item>
-        <item>CI TEST SETUP V (unit3)</item>
-        <item>CI TEST SETUP W (unit3)</item>
-        <item>CI TEST SETUP X (unit3)</item>
-        <item>CI TEST SETUP Y (unit3)</item>
-        <item>CI TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="CI_4">
-        <item>CI TEST SETUP A (unit4)</item>
-        <item>CI TEST SETUP B (unit4)</item>
-        <item>CI TEST SETUP C (unit4)</item>
-        <item>CI TEST SETUP D (unit4)</item>
-        <item>CI TEST SETUP E (unit4)</item>
-        <item>CI TEST SETUP F (unit4)</item>
-        <item>CI TEST SETUP G (unit4)</item>
-        <item>CI TEST SETUP H (unit4)</item>
-        <item>CI TEST SETUP I (unit4)</item>
-        <item>CI TEST SETUP J (unit4)</item>
-        <item>CI TEST SETUP K (unit4)</item>
-        <item>CI TEST SETUP L (unit4)</item>
-        <item>CI TEST SETUP M (unit4)</item>
-        <item>CI TEST SETUP N (unit4)</item>
-        <item>CI TEST SETUP O (unit4)</item>
-        <item>CI TEST SETUP P (unit4)</item>
-        <item>CI TEST SETUP Q (unit4)</item>
-        <item>CI TEST SETUP R (unit4)</item>
-        <item>CI TEST SETUP S (unit4)</item>
-        <item>CI TEST SETUP T (unit4)</item>
-        <item>CI TEST SETUP U (unit4)</item>
-        <item>CI TEST SETUP V (unit4)</item>
-        <item>CI TEST SETUP W (unit4)</item>
-        <item>CI TEST SETUP X (unit4)</item>
-        <item>CI TEST SETUP Y (unit4)</item>
-        <item>CI TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="CI_5">
-        <item>CI TEST SETUP A (unit5)</item>
-        <item>CI TEST SETUP B (unit5)</item>
-        <item>CI TEST SETUP C (unit5)</item>
-        <item>CI TEST SETUP D (unit5)</item>
-        <item>CI TEST SETUP E (unit5)</item>
-        <item>CI TEST SETUP F (unit5)</item>
-        <item>CI TEST SETUP G (unit5)</item>
-        <item>CI TEST SETUP H (unit5)</item>
-        <item>CI TEST SETUP I (unit5)</item>
-        <item>CI TEST SETUP J (unit5)</item>
-        <item>CI TEST SETUP K (unit5)</item>
-        <item>CI TEST SETUP L (unit5)</item>
-        <item>CI TEST SETUP M (unit5)</item>
-        <item>CI TEST SETUP N (unit5)</item>
-        <item>CI TEST SETUP O (unit5)</item>
-        <item>CI TEST SETUP P (unit5)</item>
-        <item>CI TEST SETUP Q (unit5)</item>
-        <item>CI TEST SETUP R (unit5)</item>
-        <item>CI TEST SETUP S (unit5)</item>
-        <item>CI TEST SETUP T (unit5)</item>
-        <item>CI TEST SETUP U (unit5)</item>
-        <item>CI TEST SETUP V (unit5)</item>
-        <item>CI TEST SETUP W (unit5)</item>
-        <item>CI TEST SETUP X (unit5)</item>
-        <item>CI TEST SETUP Y (unit5)</item>
-        <item>CI TEST SETUP Z (unit5)</item>
+    <string-array name="CI">
+        <item>CI TEST SETUP A</item>
+        <item>CI TEST SETUP B</item>
+        <item>CI TEST SETUP C</item>
+        <item>CI TEST SETUP D</item>
+        <item>CI TEST SETUP E</item>
+        <item>CI TEST SETUP F</item>
+        <item>CI TEST SETUP G</item>
+        <item>CI TEST SETUP H</item>
+        <item>CI TEST SETUP I</item>
+        <item>CI TEST SETUP J</item>
+        <item>CI TEST SETUP K</item>
+        <item>CI TEST SETUP L</item>
+        <item>CI TEST SETUP M</item>
+        <item>CI TEST SETUP N</item>
+        <item>CI TEST SETUP O</item>
+        <item>CI TEST SETUP P</item>
+        <item>CI TEST SETUP Q</item>
+        <item>CI TEST SETUP R</item>
+        <item>CI TEST SETUP S</item>
+        <item>CI TEST SETUP T</item>
+        <item>CI TEST SETUP U</item>
+        <item>CI TEST SETUP V</item>
+        <item>CI TEST SETUP W</item>
+        <item>CI TEST SETUP X</item>
+        <item>CI TEST SETUP Y</item>
+        <item>CI TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="CI_1_File">
-        <item>CISetup-A-1.jpg</item>
-        <item>CISetup-B-1.jpg</item>
-        <item>CISetup-C-1.jpg</item>
-        <item>CISetup-D-1.jpg</item>
-        <item>CISetup-E-1.jpg</item>
-        <item>CISetup-F-1.jpg</item>
-        <item>CISetup-G-1.jpg</item>
-        <item>CISetup-H-1.jpg</item>
-        <item>CISetup-I-1.jpg</item>
-        <item>CISetup-J-1.jpg</item>
-        <item>CISetup-K-1.jpg</item>
-        <item>CISetup-L-1.jpg</item>
-        <item>CISetup-M-1.jpg</item>
-        <item>CISetup-N-1.jpg</item>
-        <item>CISetup-O-1.jpg</item>
-        <item>CISetup-P-1.jpg</item>
-        <item>CISetup-Q-1.jpg</item>
-        <item>CISetup-R-1.jpg</item>
-        <item>CISetup-S-1.jpg</item>
-        <item>CISetup-T-1.jpg</item>
-        <item>CISetup-U-1.jpg</item>
-        <item>CISetup-V-1.jpg</item>
-        <item>CISetup-W-1.jpg</item>
-        <item>CISetup-X-1.jpg</item>
-        <item>CISetup-Y-1.jpg</item>
-        <item>CISetup-Z-1.jpg</item>
-    </string-array>
-    <string-array name="CI_2_File">
-        <item>CISetup-A-2.jpg</item>
-        <item>CISetup-B-2.jpg</item>
-        <item>CISetup-C-2.jpg</item>
-        <item>CISetup-D-2.jpg</item>
-        <item>CISetup-E-2.jpg</item>
-        <item>CISetup-F-2.jpg</item>
-        <item>CISetup-G-2.jpg</item>
-        <item>CISetup-H-2.jpg</item>
-        <item>CISetup-I-2.jpg</item>
-        <item>CISetup-J-2.jpg</item>
-        <item>CISetup-K-2.jpg</item>
-        <item>CISetup-L-2.jpg</item>
-        <item>CISetup-M-2.jpg</item>
-        <item>CISetup-N-2.jpg</item>
-        <item>CISetup-O-2.jpg</item>
-        <item>CISetup-P-2.jpg</item>
-        <item>CISetup-Q-2.jpg</item>
-        <item>CISetup-R-2.jpg</item>
-        <item>CISetup-S-2.jpg</item>
-        <item>CISetup-T-2.jpg</item>
-        <item>CISetup-U-2.jpg</item>
-        <item>CISetup-V-2.jpg</item>
-        <item>CISetup-W-2.jpg</item>
-        <item>CISetup-X-2.jpg</item>
-        <item>CISetup-Y-2.jpg</item>
-        <item>CISetup-Z-2.jpg</item>
-    </string-array>
-    <string-array name="CI_3_File">
-        <item>CISetup-A-3.jpg</item>
-        <item>CISetup-B-3.jpg</item>
-        <item>CISetup-C-3.jpg</item>
-        <item>CISetup-D-3.jpg</item>
-        <item>CISetup-E-3.jpg</item>
-        <item>CISetup-F-3.jpg</item>
-        <item>CISetup-G-3.jpg</item>
-        <item>CISetup-H-3.jpg</item>
-        <item>CISetup-I-3.jpg</item>
-        <item>CISetup-J-3.jpg</item>
-        <item>CISetup-K-3.jpg</item>
-        <item>CISetup-L-3.jpg</item>
-        <item>CISetup-M-3.jpg</item>
-        <item>CISetup-N-3.jpg</item>
-        <item>CISetup-O-3.jpg</item>
-        <item>CISetup-P-3.jpg</item>
-        <item>CISetup-Q-3.jpg</item>
-        <item>CISetup-R-3.jpg</item>
-        <item>CISetup-S-3.jpg</item>
-        <item>CISetup-T-3.jpg</item>
-        <item>CISetup-U-3.jpg</item>
-        <item>CISetup-V-3.jpg</item>
-        <item>CISetup-W-3.jpg</item>
-        <item>CISetup-X-3.jpg</item>
-        <item>CISetup-Y-3.jpg</item>
-        <item>CISetup-Z-3.jpg</item>
-    </string-array>
-    <string-array name="CI_4_File">
-        <item>CISetup-A-4.jpg</item>
-        <item>CISetup-B-4.jpg</item>
-        <item>CISetup-C-4.jpg</item>
-        <item>CISetup-D-4.jpg</item>
-        <item>CISetup-E-4.jpg</item>
-        <item>CISetup-F-4.jpg</item>
-        <item>CISetup-G-4.jpg</item>
-        <item>CISetup-H-4.jpg</item>
-        <item>CISetup-I-4.jpg</item>
-        <item>CISetup-J-4.jpg</item>
-        <item>CISetup-K-4.jpg</item>
-        <item>CISetup-L-4.jpg</item>
-        <item>CISetup-M-4.jpg</item>
-        <item>CISetup-N-4.jpg</item>
-        <item>CISetup-O-4.jpg</item>
-        <item>CISetup-P-4.jpg</item>
-        <item>CISetup-Q-4.jpg</item>
-        <item>CISetup-R-4.jpg</item>
-        <item>CISetup-S-4.jpg</item>
-        <item>CISetup-T-4.jpg</item>
-        <item>CISetup-U-4.jpg</item>
-        <item>CISetup-V-4.jpg</item>
-        <item>CISetup-W-4.jpg</item>
-        <item>CISetup-X-4.jpg</item>
-        <item>CISetup-Y-4.jpg</item>
-        <item>CISetup-Z-4.jpg</item>
-    </string-array>
-    <string-array name="CI_5_File">
-        <item>CISetup-A-5.jpg</item>
-        <item>CISetup-B-5.jpg</item>
-        <item>CISetup-C-5.jpg</item>
-        <item>CISetup-D-5.jpg</item>
-        <item>CISetup-E-5.jpg</item>
-        <item>CISetup-F-5.jpg</item>
-        <item>CISetup-G-5.jpg</item>
-        <item>CISetup-H-5.jpg</item>
-        <item>CISetup-I-5.jpg</item>
-        <item>CISetup-J-5.jpg</item>
-        <item>CISetup-K-5.jpg</item>
-        <item>CISetup-L-5.jpg</item>
-        <item>CISetup-M-5.jpg</item>
-        <item>CISetup-N-5.jpg</item>
-        <item>CISetup-O-5.jpg</item>
-        <item>CISetup-P-5.jpg</item>
-        <item>CISetup-Q-5.jpg</item>
-        <item>CISetup-R-5.jpg</item>
-        <item>CISetup-S-5.jpg</item>
-        <item>CISetup-T-5.jpg</item>
-        <item>CISetup-U-5.jpg</item>
-        <item>CISetup-V-5.jpg</item>
-        <item>CISetup-W-5.jpg</item>
-        <item>CISetup-X-5.jpg</item>
-        <item>CISetup-Y-5.jpg</item>
-        <item>CISetup-Z-5.jpg</item>
+    <string-array name="CI_File">
+        <item>CISetup-A.jpg</item>
+        <item>CISetup-B.jpg</item>
+        <item>CISetup-C.jpg</item>
+        <item>CISetup-D.jpg</item>
+        <item>CISetup-E.jpg</item>
+        <item>CISetup-F.jpg</item>
+        <item>CISetup-G.jpg</item>
+        <item>CISetup-H.jpg</item>
+        <item>CISetup-I.jpg</item>
+        <item>CISetup-J.jpg</item>
+        <item>CISetup-K.jpg</item>
+        <item>CISetup-L.jpg</item>
+        <item>CISetup-M.jpg</item>
+        <item>CISetup-N.jpg</item>
+        <item>CISetup-O.jpg</item>
+        <item>CISetup-P.jpg</item>
+        <item>CISetup-Q.jpg</item>
+        <item>CISetup-R.jpg</item>
+        <item>CISetup-S.jpg</item>
+        <item>CISetup-T.jpg</item>
+        <item>CISetup-U.jpg</item>
+        <item>CISetup-V.jpg</item>
+        <item>CISetup-W.jpg</item>
+        <item>CISetup-X.jpg</item>
+        <item>CISetup-Y.jpg</item>
+        <item>CISetup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * MAGFIELD Photos and Files
     **********************************************************/
-    <string-array name="MAGFIELD_1">
-        <item>MAG FIELD TEST SETUP A (unit1)</item>
-        <item>MAG FIELD TEST SETUP B (unit1)</item>
-        <item>MAG FIELD TEST SETUP C (unit1)</item>
-        <item>MAG FIELD TEST SETUP D (unit1)</item>
-        <item>MAG FIELD TEST SETUP E (unit1)</item>
-        <item>MAG FIELD TEST SETUP F (unit1)</item>
-        <item>MAG FIELD TEST SETUP G (unit1)</item>
-        <item>MAG FIELD TEST SETUP H (unit1)</item>
-        <item>MAG FIELD TEST SETUP I (unit1)</item>
-        <item>MAG FIELD TEST SETUP J (unit1)</item>
-        <item>MAG FIELD TEST SETUP K (unit1)</item>
-        <item>MAG FIELD TEST SETUP L (unit1)</item>
-        <item>MAG FIELD TEST SETUP M (unit1)</item>
-        <item>MAG FIELD TEST SETUP N (unit1)</item>
-        <item>MAG FIELD TEST SETUP O (unit1)</item>
-        <item>MAG FIELD TEST SETUP P (unit1)</item>
-        <item>MAG FIELD TEST SETUP Q (unit1)</item>
-        <item>MAG FIELD TEST SETUP R (unit1)</item>
-        <item>MAG FIELD TEST SETUP S (unit1)</item>
-        <item>MAG FIELD TEST SETUP T (unit1)</item>
-        <item>MAG FIELD TEST SETUP U (unit1)</item>
-        <item>MAG FIELD TEST SETUP V (unit1)</item>
-        <item>MAG FIELD TEST SETUP W (unit1)</item>
-        <item>MAG FIELD TEST SETUP X (unit1)</item>
-        <item>MAG FIELD TEST SETUP Y (unit1)</item>
-        <item>MAG FIELD TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="MAGFIELD_2">
-        <item>MAG FIELD TEST SETUP A (unit2)</item>
-        <item>MAG FIELD TEST SETUP B (unit2)</item>
-        <item>MAG FIELD TEST SETUP C (unit2)</item>
-        <item>MAG FIELD TEST SETUP D (unit2)</item>
-        <item>MAG FIELD TEST SETUP E (unit2)</item>
-        <item>MAG FIELD TEST SETUP F (unit2)</item>
-        <item>MAG FIELD TEST SETUP G (unit2)</item>
-        <item>MAG FIELD TEST SETUP H (unit2)</item>
-        <item>MAG FIELD TEST SETUP I (unit2)</item>
-        <item>MAG FIELD TEST SETUP J (unit2)</item>
-        <item>MAG FIELD TEST SETUP K (unit2)</item>
-        <item>MAG FIELD TEST SETUP L (unit2)</item>
-        <item>MAG FIELD TEST SETUP M (unit2)</item>
-        <item>MAG FIELD TEST SETUP N (unit2)</item>
-        <item>MAG FIELD TEST SETUP O (unit2)</item>
-        <item>MAG FIELD TEST SETUP P (unit2)</item>
-        <item>MAG FIELD TEST SETUP Q (unit2)</item>
-        <item>MAG FIELD TEST SETUP R (unit2)</item>
-        <item>MAG FIELD TEST SETUP S (unit2)</item>
-        <item>MAG FIELD TEST SETUP T (unit2)</item>
-        <item>MAG FIELD TEST SETUP U (unit2)</item>
-        <item>MAG FIELD TEST SETUP V (unit2)</item>
-        <item>MAG FIELD TEST SETUP W (unit2)</item>
-        <item>MAG FIELD TEST SETUP X (unit2)</item>
-        <item>MAG FIELD TEST SETUP Y (unit2)</item>
-        <item>MAG FIELD TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="MAGFIELD_3">
-        <item>MAG FIELD TEST SETUP A (unit3)</item>
-        <item>MAG FIELD TEST SETUP B (unit3)</item>
-        <item>MAG FIELD TEST SETUP C (unit3)</item>
-        <item>MAG FIELD TEST SETUP D (unit3)</item>
-        <item>MAG FIELD TEST SETUP E (unit3)</item>
-        <item>MAG FIELD TEST SETUP F (unit3)</item>
-        <item>MAG FIELD TEST SETUP G (unit3)</item>
-        <item>MAG FIELD TEST SETUP H (unit3)</item>
-        <item>MAG FIELD TEST SETUP I (unit3)</item>
-        <item>MAG FIELD TEST SETUP J (unit3)</item>
-        <item>MAG FIELD TEST SETUP K (unit3)</item>
-        <item>MAG FIELD TEST SETUP L (unit3)</item>
-        <item>MAG FIELD TEST SETUP M (unit3)</item>
-        <item>MAG FIELD TEST SETUP N (unit3)</item>
-        <item>MAG FIELD TEST SETUP O (unit3)</item>
-        <item>MAG FIELD TEST SETUP P (unit3)</item>
-        <item>MAG FIELD TEST SETUP Q (unit3)</item>
-        <item>MAG FIELD TEST SETUP R (unit3)</item>
-        <item>MAG FIELD TEST SETUP S (unit3)</item>
-        <item>MAG FIELD TEST SETUP T (unit3)</item>
-        <item>MAG FIELD TEST SETUP U (unit3)</item>
-        <item>MAG FIELD TEST SETUP V (unit3)</item>
-        <item>MAG FIELD TEST SETUP W (unit3)</item>
-        <item>MAG FIELD TEST SETUP X (unit3)</item>
-        <item>MAG FIELD TEST SETUP Y (unit3)</item>
-        <item>MAG FIELD TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="MAGFIELD_4">
-        <item>MAG FIELD TEST SETUP A (unit4)</item>
-        <item>MAG FIELD TEST SETUP B (unit4)</item>
-        <item>MAG FIELD TEST SETUP C (unit4)</item>
-        <item>MAG FIELD TEST SETUP D (unit4)</item>
-        <item>MAG FIELD TEST SETUP E (unit4)</item>
-        <item>MAG FIELD TEST SETUP F (unit4)</item>
-        <item>MAG FIELD TEST SETUP G (unit4)</item>
-        <item>MAG FIELD TEST SETUP H (unit4)</item>
-        <item>MAG FIELD TEST SETUP I (unit4)</item>
-        <item>MAG FIELD TEST SETUP J (unit4)</item>
-        <item>MAG FIELD TEST SETUP K (unit4)</item>
-        <item>MAG FIELD TEST SETUP L (unit4)</item>
-        <item>MAG FIELD TEST SETUP M (unit4)</item>
-        <item>MAG FIELD TEST SETUP N (unit4)</item>
-        <item>MAG FIELD TEST SETUP O (unit4)</item>
-        <item>MAG FIELD TEST SETUP P (unit4)</item>
-        <item>MAG FIELD TEST SETUP Q (unit4)</item>
-        <item>MAG FIELD TEST SETUP R (unit4)</item>
-        <item>MAG FIELD TEST SETUP S (unit4)</item>
-        <item>MAG FIELD TEST SETUP T (unit4)</item>
-        <item>MAG FIELD TEST SETUP U (unit4)</item>
-        <item>MAG FIELD TEST SETUP V (unit4)</item>
-        <item>MAG FIELD TEST SETUP W (unit4)</item>
-        <item>MAG FIELD TEST SETUP X (unit4)</item>
-        <item>MAG FIELD TEST SETUP Y (unit4)</item>
-        <item>MAG FIELD TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="MAGFIELD_5">
-        <item>MAG FIELD TEST SETUP A (unit5)</item>
-        <item>MAG FIELD TEST SETUP B (unit5)</item>
-        <item>MAG FIELD TEST SETUP C (unit5)</item>
-        <item>MAG FIELD TEST SETUP D (unit5)</item>
-        <item>MAG FIELD TEST SETUP E (unit5)</item>
-        <item>MAG FIELD TEST SETUP F (unit5)</item>
-        <item>MAG FIELD TEST SETUP G (unit5)</item>
-        <item>MAG FIELD TEST SETUP H (unit5)</item>
-        <item>MAG FIELD TEST SETUP I (unit5)</item>
-        <item>MAG FIELD TEST SETUP J (unit5)</item>
-        <item>MAG FIELD TEST SETUP K (unit5)</item>
-        <item>MAG FIELD TEST SETUP L (unit5)</item>
-        <item>MAG FIELD TEST SETUP M (unit5)</item>
-        <item>MAG FIELD TEST SETUP N (unit5)</item>
-        <item>MAG FIELD TEST SETUP O (unit5)</item>
-        <item>MAG FIELD TEST SETUP P (unit5)</item>
-        <item>MAG FIELD TEST SETUP Q (unit5)</item>
-        <item>MAG FIELD TEST SETUP R (unit5)</item>
-        <item>MAG FIELD TEST SETUP S (unit5)</item>
-        <item>MAG FIELD TEST SETUP T (unit5)</item>
-        <item>MAG FIELD TEST SETUP U (unit5)</item>
-        <item>MAG FIELD TEST SETUP V (unit5)</item>
-        <item>MAG FIELD TEST SETUP W (unit5)</item>
-        <item>MAG FIELD TEST SETUP X (unit5)</item>
-        <item>MAG FIELD TEST SETUP Y (unit5)</item>
-        <item>MAG FIELD TEST SETUP Z (unit5)</item>
+    <string-array name="MAGFIELD">
+        <item>MAG FIELD TEST SETUP A</item>
+        <item>MAG FIELD TEST SETUP B</item>
+        <item>MAG FIELD TEST SETUP C</item>
+        <item>MAG FIELD TEST SETUP D</item>
+        <item>MAG FIELD TEST SETUP E</item>
+        <item>MAG FIELD TEST SETUP F</item>
+        <item>MAG FIELD TEST SETUP G</item>
+        <item>MAG FIELD TEST SETUP H</item>
+        <item>MAG FIELD TEST SETUP I</item>
+        <item>MAG FIELD TEST SETUP J</item>
+        <item>MAG FIELD TEST SETUP K</item>
+        <item>MAG FIELD TEST SETUP L</item>
+        <item>MAG FIELD TEST SETUP M</item>
+        <item>MAG FIELD TEST SETUP N</item>
+        <item>MAG FIELD TEST SETUP O</item>
+        <item>MAG FIELD TEST SETUP P</item>
+        <item>MAG FIELD TEST SETUP Q</item>
+        <item>MAG FIELD TEST SETUP R</item>
+        <item>MAG FIELD TEST SETUP S</item>
+        <item>MAG FIELD TEST SETUP T</item>
+        <item>MAG FIELD TEST SETUP U</item>
+        <item>MAG FIELD TEST SETUP V</item>
+        <item>MAG FIELD TEST SETUP W</item>
+        <item>MAG FIELD TEST SETUP X</item>
+        <item>MAG FIELD TEST SETUP Y</item>
+        <item>MAG FIELD TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="MAGFIELD_1_File">
-        <item>MagField-A-1.jpg</item>
-        <item>MagField-B-1.jpg</item>
-        <item>MagField-C-1.jpg</item>
-        <item>MagField-D-1.jpg</item>
-        <item>MagField-E-1.jpg</item>
-        <item>MagField-F-1.jpg</item>
-        <item>MagField-G-1.jpg</item>
-        <item>MagField-H-1.jpg</item>
-        <item>MagField-I-1.jpg</item>
-        <item>MagField-J-1.jpg</item>
-        <item>MagField-K-1.jpg</item>
-        <item>MagField-L-1.jpg</item>
-        <item>MagField-M-1.jpg</item>
-        <item>MagField-N-1.jpg</item>
-        <item>MagField-O-1.jpg</item>
-        <item>MagField-P-1.jpg</item>
-        <item>MagField-Q-1.jpg</item>
-        <item>MagField-R-1.jpg</item>
-        <item>MagField-S-1.jpg</item>
-        <item>MagField-T-1.jpg</item>
-        <item>MagField-U-1.jpg</item>
-        <item>MagField-V-1.jpg</item>
-        <item>MagField-W-1.jpg</item>
-        <item>MagField-X-1.jpg</item>
-        <item>MagField-Y-1.jpg</item>
-        <item>MagField-Z-1.jpg</item>
-    </string-array>
-    <string-array name="MAGFIELD_2_File">
-        <item>MagField-A-2.jpg</item>
-        <item>MagField-B-2.jpg</item>
-        <item>MagField-C-2.jpg</item>
-        <item>MagField-D-2.jpg</item>
-        <item>MagField-E-2.jpg</item>
-        <item>MagField-F-2.jpg</item>
-        <item>MagField-G-2.jpg</item>
-        <item>MagField-H-2.jpg</item>
-        <item>MagField-I-2.jpg</item>
-        <item>MagField-J-2.jpg</item>
-        <item>MagField-K-2.jpg</item>
-        <item>MagField-L-2.jpg</item>
-        <item>MagField-M-2.jpg</item>
-        <item>MagField-N-2.jpg</item>
-        <item>MagField-O-2.jpg</item>
-        <item>MagField-P-2.jpg</item>
-        <item>MagField-Q-2.jpg</item>
-        <item>MagField-R-2.jpg</item>
-        <item>MagField-S-2.jpg</item>
-        <item>MagField-T-2.jpg</item>
-        <item>MagField-U-2.jpg</item>
-        <item>MagField-V-2.jpg</item>
-        <item>MagField-W-2.jpg</item>
-        <item>MagField-X-2.jpg</item>
-        <item>MagField-Y-2.jpg</item>
-        <item>MagField-Z-2.jpg</item>
-    </string-array>
-    <string-array name="MAGFIELD_3_File">
-        <item>MagField-A-3.jpg</item>
-        <item>MagField-B-3.jpg</item>
-        <item>MagField-C-3.jpg</item>
-        <item>MagField-D-3.jpg</item>
-        <item>MagField-E-3.jpg</item>
-        <item>MagField-F-3.jpg</item>
-        <item>MagField-G-3.jpg</item>
-        <item>MagField-H-3.jpg</item>
-        <item>MagField-I-3.jpg</item>
-        <item>MagField-J-3.jpg</item>
-        <item>MagField-K-3.jpg</item>
-        <item>MagField-L-3.jpg</item>
-        <item>MagField-M-3.jpg</item>
-        <item>MagField-N-3.jpg</item>
-        <item>MagField-O-3.jpg</item>
-        <item>MagField-P-3.jpg</item>
-        <item>MagField-Q-3.jpg</item>
-        <item>MagField-R-3.jpg</item>
-        <item>MagField-S-3.jpg</item>
-        <item>MagField-T-3.jpg</item>
-        <item>MagField-U-3.jpg</item>
-        <item>MagField-V-3.jpg</item>
-        <item>MagField-W-3.jpg</item>
-        <item>MagField-X-3.jpg</item>
-        <item>MagField-Y-3.jpg</item>
-        <item>MagField-Z-3.jpg</item>
-    </string-array>
-    <string-array name="MAGFIELD_4_File">
-        <item>MagField-A-4.jpg</item>
-        <item>MagField-B-4.jpg</item>
-        <item>MagField-C-4.jpg</item>
-        <item>MagField-D-4.jpg</item>
-        <item>MagField-E-4.jpg</item>
-        <item>MagField-F-4.jpg</item>
-        <item>MagField-G-4.jpg</item>
-        <item>MagField-H-4.jpg</item>
-        <item>MagField-I-4.jpg</item>
-        <item>MagField-J-4.jpg</item>
-        <item>MagField-K-4.jpg</item>
-        <item>MagField-L-4.jpg</item>
-        <item>MagField-M-4.jpg</item>
-        <item>MagField-N-4.jpg</item>
-        <item>MagField-O-4.jpg</item>
-        <item>MagField-P-4.jpg</item>
-        <item>MagField-Q-4.jpg</item>
-        <item>MagField-R-4.jpg</item>
-        <item>MagField-S-4.jpg</item>
-        <item>MagField-T-4.jpg</item>
-        <item>MagField-U-4.jpg</item>
-        <item>MagField-V-4.jpg</item>
-        <item>MagField-W-4.jpg</item>
-        <item>MagField-X-4.jpg</item>
-        <item>MagField-Y-4.jpg</item>
-        <item>MagField-Z-4.jpg</item>
-    </string-array>
-    <string-array name="MAGFIELD_5_File">
-        <item>MagField-A-5.jpg</item>
-        <item>MagField-B-5.jpg</item>
-        <item>MagField-C-5.jpg</item>
-        <item>MagField-D-5.jpg</item>
-        <item>MagField-E-5.jpg</item>
-        <item>MagField-F-5.jpg</item>
-        <item>MagField-G-5.jpg</item>
-        <item>MagField-H-5.jpg</item>
-        <item>MagField-I-5.jpg</item>
-        <item>MagField-J-5.jpg</item>
-        <item>MagField-K-5.jpg</item>
-        <item>MagField-L-5.jpg</item>
-        <item>MagField-M-5.jpg</item>
-        <item>MagField-N-5.jpg</item>
-        <item>MagField-O-5.jpg</item>
-        <item>MagField-P-5.jpg</item>
-        <item>MagField-Q-5.jpg</item>
-        <item>MagField-R-5.jpg</item>
-        <item>MagField-S-5.jpg</item>
-        <item>MagField-T-5.jpg</item>
-        <item>MagField-U-5.jpg</item>
-        <item>MagField-V-5.jpg</item>
-        <item>MagField-W-5.jpg</item>
-        <item>MagField-X-5.jpg</item>
-        <item>MagField-Y-5.jpg</item>
-        <item>MagField-Z-5.jpg</item>
+    <string-array name="MAGFIELD_File">
+        <item>MagField-A.jpg</item>
+        <item>MagField-B.jpg</item>
+        <item>MagField-C.jpg</item>
+        <item>MagField-D.jpg</item>
+        <item>MagField-E.jpg</item>
+        <item>MagField-F.jpg</item>
+        <item>MagField-G.jpg</item>
+        <item>MagField-H.jpg</item>
+        <item>MagField-I.jpg</item>
+        <item>MagField-J.jpg</item>
+        <item>MagField-K.jpg</item>
+        <item>MagField-L.jpg</item>
+        <item>MagField-M.jpg</item>
+        <item>MagField-N.jpg</item>
+        <item>MagField-O.jpg</item>
+        <item>MagField-P.jpg</item>
+        <item>MagField-Q.jpg</item>
+        <item>MagField-R.jpg</item>
+        <item>MagField-S.jpg</item>
+        <item>MagField-T.jpg</item>
+        <item>MagField-U.jpg</item>
+        <item>MagField-V.jpg</item>
+        <item>MagField-W.jpg</item>
+        <item>MagField-X.jpg</item>
+        <item>MagField-Y.jpg</item>
+        <item>MagField-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * DIPS Photos and Files
     **********************************************************/
-    <string-array name="DIPS_1">
-        <item>DIPS TEST SETUP A (unit1)</item>
-        <item>DIPS TEST SETUP B (unit1)</item>
-        <item>DIPS TEST SETUP C (unit1)</item>
-        <item>DIPS TEST SETUP D (unit1)</item>
-        <item>DIPS TEST SETUP E (unit1)</item>
-        <item>DIPS TEST SETUP F (unit1)</item>
-        <item>DIPS TEST SETUP G (unit1)</item>
-        <item>DIPS TEST SETUP H (unit1)</item>
-        <item>DIPS TEST SETUP I (unit1)</item>
-        <item>DIPS TEST SETUP J (unit1)</item>
-        <item>DIPS TEST SETUP K (unit1)</item>
-        <item>DIPS TEST SETUP L (unit1)</item>
-        <item>DIPS TEST SETUP M (unit1)</item>
-        <item>DIPS TEST SETUP N (unit1)</item>
-        <item>DIPS TEST SETUP O (unit1)</item>
-        <item>DIPS TEST SETUP P (unit1)</item>
-        <item>DIPS TEST SETUP Q (unit1)</item>
-        <item>DIPS TEST SETUP R (unit1)</item>
-        <item>DIPS TEST SETUP S (unit1)</item>
-        <item>DIPS TEST SETUP T (unit1)</item>
-        <item>DIPS TEST SETUP U (unit1)</item>
-        <item>DIPS TEST SETUP V (unit1)</item>
-        <item>DIPS TEST SETUP W (unit1)</item>
-        <item>DIPS TEST SETUP X (unit1)</item>
-        <item>DIPS TEST SETUP Y (unit1)</item>
-        <item>DIPS TEST SETUP Z (unit1)</item>
-    </string-array>
-    <string-array name="DIPS_2">
-        <item>DIPS TEST SETUP A (unit2)</item>
-        <item>DIPS TEST SETUP B (unit2)</item>
-        <item>DIPS TEST SETUP C (unit2)</item>
-        <item>DIPS TEST SETUP D (unit2)</item>
-        <item>DIPS TEST SETUP E (unit2)</item>
-        <item>DIPS TEST SETUP F (unit2)</item>
-        <item>DIPS TEST SETUP G (unit2)</item>
-        <item>DIPS TEST SETUP H (unit2)</item>
-        <item>DIPS TEST SETUP I (unit2)</item>
-        <item>DIPS TEST SETUP J (unit2)</item>
-        <item>DIPS TEST SETUP K (unit2)</item>
-        <item>DIPS TEST SETUP L (unit2)</item>
-        <item>DIPS TEST SETUP M (unit2)</item>
-        <item>DIPS TEST SETUP N (unit2)</item>
-        <item>DIPS TEST SETUP O (unit2)</item>
-        <item>DIPS TEST SETUP P (unit2)</item>
-        <item>DIPS TEST SETUP Q (unit2)</item>
-        <item>DIPS TEST SETUP R (unit2)</item>
-        <item>DIPS TEST SETUP S (unit2)</item>
-        <item>DIPS TEST SETUP T (unit2)</item>
-        <item>DIPS TEST SETUP U (unit2)</item>
-        <item>DIPS TEST SETUP V (unit2)</item>
-        <item>DIPS TEST SETUP W (unit2)</item>
-        <item>DIPS TEST SETUP X (unit2)</item>
-        <item>DIPS TEST SETUP Y (unit2)</item>
-        <item>DIPS TEST SETUP Z (unit2)</item>
-    </string-array>
-    <string-array name="DIPS_3">
-        <item>DIPS TEST SETUP A (unit3)</item>
-        <item>DIPS TEST SETUP B (unit3)</item>
-        <item>DIPS TEST SETUP C (unit3)</item>
-        <item>DIPS TEST SETUP D (unit3)</item>
-        <item>DIPS TEST SETUP E (unit3)</item>
-        <item>DIPS TEST SETUP F (unit3)</item>
-        <item>DIPS TEST SETUP G (unit3)</item>
-        <item>DIPS TEST SETUP H (unit3)</item>
-        <item>DIPS TEST SETUP I (unit3)</item>
-        <item>DIPS TEST SETUP J (unit3)</item>
-        <item>DIPS TEST SETUP K (unit3)</item>
-        <item>DIPS TEST SETUP L (unit3)</item>
-        <item>DIPS TEST SETUP M (unit3)</item>
-        <item>DIPS TEST SETUP N (unit3)</item>
-        <item>DIPS TEST SETUP O (unit3)</item>
-        <item>DIPS TEST SETUP P (unit3)</item>
-        <item>DIPS TEST SETUP Q (unit3)</item>
-        <item>DIPS TEST SETUP R (unit3)</item>
-        <item>DIPS TEST SETUP S (unit3)</item>
-        <item>DIPS TEST SETUP T (unit3)</item>
-        <item>DIPS TEST SETUP U (unit3)</item>
-        <item>DIPS TEST SETUP V (unit3)</item>
-        <item>DIPS TEST SETUP W (unit3)</item>
-        <item>DIPS TEST SETUP X (unit3)</item>
-        <item>DIPS TEST SETUP Y (unit3)</item>
-        <item>DIPS TEST SETUP Z (unit3)</item>
-    </string-array>
-    <string-array name="DIPS_4">
-        <item>DIPS TEST SETUP A (unit4)</item>
-        <item>DIPS TEST SETUP B (unit4)</item>
-        <item>DIPS TEST SETUP C (unit4)</item>
-        <item>DIPS TEST SETUP D (unit4)</item>
-        <item>DIPS TEST SETUP E (unit4)</item>
-        <item>DIPS TEST SETUP F (unit4)</item>
-        <item>DIPS TEST SETUP G (unit4)</item>
-        <item>DIPS TEST SETUP H (unit4)</item>
-        <item>DIPS TEST SETUP I (unit4)</item>
-        <item>DIPS TEST SETUP J (unit4)</item>
-        <item>DIPS TEST SETUP K (unit4)</item>
-        <item>DIPS TEST SETUP L (unit4)</item>
-        <item>DIPS TEST SETUP M (unit4)</item>
-        <item>DIPS TEST SETUP N (unit4)</item>
-        <item>DIPS TEST SETUP O (unit4)</item>
-        <item>DIPS TEST SETUP P (unit4)</item>
-        <item>DIPS TEST SETUP Q (unit4)</item>
-        <item>DIPS TEST SETUP R (unit4)</item>
-        <item>DIPS TEST SETUP S (unit4)</item>
-        <item>DIPS TEST SETUP T (unit4)</item>
-        <item>DIPS TEST SETUP U (unit4)</item>
-        <item>DIPS TEST SETUP V (unit4)</item>
-        <item>DIPS TEST SETUP W (unit4)</item>
-        <item>DIPS TEST SETUP X (unit4)</item>
-        <item>DIPS TEST SETUP Y (unit4)</item>
-        <item>DIPS TEST SETUP Z (unit4)</item>
-    </string-array>
-    <string-array name="DIPS_5">
-        <item>DIPS TEST SETUP A (unit5)</item>
-        <item>DIPS TEST SETUP B (unit5)</item>
-        <item>DIPS TEST SETUP C (unit5)</item>
-        <item>DIPS TEST SETUP D (unit5)</item>
-        <item>DIPS TEST SETUP E (unit5)</item>
-        <item>DIPS TEST SETUP F (unit5)</item>
-        <item>DIPS TEST SETUP G (unit5)</item>
-        <item>DIPS TEST SETUP H (unit5)</item>
-        <item>DIPS TEST SETUP I (unit5)</item>
-        <item>DIPS TEST SETUP J (unit5)</item>
-        <item>DIPS TEST SETUP K (unit5)</item>
-        <item>DIPS TEST SETUP L (unit5)</item>
-        <item>DIPS TEST SETUP M (unit5)</item>
-        <item>DIPS TEST SETUP N (unit5)</item>
-        <item>DIPS TEST SETUP O (unit5)</item>
-        <item>DIPS TEST SETUP P (unit5)</item>
-        <item>DIPS TEST SETUP Q (unit5)</item>
-        <item>DIPS TEST SETUP R (unit5)</item>
-        <item>DIPS TEST SETUP S (unit5)</item>
-        <item>DIPS TEST SETUP T (unit5)</item>
-        <item>DIPS TEST SETUP U (unit5)</item>
-        <item>DIPS TEST SETUP V (unit5)</item>
-        <item>DIPS TEST SETUP W (unit5)</item>
-        <item>DIPS TEST SETUP X (unit5)</item>
-        <item>DIPS TEST SETUP Y (unit5)</item>
-        <item>DIPS TEST SETUP Z (unit5)</item>
+    <string-array name="DIPS">
+        <item>DIPS TEST SETUP A</item>
+        <item>DIPS TEST SETUP B</item>
+        <item>DIPS TEST SETUP C</item>
+        <item>DIPS TEST SETUP D</item>
+        <item>DIPS TEST SETUP E</item>
+        <item>DIPS TEST SETUP F</item>
+        <item>DIPS TEST SETUP G</item>
+        <item>DIPS TEST SETUP H</item>
+        <item>DIPS TEST SETUP I</item>
+        <item>DIPS TEST SETUP J</item>
+        <item>DIPS TEST SETUP K</item>
+        <item>DIPS TEST SETUP L</item>
+        <item>DIPS TEST SETUP M</item>
+        <item>DIPS TEST SETUP N</item>
+        <item>DIPS TEST SETUP O</item>
+        <item>DIPS TEST SETUP P</item>
+        <item>DIPS TEST SETUP Q</item>
+        <item>DIPS TEST SETUP R</item>
+        <item>DIPS TEST SETUP S</item>
+        <item>DIPS TEST SETUP T</item>
+        <item>DIPS TEST SETUP U</item>
+        <item>DIPS TEST SETUP V</item>
+        <item>DIPS TEST SETUP W</item>
+        <item>DIPS TEST SETUP X</item>
+        <item>DIPS TEST SETUP Y</item>
+        <item>DIPS TEST SETUP Z</item>
     </string-array>
 
-
-    <string-array name="DIPS_1_File">
-        <item>DipsSetup-A-1.jpg</item>
-        <item>DipsSetup-B-1.jpg</item>
-        <item>DipsSetup-C-1.jpg</item>
-        <item>DipsSetup-D-1.jpg</item>
-        <item>DipsSetup-E-1.jpg</item>
-        <item>DipsSetup-F-1.jpg</item>
-        <item>DipsSetup-G-1.jpg</item>
-        <item>DipsSetup-H-1.jpg</item>
-        <item>DipsSetup-I-1.jpg</item>
-        <item>DipsSetup-J-1.jpg</item>
-        <item>DipsSetup-K-1.jpg</item>
-        <item>DipsSetup-L-1.jpg</item>
-        <item>DipsSetup-M-1.jpg</item>
-        <item>DipsSetup-N-1.jpg</item>
-        <item>DipsSetup-O-1.jpg</item>
-        <item>DipsSetup-P-1.jpg</item>
-        <item>DipsSetup-Q-1.jpg</item>
-        <item>DipsSetup-R-1.jpg</item>
-        <item>DipsSetup-S-1.jpg</item>
-        <item>DipsSetup-T-1.jpg</item>
-        <item>DipsSetup-U-1.jpg</item>
-        <item>DipsSetup-V-1.jpg</item>
-        <item>DipsSetup-W-1.jpg</item>
-        <item>DipsSetup-X-1.jpg</item>
-        <item>DipsSetup-Y-1.jpg</item>
-        <item>DipsSetup-Z-1.jpg</item>
-    </string-array>
-    <string-array name="DIPS_2_File">
-        <item>DipsSetup-A-2.jpg</item>
-        <item>DipsSetup-B-2.jpg</item>
-        <item>DipsSetup-C-2.jpg</item>
-        <item>DipsSetup-D-2.jpg</item>
-        <item>DipsSetup-E-2.jpg</item>
-        <item>DipsSetup-F-2.jpg</item>
-        <item>DipsSetup-G-2.jpg</item>
-        <item>DipsSetup-H-2.jpg</item>
-        <item>DipsSetup-I-2.jpg</item>
-        <item>DipsSetup-J-2.jpg</item>
-        <item>DipsSetup-K-2.jpg</item>
-        <item>DipsSetup-L-2.jpg</item>
-        <item>DipsSetup-M-2.jpg</item>
-        <item>DipsSetup-N-2.jpg</item>
-        <item>DipsSetup-O-2.jpg</item>
-        <item>DipsSetup-P-2.jpg</item>
-        <item>DipsSetup-Q-2.jpg</item>
-        <item>DipsSetup-R-2.jpg</item>
-        <item>DipsSetup-S-2.jpg</item>
-        <item>DipsSetup-T-2.jpg</item>
-        <item>DipsSetup-U-2.jpg</item>
-        <item>DipsSetup-V-2.jpg</item>
-        <item>DipsSetup-W-2.jpg</item>
-        <item>DipsSetup-X-2.jpg</item>
-        <item>DipsSetup-Y-2.jpg</item>
-        <item>DipsSetup-Z-2.jpg</item>
-    </string-array>
-    <string-array name="DIPS_3_File">
-        <item>DipsSetup-A-3.jpg</item>
-        <item>DipsSetup-B-3.jpg</item>
-        <item>DipsSetup-C-3.jpg</item>
-        <item>DipsSetup-D-3.jpg</item>
-        <item>DipsSetup-E-3.jpg</item>
-        <item>DipsSetup-F-3.jpg</item>
-        <item>DipsSetup-G-3.jpg</item>
-        <item>DipsSetup-H-3.jpg</item>
-        <item>DipsSetup-I-3.jpg</item>
-        <item>DipsSetup-J-3.jpg</item>
-        <item>DipsSetup-K-3.jpg</item>
-        <item>DipsSetup-L-3.jpg</item>
-        <item>DipsSetup-M-3.jpg</item>
-        <item>DipsSetup-N-3.jpg</item>
-        <item>DipsSetup-O-3.jpg</item>
-        <item>DipsSetup-P-3.jpg</item>
-        <item>DipsSetup-Q-3.jpg</item>
-        <item>DipsSetup-R-3.jpg</item>
-        <item>DipsSetup-S-3.jpg</item>
-        <item>DipsSetup-T-3.jpg</item>
-        <item>DipsSetup-U-3.jpg</item>
-        <item>DipsSetup-V-3.jpg</item>
-        <item>DipsSetup-W-3.jpg</item>
-        <item>DipsSetup-X-3.jpg</item>
-        <item>DipsSetup-Y-3.jpg</item>
-        <item>DipsSetup-Z-3.jpg</item>
-    </string-array>
-    <string-array name="DIPS_4_File">
-        <item>DipsSetup-A-4.jpg</item>
-        <item>DipsSetup-B-4.jpg</item>
-        <item>DipsSetup-C-4.jpg</item>
-        <item>DipsSetup-D-4.jpg</item>
-        <item>DipsSetup-E-4.jpg</item>
-        <item>DipsSetup-F-4.jpg</item>
-        <item>DipsSetup-G-4.jpg</item>
-        <item>DipsSetup-H-4.jpg</item>
-        <item>DipsSetup-I-4.jpg</item>
-        <item>DipsSetup-J-4.jpg</item>
-        <item>DipsSetup-K-4.jpg</item>
-        <item>DipsSetup-L-4.jpg</item>
-        <item>DipsSetup-M-4.jpg</item>
-        <item>DipsSetup-N-4.jpg</item>
-        <item>DipsSetup-O-4.jpg</item>
-        <item>DipsSetup-P-4.jpg</item>
-        <item>DipsSetup-Q-4.jpg</item>
-        <item>DipsSetup-R-4.jpg</item>
-        <item>DipsSetup-S-4.jpg</item>
-        <item>DipsSetup-T-4.jpg</item>
-        <item>DipsSetup-U-4.jpg</item>
-        <item>DipsSetup-V-4.jpg</item>
-        <item>DipsSetup-W-4.jpg</item>
-        <item>DipsSetup-X-4.jpg</item>
-        <item>DipsSetup-Y-4.jpg</item>
-        <item>DipsSetup-Z-4.jpg</item>
-    </string-array>
-    <string-array name="DIPS_5_File">
-        <item>DipsSetup-A-5.jpg</item>
-        <item>DipsSetup-B-5.jpg</item>
-        <item>DipsSetup-C-5.jpg</item>
-        <item>DipsSetup-D-5.jpg</item>
-        <item>DipsSetup-E-5.jpg</item>
-        <item>DipsSetup-F-5.jpg</item>
-        <item>DipsSetup-G-5.jpg</item>
-        <item>DipsSetup-H-5.jpg</item>
-        <item>DipsSetup-I-5.jpg</item>
-        <item>DipsSetup-J-5.jpg</item>
-        <item>DipsSetup-K-5.jpg</item>
-        <item>DipsSetup-L-5.jpg</item>
-        <item>DipsSetup-M-5.jpg</item>
-        <item>DipsSetup-N-5.jpg</item>
-        <item>DipsSetup-O-5.jpg</item>
-        <item>DipsSetup-P-5.jpg</item>
-        <item>DipsSetup-Q-5.jpg</item>
-        <item>DipsSetup-R-5.jpg</item>
-        <item>DipsSetup-S-5.jpg</item>
-        <item>DipsSetup-T-5.jpg</item>
-        <item>DipsSetup-U-5.jpg</item>
-        <item>DipsSetup-V-5.jpg</item>
-        <item>DipsSetup-W-5.jpg</item>
-        <item>DipsSetup-X-5.jpg</item>
-        <item>DipsSetup-Y-5.jpg</item>
-        <item>DipsSetup-Z-5.jpg</item>
+    <string-array name="DIPS_File">
+        <item>DipsSetup-A.jpg</item>
+        <item>DipsSetup-B.jpg</item>
+        <item>DipsSetup-C.jpg</item>
+        <item>DipsSetup-D.jpg</item>
+        <item>DipsSetup-E.jpg</item>
+        <item>DipsSetup-F.jpg</item>
+        <item>DipsSetup-G.jpg</item>
+        <item>DipsSetup-H.jpg</item>
+        <item>DipsSetup-I.jpg</item>
+        <item>DipsSetup-J.jpg</item>
+        <item>DipsSetup-K.jpg</item>
+        <item>DipsSetup-L.jpg</item>
+        <item>DipsSetup-M.jpg</item>
+        <item>DipsSetup-N.jpg</item>
+        <item>DipsSetup-O.jpg</item>
+        <item>DipsSetup-P.jpg</item>
+        <item>DipsSetup-Q.jpg</item>
+        <item>DipsSetup-R.jpg</item>
+        <item>DipsSetup-S.jpg</item>
+        <item>DipsSetup-T.jpg</item>
+        <item>DipsSetup-U.jpg</item>
+        <item>DipsSetup-V.jpg</item>
+        <item>DipsSetup-W.jpg</item>
+        <item>DipsSetup-X.jpg</item>
+        <item>DipsSetup-Y.jpg</item>
+        <item>DipsSetup-Z.jpg</item>
     </string-array>
 
 
     /***********************************************************
     * PROXMAGFIELD Photos and Files
     **********************************************************/
-    <string-array name="PROXMAGFIELD_1">
-        <item>PROXMAGFIELD Test Setup A (unit1)</item>
-        <item>PROXMAGFIELD Test Setup B (unit1)</item>
-        <item>PROXMAGFIELD Test Setup C (unit1)</item>
-        <item>PROXMAGFIELD Test Setup D (unit1)</item>
-        <item>PROXMAGFIELD Test Setup E (unit1)</item>
-        <item>PROXMAGFIELD Test Setup F (unit1)</item>
-        <item>PROXMAGFIELD Test Setup G (unit1)</item>
-        <item>PROXMAGFIELD Test Setup H (unit1)</item>
-        <item>PROXMAGFIELD Test Setup I (unit1)</item>
-        <item>PROXMAGFIELD Test Setup J (unit1)</item>
-        <item>PROXMAGFIELD Test Setup K (unit1)</item>
-        <item>PROXMAGFIELD Test Setup L (unit1)</item>
-        <item>PROXMAGFIELD Test Setup M (unit1)</item>
-        <item>PROXMAGFIELD Test Setup N (unit1)</item>
-        <item>PROXMAGFIELD Test Setup O (unit1)</item>
-        <item>PROXMAGFIELD Test Setup P (unit1)</item>
-        <item>PROXMAGFIELD Test Setup Q (unit1)</item>
-        <item>PROXMAGFIELD Test Setup R (unit1)</item>
-        <item>PROXMAGFIELD Test Setup S (unit1)</item>
-        <item>PROXMAGFIELD Test Setup T (unit1)</item>
-        <item>PROXMAGFIELD Test Setup U (unit1)</item>
-        <item>PROXMAGFIELD Test Setup V (unit1)</item>
-        <item>PROXMAGFIELD Test Setup W (unit1)</item>
-        <item>PROXMAGFIELD Test Setup X (unit1)</item>
-        <item>PROXMAGFIELD Test Setup Y (unit1)</item>
-        <item>PROXMAGFIELD Test Setup Z (unit1)</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_2">
-        <item>PROXMAGFIELD Test Setup A (unit2)</item>
-        <item>PROXMAGFIELD Test Setup B (unit2)</item>
-        <item>PROXMAGFIELD Test Setup C (unit2)</item>
-        <item>PROXMAGFIELD Test Setup D (unit2)</item>
-        <item>PROXMAGFIELD Test Setup E (unit2)</item>
-        <item>PROXMAGFIELD Test Setup F (unit2)</item>
-        <item>PROXMAGFIELD Test Setup G (unit2)</item>
-        <item>PROXMAGFIELD Test Setup H (unit2)</item>
-        <item>PROXMAGFIELD Test Setup I (unit2)</item>
-        <item>PROXMAGFIELD Test Setup J (unit2)</item>
-        <item>PROXMAGFIELD Test Setup K (unit2)</item>
-        <item>PROXMAGFIELD Test Setup L (unit2)</item>
-        <item>PROXMAGFIELD Test Setup M (unit2)</item>
-        <item>PROXMAGFIELD Test Setup N (unit2)</item>
-        <item>PROXMAGFIELD Test Setup O (unit2)</item>
-        <item>PROXMAGFIELD Test Setup P (unit2)</item>
-        <item>PROXMAGFIELD Test Setup Q (unit2)</item>
-        <item>PROXMAGFIELD Test Setup R (unit2)</item>
-        <item>PROXMAGFIELD Test Setup S (unit2)</item>
-        <item>PROXMAGFIELD Test Setup T (unit2)</item>
-        <item>PROXMAGFIELD Test Setup U (unit2)</item>
-        <item>PROXMAGFIELD Test Setup V (unit2)</item>
-        <item>PROXMAGFIELD Test Setup W (unit2)</item>
-        <item>PROXMAGFIELD Test Setup X (unit2)</item>
-        <item>PROXMAGFIELD Test Setup Y (unit2)</item>
-        <item>PROXMAGFIELD Test Setup Z (unit2)</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_3">
-        <item>PROXMAGFIELD Test Setup A (unit3)</item>
-        <item>PROXMAGFIELD Test Setup B (unit3)</item>
-        <item>PROXMAGFIELD Test Setup C (unit3)</item>
-        <item>PROXMAGFIELD Test Setup D (unit3)</item>
-        <item>PROXMAGFIELD Test Setup E (unit3)</item>
-        <item>PROXMAGFIELD Test Setup F (unit3)</item>
-        <item>PROXMAGFIELD Test Setup G (unit3)</item>
-        <item>PROXMAGFIELD Test Setup H (unit3)</item>
-        <item>PROXMAGFIELD Test Setup I (unit3)</item>
-        <item>PROXMAGFIELD Test Setup J (unit3)</item>
-        <item>PROXMAGFIELD Test Setup K (unit3)</item>
-        <item>PROXMAGFIELD Test Setup L (unit3)</item>
-        <item>PROXMAGFIELD Test Setup M (unit3)</item>
-        <item>PROXMAGFIELD Test Setup N (unit3)</item>
-        <item>PROXMAGFIELD Test Setup O (unit3)</item>
-        <item>PROXMAGFIELD Test Setup P (unit3)</item>
-        <item>PROXMAGFIELD Test Setup Q (unit3)</item>
-        <item>PROXMAGFIELD Test Setup R (unit3)</item>
-        <item>PROXMAGFIELD Test Setup S (unit3)</item>
-        <item>PROXMAGFIELD Test Setup T (unit3)</item>
-        <item>PROXMAGFIELD Test Setup U (unit3)</item>
-        <item>PROXMAGFIELD Test Setup V (unit3)</item>
-        <item>PROXMAGFIELD Test Setup W (unit3)</item>
-        <item>PROXMAGFIELD Test Setup X (unit3)</item>
-        <item>PROXMAGFIELD Test Setup Y (unit3)</item>
-        <item>PROXMAGFIELD Test Setup Z (unit3)</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_4">
-        <item>PROXMAGFIELD Test Setup A (unit4)</item>
-        <item>PROXMAGFIELD Test Setup B (unit4)</item>
-        <item>PROXMAGFIELD Test Setup C (unit4)</item>
-        <item>PROXMAGFIELD Test Setup D (unit4)</item>
-        <item>PROXMAGFIELD Test Setup E (unit4)</item>
-        <item>PROXMAGFIELD Test Setup F (unit4)</item>
-        <item>PROXMAGFIELD Test Setup G (unit4)</item>
-        <item>PROXMAGFIELD Test Setup H (unit4)</item>
-        <item>PROXMAGFIELD Test Setup I (unit4)</item>
-        <item>PROXMAGFIELD Test Setup J (unit4)</item>
-        <item>PROXMAGFIELD Test Setup K (unit4)</item>
-        <item>PROXMAGFIELD Test Setup L (unit4)</item>
-        <item>PROXMAGFIELD Test Setup M (unit4)</item>
-        <item>PROXMAGFIELD Test Setup N (unit4)</item>
-        <item>PROXMAGFIELD Test Setup O (unit4)</item>
-        <item>PROXMAGFIELD Test Setup P (unit4)</item>
-        <item>PROXMAGFIELD Test Setup Q (unit4)</item>
-        <item>PROXMAGFIELD Test Setup R (unit4)</item>
-        <item>PROXMAGFIELD Test Setup S (unit4)</item>
-        <item>PROXMAGFIELD Test Setup T (unit4)</item>
-        <item>PROXMAGFIELD Test Setup U (unit4)</item>
-        <item>PROXMAGFIELD Test Setup V (unit4)</item>
-        <item>PROXMAGFIELD Test Setup W (unit4)</item>
-        <item>PROXMAGFIELD Test Setup X (unit4)</item>
-        <item>PROXMAGFIELD Test Setup Y (unit4)</item>
-        <item>PROXMAGFIELD Test Setup Z (unit4)</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_5">
-        <item>PROXMAGFIELD Test Setup A (unit5)</item>
-        <item>PROXMAGFIELD Test Setup B (unit5)</item>
-        <item>PROXMAGFIELD Test Setup C (unit5)</item>
-        <item>PROXMAGFIELD Test Setup D (unit5)</item>
-        <item>PROXMAGFIELD Test Setup E (unit5)</item>
-        <item>PROXMAGFIELD Test Setup F (unit5)</item>
-        <item>PROXMAGFIELD Test Setup G (unit5)</item>
-        <item>PROXMAGFIELD Test Setup H (unit5)</item>
-        <item>PROXMAGFIELD Test Setup I (unit5)</item>
-        <item>PROXMAGFIELD Test Setup J (unit5)</item>
-        <item>PROXMAGFIELD Test Setup K (unit5)</item>
-        <item>PROXMAGFIELD Test Setup L (unit5)</item>
-        <item>PROXMAGFIELD Test Setup M (unit5)</item>
-        <item>PROXMAGFIELD Test Setup N (unit5)</item>
-        <item>PROXMAGFIELD Test Setup O (unit5)</item>
-        <item>PROXMAGFIELD Test Setup P (unit5)</item>
-        <item>PROXMAGFIELD Test Setup Q (unit5)</item>
-        <item>PROXMAGFIELD Test Setup R (unit5)</item>
-        <item>PROXMAGFIELD Test Setup S (unit5)</item>
-        <item>PROXMAGFIELD Test Setup T (unit5)</item>
-        <item>PROXMAGFIELD Test Setup U (unit5)</item>
-        <item>PROXMAGFIELD Test Setup V (unit5)</item>
-        <item>PROXMAGFIELD Test Setup W (unit5)</item>
-        <item>PROXMAGFIELD Test Setup X (unit5)</item>
-        <item>PROXMAGFIELD Test Setup Y (unit5)</item>
-        <item>PROXMAGFIELD Test Setup Z (unit5)</item>
+    <string-array name="PROXMAGFIELD">
+        <item>PROXMAGFIELD Test Setup A</item>
+        <item>PROXMAGFIELD Test Setup B</item>
+        <item>PROXMAGFIELD Test Setup C</item>
+        <item>PROXMAGFIELD Test Setup D</item>
+        <item>PROXMAGFIELD Test Setup E</item>
+        <item>PROXMAGFIELD Test Setup F</item>
+        <item>PROXMAGFIELD Test Setup G</item>
+        <item>PROXMAGFIELD Test Setup H</item>
+        <item>PROXMAGFIELD Test Setup I</item>
+        <item>PROXMAGFIELD Test Setup J</item>
+        <item>PROXMAGFIELD Test Setup K</item>
+        <item>PROXMAGFIELD Test Setup L</item>
+        <item>PROXMAGFIELD Test Setup M</item>
+        <item>PROXMAGFIELD Test Setup N</item>
+        <item>PROXMAGFIELD Test Setup O</item>
+        <item>PROXMAGFIELD Test Setup P</item>
+        <item>PROXMAGFIELD Test Setup Q</item>
+        <item>PROXMAGFIELD Test Setup R</item>
+        <item>PROXMAGFIELD Test Setup S</item>
+        <item>PROXMAGFIELD Test Setup T</item>
+        <item>PROXMAGFIELD Test Setup U</item>
+        <item>PROXMAGFIELD Test Setup V</item>
+        <item>PROXMAGFIELD Test Setup W</item>
+        <item>PROXMAGFIELD Test Setup X</item>
+        <item>PROXMAGFIELD Test Setup Y</item>
+        <item>PROXMAGFIELD Test Setup Z</item>
     </string-array>
 
-
-    <string-array name="PROXMAGFIELD_1_File">
-        <item>ProxMagField-A-1.jpg</item>
-        <item>ProxMagField-B-1.jpg</item>
-        <item>ProxMagField-C-1.jpg</item>
-        <item>ProxMagField-D-1.jpg</item>
-        <item>ProxMagField-E-1.jpg</item>
-        <item>ProxMagField-F-1.jpg</item>
-        <item>ProxMagField-G-1.jpg</item>
-        <item>ProxMagField-H-1.jpg</item>
-        <item>ProxMagField-I-1.jpg</item>
-        <item>ProxMagField-J-1.jpg</item>
-        <item>ProxMagField-K-1.jpg</item>
-        <item>ProxMagField-L-1.jpg</item>
-        <item>ProxMagField-M-1.jpg</item>
-        <item>ProxMagField-N-1.jpg</item>
-        <item>ProxMagField-O-1.jpg</item>
-        <item>ProxMagField-P-1.jpg</item>
-        <item>ProxMagField-Q-1.jpg</item>
-        <item>ProxMagField-R-1.jpg</item>
-        <item>ProxMagField-S-1.jpg</item>
-        <item>ProxMagField-T-1.jpg</item>
-        <item>ProxMagField-U-1.jpg</item>
-        <item>ProxMagField-V-1.jpg</item>
-        <item>ProxMagField-W-1.jpg</item>
-        <item>ProxMagField-X-1.jpg</item>
-        <item>ProxMagField-Y-1.jpg</item>
-        <item>ProxMagField-Z-1.jpg</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_2_File">
-        <item>ProxMagField-A-2.jpg</item>
-        <item>ProxMagField-B-2.jpg</item>
-        <item>ProxMagField-C-2.jpg</item>
-        <item>ProxMagField-D-2.jpg</item>
-        <item>ProxMagField-E-2.jpg</item>
-        <item>ProxMagField-F-2.jpg</item>
-        <item>ProxMagField-G-2.jpg</item>
-        <item>ProxMagField-H-2.jpg</item>
-        <item>ProxMagField-I-2.jpg</item>
-        <item>ProxMagField-J-2.jpg</item>
-        <item>ProxMagField-K-2.jpg</item>
-        <item>ProxMagField-L-2.jpg</item>
-        <item>ProxMagField-M-2.jpg</item>
-        <item>ProxMagField-N-2.jpg</item>
-        <item>ProxMagField-O-2.jpg</item>
-        <item>ProxMagField-P-2.jpg</item>
-        <item>ProxMagField-Q-2.jpg</item>
-        <item>ProxMagField-R-2.jpg</item>
-        <item>ProxMagField-S-2.jpg</item>
-        <item>ProxMagField-T-2.jpg</item>
-        <item>ProxMagField-U-2.jpg</item>
-        <item>ProxMagField-V-2.jpg</item>
-        <item>ProxMagField-W-2.jpg</item>
-        <item>ProxMagField-X-2.jpg</item>
-        <item>ProxMagField-Y-2.jpg</item>
-        <item>ProxMagField-Z-2.jpg</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_3_File">
-        <item>ProxMagField-A-3.jpg</item>
-        <item>ProxMagField-B-3.jpg</item>
-        <item>ProxMagField-C-3.jpg</item>
-        <item>ProxMagField-D-3.jpg</item>
-        <item>ProxMagField-E-3.jpg</item>
-        <item>ProxMagField-F-3.jpg</item>
-        <item>ProxMagField-G-3.jpg</item>
-        <item>ProxMagField-H-3.jpg</item>
-        <item>ProxMagField-I-3.jpg</item>
-        <item>ProxMagField-J-3.jpg</item>
-        <item>ProxMagField-K-3.jpg</item>
-        <item>ProxMagField-L-3.jpg</item>
-        <item>ProxMagField-M-3.jpg</item>
-        <item>ProxMagField-N-3.jpg</item>
-        <item>ProxMagField-O-3.jpg</item>
-        <item>ProxMagField-P-3.jpg</item>
-        <item>ProxMagField-Q-3.jpg</item>
-        <item>ProxMagField-R-3.jpg</item>
-        <item>ProxMagField-S-3.jpg</item>
-        <item>ProxMagField-T-3.jpg</item>
-        <item>ProxMagField-U-3.jpg</item>
-        <item>ProxMagField-V-3.jpg</item>
-        <item>ProxMagField-W-3.jpg</item>
-        <item>ProxMagField-X-3.jpg</item>
-        <item>ProxMagField-Y-3.jpg</item>
-        <item>ProxMagField-Z-3.jpg</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_4_File">
-        <item>ProxMagField-A-4.jpg</item>
-        <item>ProxMagField-B-4.jpg</item>
-        <item>ProxMagField-C-4.jpg</item>
-        <item>ProxMagField-D-4.jpg</item>
-        <item>ProxMagField-E-4.jpg</item>
-        <item>ProxMagField-F-4.jpg</item>
-        <item>ProxMagField-G-4.jpg</item>
-        <item>ProxMagField-H-4.jpg</item>
-        <item>ProxMagField-I-4.jpg</item>
-        <item>ProxMagField-J-4.jpg</item>
-        <item>ProxMagField-K-4.jpg</item>
-        <item>ProxMagField-L-4.jpg</item>
-        <item>ProxMagField-M-4.jpg</item>
-        <item>ProxMagField-N-4.jpg</item>
-        <item>ProxMagField-O-4.jpg</item>
-        <item>ProxMagField-P-4.jpg</item>
-        <item>ProxMagField-Q-4.jpg</item>
-        <item>ProxMagField-R-4.jpg</item>
-        <item>ProxMagField-S-4.jpg</item>
-        <item>ProxMagField-T-4.jpg</item>
-        <item>ProxMagField-U-4.jpg</item>
-        <item>ProxMagField-V-4.jpg</item>
-        <item>ProxMagField-W-4.jpg</item>
-        <item>ProxMagField-X-4.jpg</item>
-        <item>ProxMagField-Y-4.jpg</item>
-        <item>ProxMagField-Z-4.jpg</item>
-    </string-array>
-    <string-array name="PROXMAGFIELD_5_File">
-        <item>ProxMagField-A-5.jpg</item>
-        <item>ProxMagField-B-5.jpg</item>
-        <item>ProxMagField-C-5.jpg</item>
-        <item>ProxMagField-D-5.jpg</item>
-        <item>ProxMagField-E-5.jpg</item>
-        <item>ProxMagField-F-5.jpg</item>
-        <item>ProxMagField-G-5.jpg</item>
-        <item>ProxMagField-H-5.jpg</item>
-        <item>ProxMagField-I-5.jpg</item>
-        <item>ProxMagField-J-5.jpg</item>
-        <item>ProxMagField-K-5.jpg</item>
-        <item>ProxMagField-L-5.jpg</item>
-        <item>ProxMagField-M-5.jpg</item>
-        <item>ProxMagField-N-5.jpg</item>
-        <item>ProxMagField-O-5.jpg</item>
-        <item>ProxMagField-P-5.jpg</item>
-        <item>ProxMagField-Q-5.jpg</item>
-        <item>ProxMagField-R-5.jpg</item>
-        <item>ProxMagField-S-5.jpg</item>
-        <item>ProxMagField-T-5.jpg</item>
-        <item>ProxMagField-U-5.jpg</item>
-        <item>ProxMagField-V-5.jpg</item>
-        <item>ProxMagField-W-5.jpg</item>
-        <item>ProxMagField-X-5.jpg</item>
-        <item>ProxMagField-Y-5.jpg</item>
-        <item>ProxMagField-Z-5.jpg</item>
+    <string-array name="PROXMAGFIELD_File">
+        <item>ProxMagField-A.jpg</item>
+        <item>ProxMagField-B.jpg</item>
+        <item>ProxMagField-C.jpg</item>
+        <item>ProxMagField-D.jpg</item>
+        <item>ProxMagField-E.jpg</item>
+        <item>ProxMagField-F.jpg</item>
+        <item>ProxMagField-G.jpg</item>
+        <item>ProxMagField-H.jpg</item>
+        <item>ProxMagField-I.jpg</item>
+        <item>ProxMagField-J.jpg</item>
+        <item>ProxMagField-K.jpg</item>
+        <item>ProxMagField-L.jpg</item>
+        <item>ProxMagField-M.jpg</item>
+        <item>ProxMagField-N.jpg</item>
+        <item>ProxMagField-O.jpg</item>
+        <item>ProxMagField-P.jpg</item>
+        <item>ProxMagField-Q.jpg</item>
+        <item>ProxMagField-R.jpg</item>
+        <item>ProxMagField-S.jpg</item>
+        <item>ProxMagField-T.jpg</item>
+        <item>ProxMagField-U.jpg</item>
+        <item>ProxMagField-V.jpg</item>
+        <item>ProxMagField-W.jpg</item>
+        <item>ProxMagField-X.jpg</item>
+        <item>ProxMagField-Y.jpg</item>
+        <item>ProxMagField-Z.jpg</item>
     </string-array>
 
 </resources>
