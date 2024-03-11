@@ -445,32 +445,32 @@
     * CS116 Photos and Files
     **********************************************************/
     <string-array name="CS116">
-        <item>CS116 TEST SETUP A</item>
-        <item>CS116 TEST SETUP B</item>
-        <item>CS116 TEST SETUP C</item>
-        <item>CS116 TEST SETUP D</item>
-        <item>CS116 TEST SETUP E</item>
-        <item>CS116 TEST SETUP F</item>
-        <item>CS116 TEST SETUP G</item>
-        <item>CS116 TEST SETUP H</item>
-        <item>CS116 TEST SETUP I</item>
-        <item>CS116 TEST SETUP J</item>
-        <item>CS116 TEST SETUP K</item>
-        <item>CS116 TEST SETUP L</item>
-        <item>CS116 TEST SETUP M</item>
-        <item>CS116 TEST SETUP N</item>
-        <item>CS116 TEST SETUP O</item>
-        <item>CS116 TEST SETUP P</item>
-        <item>CS116 TEST SETUP Q</item>
-        <item>CS116 TEST SETUP R</item>
-        <item>CS116 TEST SETUP S</item>
-        <item>CS116 TEST SETUP T</item>
-        <item>CS116 TEST SETUP U</item>
-        <item>CS116 TEST SETUP V</item>
-        <item>CS116 TEST SETUP W</item>
-        <item>CS116 TEST SETUP X</item>
-        <item>CS116 TEST SETUP Y</item>
-        <item>CS116 TEST SETUP Z</item>
+        <item>CS116 CABLE 1 LF PROBE</item>
+        <item>CS116 CABLE 1 HF PROBE</item>
+        <item>CS116 CABLE 2 LF PROBE</item>
+        <item>CS116 CABLE 2 HF PROBE</item>
+        <item>CS116 CABLE 3 LF PROBE</item>
+        <item>CS116 CABLE 3 HF PROBE</item>
+        <item>CS116 CABLE 4 LF PROBE</item>
+        <item>CS116 CABLE 4 HF PROBE</item>
+        <item>CS116 CABLE 5 LF PROBE</item>
+        <item>CS116 CABLE 5 HF PROBE</item>
+        <item>CS116 CABLE 6 LF PROBE</item>
+        <item>CS116 CABLE 6 HF PROBE</item>
+        <item>CS116 CABLE 7 LF PROBE</item>
+        <item>CS116 CABLE 7 HF PROBE</item>
+        <item>CS116 CABLE 8 LF PROBE</item>
+        <item>CS116 CABLE 8 HF PROBE</item>
+        <item>CS116 CABLE 9 LF PROBE</item>
+        <item>CS116 CABLE 9 HF PROBE</item>
+        <item>CS116 CABLE 10 LF PROBE</item>
+        <item>CS116 CABLE 10 HF PROBE</item>
+        <item>CS116 CABLE 11 LF PROBE</item>
+        <item>CS116 CABLE 11 HF PROBE</item>
+        <item>CS116 CABLE 12 LF PROBE</item>
+        <item>CS116 CABLE 12 HF PROBE</item>
+        <item>CS116 CABLE 13 LF PROBE</item>
+        <item>CS116 CABLE 13 HF PROBE</item>
     </string-array>
 
 
@@ -839,16 +839,56 @@
         <item>200MHZ TO 1GHZ POSITION 4 VERTICAL TEST SETUP</item>
         <item>200MHZ TO 1GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
         <item>200MHZ TO 1GHZ POSITION 5 VERTICAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 1 VERTICAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 2 VERTICAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 3 VERTICAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 4 VERTICAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
-        <item>1GHZ TO 18GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>1GHZ TO 14GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>14GHZ TO 18GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>18GHZ TO 26.5GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>26.5GHZ TO 31.5GHZ POSITION 5 VERTICAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 1 HORIZONTAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 1 VERTICAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 2 HORIZONTAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 2 VERTICAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 3 HORIZONTAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 3 VERTICAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 4 HORIZONTAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 4 VERTICAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 5 HORIZONTAL TEST SETUP</item>
+        <item>31.5GHZ TO 40GHZ POSITION 5 VERTICAL TEST SETUP</item>
     </string-array>
 
 
@@ -879,6 +919,46 @@
         <item>RS103Setup-X.jpg</item>
         <item>RS103Setup-Y.jpg</item>
         <item>RS103Setup-Z.jpg</item>
+        <item>RS103Setup-A-A.jpg</item>
+        <item>RS103Setup-A-B.jpg</item>
+        <item>RS103Setup-A-C.jpg</item>
+        <item>RS103Setup-A-D.jpg</item>
+        <item>RS103Setup-A-E.jpg</item>
+        <item>RS103Setup-A-F.jpg</item>
+        <item>RS103Setup-A-G.jpg</item>
+        <item>RS103Setup-A-H.jpg</item>
+        <item>RS103Setup-A-I.jpg</item>
+        <item>RS103Setup-A-J.jpg</item>
+        <item>RS103Setup-A-K.jpg</item>
+        <item>RS103Setup-A-L.jpg</item>
+        <item>RS103Setup-A-M.jpg</item>
+        <item>RS103Setup-A-N.jpg</item>
+        <item>RS103Setup-A-O.jpg</item>
+        <item>RS103Setup-A-P.jpg</item>
+        <item>RS103Setup-A-Q.jpg</item>
+        <item>RS103Setup-A-R.jpg</item>
+        <item>RS103Setup-A-S.jpg</item>
+        <item>RS103Setup-A-T.jpg</item>
+        <item>RS103Setup-A-U.jpg</item>
+        <item>RS103Setup-A-V.jpg</item>
+        <item>RS103Setup-A-W.jpg</item>
+        <item>RS103Setup-A-X.jpg</item>
+        <item>RS103Setup-A-Y.jpg</item>
+        <item>RS103Setup-A-Z.jpg</item>
+        <item>RS103Setup-B-A.jpg</item>
+        <item>RS103Setup-B-B.jpg</item>
+        <item>RS103Setup-B-C.jpg</item>
+        <item>RS103Setup-B-D.jpg</item>
+        <item>RS103Setup-B-E.jpg</item>
+        <item>RS103Setup-B-F.jpg</item>
+        <item>RS103Setup-B-G.jpg</item>
+        <item>RS103Setup-B-H.jpg</item>
+        <item>RS103Setup-B-I.jpg</item>
+        <item>RS103Setup-B-J.jpg</item>
+        <item>RS103Setup-B-K.jpg</item>
+        <item>RS103Setup-B-L.jpg</item>
+        <item>RS103Setup-B-M.jpg</item>
+        <item>RS103Setup-B-N.jpg</item>
     </string-array>
 
 
